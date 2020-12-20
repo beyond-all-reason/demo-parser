@@ -2,7 +2,7 @@ export namespace DemoModel {
     export interface Demo {
         header: Header;
         script: Script;
-        game: GameStream;
+        demoStream: Command.Command[];
     }
 
     export interface Header {
@@ -99,7 +99,75 @@ export namespace DemoModel {
         team?: number;
     }
 
-    export interface GameStream {
+    // https://github.com/spring/spring/blob/develop/rts/Net/Protocol/NetMessageTypes.h
+    export namespace Command {
+        export enum ID {
+            KEYFRAME            = 1,
+            NEWFRAME            = 2,
+            QUIT                = 3,
+            STARTPLAYING        = 4,
+            SETPLAYERNUM        = 5,
+            PLAYERNAME          = 6,
+            CHAT                = 7,
+            RANDSEED            = 8,
+            GAMEID              = 9,
+            PATH_CHECKSUM       = 10,
+            COMMAND             = 11,
+            SELECT              = 12,
+            PAUSE               = 13,
+            AICOMMAND           = 14,
+            AICOMMANDS          = 15,
+            AISHARE             = 16,
+            USER_SPEED          = 19,
+            INTERNAL_SPEED      = 20,
+            CPU_USAGE           = 21,
+            DIRECT_CONTROL      = 22,
+            DC_UPDATE           = 23,
+            SHARE               = 26,
+            SETSHARE            = 27,
+            PLAYERSTAT          = 29,
+            GAMEOVER            = 30,
+            MAPDRAW             = 31,
+            SYNCRESPONSE        = 33,
+            SYSTEMMSG           = 35,
+            STARTPOS            = 36,
+            PLAYERINFO          = 38,
+            PLAYERLEFT          = 39,
+            SD_CHKREQUEST       = 41,
+            SD_CHKRESPONSE      = 42,
+            SD_BLKREQUEST       = 43,
+            SD_BLKRESPONSE      = 44,
+            SD_RESET            = 45,
+            LOGMSG              = 49,
+            LUAMSG              = 50,
+            TEAM                = 51,
+            GAMEDATA            = 52,
+            ALLIANCE            = 53,
+            CCOMMAND            = 54,
+            TEAMSTAT            = 60,
+            CLIENTDATA          = 61,
+            ATTEMPTCONNECT      = 65,
+            REJECT_CONNECT      = 66,
+            AI_CREATED          = 70,
+            AI_STATE_CHANGED    = 71,
+            REQUEST_TEAMSTAT    = 72,
+            CREATE_NEWPLAYER    = 75,
+            AICOMMAND_TRACKED   = 76,
+            GAME_FRAME_PROGRESS = 77,
+            PING                = 78,
+        }
+        export interface Command {
+            id: ID;
+            gameTime: number;
+        }
 
+        export interface GameInfo extends Command {
+            setupText: string;
+            mapChecksum: string;
+            modChecksum: string;
+            randomSeed: number;
+        }
+        export interface NewFrame extends Command {
+        }
     }
 }

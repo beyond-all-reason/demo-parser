@@ -1,58 +1,65 @@
-import { Readable } from "stream";
-import { endianness } from "os";
 import { DemoModel } from "./model";
+import { BufferStream } from "./buffer-stream";
+import { CommandParser } from "./command-parser";
 
-// https://github.com/spring/spring/blob/f97ea92993096c43f6597517a51e390f4f4d404e/rts/System/LoadSave/demofile.h
+// https://github.com/spring/spring/blob/develop/rts/System/LoadSave/demofile.h
 
 export { DemoModel };
 
-export class DemoParser {
-    protected readStream: Readable;
-    protected isBigEndian: boolean;
+export interface DemoParserConfig {
+    verbose?: boolean;
+}
 
-    constructor() {
-        this.readStream = new Readable();
-        this.isBigEndian = endianness() === "BE";
+export class DemoParser {
+    protected config: DemoParserConfig;
+    protected bufferStream!: BufferStream;
+    protected header!: DemoModel.Header;
+    protected script!: DemoModel.Script;
+    protected demoStream!: DemoModel.Command.Command[];
+
+    constructor(config: DemoParserConfig = { verbose: false }){
+        this.config = config;
     }
 
     public parseDemo(demoBuffer: Buffer) : DemoModel.Demo {
-        this.readStream.destroy();
-        this.readStream = new Readable();
-        this.readStream.push(demoBuffer);
-        this.readStream.push(null);
+        this.bufferStream = new BufferStream(demoBuffer, false);
         
-        const header = this.parseHeader();
-        const script = this.parseScript(header.scriptSize);
-        const game = this.parseGame(header.demoStreamSize);
+        this.header = this.parseHeader();
+        this.script = this.parseScript(this.bufferStream.read(this.header.scriptSize));
+        this.demoStream = this.parseDemoStream(this.bufferStream.read(this.header.demoStreamSize));
 
-        return { header, script, game };
+        return {
+            header: this.header,
+            script: this.script,
+            demoStream: this.demoStream
+        };
     }
 
     protected parseHeader() : DemoModel.Header {
         return {
-            magic: this.readString(16),
-            version: this.readInt(),
-            headerSize: this.readInt(),
-            versionString: this.readString(256),
-            gameId: this.read(16).toString("hex"),
-            startTime: new Date(this.readInt(8, true) * 1000),
-            scriptSize: this.readInt(),
-            demoStreamSize: this.readInt(),
-            gameTime: this.readInt(),
-            wallclockTime: this.readInt(),
-            numPlayers: this.readInt(),
-            playerStatSize: this.readInt(),
-            playerStatElemSize: this.readInt(),
-            numTeams: this.readInt(),
-            teamStatSize: this.readInt(),
-            teamStatElemSize: this.readInt(),
-            teamStatPeriod: this.readInt(),
-            winningAllyTeamsSize: this.readInt(),
+            magic               : this.bufferStream.readString(16),
+            version             : this.bufferStream.readInt(),
+            headerSize          : this.bufferStream.readInt(),
+            versionString       : this.bufferStream.readString(256),
+            gameId              : this.bufferStream.read(16).toString("hex"),
+            startTime           : new Date(this.bufferStream.readInt(8, true) * 1000),
+            scriptSize          : this.bufferStream.readInt(),
+            demoStreamSize      : this.bufferStream.readInt(),
+            gameTime            : this.bufferStream.readInt(),
+            wallclockTime       : this.bufferStream.readInt(),
+            numPlayers          : this.bufferStream.readInt(),
+            playerStatSize      : this.bufferStream.readInt(),
+            playerStatElemSize  : this.bufferStream.readInt(),
+            numTeams            : this.bufferStream.readInt(),
+            teamStatSize        : this.bufferStream.readInt(),
+            teamStatElemSize    : this.bufferStream.readInt(),
+            teamStatPeriod      : this.bufferStream.readInt(),
+            winningAllyTeamsSize: this.bufferStream.readInt(),
         }
     }
 
-    protected parseScript(size: number) : DemoModel.Script {
-        let script = this.read(size).toString().replace(/\n/g, "");
+    protected parseScript(buffer: Buffer) : DemoModel.Script {
+        let script = buffer.toString().replace(/\n/g, "");
         const parts = script.slice(7, script.length -1).split(/\{|\}/);
         const gameSettings = parts.pop() as string;
         const obj: { [key: string]: { [key: string] : string } } = {};
@@ -160,50 +167,20 @@ export class DemoParser {
         return { allyTeams, spectators };
     }
 
-    protected parseGame(size: number) : DemoModel.GameStream {
-        //this.parsePacket(1);
-        return {};
-    }
+    protected parseDemoStream(buffer: Buffer) : DemoModel.Command.Command[] {
+        const bufferStream = new BufferStream(buffer, false);
+        const commandParser = new CommandParser();
+        const commands: DemoModel.Command.Command[] = [];
 
-    protected parsePacket(size: number) {
-        //const modGameTime = this.readStream.read(4);
+        for (let i=0; i<10; i++){
+            const modGameTime = bufferStream.readFloat();
+            const length = bufferStream.readInt(4, true);
+            const packet = bufferStream.read(length);
 
-        //console.log(modGameTime);
-    }
-
-    protected parseScriptPair() {
-
-    }
-
-    protected readString(size?: number, trimNulls = true) {
-        const buffer = this.read(size);
-        const i = buffer.indexOf(0x00);
-        return buffer.toString("utf8", 0, i);
-    }
-
-    protected readInt(size = 4, unsigned = false) : number {
-        if (size > 4) {
-            if (unsigned) {
-                const bigint = this.isBigEndian ? this.read(size).readBigUInt64BE() : this.read(size).readBigUInt64LE();
-                return Number(bigint);
-            } else {
-                const bigint = this.isBigEndian ? this.read(size).readBigUInt64BE() : this.read(size).readBigUInt64LE();
-                return Number(bigint);
-            }
+            const command: DemoModel.Command.Command = commandParser.parseCommand(packet, modGameTime);
+            commands.push(command);
         }
 
-        if (unsigned) {
-            return this.isBigEndian ? this.read(size).readUIntBE(0, size) : this.read(size).readUIntLE(0, size);
-        } else {
-            return this.isBigEndian ? this.read(size).readIntBE(0, size) : this.read(size).readIntLE(0, size);
-        }
-    }
-
-    protected readFloat() : number {
-        return this.isBigEndian ? this.read(4).readFloatBE() : this.read(4).readFloatLE();
-    }
-
-    protected read(size?: number) {
-        return this.readStream.read(size) as Buffer;
+        return commands;
     }
 }
