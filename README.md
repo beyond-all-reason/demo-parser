@@ -14,7 +14,7 @@ import { DemoParser } from "sdfz-demo-parser";
 (async () => {
     const demoPath = "./example/20201219_003920_Altored Divide Bar Remake 1_104.0.1-1707-gc0fc18e BAR.sdfz";
     const sdfz = await fs.readFile(demoPath);
-    const sdf = await ungzip(sdfz) as Buffer;
+    const sdf = await ungzip(sdfz);
 
     const parser = new DemoParser();
 
