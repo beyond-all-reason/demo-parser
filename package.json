@@ -1,0 +1,30 @@
+{
+  "name": "sdfz-demo-parser",
+  "version": "1.0.0",
+  "description": "Parser for SpringRTS .sdfz demo files",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --ext .ts --fix",
+    "example": "ts-node example/test"
+  },
+  "author": "Jazcash",
+  "license": "unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jazcash/sdfz-demo-parser.git"
+  },
+  "dependencies": {
+    "node-gzip": "^1.1.2",
+    "ts-interface-checker": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node-gzip": "^1.1.0",
+    "ts-interface-builder": "^0.2.3",
+    "ts-node": "^9.1.1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "declaration": true,
+        "target": "ES2019",
+        "strict": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "baseUrl": "./src",
+        "esModuleInterop": true,
+        "sourceMap": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "working-files",
+        "dist",
+        "example"
+    ]
+}
