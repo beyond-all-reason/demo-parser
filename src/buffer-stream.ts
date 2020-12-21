@@ -2,12 +2,10 @@ import { Readable, Writable } from "stream";
 import { endianness } from "os";
 
 export class BufferStream {
-    public bufferLength: number;
     public readStream: Readable;
     public isBigEndian: boolean;
 
     constructor(buffer: Buffer, isBigEndian: boolean = endianness() === "BE") {
-        this.bufferLength = buffer.length;
         this.isBigEndian = isBigEndian;
 
         this.readStream = new Readable();
@@ -29,6 +27,14 @@ export class BufferStream {
         }
     }
 
+    public readInts(amount: number, size: 1 | 2 | 3 | 4 = 4, unsigned = false) : number[] {
+        const nums: number[] = [];
+        for (let i=0; i<amount; i++){
+            nums.push(this.readInt(size, unsigned));
+        }
+        return nums;
+    }
+
     public readBigInt(unsigned = false) : bigint {
         if (unsigned) {
             return this.isBigEndian ? this.read(8).readBigUInt64BE() : this.read(8).readBigUInt64LE();
@@ -41,17 +47,12 @@ export class BufferStream {
         return this.isBigEndian ? this.read(4).readFloatBE() : this.read(4).readFloatLE();
     }
 
-    public readFloats(amount?: number) : number[] {
+    public readFloats(amount: number) : number[] {
         const nums: number[] = [];
-        if (!amount) {
-            const buffer = this.readUntilNull();
-            return this.readFloats(buffer.length);
-        } else {
-            for (let i=0; i<amount; i++){
-                nums.push(this.readFloat());
-            }
-            return nums;
+        for (let i=0; i<amount; i++){
+            nums.push(this.readFloat());
         }
+        return nums;
     }
 
     public readUntilNull(writeBuffer: number[] = []) : Buffer {
@@ -62,6 +63,22 @@ export class BufferStream {
             writeBuffer.push(byte);
             return this.readUntilNull(writeBuffer);
         }
+    }
+
+    public readIntFloatPairs() : number[][] {
+        const options: number[][] = [];
+        const size = this.readStream.readableLength / 8;
+        for (let i=0; i < size; i++) {
+            const key = this.readInt();
+            const val = this.readFloat();
+            options.push([key, val]);
+        }
+        return options;
+    }
+
+    public readBool() : boolean {
+        const int = this.readInt(1, true);
+        return Boolean(int);
     }
 
     public read(size?: number) {

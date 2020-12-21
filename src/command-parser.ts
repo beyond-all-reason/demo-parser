@@ -1,40 +1,26 @@
 import * as zlib from "zlib";
-import { DemoParser } from "./index";
+import { DemoParser, DemoParserConfig } from "./index";
 import { BufferStream } from "./buffer-stream";
 import { DemoModel } from "./model";
 
 // https://github.com/spring/spring/blob/develop/rts/Net/Protocol/NetMessageTypes.h
+// https://github.com/spring/spring/blob/develop/rts/Net/Protocol/BaseNetProtocol.cpp
 // https://github.com/dansan/spring-replay-site/blob/master/srs/demoparser.py
 
-type CommandData<C extends DemoModel.Command.BaseCommand = DemoModel.Command.BaseCommand> = Omit<C, "id" | "gameTime">;
+type CommandData<C extends DemoModel.Command.BaseCommand = DemoModel.Command.BaseCommand> = Omit<C, "packetID" | "packetName" | "gameTime">;
 type CommandHandler = (bufferStream: BufferStream) => CommandData;
 
-export interface CommandParserConfig {
-    verbose?: boolean;
-    /** Array of the only command IDs that should be processed */
-    includeOnly?: DemoModel.Command.ID[];
-    /** Array of all command IDs to ignore */
-    excludeOnly?: DemoModel.Command.ID[];
-}
-
-const defaultConfig: Partial<CommandParserConfig> = {
-    verbose: false,
-    includeOnly: [],
-    excludeOnly: [
-        14 // AICOMMAND (broken)
-    ]
-};
 export class CommandParser {
-    protected config: CommandParserConfig;
+    protected config: DemoParserConfig;
     protected commandHandlers: { [key in DemoModel.Command.ID]?: CommandHandler };
 
-    constructor(config?: CommandParserConfig) {
-        this.config = Object.assign({}, defaultConfig, config);
+    constructor(config: DemoParserConfig) {
+        this.config = config;
 
         this.commandHandlers = {
             [DemoModel.Command.ID.KEYFRAME]: this.keyFrame,                        // 1
             [DemoModel.Command.ID.NEWFRAME]: this.newFrame,                        // 2
-            // [DemoModel.Command.ID.QUIT]: this.quit,                                // 3
+            [DemoModel.Command.ID.QUIT]: this.quit,                                // 3
             [DemoModel.Command.ID.STARTPLAYING]: this.startPlaying,                // 4
             [DemoModel.Command.ID.SETPLAYERNUM]: this.setPlayerNum,                // 5
             [DemoModel.Command.ID.PLAYERNAME]: this.playerName,                    // 6
@@ -44,25 +30,25 @@ export class CommandParser {
             [DemoModel.Command.ID.PATH_CHECKSUM]: this.pathChecksum,               // 10
             [DemoModel.Command.ID.COMMAND]: this.command,                          // 11
             [DemoModel.Command.ID.SELECT]: this.select,                            // 12
-            // [DemoModel.Command.ID.PAUSE]: this.pause,                              // 13
-            //[DemoModel.Command.ID.AICOMMAND]: this.aiCommand,                      // 14
-            // [DemoModel.Command.ID.AICOMMANDS]: this.aiCommands,                    // 15
+            [DemoModel.Command.ID.PAUSE]: this.pause,                              // 13
+            [DemoModel.Command.ID.AICOMMAND]: this.aiCommand,                      // 14
+            [DemoModel.Command.ID.AICOMMANDS]: this.aiCommands,                    // 15
             // [DemoModel.Command.ID.AISHARE]: this.aiShare,                          // 16
             // [DemoModel.Command.ID.USER_SPEED]: this.userSpeed,                     // 19
-            // [DemoModel.Command.ID.INTERNAL_SPEED]: this.internalSpeed,             // 20
+            [DemoModel.Command.ID.INTERNAL_SPEED]: this.internalSpeed,             // 20
             // [DemoModel.Command.ID.CPU_USAGE]: this.cpuUsage,                       // 21
             // [DemoModel.Command.ID.DIRECT_CONTROL]: this.directControl,             // 22
             // [DemoModel.Command.ID.DC_UPDATE]: this.dcUpdate,                       // 23
-            // [DemoModel.Command.ID.SHARE]: this.share,                              // 26
-            // [DemoModel.Command.ID.SETSHARE]: this.setShare,                        // 27
-            // [DemoModel.Command.ID.PLAYERSTAT]: this.playerStat,                    // 29
-            // [DemoModel.Command.ID.GAMEOVER]: this.gameOver,                        // 30
+            [DemoModel.Command.ID.SHARE]: this.share,                              // 26
+            [DemoModel.Command.ID.SETSHARE]: this.setShare,                        // 27
+            [DemoModel.Command.ID.PLAYERSTAT]: this.playerStat,                    // 29
+            [DemoModel.Command.ID.GAMEOVER]: this.gameOver,                        // 30
             [DemoModel.Command.ID.MAPDRAW]: this.mapDraw,                          // 31
             [DemoModel.Command.ID.SYNCRESPONSE]: this.syncResponse,                // 33
             [DemoModel.Command.ID.SYSTEMMSG]: this.systemMsg,                      // 35
             [DemoModel.Command.ID.STARTPOS]: this.startPos,                        // 36
             [DemoModel.Command.ID.PLAYERINFO]: this.playerInfo,                    // 38
-            // [DemoModel.Command.ID.PLAYERLEFT]: this.playerLeft,                    // 39
+            [DemoModel.Command.ID.PLAYERLEFT]: this.playerLeft,                    // 39
             // [DemoModel.Command.ID.SD_CHKREQUEST]: this.sdChkRequest,               // 41
             // [DemoModel.Command.ID.SD_CHKRESPONSE]: this.sdChkResponse,             // 42
             // [DemoModel.Command.ID.SD_BLKREQUEST]: this.sdBlkRequest,               // 43
@@ -79,11 +65,11 @@ export class CommandParser {
             // [DemoModel.Command.ID.ATTEMPTCONNECT]: this.attemptConnect,            // 65
             // [DemoModel.Command.ID.REJECT_CONNECT]: this.rejectConnect,             // 66
             // [DemoModel.Command.ID.AI_CREATED]: this.aiCreated,                     // 70
-            // [DemoModel.Command.ID.AI_STATE_CHANGED]: this.aiStateChanged,          // 71
+            [DemoModel.Command.ID.AI_STATE_CHANGED]: this.aiStateChanged,          // 71
             // [DemoModel.Command.ID.REQUEST_TEAMSTAT]: this.requestTeamStat,         // 72
-            // [DemoModel.Command.ID.CREATE_NEWPLAYER]: this.createNewPlayer,         // 75
+            [DemoModel.Command.ID.CREATE_NEWPLAYER]: this.createNewPlayer,         // 75
             // [DemoModel.Command.ID.AICOMMAND_TRACKED]: this.aiCommandTracked,       // 76
-            // [DemoModel.Command.ID.GAME_FRAME_PROGRESS]: this.gameFrameProgress,    // 77
+            [DemoModel.Command.ID.GAME_FRAME_PROGRESS]: this.gameFrameProgress,    // 77
             // [DemoModel.Command.ID.PING]: this.ping,                                // 78
         };
     }
@@ -97,11 +83,12 @@ export class CommandParser {
         }
         const commandHandler = this.commandHandlers[commandId];
         if (!commandHandler && this.config.verbose) {
-            console.log(`No command handler found for commandId: ${commandId}`);
+            console.log(`No command handler found for commandId: ${commandId} (${DemoModel.Command.ID[commandId]})`);
         }
         const commandData = commandHandler ? commandHandler(bufferStream) : {};
         const command: DemoModel.Command.BaseCommand = {
-            id: commandId,
+            packetID: commandId,
+            packetName: DemoModel.Command.ID[commandId],
             gameTime: modGameTime,
             ...commandData
         };
@@ -118,9 +105,11 @@ export class CommandParser {
         return {};
     }
 
-    // protected quit(bufferStream: BufferStream) : CommandData<DemoModel.Command.QUIT> {
-    //     return {};
-    // }
+    protected quit(bufferStream: BufferStream) : CommandData<DemoModel.Command.QUIT> {
+        const size = bufferStream.readInt(2);
+        const reason = bufferStream.readString(size);
+        return { reason };
+    }
 
     protected startPlaying(bufferStream: BufferStream) : CommandData<DemoModel.Command.STARTPLAYING> {
         const countdown = bufferStream.readInt();
@@ -164,34 +153,62 @@ export class CommandParser {
     }
 
     protected command(bufferStream: BufferStream) : CommandData<DemoModel.Command.COMMAND> {
-        console.log(bufferStream.read());
-        return {} as any;
+        const size = bufferStream.readInt(2);
+        const playerNum = bufferStream.readInt(1, true);
+        const commandId = bufferStream.readInt(4); // TODO: parse into a CommandID enum
+        const timeout = bufferStream.readInt(4);
+        const options = bufferStream.readInt(1, true);
+        const numParams = bufferStream.readInt(4, true);
+        const params = bufferStream.readFloats(numParams);
+        return { playerNum, commandId, timeout, options, params };
     }
 
     protected select(bufferStream: BufferStream) : CommandData<DemoModel.Command.SELECT> {
         return {} as any;
     }
 
-    // protected pause(bufferStream: BufferStream) : CommandData<DemoModel.Command.PAUSE> {
-    //     return {};
-    // }
+    protected pause(bufferStream: BufferStream) : CommandData<DemoModel.Command.PAUSE> {
+        const playerNum = bufferStream.readInt(1, true);
+        const paused = bufferStream.readBool();
+        return { playerNum, paused } as any;
+    }
 
     protected aiCommand(bufferStream: BufferStream) : CommandData<DemoModel.Command.AICOMMAND> {
-        // this structure seems wrong
-        // uint8_t playerNum; uint8_t aiID; int16_t unitID; int32_t id; uint8_t options; std::vector<float> params;
         const size = bufferStream.readInt(2);
         const playerNum = bufferStream.readInt(1, true);
         const aiId = bufferStream.readInt(1, true);
+        const aiTeamId = bufferStream.readInt(1, true);
         const unitId = bufferStream.readInt(2);
-        const id = bufferStream.readInt(); // what even is this?
+        const commandId = bufferStream.readInt();
+        const timeout = bufferStream.readInt();
         const options = bufferStream.readInt(1, true);
-        //const params = bufferStream.readFloats();
-        return { playerNum } as any; // cba
+        const numParams = bufferStream.readInt(4, true);
+        const params = bufferStream.readFloats(numParams);
+        return { playerNum, aiId, aiTeamId, unitId, commandId, timeout, options, params };
     }
 
-    // protected aiCommands(bufferStream: BufferStream) : CommandData<DemoModel.Command.AICOMMANDS> {
-    //     return {};
-    // }
+    protected aiCommands(bufferStream: BufferStream) : CommandData<DemoModel.Command.AICOMMANDS> {
+        const size = bufferStream.readInt(2);
+        const playerNum = bufferStream.readInt(1, true);
+        const aiId = bufferStream.readInt(1, true);
+        const pairwise = bufferStream.readInt(1, true);
+        const sameCmdId = bufferStream.readInt(4, true);
+        const sameCmdOpt = bufferStream.readInt(1, true);
+        const sameCmdParamSize = bufferStream.readInt(2, true);
+        const unitCount = bufferStream.readInt(2);
+        const unitIds = bufferStream.readInts(unitCount, 2);
+        const commandCount = bufferStream.readInt(2);
+        const commands: Array<{commandId: number, options: number; params: number[]}> = [];
+        // command parsing probably not working
+        for (let i=0; i<commandCount; i++) {
+            const commandId = sameCmdId === 0 ? bufferStream.readInt() : 0;
+            const options = sameCmdOpt === 0xFF ? bufferStream.readInt(1, true) : 0;
+            const paramCount = sameCmdParamSize === 0xFFFF ? bufferStream.readInt(2, true) : 0;
+            const params = bufferStream.readFloats(paramCount);
+            commands.push({ commandId, options, params });
+        }
+        return { playerNum, aiId, pairwise, sameCmdId, sameCmdOpt, sameCmdParamSize, unitCount, unitIds, commandCount, commands };
+    }
 
     // protected aiShare(bufferStream: BufferStream) : CommandData<DemoModel.Command.AISHARE> {
     //     return {};
@@ -201,9 +218,10 @@ export class CommandParser {
     //     return {};
     // }
 
-    // protected internalSpeed(bufferStream: BufferStream) : CommandData<DemoModel.Command.INTERNAL_SPEED> {
-    //     return {};
-    // }
+    protected internalSpeed(bufferStream: BufferStream) : CommandData<DemoModel.Command.INTERNAL_SPEED> {
+        const internalSpeed = bufferStream.readFloat();
+        return { internalSpeed };
+    }
 
     // protected cpuUsage(bufferStream: BufferStream) : CommandData<DemoModel.Command.CPU_USAGE> {
     //     return {};
@@ -217,21 +235,38 @@ export class CommandParser {
     //     return {};
     // }
 
-    // protected share(bufferStream: BufferStream) : CommandData<DemoModel.Command.SHARE> {
-    //     return {};
-    // }
+    protected share(bufferStream: BufferStream) : CommandData<DemoModel.Command.SHARE> {
+        const playerNum = bufferStream.readInt(1);
+        const shareTeam = bufferStream.readInt(1);
+        const shareUnits = bufferStream.readBool();
+        const shareMetal = bufferStream.readFloat();
+        const shareEnergy = bufferStream.readFloat();
+        return { playerNum, shareTeam, shareUnits, shareMetal, shareEnergy };
+    }
 
-    // protected setShare(bufferStream: BufferStream) : CommandData<DemoModel.Command.SETSHARE> {
-    //     return {};
-    // }
+    protected setShare(bufferStream: BufferStream) : CommandData<DemoModel.Command.SETSHARE> {
+        const playerNum = bufferStream.readInt(1);
+        const myTeam = bufferStream.readInt(1);
+        const metalShareFraction = bufferStream.readFloat();
+        const energyShareFraction = bufferStream.readFloat();
+        return { playerNum, myTeam, metalShareFraction, energyShareFraction };
+    }
 
-    // protected playerStat(bufferStream: BufferStream) : CommandData<DemoModel.Command.PLAYERSTAT> {
-    //     return {};
-    // }
+    protected playerStat(bufferStream: BufferStream) : CommandData<DemoModel.Command.PLAYERSTAT> {
+        const playerNum = bufferStream.readInt(1);
+        const numCommands = bufferStream.readInt();
+        const unitCommands = bufferStream.readInt();
+        const mousePixels = bufferStream.readInt();
+        const mouseClicks = bufferStream.readInt();
+        const keyPresses = bufferStream.readInt();
+        return { playerNum, numCommands, unitCommands, mousePixels, mouseClicks, keyPresses };
+    }
 
-    // protected gameOver(bufferStream: BufferStream) : CommandData<DemoModel.Command.GAMEOVER> {
-    //     return {};
-    // }
+    protected gameOver(bufferStream: BufferStream) : CommandData<DemoModel.Command.GAMEOVER> {
+        const playerNum = bufferStream.readInt(1);
+        const winningAllyTeams = bufferStream.readInts(bufferStream.readStream.readableLength, 1, true);
+        return { playerNum, winningAllyTeams };
+    }
 
     protected mapDraw(bufferStream: BufferStream) : CommandData<DemoModel.Command.MAPDRAW> {
         const size = bufferStream.readInt(1);
@@ -282,9 +317,11 @@ export class CommandParser {
         return { playerNum, cpuUsage, ping };
     }
 
-    // protected playerLeft(bufferStream: BufferStream) : CommandData<DemoModel.Command.PLAYERLEFT> {
-    //     return {};
-    // }
+    protected playerLeft(bufferStream: BufferStream) : CommandData<DemoModel.Command.PLAYERLEFT> {
+        const playerNum = bufferStream.readInt(1, true);
+        const reason = bufferStream.readInt(1, true) as DemoModel.Command.LeaveReason;
+        return { playerNum, reason };
+    }
 
     // protected sdChkRequest(bufferStream: BufferStream) : CommandData<DemoModel.Command.SD_CHKREQUEST> {
     //     return {};
@@ -374,27 +411,39 @@ export class CommandParser {
     //     return {};
     // }
 
-    // protected aiStateChanged(bufferStream: BufferStream) : CommandData<DemoModel.Command.AI_STATE_CHANGED> {
-    //     return {};
-    // }
+    protected aiStateChanged(bufferStream: BufferStream) : CommandData<DemoModel.Command.AI_STATE_CHANGED> {
+        const playerNum = bufferStream.readInt(1, true);
+        const whichSkirmishAi = bufferStream.readInt(1, true);
+        const newState = bufferStream.readInt(1, true);
+        return { playerNum, whichSkirmishAi, newState };
+    }
 
     // protected requestTeamStat(bufferStream: BufferStream) : CommandData<DemoModel.Command.REQUEST_TEAMSTAT> {
     //     return {};
     // }
 
-    // protected createNewPlayer(bufferStream: BufferStream) : CommandData<DemoModel.Command.CREATE_NEWPLAYER> {
-    //     return {};
-    // }
+    protected createNewPlayer(bufferStream: BufferStream) : CommandData<DemoModel.Command.CREATE_NEWPLAYER> {
+        const size = bufferStream.readInt(2);
+        const playerNum = bufferStream.readInt(1, true);
+        const spectator = bufferStream.readBool();
+        const teamNum = bufferStream.readInt(1, true);
+        const playerName = bufferStream.readString();
+        return { playerNum, spectator, teamNum, playerName };
+    }
 
     // protected aiCommandTracked(bufferStream: BufferStream) : CommandData<DemoModel.Command.AICOMMAND_TRACKED> {
     //     return {};
     // }
 
-    // protected gameFrameProgress(bufferStream: BufferStream) : CommandData<DemoModel.Command.GAME_FRAME_PROGRESS> {
-    //     return {};
-    // }
+    protected gameFrameProgress(bufferStream: BufferStream) : CommandData<DemoModel.Command.GAME_FRAME_PROGRESS> {
+        const frameNum = bufferStream.readInt();
+        return { frameNum };
+    }
 
     // protected ping(bufferStream: BufferStream) : CommandData<DemoModel.Command.PING> {
+        // const playerNum = bufferStream.readInt(1);
+        // const pingTag = bufferStream.readInt(1);
+        // const localTime = bufferStream.readFloat();
     //     return {};
     // }
 }

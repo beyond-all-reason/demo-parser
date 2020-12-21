@@ -157,7 +157,8 @@ export namespace DemoModel {
             PING                = 78,
         }
         export interface BaseCommand {
-            id: ID;
+            packetID: ID;
+            packetName: string;
             gameTime: number;
         }
 
@@ -196,7 +197,8 @@ export namespace DemoModel {
         }
         export interface COMMAND extends BaseCommand {
             playerNum: number;
-            id: number;
+            commandId: number;
+            timeout: number;
             options: number;
             params: number[];
         }
@@ -211,19 +213,21 @@ export namespace DemoModel {
         export interface AICOMMAND extends BaseCommand {
             playerNum: number;
             aiId: number;
+            aiTeamId: number;
             unitId: number;
             commandId: number;
+            timeout: number;
             options: number;
             params: number[];
         }
         export interface AICOMMANDS extends BaseCommand {
             playerNum: number;
             aiId: number;
-            pairWise: number;
+            pairwise: number;
             sameCmdId: number;
             sameCmdOpt: number;
             sameCmdParamSize: number;
-            unitIdCount: number;
+            unitCount: number;
             unitIds: number[];
             commandCount: number;
             commands: Array<{commandId: number, options: number; params: number[]}>;
@@ -271,7 +275,11 @@ export namespace DemoModel {
         }
         export interface PLAYERSTAT extends BaseCommand {
             playerNum: number;
-            currentStats: any;
+            numCommands: number;
+            unitCommands: number;
+            mousePixels: number;
+            mouseClicks: number;
+            keyPresses: number;
         }
         export interface GAMEOVER extends BaseCommand {
             playerNum: number;
@@ -387,7 +395,7 @@ export namespace DemoModel {
         }
         export interface CREATE_NEWPLAYER extends BaseCommand {
             playerNum: number;
-            spectator: number;
+            spectator: boolean;
             teamNum: number;
             playerName: string;
         }

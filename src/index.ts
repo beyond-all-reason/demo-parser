@@ -1,6 +1,6 @@
 import { DemoModel } from "./model";
 import { BufferStream } from "./buffer-stream";
-import { CommandParser, CommandParserConfig } from "./command-parser";
+import { CommandParser } from "./command-parser";
 
 // https://github.com/spring/spring/blob/develop/rts/System/LoadSave/demofile.h
 
@@ -8,11 +8,18 @@ export { DemoModel };
 
 export interface DemoParserConfig {
     verbose?: boolean;
-    commandConfig?: CommandParserConfig;
+    /** Array of the only command IDs that should be processed */
+    includeOnly?: DemoModel.Command.ID[];
+    /** Array of all command IDs to ignore */
+    excludeOnly?: DemoModel.Command.ID[];
 }
 
 const defaultConfig: Partial<DemoParserConfig> = {
-    verbose: false
+    verbose: false,
+    includeOnly: [],
+    excludeOnly: [
+        DemoModel.Command.ID.NEWFRAME
+    ]
 };
 
 export class DemoParser {
@@ -174,10 +181,10 @@ export class DemoParser {
 
     protected parseDemoStream(buffer: Buffer) : DemoModel.Command.BaseCommand[] {
         const bufferStream = new BufferStream(buffer, false);
-        const commandParser = new CommandParser({ verbose: this.config.verbose });
+        const commandParser = new CommandParser({ ...this.config });
         const commands: DemoModel.Command.BaseCommand[] = [];
 
-        for (let i=0; i<5000; i++){
+        while (bufferStream.readStream.readableLength > 0){
             const modGameTime = bufferStream.readFloat();
             const length = bufferStream.readInt(4, true);
             const packet = bufferStream.read(length);
