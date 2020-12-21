@@ -2,7 +2,7 @@ export namespace DemoModel {
     export interface Demo {
         header: Header;
         script: Script;
-        demoStream: Command.BaseCommand[];
+        demoStream: Packet.BasePacket[];
     }
 
     export interface Header {
@@ -100,7 +100,7 @@ export namespace DemoModel {
     }
 
     // https://github.com/spring/spring/blob/develop/rts/Net/Protocol/NetMessageTypes.h
-    export namespace Command {
+    export namespace Packet {
         export enum ID {
             KEYFRAME            = 1,
             NEWFRAME            = 2,
@@ -156,60 +156,60 @@ export namespace DemoModel {
             GAME_FRAME_PROGRESS = 77,
             PING                = 78,
         }
-        export interface BaseCommand {
+        export interface BasePacket {
             packetType: [ID, string];
             gameTime: number;
         }
 
-        export interface KEYFRAME extends BaseCommand {
+        export interface KEYFRAME extends BasePacket {
             frameNum: number;
         }
-        export interface NEWFRAME extends BaseCommand {
+        export interface NEWFRAME extends BasePacket {
         }
-        export interface QUIT extends BaseCommand {
+        export interface QUIT extends BasePacket {
             reason: string;
         }
-        export interface STARTPLAYING extends BaseCommand {
+        export interface STARTPLAYING extends BasePacket {
             countdown: number;
         }
-        export interface SETPLAYERNUM extends BaseCommand {
+        export interface SETPLAYERNUM extends BasePacket {
             playerNum: number;
         }
-        export interface PLAYERNAME extends BaseCommand {
+        export interface PLAYERNAME extends BasePacket {
             playerNum: number;
             playerName: string;
         }
-        export interface CHAT extends BaseCommand {
+        export interface CHAT extends BasePacket {
             fromId: number;
             toId: number;
             message: string;
         }
-        export interface RANDSEED extends BaseCommand {
+        export interface RANDSEED extends BasePacket {
             randSeed: number;
         }
-        export interface GAMEID extends BaseCommand {
+        export interface GAMEID extends BasePacket {
             gameId: string;
         }
-        export interface PATH_CHECKSUM extends BaseCommand {
+        export interface PATH_CHECKSUM extends BasePacket {
             playerNum: number;
             checksum: string;
         }
-        export interface COMMAND extends BaseCommand {
+        export interface COMMAND extends BasePacket {
             playerNum: number;
             commandId: number;
             timeout: number;
             options: number;
             params: number[];
         }
-        export interface SELECT extends BaseCommand {
+        export interface SELECT extends BasePacket {
             playerNum: number;
             selectedUnitIds: number[];
         }
-        export interface PAUSE extends BaseCommand {
+        export interface PAUSE extends BasePacket {
             playerNum: number;
             paused: boolean;
         }
-        export interface AICOMMAND extends BaseCommand {
+        export interface AICOMMAND extends BasePacket {
             playerNum: number;
             aiId: number;
             aiTeamId: number;
@@ -219,7 +219,7 @@ export namespace DemoModel {
             options: number;
             params: number[];
         }
-        export interface AICOMMANDS extends BaseCommand {
+        export interface AICOMMANDS extends BasePacket {
             playerNum: number;
             aiId: number;
             pairwise: number;
@@ -231,7 +231,7 @@ export namespace DemoModel {
             commandCount: number;
             commands: Array<{commandId: number, options: number; params: number[]}>;
         }
-        export interface AISHARE extends BaseCommand {
+        export interface AISHARE extends BasePacket {
             playerNum: number;
             aiId: number;
             sourceTeam: number;
@@ -240,39 +240,39 @@ export namespace DemoModel {
             energy: number;
             unitIds: number[];
         }
-        export interface USER_SPEED extends BaseCommand {
+        export interface USER_SPEED extends BasePacket {
             playerNum: number;
             userSpeed: number;
         }
-        export interface INTERNAL_SPEED extends BaseCommand {
+        export interface INTERNAL_SPEED extends BasePacket {
             internalSpeed: number;
         }
-        export interface CPU_USAGE extends BaseCommand {
+        export interface CPU_USAGE extends BasePacket {
             cpuUsage: number;
         }
-        export interface DIRECT_CONTROL extends BaseCommand {
+        export interface DIRECT_CONTROL extends BasePacket {
             playerNum: number;
         }
-        export interface DC_UPDATE extends BaseCommand {
+        export interface DC_UPDATE extends BasePacket {
             playerNum: number;
             status: number;
             heading: number;
             pitch: number;
         }
-        export interface SHARE extends BaseCommand {
+        export interface SHARE extends BasePacket {
             playerNum: number;
             shareTeam: number;
             shareUnits: boolean;
             shareMetal: number;
             shareEnergy: number;
         }
-        export interface SETSHARE extends BaseCommand {
+        export interface SETSHARE extends BasePacket {
             playerNum: number;
             myTeam: number;
             metalShareFraction: number;
             energyShareFraction: number;
         }
-        export interface PLAYERSTAT extends BaseCommand {
+        export interface PLAYERSTAT extends BasePacket {
             playerNum: number;
             numCommands: number;
             unitCommands: number;
@@ -280,11 +280,11 @@ export namespace DemoModel {
             mouseClicks: number;
             keyPresses: number;
         }
-        export interface GAMEOVER extends BaseCommand {
+        export interface GAMEOVER extends BasePacket {
             playerNum: number;
             winningAllyTeams: number[];
         }
-        export interface MAPDRAW extends BaseCommand {
+        export interface MAPDRAW extends BasePacket {
             playerNum: number;
             mapDrawAction: MapDrawAction;
             x: number;
@@ -293,16 +293,16 @@ export namespace DemoModel {
             z2?: number;
             label?: string;
         }
-        export interface SYNCRESPONSE extends BaseCommand {
+        export interface SYNCRESPONSE extends BasePacket {
             playerNum: number;
             frameNum: number;
             checksum: string;
         }
-        export interface SYSTEMMSG extends BaseCommand {
+        export interface SYSTEMMSG extends BasePacket {
             playerNum: number;
             message: string;
         }
-        export interface STARTPOS extends BaseCommand {
+        export interface STARTPOS extends BasePacket {
             playerNum: number;
             myTeam: number;
             readyState: ReadyState;
@@ -310,95 +310,95 @@ export namespace DemoModel {
             y: number;
             z: number;
         }
-        export interface PLAYERINFO extends BaseCommand {
+        export interface PLAYERINFO extends BasePacket {
             playerNum: number;
             cpuUsage: number;
             ping: number;
         }
-        export interface PLAYERLEFT extends BaseCommand {
+        export interface PLAYERLEFT extends BasePacket {
             playerNum: number;
             reason: LeaveReason;
         }
-        export interface SD_CHKREQUEST extends BaseCommand {
+        export interface SD_CHKREQUEST extends BasePacket {
         }
-        export interface SD_CHKRESPONSE extends BaseCommand {
+        export interface SD_CHKRESPONSE extends BasePacket {
         }
-        export interface SD_BLKREQUEST extends BaseCommand {
+        export interface SD_BLKREQUEST extends BasePacket {
         }
-        export interface SD_BLKRESPONSE extends BaseCommand {
+        export interface SD_BLKRESPONSE extends BasePacket {
         }
-        export interface SD_RESET extends BaseCommand {
+        export interface SD_RESET extends BasePacket {
         }
-        export interface LOGMSG extends BaseCommand {
+        export interface LOGMSG extends BasePacket {
             playerNum: number;
             logMsgLvl: number;
             strData: string;
         }
-        export interface LUAMSG extends BaseCommand {
+        export interface LUAMSG extends BasePacket {
             playerNum: number;
             script: number;
             mode: number;
             rawData: number[];
         }
-        export interface TEAM extends BaseCommand {
+        export interface TEAM extends BasePacket {
             playerNum: number;
             action: TeamAction;
             param: number;
         }
-        export interface GAMEDATA extends BaseCommand {
+        export interface GAMEDATA extends BasePacket {
             setup: Script;
             mapChecksum: string;
             modChecksum: string;
             randomSeed: number;
         }
-        export interface ALLIANCE extends BaseCommand {
+        export interface ALLIANCE extends BasePacket {
             playerNum: number;
             otherAllyTeam: number;
             areAllies: boolean;
         }
-        export interface CCOMMAND extends BaseCommand {
+        export interface CCOMMAND extends BasePacket {
             playerNum: number;
             command: string;
             extra: string;
         }
-        export interface TEAMSTAT extends BaseCommand {
+        export interface TEAMSTAT extends BasePacket {
             teamNum: number;
             statistics: any;
         }
-        export interface CLIENTDATA extends BaseCommand {
+        export interface CLIENTDATA extends BasePacket {
             setupText: string;
         }
-        export interface ATTEMPTCONNECT extends BaseCommand {
+        export interface ATTEMPTCONNECT extends BasePacket {
             netVersion: number;
             playerName: string;
             password: string;
             versionStringDetailed: string;
         }
-        export interface REJECT_CONNECT extends BaseCommand {
+        export interface REJECT_CONNECT extends BasePacket {
             reason: string;
         }
-        export interface AI_CREATED extends BaseCommand {
+        export interface AI_CREATED extends BasePacket {
             playerNum: number;
             whichSkirmishAi: number;
             team: number;
             name: string;
         }
-        export interface AI_STATE_CHANGED extends BaseCommand {
+        export interface AI_STATE_CHANGED extends BasePacket {
             playerNum: number;
             whichSkirmishAi: number;
             newState: number;
         }
-        export interface REQUEST_TEAMSTAT extends BaseCommand {
+        export interface REQUEST_TEAMSTAT extends BasePacket {
             teamNum: number;
             startFrameNum: number;
         }
-        export interface CREATE_NEWPLAYER extends BaseCommand {
+        export interface CREATE_NEWPLAYER extends BasePacket {
             playerNum: number;
             spectator: boolean;
             teamNum: number;
             playerName: string;
         }
-        export interface AICOMMAND_TRACKED extends BaseCommand {
+        export interface AICOMMAND_TRACKED extends BasePacket {
             playerNum: number;
             aiId: number;
             unitId: number;
@@ -407,10 +407,10 @@ export namespace DemoModel {
             aiCommandId: number;
             params: number[];
         }
-        export interface GAME_FRAME_PROGRESS extends BaseCommand {
+        export interface GAME_FRAME_PROGRESS extends BasePacket {
             frameNum: number;
         }
-        export interface PING extends BaseCommand {
+        export interface PING extends BasePacket {
             playerNum: number;
             pingTag: number;
             localTime: number;

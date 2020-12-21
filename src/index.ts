@@ -1,6 +1,6 @@
 import { DemoModel } from "./model";
 import { BufferStream } from "./buffer-stream";
-import { CommandParser } from "./command-parser";
+import { PacketParser } from "./packet-parser";
 
 // https://github.com/spring/spring/blob/develop/rts/System/LoadSave/demofile.h
 // https://github.com/dansan/spring-replay-site/blob/631101d27c99ac84a2051f5547b035513aab3062/srs/parse_demo_file.py
@@ -9,17 +9,17 @@ export { DemoModel };
 
 export interface DemoParserConfig {
     verbose?: boolean;
-    /** Array of the only command IDs that should be processed */
-    includeOnly?: DemoModel.Command.ID[];
-    /** Array of all command IDs to ignore */
-    excludeOnly?: DemoModel.Command.ID[];
+    /** Array of the only packet IDs that should be processed */
+    includeOnly?: DemoModel.Packet.ID[];
+    /** Array of all packet IDs to ignore */
+    excludeOnly?: DemoModel.Packet.ID[];
 }
 
 const defaultConfig: Partial<DemoParserConfig> = {
     verbose: false,
     includeOnly: [],
     excludeOnly: [
-        DemoModel.Command.ID.NEWFRAME
+        DemoModel.Packet.ID.NEWFRAME
     ]
 };
 
@@ -28,7 +28,7 @@ export class DemoParser {
     protected bufferStream!: BufferStream;
     protected header!: DemoModel.Header;
     protected script!: DemoModel.Script;
-    protected demoStream!: DemoModel.Command.BaseCommand[];
+    protected demoStream!: DemoModel.Packet.BasePacket[];
 
     constructor(config?: DemoParserConfig){
         this.config = Object.assign({}, defaultConfig, config);
@@ -180,22 +180,22 @@ export class DemoParser {
         return { allyTeams, spectators };
     }
 
-    protected parseDemoStream(buffer: Buffer) : DemoModel.Command.BaseCommand[] {
+    protected parseDemoStream(buffer: Buffer) : DemoModel.Packet.BasePacket[] {
         const bufferStream = new BufferStream(buffer, false);
-        const commandParser = new CommandParser({ ...this.config });
-        const commands: DemoModel.Command.BaseCommand[] = [];
+        const packetParser = new PacketParser({ ...this.config });
+        const packets: DemoModel.Packet.BasePacket[] = [];
 
         while (bufferStream.readStream.readableLength > 0){
             const modGameTime = bufferStream.readFloat();
             const length = bufferStream.readInt(4, true);
-            const packet = bufferStream.read(length);
+            const packetData = bufferStream.read(length);
 
-            const command = commandParser.parseCommand(packet, modGameTime);
-            if (command){
-                commands.push(command);
+            const packet = packetParser.parsePacket(packetData, modGameTime);
+            if (packet){
+                packets.push(packet);
             }
         }
 
-        return commands;
+        return packets;
     }
 }

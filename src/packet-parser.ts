@@ -8,127 +8,127 @@ import { DemoModel } from "./model";
 // https://github.com/spring/spring/blob/develop/rts/Sim/Units/CommandAI/Command.h
 // https://github.com/dansan/spring-replay-site/blob/master/srs/demoparser.py
 
-type CommandData<C extends DemoModel.Command.BaseCommand = DemoModel.Command.BaseCommand> = Omit<C, "packetType" | "gameTime">;
-type CommandHandler = (bufferStream: BufferStream) => CommandData;
+type PacketData<C extends DemoModel.Packet.BasePacket = DemoModel.Packet.BasePacket> = Omit<C, "packetType" | "gameTime">;
+type PacketHandler = (bufferStream: BufferStream) => PacketData;
 
-export class CommandParser {
+export class PacketParser {
     protected config: DemoParserConfig;
-    protected commandHandlers: { [key in DemoModel.Command.ID]?: CommandHandler };
+    protected packetHandlers: { [key in DemoModel.Packet.ID]?: PacketHandler };
 
     constructor(config: DemoParserConfig) {
         this.config = config;
 
-        this.commandHandlers = {
-            [DemoModel.Command.ID.KEYFRAME]: this.keyFrame,                        // 1
-            [DemoModel.Command.ID.NEWFRAME]: this.newFrame,                        // 2
-            [DemoModel.Command.ID.QUIT]: this.quit,                                // 3
-            [DemoModel.Command.ID.STARTPLAYING]: this.startPlaying,                // 4
-            [DemoModel.Command.ID.SETPLAYERNUM]: this.setPlayerNum,                // 5
-            [DemoModel.Command.ID.PLAYERNAME]: this.playerName,                    // 6
-            [DemoModel.Command.ID.CHAT]: this.chat,                                // 7
-            [DemoModel.Command.ID.RANDSEED]: this.randSeed,                        // 8
-            [DemoModel.Command.ID.GAMEID]: this.gameId,                            // 9
-            [DemoModel.Command.ID.PATH_CHECKSUM]: this.pathChecksum,               // 10
-            [DemoModel.Command.ID.COMMAND]: this.command,                          // 11
-            [DemoModel.Command.ID.SELECT]: this.select,                            // 12
-            [DemoModel.Command.ID.PAUSE]: this.pause,                              // 13
-            [DemoModel.Command.ID.AICOMMAND]: this.aiCommand,                      // 14
-            [DemoModel.Command.ID.AICOMMANDS]: this.aiCommands,                    // 15
-            [DemoModel.Command.ID.AISHARE]: this.aiShare,                          // 16
+        this.packetHandlers = {
+            [DemoModel.Packet.ID.KEYFRAME]: this.keyFrame,                        // 1
+            [DemoModel.Packet.ID.NEWFRAME]: this.newFrame,                        // 2
+            [DemoModel.Packet.ID.QUIT]: this.quit,                                // 3
+            [DemoModel.Packet.ID.STARTPLAYING]: this.startPlaying,                // 4
+            [DemoModel.Packet.ID.SETPLAYERNUM]: this.setPlayerNum,                // 5
+            [DemoModel.Packet.ID.PLAYERNAME]: this.playerName,                    // 6
+            [DemoModel.Packet.ID.CHAT]: this.chat,                                // 7
+            [DemoModel.Packet.ID.RANDSEED]: this.randSeed,                        // 8
+            [DemoModel.Packet.ID.GAMEID]: this.gameId,                            // 9
+            [DemoModel.Packet.ID.PATH_CHECKSUM]: this.pathChecksum,               // 10
+            [DemoModel.Packet.ID.COMMAND]: this.command,                          // 11
+            [DemoModel.Packet.ID.SELECT]: this.select,                            // 12
+            [DemoModel.Packet.ID.PAUSE]: this.pause,                              // 13
+            [DemoModel.Packet.ID.AICOMMAND]: this.aiCommand,                      // 14
+            [DemoModel.Packet.ID.AICOMMANDS]: this.aiCommands,                    // 15
+            [DemoModel.Packet.ID.AISHARE]: this.aiShare,                          // 16
             // [DemoModel.Command.ID.USER_SPEED]: this.userSpeed,                     // 19
-            [DemoModel.Command.ID.INTERNAL_SPEED]: this.internalSpeed,             // 20
+            [DemoModel.Packet.ID.INTERNAL_SPEED]: this.internalSpeed,             // 20
             // [DemoModel.Command.ID.CPU_USAGE]: this.cpuUsage,                       // 21
             // [DemoModel.Command.ID.DIRECT_CONTROL]: this.directControl,             // 22
             // [DemoModel.Command.ID.DC_UPDATE]: this.dcUpdate,                       // 23
-            [DemoModel.Command.ID.SHARE]: this.share,                              // 26
-            [DemoModel.Command.ID.SETSHARE]: this.setShare,                        // 27
-            [DemoModel.Command.ID.PLAYERSTAT]: this.playerStat,                    // 29
-            [DemoModel.Command.ID.GAMEOVER]: this.gameOver,                        // 30
-            [DemoModel.Command.ID.MAPDRAW]: this.mapDraw,                          // 31
-            [DemoModel.Command.ID.SYNCRESPONSE]: this.syncResponse,                // 33
-            [DemoModel.Command.ID.SYSTEMMSG]: this.systemMsg,                      // 35
-            [DemoModel.Command.ID.STARTPOS]: this.startPos,                        // 36
-            [DemoModel.Command.ID.PLAYERINFO]: this.playerInfo,                    // 38
-            [DemoModel.Command.ID.PLAYERLEFT]: this.playerLeft,                    // 39
+            [DemoModel.Packet.ID.SHARE]: this.share,                              // 26
+            [DemoModel.Packet.ID.SETSHARE]: this.setShare,                        // 27
+            [DemoModel.Packet.ID.PLAYERSTAT]: this.playerStat,                    // 29
+            [DemoModel.Packet.ID.GAMEOVER]: this.gameOver,                        // 30
+            [DemoModel.Packet.ID.MAPDRAW]: this.mapDraw,                          // 31
+            [DemoModel.Packet.ID.SYNCRESPONSE]: this.syncResponse,                // 33
+            [DemoModel.Packet.ID.SYSTEMMSG]: this.systemMsg,                      // 35
+            [DemoModel.Packet.ID.STARTPOS]: this.startPos,                        // 36
+            [DemoModel.Packet.ID.PLAYERINFO]: this.playerInfo,                    // 38
+            [DemoModel.Packet.ID.PLAYERLEFT]: this.playerLeft,                    // 39
             // [DemoModel.Command.ID.SD_CHKREQUEST]: this.sdChkRequest,               // 41
             // [DemoModel.Command.ID.SD_CHKRESPONSE]: this.sdChkResponse,             // 42
             // [DemoModel.Command.ID.SD_BLKREQUEST]: this.sdBlkRequest,               // 43
             // [DemoModel.Command.ID.SD_BLKRESPONSE]: this.sdBlkresponse,             // 44
             // [DemoModel.Command.ID.SD_RESET]: this.sdReset,                         // 45
-            [DemoModel.Command.ID.LOGMSG]: this.logMsg,                            // 49
-            [DemoModel.Command.ID.LUAMSG]: this.luaMsg,                            // 50
-            [DemoModel.Command.ID.TEAM]: this.team,                                // 51
-            [DemoModel.Command.ID.GAMEDATA]: this.gameData,                        // 52
+            [DemoModel.Packet.ID.LOGMSG]: this.logMsg,                            // 49
+            [DemoModel.Packet.ID.LUAMSG]: this.luaMsg,                            // 50
+            [DemoModel.Packet.ID.TEAM]: this.team,                                // 51
+            [DemoModel.Packet.ID.GAMEDATA]: this.gameData,                        // 52
             // [DemoModel.Command.ID.ALLIANCE]: this.alliance,                        // 53
-            [DemoModel.Command.ID.CCOMMAND]: this.cCommand,                        // 54
+            [DemoModel.Packet.ID.CCOMMAND]: this.cCommand,                        // 54
             // [DemoModel.Command.ID.TEAMSTAT]: this.teamStat,                        // 60
-            [DemoModel.Command.ID.CLIENTDATA]: this.clientData,                    // 61
+            [DemoModel.Packet.ID.CLIENTDATA]: this.clientData,                    // 61
             // [DemoModel.Command.ID.ATTEMPTCONNECT]: this.attemptConnect,            // 65
             // [DemoModel.Command.ID.REJECT_CONNECT]: this.rejectConnect,             // 66
             // [DemoModel.Command.ID.AI_CREATED]: this.aiCreated,                     // 70
-            [DemoModel.Command.ID.AI_STATE_CHANGED]: this.aiStateChanged,          // 71
+            [DemoModel.Packet.ID.AI_STATE_CHANGED]: this.aiStateChanged,          // 71
             // [DemoModel.Command.ID.REQUEST_TEAMSTAT]: this.requestTeamStat,         // 72
-            [DemoModel.Command.ID.CREATE_NEWPLAYER]: this.createNewPlayer,         // 75
+            [DemoModel.Packet.ID.CREATE_NEWPLAYER]: this.createNewPlayer,         // 75
             // [DemoModel.Command.ID.AICOMMAND_TRACKED]: this.aiCommandTracked,       // 76
-            [DemoModel.Command.ID.GAME_FRAME_PROGRESS]: this.gameFrameProgress,    // 77
+            [DemoModel.Packet.ID.GAME_FRAME_PROGRESS]: this.gameFrameProgress,    // 77
             // [DemoModel.Command.ID.PING]: this.ping,                                // 78
         };
     }
 
-    public parseCommand(buffer: Buffer, modGameTime: number) : DemoModel.Command.BaseCommand | undefined {
+    public parsePacket(buffer: Buffer, modGameTime: number) : DemoModel.Packet.BasePacket | undefined {
         const bufferStream = new BufferStream(buffer, false);
 
-        const commandId = bufferStream.readInt(1) as DemoModel.Command.ID;
-        if ((this.config.includeOnly!.length > 0 && !this.config.includeOnly!.includes(commandId)) || this.config.excludeOnly!.includes(commandId)){
+        const packetId = bufferStream.readInt(1) as DemoModel.Packet.ID;
+        if ((this.config.includeOnly!.length > 0 && !this.config.includeOnly!.includes(packetId)) || this.config.excludeOnly!.includes(packetId)){
             return;
         }
-        const commandHandler = this.commandHandlers[commandId];
-        if (!commandHandler && this.config.verbose) {
-            console.log(`No command handler found for commandId: ${commandId} (${DemoModel.Command.ID[commandId]})`);
+        const packetHandler = this.packetHandlers[packetId];
+        if (!packetHandler && this.config.verbose) {
+            console.log(`No packet handler found for packet id: ${packetId} (${DemoModel.Packet.ID[packetId]})`);
         }
-        const commandData = commandHandler ? commandHandler(bufferStream) : {};
-        const command: DemoModel.Command.BaseCommand = {
-            packetType: [commandId, DemoModel.Command.ID[commandId]],
+        const packetData = packetHandler ? packetHandler(bufferStream) : {};
+        const packet: DemoModel.Packet.BasePacket = {
+            packetType: [packetId, DemoModel.Packet.ID[packetId]],
             gameTime: modGameTime,
-            ...commandData
+            ...packetData
         };
 
-        return command;
+        return packet;
     }
 
-    protected keyFrame(bufferStream: BufferStream) : CommandData<DemoModel.Command.KEYFRAME> {
+    protected keyFrame(bufferStream: BufferStream) : PacketData<DemoModel.Packet.KEYFRAME> {
         const frameNum = bufferStream.readInt();
         return { frameNum };
     }
 
-    protected newFrame(bufferStream: BufferStream) : CommandData<DemoModel.Command.NEWFRAME> {
+    protected newFrame(bufferStream: BufferStream) : PacketData<DemoModel.Packet.NEWFRAME> {
         return {};
     }
 
-    protected quit(bufferStream: BufferStream) : CommandData<DemoModel.Command.QUIT> {
+    protected quit(bufferStream: BufferStream) : PacketData<DemoModel.Packet.QUIT> {
         const size = bufferStream.readInt(2);
         const reason = bufferStream.readString(size);
         return { reason };
     }
 
-    protected startPlaying(bufferStream: BufferStream) : CommandData<DemoModel.Command.STARTPLAYING> {
+    protected startPlaying(bufferStream: BufferStream) : PacketData<DemoModel.Packet.STARTPLAYING> {
         const countdown = bufferStream.readInt();
         return { countdown };
     }
 
-    protected setPlayerNum(bufferStream: BufferStream) : CommandData<DemoModel.Command.SETPLAYERNUM> {
+    protected setPlayerNum(bufferStream: BufferStream) : PacketData<DemoModel.Packet.SETPLAYERNUM> {
         const playerNum = bufferStream.readInt(1, true);
         return { playerNum };
     }
 
-    protected playerName(bufferStream: BufferStream) : CommandData<DemoModel.Command.PLAYERNAME> {
+    protected playerName(bufferStream: BufferStream) : PacketData<DemoModel.Packet.PLAYERNAME> {
         const size = bufferStream.readInt(1);
         const playerNum = bufferStream.readInt(1);
         const playerName = bufferStream.read(size).toString();
         return { playerNum, playerName };
     }
 
-    protected chat(bufferStream: BufferStream) : CommandData<DemoModel.Command.CHAT> {
+    protected chat(bufferStream: BufferStream) : PacketData<DemoModel.Packet.CHAT> {
         const size = bufferStream.readInt(1, true);
         const fromId = bufferStream.readInt(1, true);
         const toId = bufferStream.readInt(1, true);
@@ -136,23 +136,23 @@ export class CommandParser {
         return { fromId, toId, message };
     }
 
-    protected randSeed(bufferStream: BufferStream) : CommandData<DemoModel.Command.RANDSEED> {
+    protected randSeed(bufferStream: BufferStream) : PacketData<DemoModel.Packet.RANDSEED> {
         const randSeed = bufferStream.readInt(4, true);
         return { randSeed };
     }
 
-    protected gameId(bufferStream: BufferStream) : CommandData<DemoModel.Command.GAMEID> {
+    protected gameId(bufferStream: BufferStream) : PacketData<DemoModel.Packet.GAMEID> {
         const gameId = bufferStream.read(16).toString("hex");
         return { gameId };
     }
 
-    protected pathChecksum(bufferStream: BufferStream) : CommandData<DemoModel.Command.PATH_CHECKSUM> {
+    protected pathChecksum(bufferStream: BufferStream) : PacketData<DemoModel.Packet.PATH_CHECKSUM> {
         const playerNum = bufferStream.readInt(1);
         const checksum = bufferStream.read(4).toString("hex");
         return { playerNum, checksum };
     }
 
-    protected command(bufferStream: BufferStream) : CommandData<DemoModel.Command.COMMAND> {
+    protected command(bufferStream: BufferStream) : PacketData<DemoModel.Packet.COMMAND> {
         const size = bufferStream.readInt(2);
         const playerNum = bufferStream.readInt(1, true);
         const commandId = bufferStream.readInt(4); // TODO: parse into a CommandID enum
@@ -163,17 +163,17 @@ export class CommandParser {
         return { playerNum, commandId, timeout, options, params };
     }
 
-    protected select(bufferStream: BufferStream) : CommandData<DemoModel.Command.SELECT> {
+    protected select(bufferStream: BufferStream) : PacketData<DemoModel.Packet.SELECT> {
         return {} as any;
     }
 
-    protected pause(bufferStream: BufferStream) : CommandData<DemoModel.Command.PAUSE> {
+    protected pause(bufferStream: BufferStream) : PacketData<DemoModel.Packet.PAUSE> {
         const playerNum = bufferStream.readInt(1, true);
         const paused = bufferStream.readBool();
         return { playerNum, paused } as any;
     }
 
-    protected aiCommand(bufferStream: BufferStream) : CommandData<DemoModel.Command.AICOMMAND> {
+    protected aiCommand(bufferStream: BufferStream) : PacketData<DemoModel.Packet.AICOMMAND> {
         const size = bufferStream.readInt(2);
         const playerNum = bufferStream.readInt(1, true);
         const aiId = bufferStream.readInt(1, true);
@@ -187,7 +187,7 @@ export class CommandParser {
         return { playerNum, aiId, aiTeamId, unitId, commandId, timeout, options, params };
     }
 
-    protected aiCommands(bufferStream: BufferStream) : CommandData<DemoModel.Command.AICOMMANDS> {
+    protected aiCommands(bufferStream: BufferStream) : PacketData<DemoModel.Packet.AICOMMANDS> {
         const size = bufferStream.readInt(2);
         const playerNum = bufferStream.readInt(1, true);
         const aiId = bufferStream.readInt(1, true);
@@ -210,7 +210,7 @@ export class CommandParser {
         return { playerNum, aiId, pairwise, sameCmdId, sameCmdOpt, sameCmdParamSize, unitCount, unitIds, commandCount, commands };
     }
 
-    protected aiShare(bufferStream: BufferStream) : CommandData<DemoModel.Command.AISHARE> {
+    protected aiShare(bufferStream: BufferStream) : PacketData<DemoModel.Packet.AISHARE> {
         const size = bufferStream.readInt(2);
         const playerNum = bufferStream.readInt(1, true);
         const aiId = bufferStream.readInt(1, true);
@@ -226,7 +226,7 @@ export class CommandParser {
     //     return {};
     // }
 
-    protected internalSpeed(bufferStream: BufferStream) : CommandData<DemoModel.Command.INTERNAL_SPEED> {
+    protected internalSpeed(bufferStream: BufferStream) : PacketData<DemoModel.Packet.INTERNAL_SPEED> {
         const internalSpeed = bufferStream.readFloat();
         return { internalSpeed };
     }
@@ -243,7 +243,7 @@ export class CommandParser {
     //     return {};
     // }
 
-    protected share(bufferStream: BufferStream) : CommandData<DemoModel.Command.SHARE> {
+    protected share(bufferStream: BufferStream) : PacketData<DemoModel.Packet.SHARE> {
         const playerNum = bufferStream.readInt(1);
         const shareTeam = bufferStream.readInt(1);
         const shareUnits = bufferStream.readBool();
@@ -252,7 +252,7 @@ export class CommandParser {
         return { playerNum, shareTeam, shareUnits, shareMetal, shareEnergy };
     }
 
-    protected setShare(bufferStream: BufferStream) : CommandData<DemoModel.Command.SETSHARE> {
+    protected setShare(bufferStream: BufferStream) : PacketData<DemoModel.Packet.SETSHARE> {
         const playerNum = bufferStream.readInt(1);
         const myTeam = bufferStream.readInt(1);
         const metalShareFraction = bufferStream.readFloat();
@@ -260,7 +260,7 @@ export class CommandParser {
         return { playerNum, myTeam, metalShareFraction, energyShareFraction };
     }
 
-    protected playerStat(bufferStream: BufferStream) : CommandData<DemoModel.Command.PLAYERSTAT> {
+    protected playerStat(bufferStream: BufferStream) : PacketData<DemoModel.Packet.PLAYERSTAT> {
         const playerNum = bufferStream.readInt(1);
         const numCommands = bufferStream.readInt();
         const unitCommands = bufferStream.readInt();
@@ -270,64 +270,64 @@ export class CommandParser {
         return { playerNum, numCommands, unitCommands, mousePixels, mouseClicks, keyPresses };
     }
 
-    protected gameOver(bufferStream: BufferStream) : CommandData<DemoModel.Command.GAMEOVER> {
+    protected gameOver(bufferStream: BufferStream) : PacketData<DemoModel.Packet.GAMEOVER> {
         const playerNum = bufferStream.readInt(1);
         const winningAllyTeams = bufferStream.readInts(bufferStream.readStream.readableLength, 1, true);
         return { playerNum, winningAllyTeams };
     }
 
-    protected mapDraw(bufferStream: BufferStream) : CommandData<DemoModel.Command.MAPDRAW> {
+    protected mapDraw(bufferStream: BufferStream) : PacketData<DemoModel.Packet.MAPDRAW> {
         const size = bufferStream.readInt(1);
         const playerNum = bufferStream.readInt(1);
-        const mapDrawAction = bufferStream.readInt(1) as DemoModel.Command.MapDrawAction;
+        const mapDrawAction = bufferStream.readInt(1) as DemoModel.Packet.MapDrawAction;
         const x = bufferStream.readInt(2);
         const z = bufferStream.readInt(2);
         let x2: number | undefined;
         let z2: number | undefined;
         let label: string | undefined;
-        if (mapDrawAction === DemoModel.Command.MapDrawAction.LINE) {
+        if (mapDrawAction === DemoModel.Packet.MapDrawAction.LINE) {
             x2 = bufferStream.readInt(2);
             z2 = bufferStream.readInt(2);
-        } else if (mapDrawAction === DemoModel.Command.MapDrawAction.POINT) {
+        } else if (mapDrawAction === DemoModel.Packet.MapDrawAction.POINT) {
             label = bufferStream.readString();
         }
         return { playerNum, mapDrawAction, x, z, x2, z2, label };
     }
 
-    protected syncResponse(bufferStream: BufferStream) : CommandData<DemoModel.Command.SYNCRESPONSE> {
+    protected syncResponse(bufferStream: BufferStream) : PacketData<DemoModel.Packet.SYNCRESPONSE> {
         const playerNum = bufferStream.readInt(1, true);
         const frameNum = bufferStream.readInt();
         const checksum = bufferStream.read(4).toString("hex");
         return { playerNum, frameNum, checksum };
     }
 
-    protected systemMsg(bufferStream: BufferStream) : CommandData<DemoModel.Command.SYSTEMMSG> {
+    protected systemMsg(bufferStream: BufferStream) : PacketData<DemoModel.Packet.SYSTEMMSG> {
         const messageSize = bufferStream.readInt(2, true);
         const playerNum = bufferStream.readInt(1, true);
         const message = bufferStream.read(messageSize - 1).toString();
         return { playerNum, message };
     }
 
-    protected startPos(bufferStream: BufferStream) : CommandData<DemoModel.Command.STARTPOS> {
+    protected startPos(bufferStream: BufferStream) : PacketData<DemoModel.Packet.STARTPOS> {
         const playerNum = bufferStream.readInt(1);
         const myTeam = bufferStream.readInt(1);
-        const readyState = bufferStream.readInt(1) as DemoModel.Command.ReadyState;
+        const readyState = bufferStream.readInt(1) as DemoModel.Packet.ReadyState;
         const x = bufferStream.readFloat();
         const y = bufferStream.readFloat();
         const z = bufferStream.readFloat();
         return { playerNum, myTeam, readyState, x, y, z };
     }
 
-    protected playerInfo(bufferStream: BufferStream) : CommandData<DemoModel.Command.PLAYERINFO> {
+    protected playerInfo(bufferStream: BufferStream) : PacketData<DemoModel.Packet.PLAYERINFO> {
         const playerNum = bufferStream.readInt(1, true);
         const cpuUsage = bufferStream.readFloat();
         const ping = bufferStream.readInt();
         return { playerNum, cpuUsage, ping };
     }
 
-    protected playerLeft(bufferStream: BufferStream) : CommandData<DemoModel.Command.PLAYERLEFT> {
+    protected playerLeft(bufferStream: BufferStream) : PacketData<DemoModel.Packet.PLAYERLEFT> {
         const playerNum = bufferStream.readInt(1, true);
-        const reason = bufferStream.readInt(1, true) as DemoModel.Command.LeaveReason;
+        const reason = bufferStream.readInt(1, true) as DemoModel.Packet.LeaveReason;
         return { playerNum, reason };
     }
 
@@ -351,7 +351,7 @@ export class CommandParser {
     //     return {};
     // }
 
-    protected logMsg(bufferStream: BufferStream) : CommandData<DemoModel.Command.LOGMSG> {
+    protected logMsg(bufferStream: BufferStream) : PacketData<DemoModel.Packet.LOGMSG> {
         const size = bufferStream.readInt(2, true);
         const playerNum = bufferStream.readInt(1);
         const logMsgLvl = bufferStream.readInt(1);
@@ -359,7 +359,7 @@ export class CommandParser {
         return { playerNum, logMsgLvl, strData };
     }
 
-    protected luaMsg(bufferStream: BufferStream) : CommandData<DemoModel.Command.LUAMSG> {
+    protected luaMsg(bufferStream: BufferStream) : PacketData<DemoModel.Packet.LUAMSG> {
         const size = bufferStream.readInt(2, true);
         const playerNum = bufferStream.readInt(1, true);
         const script = bufferStream.readInt(2, true);
@@ -368,14 +368,14 @@ export class CommandParser {
         return { playerNum, script, mode, rawData };
     }
 
-    protected team(bufferStream: BufferStream) : CommandData<DemoModel.Command.TEAM> {
+    protected team(bufferStream: BufferStream) : PacketData<DemoModel.Packet.TEAM> {
         const playerNum = bufferStream.readInt(1, true);
-        const action = bufferStream.readInt(1, true) as DemoModel.Command.TeamAction;
+        const action = bufferStream.readInt(1, true) as DemoModel.Packet.TeamAction;
         const param = bufferStream.readInt(1, true);
         return { playerNum, action, param };
     }
 
-    protected gameData(bufferStream: BufferStream) : CommandData<DemoModel.Command.GAMEDATA> {
+    protected gameData(bufferStream: BufferStream) : PacketData<DemoModel.Packet.GAMEDATA> {
         const size = bufferStream.readInt(2);
         const compressedSize = bufferStream.readInt(2);
         const setupText = zlib.unzipSync(bufferStream.read(compressedSize));
@@ -390,7 +390,7 @@ export class CommandParser {
     //     return {};
     // }
 
-    protected cCommand(bufferStream: BufferStream) : CommandData<DemoModel.Command.CCOMMAND> {
+    protected cCommand(bufferStream: BufferStream) : PacketData<DemoModel.Packet.CCOMMAND> {
         const size = bufferStream.readInt(2, true);
         const playerNum = bufferStream.readInt(4, true);
         const command = bufferStream.readUntilNull().toString();
@@ -402,7 +402,7 @@ export class CommandParser {
     //     return {};
     // }
 
-    protected clientData(bufferStream: BufferStream) : CommandData<DemoModel.Command.CLIENTDATA> {
+    protected clientData(bufferStream: BufferStream) : PacketData<DemoModel.Packet.CLIENTDATA> {
         const size = bufferStream.readInt(3);
         const setupText = zlib.unzipSync(bufferStream.read(size)).toString();
         return { setupText };
@@ -420,7 +420,7 @@ export class CommandParser {
     //     return {};
     // }
 
-    protected aiStateChanged(bufferStream: BufferStream) : CommandData<DemoModel.Command.AI_STATE_CHANGED> {
+    protected aiStateChanged(bufferStream: BufferStream) : PacketData<DemoModel.Packet.AI_STATE_CHANGED> {
         const playerNum = bufferStream.readInt(1, true);
         const whichSkirmishAi = bufferStream.readInt(1, true);
         const newState = bufferStream.readInt(1, true);
@@ -431,7 +431,7 @@ export class CommandParser {
     //     return {};
     // }
 
-    protected createNewPlayer(bufferStream: BufferStream) : CommandData<DemoModel.Command.CREATE_NEWPLAYER> {
+    protected createNewPlayer(bufferStream: BufferStream) : PacketData<DemoModel.Packet.CREATE_NEWPLAYER> {
         const size = bufferStream.readInt(2);
         const playerNum = bufferStream.readInt(1, true);
         const spectator = bufferStream.readBool();
@@ -444,7 +444,7 @@ export class CommandParser {
     //     return {};
     // }
 
-    protected gameFrameProgress(bufferStream: BufferStream) : CommandData<DemoModel.Command.GAME_FRAME_PROGRESS> {
+    protected gameFrameProgress(bufferStream: BufferStream) : PacketData<DemoModel.Packet.GAME_FRAME_PROGRESS> {
         const frameNum = bufferStream.readInt();
         return { frameNum };
     }
