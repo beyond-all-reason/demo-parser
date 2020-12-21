@@ -1,6 +1,6 @@
 import { DemoModel } from "./model";
 import { BufferStream } from "./buffer-stream";
-import { CommandParser } from "./command-parser";
+import { CommandParser, CommandParserConfig } from "./command-parser";
 
 // https://github.com/spring/spring/blob/develop/rts/System/LoadSave/demofile.h
 
@@ -8,22 +8,27 @@ export { DemoModel };
 
 export interface DemoParserConfig {
     verbose?: boolean;
+    commandConfig?: CommandParserConfig;
 }
+
+const defaultConfig: Partial<DemoParserConfig> = {
+    verbose: false
+};
 
 export class DemoParser {
     protected config: DemoParserConfig;
     protected bufferStream!: BufferStream;
     protected header!: DemoModel.Header;
     protected script!: DemoModel.Script;
-    protected demoStream!: DemoModel.Command.Command[];
+    protected demoStream!: DemoModel.Command.BaseCommand[];
 
-    constructor(config: DemoParserConfig = { verbose: false }){
-        this.config = config;
+    constructor(config?: DemoParserConfig){
+        this.config = Object.assign({}, defaultConfig, config);
     }
 
     public parseDemo(demoBuffer: Buffer) : DemoModel.Demo {
         this.bufferStream = new BufferStream(demoBuffer, false);
-        
+
         this.header = this.parseHeader();
         this.script = this.parseScript(this.bufferStream.read(this.header.scriptSize));
         this.demoStream = this.parseDemoStream(this.bufferStream.read(this.header.demoStreamSize));
@@ -42,7 +47,7 @@ export class DemoParser {
             headerSize          : this.bufferStream.readInt(),
             versionString       : this.bufferStream.readString(256),
             gameId              : this.bufferStream.read(16).toString("hex"),
-            startTime           : new Date(this.bufferStream.readInt(8, true) * 1000),
+            startTime           : new Date(Number(this.bufferStream.readBigInt()) * 1000),
             scriptSize          : this.bufferStream.readInt(),
             demoStreamSize      : this.bufferStream.readInt(),
             gameTime            : this.bufferStream.readInt(),
@@ -58,7 +63,7 @@ export class DemoParser {
         }
     }
 
-    protected parseScript(buffer: Buffer) : DemoModel.Script {
+    public parseScript(buffer: Buffer) : DemoModel.Script {
         let script = buffer.toString().replace(/\n/g, "");
         const parts = script.slice(7, script.length -1).split(/\{|\}/);
         const gameSettings = parts.pop() as string;
@@ -167,18 +172,20 @@ export class DemoParser {
         return { allyTeams, spectators };
     }
 
-    protected parseDemoStream(buffer: Buffer) : DemoModel.Command.Command[] {
+    protected parseDemoStream(buffer: Buffer) : DemoModel.Command.BaseCommand[] {
         const bufferStream = new BufferStream(buffer, false);
-        const commandParser = new CommandParser();
-        const commands: DemoModel.Command.Command[] = [];
+        const commandParser = new CommandParser({ verbose: this.config.verbose });
+        const commands: DemoModel.Command.BaseCommand[] = [];
 
-        for (let i=0; i<10; i++){
+        for (let i=0; i<5000; i++){
             const modGameTime = bufferStream.readFloat();
             const length = bufferStream.readInt(4, true);
             const packet = bufferStream.read(length);
 
-            const command: DemoModel.Command.Command = commandParser.parseCommand(packet, modGameTime);
-            commands.push(command);
+            const command = commandParser.parseCommand(packet, modGameTime);
+            if (command){
+                commands.push(command);
+            }
         }
 
         return commands;

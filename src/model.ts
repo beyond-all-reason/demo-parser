@@ -2,7 +2,7 @@ export namespace DemoModel {
     export interface Demo {
         header: Header;
         script: Script;
-        demoStream: Command.Command[];
+        demoStream: Command.BaseCommand[];
     }
 
     export interface Header {
@@ -11,7 +11,7 @@ export namespace DemoModel {
         headerSize: number;
         versionString: string;
         gameId: string;
-        startTime: any;
+        startTime: Date;
         scriptSize: number;
         demoStreamSize: number,
         gameTime: number,
@@ -156,18 +156,284 @@ export namespace DemoModel {
             GAME_FRAME_PROGRESS = 77,
             PING                = 78,
         }
-        export interface Command {
+        export interface BaseCommand {
             id: ID;
             gameTime: number;
         }
 
-        export interface GameInfo extends Command {
-            setupText: string;
+        export interface KEYFRAME extends BaseCommand {
+            frameNum: number;
+        }
+        export interface NEWFRAME extends BaseCommand {
+        }
+        export interface QUIT extends BaseCommand {
+            reason: string;
+        }
+        export interface STARTPLAYING extends BaseCommand {
+            countdown: number;
+        }
+        export interface SETPLAYERNUM extends BaseCommand {
+            playerNum: number;
+        }
+        export interface PLAYERNAME extends BaseCommand {
+            playerNum: number;
+            playerName: string;
+        }
+        export interface CHAT extends BaseCommand {
+            fromId: number;
+            toId: number;
+            message: string;
+        }
+        export interface RANDSEED extends BaseCommand {
+            randSeed: number;
+        }
+        export interface GAMEID extends BaseCommand {
+            gameId: string;
+        }
+        export interface PATH_CHECKSUM extends BaseCommand {
+            playerNum: number;
+            checksum: string;
+        }
+        export interface COMMAND extends BaseCommand {
+            playerNum: number;
+            id: number;
+            options: number;
+            params: number[];
+        }
+        export interface SELECT extends BaseCommand {
+            playerNum: number;
+            selectedUnitIds: number[];
+        }
+        export interface PAUSE extends BaseCommand {
+            playerNum: number;
+            paused: boolean;
+        }
+        export interface AICOMMAND extends BaseCommand {
+            playerNum: number;
+            aiId: number;
+            unitId: number;
+            commandId: number;
+            options: number;
+            params: number[];
+        }
+        export interface AICOMMANDS extends BaseCommand {
+            playerNum: number;
+            aiId: number;
+            pairWise: number;
+            sameCmdId: number;
+            sameCmdOpt: number;
+            sameCmdParamSize: number;
+            unitIdCount: number;
+            unitIds: number[];
+            commandCount: number;
+            commands: Array<{commandId: number, options: number; params: number[]}>;
+        }
+        export interface AISHARE extends BaseCommand {
+            playerNum: number;
+            aiId: number;
+            sourceTeam: number;
+            destTeam: number;
+            metal: number;
+            energy: number;
+            unitIds: number[];
+        }
+        export interface USER_SPEED extends BaseCommand {
+            playerNum: number;
+            userSpeed: number;
+        }
+        export interface INTERNAL_SPEED extends BaseCommand {
+            internalSpeed: number;
+        }
+        export interface CPU_USAGE extends BaseCommand {
+            cpuUsage: number;
+        }
+        export interface DIRECT_CONTROL extends BaseCommand {
+            playerNum: number;
+        }
+        export interface DC_UPDATE extends BaseCommand {
+            playerNum: number;
+            status: number;
+            heading: number;
+            pitch: number;
+        }
+        export interface SHARE extends BaseCommand {
+            playerNum: number;
+            shareTeam: number;
+            shareUnits: boolean;
+            shareMetal: number;
+            shareEnergy: number;
+        }
+        export interface SETSHARE extends BaseCommand {
+            playerNum: number;
+            myTeam: number;
+            metalShareFraction: number;
+            energyShareFraction: number;
+        }
+        export interface PLAYERSTAT extends BaseCommand {
+            playerNum: number;
+            currentStats: any;
+        }
+        export interface GAMEOVER extends BaseCommand {
+            playerNum: number;
+            winningAllyTeams: number[];
+        }
+        export interface MAPDRAW extends BaseCommand {
+            playerNum: number;
+            mapDrawAction: MapDrawAction;
+            x: number;
+            z: number;
+            x2?: number;
+            z2?: number;
+            label?: string;
+        }
+        export interface SYNCRESPONSE extends BaseCommand {
+            playerNum: number;
+            frameNum: number;
+            checksum: string;
+        }
+        export interface SYSTEMMSG extends BaseCommand {
+            playerNum: number;
+            message: string;
+        }
+        export interface STARTPOS extends BaseCommand {
+            playerNum: number;
+            myTeam: number;
+            readyState: ReadyState;
+            x: number;
+            y: number;
+            z: number;
+        }
+        export interface PLAYERINFO extends BaseCommand {
+            playerNum: number;
+            cpuUsage: number;
+            ping: number;
+        }
+        export interface PLAYERLEFT extends BaseCommand {
+            playerNum: number;
+            reason: LeaveReason;
+        }
+        export interface SD_CHKREQUEST extends BaseCommand {
+        }
+        export interface SD_CHKRESPONSE extends BaseCommand {
+        }
+        export interface SD_BLKREQUEST extends BaseCommand {
+        }
+        export interface SD_BLKRESPONSE extends BaseCommand {
+        }
+        export interface SD_RESET extends BaseCommand {
+        }
+        export interface LOGMSG extends BaseCommand {
+            playerNum: number;
+            logMsgLvl: number;
+            strData: string;
+        }
+        export interface LUAMSG extends BaseCommand {
+            playerNum: number;
+            script: number;
+            mode: number;
+            rawData: string;
+        }
+        export interface TEAM extends BaseCommand {
+            playerNum: number;
+            action: TeamAction;
+            param: number;
+        }
+        export interface GAMEDATA extends BaseCommand {
+            setup: Script;
             mapChecksum: string;
             modChecksum: string;
             randomSeed: number;
         }
-        export interface NewFrame extends Command {
+        export interface ALLIANCE extends BaseCommand {
+            playerNum: number;
+            otherAllyTeam: number;
+            areAllies: boolean;
+        }
+        export interface CCOMMAND extends BaseCommand {
+            playerNum: number;
+            command: string;
+            extra: string;
+        }
+        export interface TEAMSTAT extends BaseCommand {
+            teamNum: number;
+            statistics: any;
+        }
+        export interface CLIENTDATA extends BaseCommand {
+            setupText: string;
+        }
+        export interface ATTEMPTCONNECT extends BaseCommand {
+            netVersion: number;
+            playerName: string;
+            password: string;
+            versionStringDetailed: string;
+        }
+        export interface REJECT_CONNECT extends BaseCommand {
+            reason: string;
+        }
+        export interface AI_CREATED extends BaseCommand {
+            playerNum: number;
+            whichSkirmishAi: number;
+            team: number;
+            name: string;
+        }
+        export interface AI_STATE_CHANGED extends BaseCommand {
+            playerNum: number;
+            whichSkirmishAi: number;
+            newState: number;
+        }
+        export interface REQUEST_TEAMSTAT extends BaseCommand {
+            teamNum: number;
+            startFrameNum: number;
+        }
+        export interface CREATE_NEWPLAYER extends BaseCommand {
+            playerNum: number;
+            spectator: number;
+            teamNum: number;
+            playerName: string;
+        }
+        export interface AICOMMAND_TRACKED extends BaseCommand {
+            playerNum: number;
+            aiId: number;
+            unitId: number;
+            id: number;
+            options: number;
+            aiCommandId: number;
+            params: number[];
+        }
+        export interface GAME_FRAME_PROGRESS extends BaseCommand {
+            frameNum: number;
+        }
+        export interface PING extends BaseCommand {
+            playerNum: number;
+            pingTag: number;
+            localTime: number;
+        }
+
+        export enum LeaveReason {
+            LOST_CONNECTION = 0,
+            INTENTIONAL = 1,
+            KICKED = 2
+        }
+
+        export enum ReadyState {
+            NOT_READY = 0,
+            READY = 1,
+            NO_UPDATE = 2
+        }
+
+        export enum TeamAction {
+            GIVEAWAY = 1,
+            RESIGN = 2,
+            JOIN_TEAM = 3,
+            TEAM_DIED = 4,
+            AI_CREATED = 5,
+            AI_DESTROYED = 6
+        }
+
+        export enum MapDrawAction {
+            POINT,
+            ERASE,
+            LINE
         }
     }
 }
