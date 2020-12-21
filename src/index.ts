@@ -3,6 +3,7 @@ import { BufferStream } from "./buffer-stream";
 import { CommandParser } from "./command-parser";
 
 // https://github.com/spring/spring/blob/develop/rts/System/LoadSave/demofile.h
+// https://github.com/dansan/spring-replay-site/blob/631101d27c99ac84a2051f5547b035513aab3062/srs/parse_demo_file.py
 
 export { DemoModel };
 

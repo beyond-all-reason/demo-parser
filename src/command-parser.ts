@@ -5,9 +5,10 @@ import { DemoModel } from "./model";
 
 // https://github.com/spring/spring/blob/develop/rts/Net/Protocol/NetMessageTypes.h
 // https://github.com/spring/spring/blob/develop/rts/Net/Protocol/BaseNetProtocol.cpp
+// https://github.com/spring/spring/blob/develop/rts/Sim/Units/CommandAI/Command.h
 // https://github.com/dansan/spring-replay-site/blob/master/srs/demoparser.py
 
-type CommandData<C extends DemoModel.Command.BaseCommand = DemoModel.Command.BaseCommand> = Omit<C, "packetID" | "packetName" | "gameTime">;
+type CommandData<C extends DemoModel.Command.BaseCommand = DemoModel.Command.BaseCommand> = Omit<C, "packetType" | "gameTime">;
 type CommandHandler = (bufferStream: BufferStream) => CommandData;
 
 export class CommandParser {
@@ -33,7 +34,7 @@ export class CommandParser {
             [DemoModel.Command.ID.PAUSE]: this.pause,                              // 13
             [DemoModel.Command.ID.AICOMMAND]: this.aiCommand,                      // 14
             [DemoModel.Command.ID.AICOMMANDS]: this.aiCommands,                    // 15
-            // [DemoModel.Command.ID.AISHARE]: this.aiShare,                          // 16
+            [DemoModel.Command.ID.AISHARE]: this.aiShare,                          // 16
             // [DemoModel.Command.ID.USER_SPEED]: this.userSpeed,                     // 19
             [DemoModel.Command.ID.INTERNAL_SPEED]: this.internalSpeed,             // 20
             // [DemoModel.Command.ID.CPU_USAGE]: this.cpuUsage,                       // 21
@@ -87,8 +88,7 @@ export class CommandParser {
         }
         const commandData = commandHandler ? commandHandler(bufferStream) : {};
         const command: DemoModel.Command.BaseCommand = {
-            packetID: commandId,
-            packetName: DemoModel.Command.ID[commandId],
+            packetType: [commandId, DemoModel.Command.ID[commandId]],
             gameTime: modGameTime,
             ...commandData
         };
@@ -131,8 +131,8 @@ export class CommandParser {
     protected chat(bufferStream: BufferStream) : CommandData<DemoModel.Command.CHAT> {
         const size = bufferStream.readInt(1, true);
         const fromId = bufferStream.readInt(1, true);
-        const toId = bufferStream.readInt(1);
-        const message = bufferStream.read(size).toString();
+        const toId = bufferStream.readInt(1, true);
+        const message = bufferStream.readString();
         return { fromId, toId, message };
     }
 
@@ -210,9 +210,17 @@ export class CommandParser {
         return { playerNum, aiId, pairwise, sameCmdId, sameCmdOpt, sameCmdParamSize, unitCount, unitIds, commandCount, commands };
     }
 
-    // protected aiShare(bufferStream: BufferStream) : CommandData<DemoModel.Command.AISHARE> {
-    //     return {};
-    // }
+    protected aiShare(bufferStream: BufferStream) : CommandData<DemoModel.Command.AISHARE> {
+        const size = bufferStream.readInt(2);
+        const playerNum = bufferStream.readInt(1, true);
+        const aiId = bufferStream.readInt(1, true);
+        const sourceTeam = bufferStream.readInt(1, true);
+        const destTeam = bufferStream.readInt(1, true);
+        const metal = bufferStream.readFloat();
+        const energy = bufferStream.readFloat();
+        const unitIds = bufferStream.readInts(bufferStream.readStream.readableLength / 2, 2);
+        return { playerNum, aiId, sourceTeam, destTeam, metal, energy, unitIds };
+    }
 
     // protected userSpeed(bufferStream: BufferStream) : CommandData<DemoModel.Command.USER_SPEED> {
     //     return {};
@@ -296,7 +304,7 @@ export class CommandParser {
     protected systemMsg(bufferStream: BufferStream) : CommandData<DemoModel.Command.SYSTEMMSG> {
         const messageSize = bufferStream.readInt(2, true);
         const playerNum = bufferStream.readInt(1, true);
-        const message = bufferStream.read(messageSize).toString();
+        const message = bufferStream.read(messageSize - 1).toString();
         return { playerNum, message };
     }
 
@@ -344,6 +352,7 @@ export class CommandParser {
     // }
 
     protected logMsg(bufferStream: BufferStream) : CommandData<DemoModel.Command.LOGMSG> {
+        const size = bufferStream.readInt(2, true);
         const playerNum = bufferStream.readInt(1);
         const logMsgLvl = bufferStream.readInt(1);
         const strData = bufferStream.read().toString();
@@ -355,7 +364,7 @@ export class CommandParser {
         const playerNum = bufferStream.readInt(1, true);
         const script = bufferStream.readInt(2, true);
         const mode = bufferStream.readInt(1, true);
-        const rawData = bufferStream.read(size).toString();
+        const rawData = bufferStream.readInts(bufferStream.readStream.readableLength, 1, true);
         return { playerNum, script, mode, rawData };
     }
 

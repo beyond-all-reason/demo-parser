@@ -157,8 +157,7 @@ export namespace DemoModel {
             PING                = 78,
         }
         export interface BaseCommand {
-            packetID: ID;
-            packetName: string;
+            packetType: [ID, string];
             gameTime: number;
         }
 
@@ -339,7 +338,7 @@ export namespace DemoModel {
             playerNum: number;
             script: number;
             mode: number;
-            rawData: string;
+            rawData: number[];
         }
         export interface TEAM extends BaseCommand {
             playerNum: number;
