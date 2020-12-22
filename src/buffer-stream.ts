@@ -13,10 +13,8 @@ export class BufferStream {
         this.readStream.push(null);
     }
 
-    public readString(size?: number, trimNulls = true) {
-        const buffer = this.read(size);
-        const i = buffer.indexOf(0x00);
-        return trimNulls ? buffer.toString("utf8", 0, i) : buffer.toString("utf8");
+    public readString(size?: number) {
+        return this.read(size).toString();
     } 
 
     public readInt(size: 1 | 2 | 3 | 4 = 4, unsigned = false) : number {

@@ -1,26 +1,48 @@
+// https://github.com/spring/spring/blob/develop/rts/System/LoadSave/demofile.h
+// https://github.com/dansan/spring-replay-site/blob/631101d27c99ac84a2051f5547b035513aab3062/srs/parse_demo_file.py
+
 import { DemoModel } from "./model";
 import { BufferStream } from "./buffer-stream";
 import { PacketParser } from "./packet-parser";
-
-// https://github.com/spring/spring/blob/develop/rts/System/LoadSave/demofile.h
-// https://github.com/dansan/spring-replay-site/blob/631101d27c99ac84a2051f5547b035513aab3062/srs/parse_demo_file.py
+import { LuaHandler } from "./lua-parser";
 
 export { DemoModel };
 
 export interface DemoParserConfig {
     verbose?: boolean;
-    /** Array of the only packet IDs that should be processed */
-    includeOnly?: DemoModel.Packet.ID[];
+    /** If not empty, only save packets with these packetIds */
+    includePackets?: DemoModel.Packet.ID[];
     /** Array of all packet IDs to ignore */
-    excludeOnly?: DemoModel.Packet.ID[];
+    excludePackets?: DemoModel.Packet.ID[];
+    /** If not empty, only save commands with these commandIds */
+    includeCommands?: DemoModel.Command.ID[];
+    /** Array of all command IDs to ignore */
+    excludeCommands?: DemoModel.Command.ID[];
+    /** If not empty, only save packets and commands from these playerIds */
+    includePlayerIds?: number[];
+    /** If false, will still include LUAMSG packets even if their data cannot be parsed */
+    excludeUnhandlerLuaData?: boolean;
+    /** 
+     * Include standard Lua data parsers
+     * @default true
+     * */
+    includeStandardLuaHandlers?: boolean;
+    /** Array of lua data handlers */
+    customLuaHandlers?: LuaHandler[];
 }
 
 const defaultConfig: Partial<DemoParserConfig> = {
     verbose: false,
-    includeOnly: [],
-    excludeOnly: [
+    includePackets: [],
+    excludePackets: [
         DemoModel.Packet.ID.NEWFRAME
-    ]
+    ],
+    includeCommands: [],
+    excludeCommands: [],
+    includePlayerIds: [],
+    excludeUnhandlerLuaData: true,
+    includeStandardLuaHandlers: true,
+    customLuaHandlers: [],
 };
 
 export class DemoParser {
@@ -191,7 +213,11 @@ export class DemoParser {
             const packetData = bufferStream.read(length);
 
             const packet = packetParser.parsePacket(packetData, modGameTime);
+
             if (packet){
+                if (packet.playerNum !== undefined && this.config.includePlayerIds?.length && !this.config.includePlayerIds?.includes(packet.playerNum)){
+                    continue;
+                }
                 packets.push(packet);
             }
         }

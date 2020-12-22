@@ -1,22 +1,29 @@
-import * as zlib from "zlib";
-import { DemoParser, DemoParserConfig } from "./index";
-import { BufferStream } from "./buffer-stream";
-import { DemoModel } from "./model";
-
 // https://github.com/spring/spring/blob/develop/rts/Net/Protocol/NetMessageTypes.h
 // https://github.com/spring/spring/blob/develop/rts/Net/Protocol/BaseNetProtocol.cpp
 // https://github.com/spring/spring/blob/develop/rts/Sim/Units/CommandAI/Command.h
 // https://github.com/dansan/spring-replay-site/blob/master/srs/demoparser.py
+
+import * as zlib from "zlib";
+import { DemoParser, DemoParserConfig } from "./index";
+import { BufferStream } from "./buffer-stream";
+import { DemoModel } from "./model";
+import { CommandParser } from "./command-parser";
+import { LuaParser } from "./lua-parser";
 
 type PacketData<C extends DemoModel.Packet.BasePacket = DemoModel.Packet.BasePacket> = Omit<C, "packetType" | "gameTime">;
 type PacketHandler = (bufferStream: BufferStream) => PacketData;
 
 export class PacketParser {
     protected config: DemoParserConfig;
+    protected commandParser: CommandParser;
+    protected luaParser: LuaParser;
     protected packetHandlers: { [key in DemoModel.Packet.ID]?: PacketHandler };
 
     constructor(config: DemoParserConfig) {
         this.config = config;
+
+        this.commandParser = new CommandParser(this.config);
+        this.luaParser = new LuaParser(this.config);
 
         this.packetHandlers = {
             [DemoModel.Packet.ID.KEYFRAME]: this.keyFrame,                        // 1
@@ -79,14 +86,14 @@ export class PacketParser {
         const bufferStream = new BufferStream(buffer, false);
 
         const packetId = bufferStream.readInt(1) as DemoModel.Packet.ID;
-        if ((this.config.includeOnly!.length > 0 && !this.config.includeOnly!.includes(packetId)) || this.config.excludeOnly!.includes(packetId)){
+        if ((this.config.includePackets!.length > 0 && !this.config.includePackets!.includes(packetId)) || this.config.excludePackets!.includes(packetId)){
             return;
         }
         const packetHandler = this.packetHandlers[packetId];
         if (!packetHandler && this.config.verbose) {
             console.log(`No packet handler found for packet id: ${packetId} (${DemoModel.Packet.ID[packetId]})`);
         }
-        const packetData = packetHandler ? packetHandler(bufferStream) : {};
+        const packetData = packetHandler ? packetHandler.call(this, bufferStream) : {};
         const packet: DemoModel.Packet.BasePacket = {
             packetType: [packetId, DemoModel.Packet.ID[packetId]],
             gameTime: modGameTime,
@@ -131,7 +138,7 @@ export class PacketParser {
     protected chat(bufferStream: BufferStream) : PacketData<DemoModel.Packet.CHAT> {
         const size = bufferStream.readInt(1, true);
         const fromId = bufferStream.readInt(1, true);
-        const toId = bufferStream.readInt(1, true);
+        const toId = bufferStream.readInt(1, true); // 127 = allies, 126 = specs, 125 = global
         const message = bufferStream.readString();
         return { fromId, toId, message };
     }
@@ -155,22 +162,26 @@ export class PacketParser {
     protected command(bufferStream: BufferStream) : PacketData<DemoModel.Packet.COMMAND> {
         const size = bufferStream.readInt(2);
         const playerNum = bufferStream.readInt(1, true);
-        const commandId = bufferStream.readInt(4); // TODO: parse into a CommandID enum
+        const commandId = bufferStream.readInt(4);
         const timeout = bufferStream.readInt(4);
         const options = bufferStream.readInt(1, true);
         const numParams = bufferStream.readInt(4, true);
         const params = bufferStream.readFloats(numParams);
-        return { playerNum, commandId, timeout, options, params };
+        const command = this.commandParser.parseCommand(commandId, options, params);
+        return { playerNum, timeout, command };
     }
 
     protected select(bufferStream: BufferStream) : PacketData<DemoModel.Packet.SELECT> {
-        return {} as any;
+        const size = bufferStream.readInt(2);
+        const playerNum = bufferStream.readInt(1, true);
+        const selectedUnitIds = bufferStream.readInts(bufferStream.readStream.readableLength / 2, 2, true);
+        return { playerNum, selectedUnitIds };
     }
 
     protected pause(bufferStream: BufferStream) : PacketData<DemoModel.Packet.PAUSE> {
         const playerNum = bufferStream.readInt(1, true);
         const paused = bufferStream.readBool();
-        return { playerNum, paused } as any;
+        return { playerNum, paused };
     }
 
     protected aiCommand(bufferStream: BufferStream) : PacketData<DemoModel.Packet.AICOMMAND> {
@@ -192,22 +203,25 @@ export class PacketParser {
         const playerNum = bufferStream.readInt(1, true);
         const aiId = bufferStream.readInt(1, true);
         const pairwise = bufferStream.readInt(1, true);
-        const sameCmdId = bufferStream.readInt(4, true);
-        const sameCmdOpt = bufferStream.readInt(1, true);
-        const sameCmdParamSize = bufferStream.readInt(2, true);
+        const refCmdId = bufferStream.readInt(4, true);
+        const refCmdOpts = bufferStream.readInt(1, true);
+        const refCmdSize = bufferStream.readInt(2, true);
         const unitCount = bufferStream.readInt(2);
         const unitIds = bufferStream.readInts(unitCount, 2);
-        const commandCount = bufferStream.readInt(2);
-        const commands: Array<{commandId: number, options: number; params: number[]}> = [];
-        // command parsing probably not working
+        const commandCount = bufferStream.readInt(2, true);
+        const commands: Array<DemoModel.Command.BaseCommand> = [];
         for (let i=0; i<commandCount; i++) {
-            const commandId = sameCmdId === 0 ? bufferStream.readInt() : 0;
-            const options = sameCmdOpt === 0xFF ? bufferStream.readInt(1, true) : 0;
-            const paramCount = sameCmdParamSize === 0xFFFF ? bufferStream.readInt(2, true) : 0;
-            const params = bufferStream.readFloats(paramCount);
-            commands.push({ commandId, options, params });
+            const id = refCmdId == 0 ? bufferStream.readInt(4, true) : refCmdId;
+            const optionBitmask = refCmdOpts == 0xFF ? bufferStream.readInt(1, true) : refCmdOpts;
+            const size = refCmdSize == 0xFFFF ? bufferStream.readInt(2, true) : refCmdSize;
+            const params: number[] = [];
+            for (let i=0; i<size; i++) {
+                params.push(bufferStream.readFloat());
+            }
+            const command = this.commandParser.parseCommand(id, optionBitmask, params);
+            commands.push(command);
         }
-        return { playerNum, aiId, pairwise, sameCmdId, sameCmdOpt, sameCmdParamSize, unitCount, unitIds, commandCount, commands };
+        return { playerNum, aiId, pairwise, refCmdId, refCmdOpts, refCmdSize, unitIds, commands };
     }
 
     protected aiShare(bufferStream: BufferStream) : PacketData<DemoModel.Packet.AISHARE> {
@@ -364,8 +378,12 @@ export class PacketParser {
         const playerNum = bufferStream.readInt(1, true);
         const script = bufferStream.readInt(2, true);
         const mode = bufferStream.readInt(1, true);
-        const rawData = bufferStream.readInts(bufferStream.readStream.readableLength, 1, true);
-        return { playerNum, script, mode, rawData };
+        const msg = bufferStream.read();
+        const data = this.luaParser.parseLuaData(msg);
+        // if (typeof data === "string" && this.config.excludeUnhandlerLuaData) {
+        //     return;
+        // }
+        return { playerNum, script, mode, data };
     }
 
     protected team(bufferStream: BufferStream) : PacketData<DemoModel.Packet.TEAM> {

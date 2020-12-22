@@ -159,6 +159,7 @@ export namespace DemoModel {
         export interface BasePacket {
             packetType: [ID, string];
             gameTime: number;
+            playerNum?: number;
         }
 
         export interface KEYFRAME extends BasePacket {
@@ -196,10 +197,11 @@ export namespace DemoModel {
         }
         export interface COMMAND extends BasePacket {
             playerNum: number;
-            commandId: number;
+            //commandId: number;
             timeout: number;
-            options: number;
-            params: number[];
+            //options: number;
+            //params: number[];
+            command: Command.BaseCommand;
         }
         export interface SELECT extends BasePacket {
             playerNum: number;
@@ -223,13 +225,11 @@ export namespace DemoModel {
             playerNum: number;
             aiId: number;
             pairwise: number;
-            sameCmdId: number;
-            sameCmdOpt: number;
-            sameCmdParamSize: number;
-            unitCount: number;
+            refCmdId: number;
+            refCmdOpts: number;
+            refCmdSize: number;
             unitIds: number[];
-            commandCount: number;
-            commands: Array<{commandId: number, options: number; params: number[]}>;
+            commands: Array<Command.BaseCommand>;
         }
         export interface AISHARE extends BasePacket {
             playerNum: number;
@@ -338,7 +338,7 @@ export namespace DemoModel {
             playerNum: number;
             script: number;
             mode: number;
-            rawData: number[];
+            data: any;
         }
         export interface TEAM extends BasePacket {
             playerNum: number;
@@ -442,5 +442,161 @@ export namespace DemoModel {
             ERASE,
             LINE
         }
+    }
+
+    export namespace Command {
+        export namespace Type {
+
+            // export type Any = Partial<Empty & Mode & Pos & Radius & UnitID & Front & UnitFeatureOrArea & UnitOrRectangle & Number>;
+
+            // export interface Empty {
+            // }
+
+            // export interface Values {
+            //     rawValues: number[];
+            // }
+            // export interface Mode {
+            //     mode: number;
+            // }
+
+            // export interface Pos {
+            //     x: number;
+            //     y: number;
+            //     z: number;
+            // }
+
+            // export interface Radius {
+            //     radius: number;
+            // }
+
+            // export interface UnitID {
+            //     unitId: number;
+            // }
+
+            // export interface Front {
+            //     camTracePos: Pos;
+            //     camTraceDir?: Pos;
+            // }
+
+            // export interface UnitFeatureOrArea {
+            //     unitId?: number;
+            //     maxUnits?: number;
+            //     area: Pos & Radius;
+            // }
+            // export interface UnitOrRectangle {
+            //     unitId?: number;
+            //     mapPos?: Pos;
+            //     startPos?: Pos;
+            //     endPos?: Pos;
+            // }
+
+            // export interface Number {
+            //     number: number;
+            // }
+        }
+
+        // https://github.com/spring/spring/blob/develop/rts/Sim/Units/CommandAI/Command.h
+        export enum ID {
+            STOP = 0,
+            INSERT = 1,
+            REMOVE = 2,
+            WAIT = 5,
+            TIMEWAIT = 6,
+            DEATHWAIT = 7,
+            SQUADWAIT = 8,
+            GATHERWAIT = 9,
+            MOVE = 10,
+            PATROL = 15,
+            FIGHT = 16,
+            ATTACK = 20,
+            AREA_ATTACK = 21,
+            GUARD = 25,
+            AISELECT = 30,
+            GROUPSELECT = 35,
+            GROUPADD = 36,
+            GROUPCLEAR = 37,
+            REPAIR = 40,
+            FIRE_STATE = 45,
+            MOVE_STATE = 50,
+            SETBASE = 55,
+            INTERNAL = 60,
+            SELFD = 65,
+            LOAD_UNITS = 75,
+            LOAD_ONTO = 76,
+            UNLOAD_UNITS = 80,
+            UNLOAD_UNIT = 81,
+            ONOFF = 85,
+            RECLAIM = 90,
+            CLOAK = 95,
+            STOCKPILE = 100,
+            MANUALFIRE = 105,
+            RESTORE = 110,
+            REPEAT = 115,
+            TRAJECTORY = 120,
+            RESURRECT = 125,
+            CAPTURE = 130,
+            AUTOREPAIRLEVEL = 135,
+            IDLEMODE = 145,
+            FAILED = 150,
+        }
+        export interface Options {
+            META_KEY: boolean;
+            INTERNAL_ORDER: boolean;
+            RIGHT_MOUSE_KEY: boolean;
+            SHIFT_KEY: boolean;
+            CONTROL_KEY: boolean;
+            ALT_KEY: boolean;
+        }
+
+        export interface BaseCommand {
+            id: [ID, string];
+            options: Options;
+            rawData: number[];
+            //data: DataType;
+        }
+
+        // https://github.com/spring/spring/blob/develop/rts/Sim/Units/CommandAI/CommandAI.cpp
+
+        // export interface Stop            extends BaseCommand<Type.Empty>{}
+        // export interface Insert          extends BaseCommand<Type.Empty>{}
+        // export interface Remove          extends BaseCommand<Type.Empty>{}
+        // export interface Wait            extends BaseCommand<Type.Empty>{}
+        // export interface Timewait        extends BaseCommand<Type.Empty>{}
+        // export interface Deathwait       extends BaseCommand<Type.Empty>{}
+        // export interface Squadwait       extends BaseCommand<Type.Empty>{}
+        // export interface Gatherwait      extends BaseCommand<Type.Empty>{}
+        // export interface Move            extends BaseCommand<Type.Empty>{}
+        // export interface Patrol          extends BaseCommand<Type.Empty>{}
+        // export interface Fight           extends BaseCommand<Type.Empty>{}
+        // export interface Attack          extends BaseCommand<Type.Empty>{}
+        // export interface AreaAttack      extends BaseCommand<Type.Empty>{}
+        // export interface Guard           extends BaseCommand<Type.Empty>{}
+        // export interface Aiselect        extends BaseCommand<Type.Empty>{}
+        // export interface Groupselect     extends BaseCommand<Type.Empty>{}
+        // export interface Groupadd        extends BaseCommand<Type.Empty>{}
+        // export interface Groupclear      extends BaseCommand<Type.Empty>{}
+        // export interface Repair          extends BaseCommand<Type.Empty>{}
+        // export interface FireState       extends BaseCommand<Type.Empty>{}
+        // export interface MoveState       extends BaseCommand<Type.Empty>{}
+        // export interface Setbase         extends BaseCommand<Type.Empty>{}
+        // export interface Internal        extends BaseCommand<Type.Empty>{}
+        // export interface Selfd           extends BaseCommand<Type.Empty>{}
+        // export interface LoaUnits        extends BaseCommand<Type.Empty>{}
+        // export interface LoadOnto        extends BaseCommand<Type.Empty>{}
+        // export interface UnloadUnits     extends BaseCommand<Type.Empty>{}
+        // export interface UnloadUnit      extends BaseCommand<Type.Empty>{}
+        // export interface Onoff           extends BaseCommand<Type.Empty>{}
+        // export interface Reclaim         extends BaseCommand<Type.Empty>{}
+        // export interface Cloak           extends BaseCommand<Type.Empty>{}
+        // export interface Stockpile       extends BaseCommand<Type.Empty>{}
+        // export interface Manualfire      extends BaseCommand<Type.Empty>{}
+        // export interface Restore         extends BaseCommand<Type.Empty>{}
+        // export interface Repeat          extends BaseCommand<Type.Empty>{}
+        // export interface Trajectory      extends BaseCommand<Type.Empty>{}
+        // export interface Resurrect       extends BaseCommand<Type.Empty>{}
+        // export interface Capture         extends BaseCommand<Type.Empty>{}
+        // export interface Autorepairlevel extends BaseCommand<Type.Empty>{}
+        // export interface Idlemode        extends BaseCommand<Type.Empty>{}
+        // export interface Failed          extends BaseCommand<Type.Empty>{}
     }
 }
