@@ -21,7 +21,7 @@ export interface DemoParserConfig {
     /** If not empty, only save packets and commands from these playerIds */
     includePlayerIds?: number[];
     /** If false, will still include LUAMSG packets even if their data cannot be parsed */
-    excludeUnhandlerLuaData?: boolean;
+    excludeUnparsedLuaData?: boolean;
     /** 
      * Include standard Lua data parsers
      * @default true
@@ -29,6 +29,8 @@ export interface DemoParserConfig {
     includeStandardLuaHandlers?: boolean;
     /** Array of lua data handlers */
     customLuaHandlers?: LuaHandler[];
+    /** Lookup object to replace UnitDefIds with actual unit names */
+    unitDefIds?: { [key: string]: string };
 }
 
 const defaultConfig: Partial<DemoParserConfig> = {
@@ -40,9 +42,10 @@ const defaultConfig: Partial<DemoParserConfig> = {
     includeCommands: [],
     excludeCommands: [],
     includePlayerIds: [],
-    excludeUnhandlerLuaData: true,
+    excludeUnparsedLuaData: false,
     includeStandardLuaHandlers: true,
     customLuaHandlers: [],
+    unitDefIds: {}
 };
 
 export class DemoParser {
@@ -50,7 +53,7 @@ export class DemoParser {
     protected bufferStream!: BufferStream;
     protected header!: DemoModel.Header;
     protected script!: DemoModel.Script;
-    protected demoStream!: DemoModel.Packet.BasePacket[];
+    protected packets!: DemoModel.Packet.AbstractPacket[];
 
     constructor(config?: DemoParserConfig){
         this.config = Object.assign({}, defaultConfig, config);
@@ -61,12 +64,12 @@ export class DemoParser {
 
         this.header = this.parseHeader();
         this.script = this.parseScript(this.bufferStream.read(this.header.scriptSize));
-        this.demoStream = this.parseDemoStream(this.bufferStream.read(this.header.demoStreamSize));
+        this.packets = this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
 
         return {
             header: this.header,
             script: this.script,
-            demoStream: this.demoStream
+            demoStream: this.packets
         };
     }
 
@@ -75,7 +78,7 @@ export class DemoParser {
             magic               : this.bufferStream.readString(16),
             version             : this.bufferStream.readInt(),
             headerSize          : this.bufferStream.readInt(),
-            versionString       : this.bufferStream.readString(256),
+            versionString       : this.bufferStream.readString(256, true),
             gameId              : this.bufferStream.read(16).toString("hex"),
             startTime           : new Date(Number(this.bufferStream.readBigInt()) * 1000),
             scriptSize          : this.bufferStream.readInt(),
@@ -202,20 +205,20 @@ export class DemoParser {
         return { allyTeams, spectators };
     }
 
-    protected parseDemoStream(buffer: Buffer) : DemoModel.Packet.BasePacket[] {
+    protected parsePackets(buffer: Buffer) : DemoModel.Packet.AbstractPacket[] {
         const bufferStream = new BufferStream(buffer, false);
         const packetParser = new PacketParser({ ...this.config });
-        const packets: DemoModel.Packet.BasePacket[] = [];
+        const packets: DemoModel.Packet.AbstractPacket[] = [];
 
         while (bufferStream.readStream.readableLength > 0){
             const modGameTime = bufferStream.readFloat();
             const length = bufferStream.readInt(4, true);
             const packetData = bufferStream.read(length);
 
-            const packet = packetParser.parsePacket(packetData, modGameTime);
+            const packet = packetParser.parsePacket(packetData, modGameTime, this.header.wallclockTime - this.header.gameTime);
 
             if (packet){
-                if (packet.playerNum !== undefined && this.config.includePlayerIds?.length && !this.config.includePlayerIds?.includes(packet.playerNum)){
+                if (packet.data.playerNum !== undefined && this.config.includePlayerIds?.length && !this.config.includePlayerIds?.includes(packet.data.playerNum)){
                     continue;
                 }
                 packets.push(packet);

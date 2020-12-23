@@ -40,6 +40,7 @@ export class LuaParser {
 
 export const standardLuaHandlers: LuaHandler[] = [
     {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/cmd_mouse_pos_broadcast.lua#L80
         name: "MOUSE_POS_BROADCAST",
         parseStartIndex: 4,
         validator: (str) => str[0] === "£",
@@ -57,6 +58,7 @@ export const standardLuaHandlers: LuaHandler[] = [
         }
     },
     {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/fps_broadcast.lua#L37
         name: "FPS_BROADCAST",
         parseStartIndex: 4,
         validator: (str) => str[0] === "@",

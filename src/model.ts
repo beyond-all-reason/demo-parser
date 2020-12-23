@@ -2,7 +2,7 @@ export namespace DemoModel {
     export interface Demo {
         header: Header;
         script: Script;
-        demoStream: Packet.BasePacket[];
+        demoStream: Packet.AbstractPacket<any>[];
     }
 
     export interface Header {
@@ -156,347 +156,374 @@ export namespace DemoModel {
             GAME_FRAME_PROGRESS = 77,
             PING                = 78,
         }
-        export interface BasePacket {
-            packetType: [ID, string];
-            gameTime: number;
-            playerNum?: number;
-        }
-
-        export interface KEYFRAME extends BasePacket {
-            frameNum: number;
-        }
-        export interface NEWFRAME extends BasePacket {
-        }
-        export interface QUIT extends BasePacket {
-            reason: string;
-        }
-        export interface STARTPLAYING extends BasePacket {
-            countdown: number;
-        }
-        export interface SETPLAYERNUM extends BasePacket {
-            playerNum: number;
-        }
-        export interface PLAYERNAME extends BasePacket {
-            playerNum: number;
-            playerName: string;
-        }
-        export interface CHAT extends BasePacket {
-            fromId: number;
-            toId: number;
-            message: string;
-        }
-        export interface RANDSEED extends BasePacket {
-            randSeed: number;
-        }
-        export interface GAMEID extends BasePacket {
-            gameId: string;
-        }
-        export interface PATH_CHECKSUM extends BasePacket {
-            playerNum: number;
-            checksum: string;
-        }
-        export interface COMMAND extends BasePacket {
-            playerNum: number;
-            //commandId: number;
-            timeout: number;
-            //options: number;
-            //params: number[];
-            command: Command.BaseCommand;
-        }
-        export interface SELECT extends BasePacket {
-            playerNum: number;
-            selectedUnitIds: number[];
-        }
-        export interface PAUSE extends BasePacket {
-            playerNum: number;
-            paused: boolean;
-        }
-        export interface AICOMMAND extends BasePacket {
-            playerNum: number;
-            aiId: number;
-            aiTeamId: number;
-            unitId: number;
-            commandId: number;
-            timeout: number;
-            options: number;
-            params: number[];
-        }
-        export interface AICOMMANDS extends BasePacket {
-            playerNum: number;
-            aiId: number;
-            pairwise: number;
-            refCmdId: number;
-            refCmdOpts: number;
-            refCmdSize: number;
-            unitIds: number[];
-            commands: Array<Command.BaseCommand>;
-        }
-        export interface AISHARE extends BasePacket {
-            playerNum: number;
-            aiId: number;
-            sourceTeam: number;
-            destTeam: number;
-            metal: number;
-            energy: number;
-            unitIds: number[];
-        }
-        export interface USER_SPEED extends BasePacket {
-            playerNum: number;
-            userSpeed: number;
-        }
-        export interface INTERNAL_SPEED extends BasePacket {
-            internalSpeed: number;
-        }
-        export interface CPU_USAGE extends BasePacket {
-            cpuUsage: number;
-        }
-        export interface DIRECT_CONTROL extends BasePacket {
-            playerNum: number;
-        }
-        export interface DC_UPDATE extends BasePacket {
-            playerNum: number;
-            status: number;
-            heading: number;
-            pitch: number;
-        }
-        export interface SHARE extends BasePacket {
-            playerNum: number;
-            shareTeam: number;
-            shareUnits: boolean;
-            shareMetal: number;
-            shareEnergy: number;
-        }
-        export interface SETSHARE extends BasePacket {
-            playerNum: number;
-            myTeam: number;
-            metalShareFraction: number;
-            energyShareFraction: number;
-        }
-        export interface PLAYERSTAT extends BasePacket {
-            playerNum: number;
-            numCommands: number;
-            unitCommands: number;
-            mousePixels: number;
-            mouseClicks: number;
-            keyPresses: number;
-        }
-        export interface GAMEOVER extends BasePacket {
-            playerNum: number;
-            winningAllyTeams: number[];
-        }
-        export interface MAPDRAW extends BasePacket {
-            playerNum: number;
-            mapDrawAction: MapDrawAction;
-            x: number;
-            z: number;
-            x2?: number;
-            z2?: number;
-            label?: string;
-        }
-        export interface SYNCRESPONSE extends BasePacket {
-            playerNum: number;
-            frameNum: number;
-            checksum: string;
-        }
-        export interface SYSTEMMSG extends BasePacket {
-            playerNum: number;
-            message: string;
-        }
-        export interface STARTPOS extends BasePacket {
-            playerNum: number;
-            myTeam: number;
-            readyState: ReadyState;
-            x: number;
-            y: number;
-            z: number;
-        }
-        export interface PLAYERINFO extends BasePacket {
-            playerNum: number;
-            cpuUsage: number;
-            ping: number;
-        }
-        export interface PLAYERLEFT extends BasePacket {
-            playerNum: number;
-            reason: LeaveReason;
-        }
-        export interface SD_CHKREQUEST extends BasePacket {
-        }
-        export interface SD_CHKRESPONSE extends BasePacket {
-        }
-        export interface SD_BLKREQUEST extends BasePacket {
-        }
-        export interface SD_BLKRESPONSE extends BasePacket {
-        }
-        export interface SD_RESET extends BasePacket {
-        }
-        export interface LOGMSG extends BasePacket {
-            playerNum: number;
-            logMsgLvl: number;
-            strData: string;
-        }
-        export interface LUAMSG extends BasePacket {
-            playerNum: number;
-            script: number;
-            mode: number;
-            data: any;
-        }
-        export interface TEAM extends BasePacket {
-            playerNum: number;
-            action: TeamAction;
-            param: number;
-        }
-        export interface GAMEDATA extends BasePacket {
-            setup: Script;
-            mapChecksum: string;
-            modChecksum: string;
-            randomSeed: number;
-        }
-        export interface ALLIANCE extends BasePacket {
-            playerNum: number;
-            otherAllyTeam: number;
-            areAllies: boolean;
-        }
-        export interface CCOMMAND extends BasePacket {
-            playerNum: number;
-            command: string;
-            extra: string;
-        }
-        export interface TEAMSTAT extends BasePacket {
-            teamNum: number;
-            statistics: any;
-        }
-        export interface CLIENTDATA extends BasePacket {
-            setupText: string;
-        }
-        export interface ATTEMPTCONNECT extends BasePacket {
-            netVersion: number;
-            playerName: string;
-            password: string;
-            versionStringDetailed: string;
-        }
-        export interface REJECT_CONNECT extends BasePacket {
-            reason: string;
-        }
-        export interface AI_CREATED extends BasePacket {
-            playerNum: number;
-            whichSkirmishAi: number;
-            team: number;
+        
+        export type Packet<T extends keyof PacketData> = AbstractPacket<T>;
+        export type GetPacketData<T extends keyof PacketData> = PacketData[T];
+        export interface AbstractPacket<T extends keyof PacketData = any> {
+            id: ID;
             name: string;
+            fullGameTime: number;
+            actualGameTime: number;
+            data: GetPacketData<T>;
         }
-        export interface AI_STATE_CHANGED extends BasePacket {
-            playerNum: number;
-            whichSkirmishAi: number;
-            newState: number;
-        }
-        export interface REQUEST_TEAMSTAT extends BasePacket {
-            teamNum: number;
-            startFrameNum: number;
-        }
-        export interface CREATE_NEWPLAYER extends BasePacket {
-            playerNum: number;
-            spectator: boolean;
-            teamNum: number;
-            playerName: string;
-        }
-        export interface AICOMMAND_TRACKED extends BasePacket {
-            playerNum: number;
-            aiId: number;
-            unitId: number;
-            id: number;
-            options: number;
-            aiCommandId: number;
-            params: number[];
-        }
-        export interface GAME_FRAME_PROGRESS extends BasePacket {
-            frameNum: number;
-        }
-        export interface PING extends BasePacket {
-            playerNum: number;
-            pingTag: number;
-            localTime: number;
-        }
-
-        export enum LeaveReason {
-            LOST_CONNECTION = 0,
-            INTENTIONAL = 1,
-            KICKED = 2
-        }
-
-        export enum ReadyState {
-            NOT_READY = 0,
-            READY = 1,
-            NO_UPDATE = 2
-        }
-
-        export enum TeamAction {
-            GIVEAWAY = 1,
-            RESIGN = 2,
-            JOIN_TEAM = 3,
-            TEAM_DIED = 4,
-            AI_CREATED = 5,
-            AI_DESTROYED = 6
-        }
-
-        export enum MapDrawAction {
-            POINT,
-            ERASE,
-            LINE
+        export interface PacketData {
+            [ID.KEYFRAME]: {
+                frameNum: number;
+            }
+            [ID.NEWFRAME]: {
+            }
+            [ID.QUIT]: {
+                reason: string;
+            }
+            [ID.STARTPLAYING]: {
+                countdown: number;
+            }
+            [ID.SETPLAYERNUM]: {
+                playerNum: number;
+            }
+            [ID.PLAYERNAME]: {
+                playerNum: number;
+                playerName: string;
+            }
+            [ID.CHAT]: {
+                fromId: number;
+                toId: number;
+                message: string;
+            }
+            [ID.RANDSEED]: {
+                randSeed: number;
+            }
+            [ID.GAMEID]: {
+                gameId: string;
+            }
+            [ID.PATH_CHECKSUM]: {
+                playerNum: number;
+                checksum: string;
+            }
+            [ID.COMMAND]: {
+                playerNum: number;
+                //commandId: number;
+                timeout: number;
+                //options: number;
+                //params: number[];
+                command: Command.BaseCommand;
+            }
+            [ID.SELECT]: {
+                playerNum: number;
+                selectedUnitIds: number[];
+            }
+            [ID.PAUSE]: {
+                playerNum: number;
+                paused: boolean;
+            }
+            [ID.AICOMMAND]: {
+                playerNum: number;
+                aiId: number;
+                aiTeamId: number;
+                timeout: number;
+                command: Command.BaseCommand;
+            }
+            [ID.AICOMMANDS]: {
+                playerNum: number;
+                aiId: number;
+                // pairwise: number;
+                // refCmdId: number;
+                // refCmdOpts: number;
+                // refCmdSize: number;
+                // unitIds: number[];
+                commands: Array<Command.BaseCommand>;
+            }
+            [ID.AISHARE]: {
+                playerNum: number;
+                aiId: number;
+                sourceTeam: number;
+                destTeam: number;
+                metal: number;
+                energy: number;
+                unitIds: number[];
+            }
+            [ID.USER_SPEED]: {
+                playerNum: number;
+                userSpeed: number;
+            }
+            [ID.INTERNAL_SPEED]: {
+                internalSpeed: number;
+            }
+            [ID.CPU_USAGE]: {
+                cpuUsage: number;
+            }
+            [ID.DIRECT_CONTROL]: {
+                playerNum: number;
+            }
+            [ID.DC_UPDATE]: {
+                playerNum: number;
+                status: number;
+                heading: number;
+                pitch: number;
+            }
+            [ID.SHARE]: {
+                playerNum: number;
+                shareTeam: number;
+                shareUnits: boolean;
+                shareMetal: number;
+                shareEnergy: number;
+            }
+            [ID.SETSHARE]: {
+                playerNum: number;
+                myTeam: number;
+                metalShareFraction: number;
+                energyShareFraction: number;
+            }
+            [ID.PLAYERSTAT]: {
+                playerNum: number;
+                numCommands: number;
+                unitCommands: number;
+                mousePixels: number;
+                mouseClicks: number;
+                keyPresses: number;
+            }
+            [ID.GAMEOVER]: {
+                playerNum: number;
+                winningAllyTeams: number[];
+            }
+            [ID.MAPDRAW]: {
+                playerNum: number;
+                mapDrawAction: MapDrawAction;
+                x: number;
+                z: number;
+                x2?: number;
+                z2?: number;
+                label?: string;
+            }
+            [ID.SYNCRESPONSE]: {
+                playerNum: number;
+                frameNum: number;
+                checksum: string;
+            }
+            [ID.SYSTEMMSG]: {
+                playerNum: number;
+                message: string;
+            }
+            [ID.STARTPOS]: {
+                playerNum: number;
+                myTeam: number;
+                readyState: ReadyState;
+                x: number;
+                y: number;
+                z: number;
+            }
+            [ID.PLAYERINFO]: {
+                playerNum: number;
+                cpuUsage: number;
+                ping: number;
+            }
+            [ID.PLAYERLEFT]: {
+                playerNum: number;
+                reason: LeaveReason;
+            }
+            [ID.SD_CHKREQUEST]: {
+            }
+            [ID.SD_CHKRESPONSE]: {
+            }
+            [ID.SD_BLKREQUEST]: {
+            }
+            [ID.SD_BLKRESPONSE]: {
+            }
+            [ID.SD_RESET]: {
+            }
+            [ID.LOGMSG]: {
+                playerNum: number;
+                logMsgLvl: number;
+                strData: string;
+            }
+            [ID.LUAMSG]: {
+                playerNum: number;
+                script: number;
+                mode: number;
+                data: any;
+            }
+            [ID.TEAM]: {
+                playerNum: number;
+                action: TeamAction;
+                param: number;
+            }
+            [ID.GAMEDATA]: {
+                setup: Script;
+                mapChecksum: string;
+                modChecksum: string;
+                randomSeed: number;
+            }
+            [ID.ALLIANCE]: {
+                playerNum: number;
+                otherAllyTeam: number;
+                areAllies: boolean;
+            }
+            [ID.CCOMMAND]: {
+                playerNum: number;
+                command: string;
+                extra: string;
+            }
+            [ID.TEAMSTAT]: {
+                teamNum: number;
+                statistics: any;
+            }
+            [ID.CLIENTDATA]: {
+                setupText: string;
+            }
+            [ID.ATTEMPTCONNECT]: {
+                netVersion: number;
+                playerName: string;
+                password: string;
+                versionStringDetailed: string;
+            }
+            [ID.REJECT_CONNECT]: {
+                reason: string;
+            }
+            [ID.AI_CREATED]: {
+                playerNum: number;
+                whichSkirmishAi: number;
+                team: number;
+                name: string;
+            }
+            [ID.AI_STATE_CHANGED]: {
+                playerNum: number;
+                whichSkirmishAi: number;
+                newState: number;
+            }
+            [ID.REQUEST_TEAMSTAT]: {
+                teamNum: number;
+                startFrameNum: number;
+            }
+            [ID.CREATE_NEWPLAYER]: {
+                playerNum: number;
+                spectator: boolean;
+                teamNum: number;
+                playerName: string;
+            }
+            [ID.AICOMMAND_TRACKED]: {
+                playerNum: number;
+                aiId: number;
+                unitId: number;
+                id: number;
+                options: number;
+                aiCommandId: number;
+                params: number[];
+            }
+            [ID.GAME_FRAME_PROGRESS]: {
+                frameNum: number;
+            }
+            [ID.PING]: {
+                playerNum: number;
+                pingTag: number;
+                localTime: number;
+            }
         }
     }
 
     export namespace Command {
         export namespace Type {
 
-            // export type Any = Partial<Empty & Mode & Pos & Radius & UnitID & Front & UnitFeatureOrArea & UnitOrRectangle & Number>;
+            export enum ID {
+                ICON                      =  0,
+                ICON_MODE                 =  5,
+                ICON_MAP                  = 10,
+                ICON_AREA                 = 11,
+                ICON_UNIT                 = 12,
+                ICON_UNIT_OR_MAP          = 13,
+                ICON_FRONT                = 14,
+                ICON_UNIT_OR_AREA         = 16,
+                NEXT                      = 17,
+                PREV                      = 18,
+                ICON_UNIT_FEATURE_OR_AREA = 19,
+                ICON_BUILDING             = 20,
+                CUSTOM                    = 21,
+                ICON_UNIT_OR_RECTANGLE    = 22,
+                NUMBER                    = 23,
+                BUILD                     = 101,
+                REMOVE                    = 102,
+                INSERT                    = 103,
+            }
 
-            // export interface Empty {
-            // }
+            //export type Any = Partial<Empty & Mode & MapPos & Radius & UnitID & Front & UnitFeatureOrArea & UnitOrRectangle & Number>;
 
-            // export interface Values {
-            //     rawValues: number[];
-            // }
-            // export interface Mode {
-            //     mode: number;
-            // }
+            export interface Empty {
+            }
 
-            // export interface Pos {
-            //     x: number;
-            //     y: number;
-            //     z: number;
-            // }
+            export interface Values {
+                rawValues: number[];
+            }
+            export interface Mode {
+                mode: number;
+            }
 
-            // export interface Radius {
-            //     radius: number;
-            // }
+            export interface MapPos {
+                x: number;
+                y: number;
+                z: number;
+            }
 
-            // export interface UnitID {
-            //     unitId: number;
-            // }
+            export interface Radius {
+                radius: number;
+            }
 
-            // export interface Front {
-            //     camTracePos: Pos;
-            //     camTraceDir?: Pos;
-            // }
+            export interface UnitID {
+                unitId: number;
+            }
 
-            // export interface UnitFeatureOrArea {
-            //     unitId?: number;
-            //     maxUnits?: number;
-            //     area: Pos & Radius;
-            // }
-            // export interface UnitOrRectangle {
-            //     unitId?: number;
-            //     mapPos?: Pos;
-            //     startPos?: Pos;
-            //     endPos?: Pos;
-            // }
+            export interface Front {
+                camTracePos: MapPos;
+                camTraceDir?: MapPos;
+            }
+            export interface UnitFeatureOrArea {
+                unitId?: number;
+                maxUnits?: number;
+                area: MapPos & Radius;
+            }
+            export interface UnitOrRectangle {
+                unitId?: number;
+                mapPos?: MapPos;
+                startPos?: MapPos;
+                endPos?: MapPos;
+            }
 
-            // export interface Number {
-            //     number: number;
-            // }
+            export interface Number {
+                number: number;
+            }
+
+            export interface Direction {
+                direction: Facing;
+            }
+
+            export interface Insert {
+                queuePos: number;
+                command: Command.BaseCommand;
+            }
+
+            export interface Data {
+                [DemoModel.Command.Type.ID.BUILD]: MapPos & Direction;
+                [DemoModel.Command.Type.ID.ICON]: Empty;
+                [DemoModel.Command.Type.ID.ICON_MODE]: Mode;
+                [DemoModel.Command.Type.ID.ICON_MAP]: MapPos;
+                [DemoModel.Command.Type.ID.ICON_AREA]: MapPos & Radius;
+                [DemoModel.Command.Type.ID.ICON_UNIT]: UnitID;
+                [DemoModel.Command.Type.ID.ICON_UNIT_OR_MAP]: UnitID | MapPos,
+                [DemoModel.Command.Type.ID.ICON_FRONT]: MapPos | { camTracePos: MapPos, camTraceDir: MapPos };
+                [DemoModel.Command.Type.ID.ICON_UNIT_OR_AREA]: UnitID | (MapPos & Radius);
+                [DemoModel.Command.Type.ID.NEXT]: Empty;
+                [DemoModel.Command.Type.ID.PREV]: Empty;
+                [DemoModel.Command.Type.ID.ICON_UNIT_FEATURE_OR_AREA]: UnitID | (MapPos & Radius);
+                [DemoModel.Command.Type.ID.ICON_BUILDING]: MapPos;
+                [DemoModel.Command.Type.ID.CUSTOM]: Empty;
+                [DemoModel.Command.Type.ID.ICON_UNIT_OR_RECTANGLE]: UnitID | MapPos | { start: MapPos, end: MapPos };
+                [DemoModel.Command.Type.ID.NUMBER]: Number;
+                [DemoModel.Command.Type.ID.REMOVE]: Insert;
+                [DemoModel.Command.Type.ID.INSERT]: Insert;
+            }
         }
 
         // https://github.com/spring/spring/blob/develop/rts/Sim/Units/CommandAI/Command.h
         export enum ID {
+            BUILD = -1,
             STOP = 0,
             INSERT = 1,
             REMOVE = 2,
@@ -549,54 +576,106 @@ export namespace DemoModel {
         }
 
         export interface BaseCommand {
-            id: [ID, string];
+            cmdName: string;
+            unitId?: number;
+            unitDefId?: string | number;
             options: Options;
-            rawData: number[];
-            //data: DataType;
+            params: number[];
+            data: Type.Data[keyof Type.Data];
         }
 
-        // https://github.com/spring/spring/blob/develop/rts/Sim/Units/CommandAI/CommandAI.cpp
+        export const Data: { [key in ID]: Type.ID } = {
+            [ID.BUILD]: Type.ID.BUILD,
+            [ID.STOP]: Type.ID.ICON,
+            [ID.INSERT]: Type.ID.INSERT,
+            [ID.REMOVE]: Type.ID.INSERT,
+            [ID.WAIT]: Type.ID.ICON,
+            [ID.TIMEWAIT]: Type.ID.NUMBER,
+            [ID.DEATHWAIT]: Type.ID.ICON_UNIT_OR_RECTANGLE,
+            [ID.SQUADWAIT]: Type.ID.NUMBER,
+            [ID.GATHERWAIT]: Type.ID.ICON,
+            [ID.MOVE]: Type.ID.ICON_MAP,
+            [ID.PATROL]: Type.ID.ICON_MAP,
+            [ID.FIGHT]: Type.ID.ICON_MAP,
+            [ID.ATTACK]: Type.ID.ICON_UNIT_OR_MAP,
+            [ID.AREA_ATTACK]: Type.ID.ICON_AREA,
+            [ID.GUARD]: Type.ID.ICON_UNIT,
+            [ID.AISELECT]: Type.ID.NUMBER,
+            [ID.GROUPSELECT]: Type.ID.ICON,
+            [ID.GROUPADD]: Type.ID.ICON,
+            [ID.GROUPCLEAR]: Type.ID.ICON,
+            [ID.REPAIR]: Type.ID.ICON_UNIT_OR_AREA,
+            [ID.FIRE_STATE]: Type.ID.ICON_MODE,
+            [ID.MOVE_STATE]: Type.ID.ICON_MODE,
+            [ID.SETBASE]: Type.ID.ICON,
+            [ID.INTERNAL]: Type.ID.ICON,
+            [ID.SELFD]: Type.ID.ICON,
+            [ID.LOAD_UNITS]: Type.ID.ICON_UNIT_OR_AREA,
+            [ID.LOAD_ONTO]: Type.ID.ICON_UNIT,
+            [ID.UNLOAD_UNITS]: Type.ID.ICON_UNIT_OR_AREA,
+            [ID.UNLOAD_UNIT]: Type.ID.ICON_MAP,
+            [ID.ONOFF]: Type.ID.ICON_MODE,
+            [ID.RECLAIM]: Type.ID.ICON_UNIT_FEATURE_OR_AREA,
+            [ID.CLOAK]: Type.ID.ICON_MODE,
+            [ID.STOCKPILE]: Type.ID.ICON,
+            [ID.MANUALFIRE]: Type.ID.ICON_MAP,
+            [ID.RESTORE]: Type.ID.ICON_AREA,
+            [ID.REPEAT]: Type.ID.ICON_MODE,
+            [ID.TRAJECTORY]: Type.ID.ICON_MODE,
+            [ID.RESURRECT]: Type.ID.ICON_UNIT_FEATURE_OR_AREA,
+            [ID.CAPTURE]: Type.ID.ICON_UNIT_OR_AREA,
+            [ID.AUTOREPAIRLEVEL]: Type.ID.ICON_MODE,
+            [ID.IDLEMODE]: Type.ID.ICON_MODE,
+            [ID.FAILED]: Type.ID.ICON,
+        }
+    }
 
-        // export interface Stop            extends BaseCommand<Type.Empty>{}
-        // export interface Insert          extends BaseCommand<Type.Empty>{}
-        // export interface Remove          extends BaseCommand<Type.Empty>{}
-        // export interface Wait            extends BaseCommand<Type.Empty>{}
-        // export interface Timewait        extends BaseCommand<Type.Empty>{}
-        // export interface Deathwait       extends BaseCommand<Type.Empty>{}
-        // export interface Squadwait       extends BaseCommand<Type.Empty>{}
-        // export interface Gatherwait      extends BaseCommand<Type.Empty>{}
-        // export interface Move            extends BaseCommand<Type.Empty>{}
-        // export interface Patrol          extends BaseCommand<Type.Empty>{}
-        // export interface Fight           extends BaseCommand<Type.Empty>{}
-        // export interface Attack          extends BaseCommand<Type.Empty>{}
-        // export interface AreaAttack      extends BaseCommand<Type.Empty>{}
-        // export interface Guard           extends BaseCommand<Type.Empty>{}
-        // export interface Aiselect        extends BaseCommand<Type.Empty>{}
-        // export interface Groupselect     extends BaseCommand<Type.Empty>{}
-        // export interface Groupadd        extends BaseCommand<Type.Empty>{}
-        // export interface Groupclear      extends BaseCommand<Type.Empty>{}
-        // export interface Repair          extends BaseCommand<Type.Empty>{}
-        // export interface FireState       extends BaseCommand<Type.Empty>{}
-        // export interface MoveState       extends BaseCommand<Type.Empty>{}
-        // export interface Setbase         extends BaseCommand<Type.Empty>{}
-        // export interface Internal        extends BaseCommand<Type.Empty>{}
-        // export interface Selfd           extends BaseCommand<Type.Empty>{}
-        // export interface LoaUnits        extends BaseCommand<Type.Empty>{}
-        // export interface LoadOnto        extends BaseCommand<Type.Empty>{}
-        // export interface UnloadUnits     extends BaseCommand<Type.Empty>{}
-        // export interface UnloadUnit      extends BaseCommand<Type.Empty>{}
-        // export interface Onoff           extends BaseCommand<Type.Empty>{}
-        // export interface Reclaim         extends BaseCommand<Type.Empty>{}
-        // export interface Cloak           extends BaseCommand<Type.Empty>{}
-        // export interface Stockpile       extends BaseCommand<Type.Empty>{}
-        // export interface Manualfire      extends BaseCommand<Type.Empty>{}
-        // export interface Restore         extends BaseCommand<Type.Empty>{}
-        // export interface Repeat          extends BaseCommand<Type.Empty>{}
-        // export interface Trajectory      extends BaseCommand<Type.Empty>{}
-        // export interface Resurrect       extends BaseCommand<Type.Empty>{}
-        // export interface Capture         extends BaseCommand<Type.Empty>{}
-        // export interface Autorepairlevel extends BaseCommand<Type.Empty>{}
-        // export interface Idlemode        extends BaseCommand<Type.Empty>{}
-        // export interface Failed          extends BaseCommand<Type.Empty>{}
+    export enum LeaveReason {
+        LOST_CONNECTION = 0,
+        INTENTIONAL = 1,
+        KICKED = 2
+    }
+
+    export enum ReadyState {
+        NOT_READY = 0,
+        READY = 1,
+        NO_UPDATE = 2
+    }
+
+    export enum TeamAction {
+        GIVEAWAY = 1,
+        RESIGN = 2,
+        JOIN_TEAM = 3,
+        TEAM_DIED = 4,
+        AI_CREATED = 5,
+        AI_DESTROYED = 6
+    }
+
+    export enum MapDrawAction {
+        POINT,
+        ERASE,
+        LINE
+    }
+
+    export enum Facing {
+        SOUTH = 0,
+        EAST = 1,
+        NORTH = 2,
+        WEST = 3
+    }
+
+    export enum MoveState {
+        NONE = -1,
+        HOLDPOS = 0,
+        MANEUVER = 1,
+        ROAM = 2
+    }
+
+    export enum FireState {
+        NONE = -1,
+        HOLD_FIRE = 0,
+        RETURN_FIRE = 1,
+        FIRE_AT_WILL = 2,
+        FIRE_AT_NEUTRAL = 3
     }
 }
