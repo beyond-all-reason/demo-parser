@@ -28,7 +28,7 @@ export class PacketParser {
     }
 
     public parsePacket(buffer: Buffer, modGameTime: number, gameTimeOffset: number) : DemoModel.Packet.AbstractPacket | undefined {
-        const bufferStream = new BufferStream(buffer, false);
+        const bufferStream = new BufferStream(buffer);
 
         const packetId = bufferStream.readInt(1) as DemoModel.Packet.ID;
         if ((this.config.includePackets!.length > 0 && !this.config.includePackets!.includes(packetId)) || this.config.excludePackets!.includes(packetId)){

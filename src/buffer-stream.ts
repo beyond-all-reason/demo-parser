@@ -1,11 +1,10 @@
-import { Readable, Writable } from "stream";
-import { endianness } from "os";
+import { Readable } from "stream";
 
 export class BufferStream {
     public readStream: Readable;
     public isBigEndian: boolean;
 
-    constructor(buffer: Buffer, isBigEndian: boolean = endianness() === "BE") {
+    constructor(buffer: Buffer, isBigEndian = false) {
         this.isBigEndian = isBigEndian;
 
         this.readStream = new Readable();

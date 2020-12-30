@@ -1,10 +1,12 @@
 // https://github.com/spring/spring/blob/develop/rts/System/LoadSave/demofile.h
 // https://github.com/dansan/spring-replay-site/blob/631101d27c99ac84a2051f5547b035513aab3062/srs/parse_demo_file.py
 
+import { ungzip } from "node-gzip";
 import { DemoModel } from "./model";
 import { BufferStream } from "./buffer-stream";
 import { PacketParser } from "./packet-parser";
 import { LuaHandler } from "./lua-parser";
+import { Signal } from "jaz-signals";
 
 export { DemoModel };
 
@@ -54,17 +56,42 @@ export class DemoParser {
     protected header!: DemoModel.Header;
     protected script!: DemoModel.Script;
     protected packets!: DemoModel.Packet.AbstractPacket[];
+    protected statistics: any;
+
+    public onPacket: Signal<DemoModel.Packet.AbstractPacket> = new Signal();
 
     constructor(config?: DemoParserConfig){
         this.config = Object.assign({}, defaultConfig, config);
     }
 
-    public parseDemo(demoBuffer: Buffer) : DemoModel.Demo {
-        this.bufferStream = new BufferStream(demoBuffer, false);
+    public async parseDemo(sdfz: Buffer) : Promise<DemoModel.Demo> {
+        const startTime = process.hrtime();
+        if (this.config.verbose){
+            console.log("Processing demo...");
+        }
+
+        const sdf = await ungzip(sdfz);
+
+        this.bufferStream = new BufferStream(sdf);
 
         this.header = this.parseHeader();
         this.script = this.parseScript(this.bufferStream.read(this.header.scriptSize));
         this.packets = this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
+
+        this.bufferStream.read(this.header.playerStatSize);
+        this.bufferStream.read(this.header.teamStatSize);
+
+        const winningAllyTeam = this.bufferStream.readInt(1, true);
+
+        this.statistics = {
+            winningAllyTeam
+        };
+
+        const endTime = process.hrtime(startTime);
+        const endTimeMs = (endTime[0]* 1000000000 + endTime[1]) / 1000000;
+        if (this.config.verbose){
+            console.log(`Demo ${this.header.gameId} processed in ${endTimeMs}`);
+        }
 
         return {
             header: this.header,
@@ -206,7 +233,7 @@ export class DemoParser {
     }
 
     protected parsePackets(buffer: Buffer) : DemoModel.Packet.AbstractPacket[] {
-        const bufferStream = new BufferStream(buffer, false);
+        const bufferStream = new BufferStream(buffer);
         const packetParser = new PacketParser({ ...this.config });
         const packets: DemoModel.Packet.AbstractPacket[] = [];
 
@@ -222,6 +249,7 @@ export class DemoParser {
                     continue;
                 }
                 packets.push(packet);
+                this.onPacket.dispatch(packet);
             }
         }
 

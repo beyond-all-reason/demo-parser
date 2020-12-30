@@ -19,6 +19,7 @@
     "url": "https://github.com/Jazcash/sdfz-demo-parser.git"
   },
   "dependencies": {
+    "jaz-signals": "^0.1.0",
     "node-gzip": "^1.1.2"
   },
   "devDependencies": {
