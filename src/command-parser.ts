@@ -2,7 +2,8 @@
 // https://github.com/spring/spring/blob/develop/rts/Sim/Units/CommandAI/CommandAI.cpp
 // https://springrts.com/wiki/Lua_CMDs
 
-import { DemoModel, DemoParserConfig } from "./index";
+import { DemoParserConfig } from "./demo-parser";
+import { DemoModel } from "./index";
 
 type GetDataType<T extends keyof DemoModel.Command.Type.Data> = DemoModel.Command.Type.Data[T];
 

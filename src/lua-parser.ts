@@ -1,4 +1,4 @@
-import { DemoParserConfig } from "./index";
+import { DemoParserConfig } from "./demo-parser";
 import { BufferStream } from "./buffer-stream";
 
 export interface LuaData {

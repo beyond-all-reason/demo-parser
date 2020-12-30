@@ -4,11 +4,11 @@
 // https://github.com/dansan/spring-replay-site/blob/master/srs/demoparser.py
 
 import * as zlib from "zlib";
-import { DemoParser, DemoParserConfig } from "./index";
 import { BufferStream } from "./buffer-stream";
 import { DemoModel } from "./model";
 import { CommandParser } from "./command-parser";
 import { LuaParser } from "./lua-parser";
+import { DemoParser, DemoParserConfig } from "./demo-parser";
 
 type PacketHandler<key extends DemoModel.Packet.ID> = (bufferStream: BufferStream) => DemoModel.Packet.GetPacketData<key> | void;
 
