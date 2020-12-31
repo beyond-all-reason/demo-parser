@@ -5,7 +5,7 @@
 
 import * as zlib from "zlib";
 import { BufferStream } from "./buffer-stream";
-import { DemoModel } from "./model";
+import { DemoModel } from "./demo-model";
 import { CommandParser } from "./command-parser";
 import { LuaParser } from "./lua-parser";
 import { DemoParser, DemoParserConfig } from "./demo-parser";

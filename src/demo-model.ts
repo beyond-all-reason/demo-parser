@@ -44,7 +44,7 @@ export namespace DemoModel {
         hostip: string;
         ishost: boolean;
         mapname: string;
-        startpostype: number;
+        startpostype: StartPosType;
         numrestrictions: number;
         autohostaccountid: number;
         autohostname: string;
@@ -677,5 +677,12 @@ export namespace DemoModel {
         RETURN_FIRE = 1,
         FIRE_AT_WILL = 2,
         FIRE_AT_NEUTRAL = 3
+    }
+
+    export enum StartPosType {
+        FIXED = 0,
+        RANDOM = 1,
+        CHOOSE_IN_GAME = 2,
+        CHOOSE_BEFORE_GAME = 3
     }
 }

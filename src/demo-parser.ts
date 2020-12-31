@@ -1,6 +1,6 @@
 import { Signal } from "jaz-signals";
 import { ungzip } from "node-gzip";
-import { DemoModel } from "./model";
+import { DemoModel } from "./demo-model";
 import { BufferStream } from "./buffer-stream";
 import { PacketParser } from "./packet-parser";
 import { LuaHandler } from "./lua-parser";
