@@ -75,15 +75,7 @@ export class DemoParser {
         this.header = this.parseHeader();
         this.script = this.parseScript(this.bufferStream.read(this.header.scriptSize));
         this.packets = this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
-
-        this.bufferStream.read(this.header.playerStatSize);
-        this.bufferStream.read(this.header.teamStatSize);
-
-        const winningAllyTeam = this.bufferStream.readInt(1, true);
-
-        this.statistics = {
-            winningAllyTeam
-        };
+        this.statistics = this.parseStatistics(this.bufferStream);
 
         const endTime = process.hrtime(startTime);
         const endTimeMs = (endTime[0]* 1000000000 + endTime[1]) / 1000000;
@@ -252,5 +244,14 @@ export class DemoParser {
         }
 
         return packets;
+    }
+
+    // TODO
+    protected parseStatistics(bufferStream: BufferStream) {
+        const playerStatSize = bufferStream.read(this.header.playerStatSize);
+        const teamStatSize = bufferStream.read(this.header.teamStatSize);
+        const winningAllyTeams = bufferStream.read(this.header.winningAllyTeamsSize);
+
+        return {};
     }
 }
