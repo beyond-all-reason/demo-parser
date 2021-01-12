@@ -14,12 +14,12 @@ export class BufferStream {
 
     public readString(size?: number, trimNulls = true) {
         const str = this.read(size).toString();
-        if (trimNulls){
-            return str.replace(/\0/g, '');
+        if (trimNulls) {
+            return str.replace(/\0/g, "");
         }
 
         return str;
-    } 
+    }
 
     public readInt(size: 1 | 2 | 3 | 4 = 4, unsigned = false) : number {
         if (unsigned) {
@@ -31,7 +31,7 @@ export class BufferStream {
 
     public readInts(amount: number, size: 1 | 2 | 3 | 4 = 4, unsigned = false) : number[] {
         const nums: number[] = [];
-        for (let i=0; i<amount; i++){
+        for (let i=0; i<amount; i++) {
             nums.push(this.readInt(size, unsigned));
         }
         return nums;
@@ -51,7 +51,7 @@ export class BufferStream {
 
     public readFloats(amount: number) : number[] {
         const nums: number[] = [];
-        for (let i=0; i<amount; i++){
+        for (let i=0; i<amount; i++) {
             nums.push(this.readFloat());
         }
         return nums;

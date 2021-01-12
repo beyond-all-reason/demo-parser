@@ -1,4 +1,4 @@
-import { DemoParser, DemoParserConfig } from "./demo-parser";
 import { DemoModel } from "./demo-model";
+import { DemoParser, DemoParserConfig } from "./demo-parser";
 
-export { DemoParser, DemoParserConfig, DemoModel };
+export { DemoModel, DemoParser, DemoParserConfig };

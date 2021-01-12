@@ -4,11 +4,12 @@
 // https://github.com/dansan/spring-replay-site/blob/master/srs/demoparser.py
 
 import * as zlib from "zlib";
+
 import { BufferStream } from "./buffer-stream";
-import { DemoModel } from "./demo-model";
 import { CommandParser } from "./command-parser";
-import { LuaParser } from "./lua-parser";
+import { DemoModel } from "./demo-model";
 import { DemoParser, DemoParserConfig } from "./demo-parser";
+import { LuaParser } from "./lua-parser";
 
 type PacketHandler<key extends DemoModel.Packet.ID> = (bufferStream: BufferStream) => DemoModel.Packet.GetPacketData<key> | void;
 
@@ -16,14 +17,14 @@ export class PacketParser {
     protected config: DemoParserConfig;
     protected commandParser: CommandParser;
     protected luaParser: LuaParser;
-    protected packetHandlers: { [key in DemoModel.Packet.ID]?: PacketHandler<key> };
+    protected packetHandlers: { [key in DemoModel.Packet.ID]: PacketHandler<key> };
     protected gameStartTime: number;
 
     constructor(config: DemoParserConfig) {
         this.config = config;
         this.commandParser = new CommandParser(this.config);
         this.luaParser = new LuaParser(this.config);
-        this.packetHandlers = this.standardPacketHandlers();
+        this.packetHandlers = this.setupStandardPacketHandlers();
         this.gameStartTime = 0;
     }
 
@@ -31,18 +32,18 @@ export class PacketParser {
         const bufferStream = new BufferStream(buffer);
 
         const packetId = bufferStream.readInt(1) as DemoModel.Packet.ID;
-        if ((this.config.includePackets!.length > 0 && !this.config.includePackets!.includes(packetId)) || this.config.excludePackets!.includes(packetId)){
+
+        if ((this.config.includePackets!.length > 0 && !this.config.includePackets!.includes(packetId)) || this.config.excludePackets!.includes(packetId)) {
             return;
         }
 
         const packetName = DemoModel.Packet.ID[packetId];
-
         const packetHandler = this.packetHandlers[packetId];
-        if (!packetHandler && this.config.verbose) {
-            console.log(`No packet handler found for packet id: ${packetId} (${packetName})`);
-        }
+        const packetData = packetHandler(bufferStream);
 
-        const packetData = packetHandler ? packetHandler.call(this, bufferStream) : {};
+        if (packetData === undefined && this.config.verbose && packetId !== DemoModel.Packet.ID.NEWFRAME && packetId !== DemoModel.Packet.ID.LUAMSG ) {
+            console.log(`Packet handler not implemented for packet id: ${packetId} (${packetName})`);;
+        }
 
         const packet: DemoModel.Packet.AbstractPacket = {
             id: packetId,
@@ -52,7 +53,7 @@ export class PacketParser {
             data: packetData
         };
 
-        if (this.isPacket(packet, DemoModel.Packet.ID.STARTPLAYING) && packet.data.countdown === 0){
+        if (this.isPacket(packet, DemoModel.Packet.ID.STARTPLAYING) && packet.data!.countdown === 0) {
             this.gameStartTime = packet.fullGameTime;
         } else if (this.gameStartTime > 0) {
             packet.actualGameTime = packet.fullGameTime - this.gameStartTime;
@@ -65,14 +66,13 @@ export class PacketParser {
         return packet.id === packetId;
     }
 
-    protected standardPacketHandlers() : { [key in DemoModel.Packet.ID]: (bufferStream: BufferStream) => DemoModel.Packet.GetPacketData<key> | void } {
+    protected setupStandardPacketHandlers() : { [key in DemoModel.Packet.ID]: (bufferStream: BufferStream) => DemoModel.Packet.GetPacketData<key> | void } {
         return {
             [DemoModel.Packet.ID.KEYFRAME]: (bufferStream) => {
                 const frameNum = bufferStream.readInt();
                 return { frameNum };
             },
             [DemoModel.Packet.ID.NEWFRAME]: (bufferStream) => {
-                return {};
             },
             [DemoModel.Packet.ID.QUIT]: (bufferStream) => {
                 const size = bufferStream.readInt(2);
@@ -162,9 +162,9 @@ export class PacketParser {
                 const commandCount = bufferStream.readInt(2, true);
                 const commands: Array<DemoModel.Command.BaseCommand> = [];
                 for (let i=0; i<commandCount; i++) {
-                    const id = refCmdId == 0 ? bufferStream.readInt(4, true) : refCmdId;
-                    const optionBitmask = refCmdOpts == 0xFF ? bufferStream.readInt(1, true) : refCmdOpts;
-                    const size = refCmdSize == 0xFFFF ? bufferStream.readInt(2, true) : refCmdSize;
+                    const id = refCmdId === 0 ? bufferStream.readInt(4, true) : refCmdId;
+                    const optionBitmask = refCmdOpts === 0xFF ? bufferStream.readInt(1, true) : refCmdOpts;
+                    const size = refCmdSize === 0xFFFF ? bufferStream.readInt(2, true) : refCmdSize;
                     const params: number[] = [];
                     for (let i=0; i<size; i++) {
                         params.push(bufferStream.readFloat());
@@ -276,7 +276,7 @@ export class PacketParser {
                 return { playerNum, reason };
             },
             [DemoModel.Packet.ID.SD_CHKREQUEST]: (bufferStream) => {
-            },       
+            },
             [DemoModel.Packet.ID.SD_CHKRESPONSE]: (bufferStream) => {
             },
             [DemoModel.Packet.ID.SD_BLKREQUEST]: (bufferStream) => {
@@ -289,8 +289,8 @@ export class PacketParser {
                 const size = bufferStream.readInt(2, true);
                 const playerNum = bufferStream.readInt(1);
                 const logMsgLvl = bufferStream.readInt(1);
-                const strData = bufferStream.readString();
-                return { playerNum, logMsgLvl, strData };
+                const data = bufferStream.readString();
+                return { playerNum, logMsgLvl, data };
             },
             [DemoModel.Packet.ID.LUAMSG]: (bufferStream) => {
                 const size = bufferStream.readInt(2, true);
@@ -333,7 +333,7 @@ export class PacketParser {
             },
             [DemoModel.Packet.ID.CLIENTDATA]: (bufferStream) => {
                 const size = bufferStream.readInt(3);
-                const setupText = zlib.unzipSync(bufferStream.read(size)).toString().replace(/\0/g, '');
+                const setupText = zlib.unzipSync(bufferStream.read(size)).toString().replace(/\0/g, "");
                 return { setupText };
             },
             [DemoModel.Packet.ID.ATTEMPTCONNECT]: (bufferStream) => {
@@ -366,6 +366,6 @@ export class PacketParser {
             },
             [DemoModel.Packet.ID.PING]: (bufferStream) => {
             },
-        }
+        };
     }
 }

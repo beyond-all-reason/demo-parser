@@ -1,7 +1,8 @@
 export namespace DemoModel {
     export interface Demo {
         header: Header;
-        script: Script;
+        script: Script.Script;
+        statistics: Statistics.Statistics;
         demoStream: Packet.AbstractPacket<any>[];
     }
 
@@ -26,77 +27,75 @@ export namespace DemoModel {
         winningAllyTeamsSize: number
     }
 
-    export interface Script {
-        gameSettings: ScriptGameSettings;
-        modSettings: ScriptModSettings;
-        mapSettings: ScriptMapSettings;
-        restrictions: ScriptRestrictions;
-        allyTeams: ScriptAllyTeam[];
-        spectators: ScriptPlayer[];
+    export namespace Script {
+        export interface Script {
+            hostSettings: { [key: string]: string };
+            gameSettings: { [key: string]: string };
+            mapSettings: { [key: string]: string };
+            restrictions: { [key: string]: string };
+            allyTeams: AllyTeam[];
+            spectators: Player[];
+        }
+
+        export interface AllyTeam {
+            id: number;
+            numallies: number;
+            startrectbottom: number;
+            startrectleft: number;
+            startrecttop: number;
+            startrectright: number;
+            teams: Team[];
+        }
+
+        export interface Team {
+            id: number;
+            teamleader: number;
+            rgbcolor: number[];
+            allyteam: number;
+            handicap: number;
+            side: string;
+            players: Array<Player | AI>;
+        }
+
+        export interface Player {
+            id: number;
+            skillclass: number;
+            accountid: number;
+            name: string;
+            countrycode: string;
+            skilluncertainty: number;
+            rank: number;
+            skill: string;
+            teamId?: number;
+        }
+
+        export interface AI {
+            id: number;
+            shortname: string;
+            name: string;
+            host: boolean;
+            teamId: number;
+        }
     }
 
-    export interface ScriptGameSettings {
-        [key: string]: string | number | boolean;
-        autohostrank: number;
-        numplayers: number;
-        gametype: string;
-        autohostport: number;
-        hostip: string;
-        ishost: boolean;
-        mapname: string;
-        startpostype: StartPosType;
-        numrestrictions: number;
-        autohostaccountid: number;
-        autohostname: string;
-        autohostcountrycode: string;
-        hostport: number;
-        numallyteams: number;
-        hosttype: string;
-        numteams: number;
-    }
+    export namespace Statistics {
+        export interface Statistics {
+            winningAllyTeamIds: number[];
+            playerStats: Player[];
+            teamStats: Team[];
+        }
 
-    export interface ScriptModSettings {
-        [key: string]: string | number | boolean;
-    }
+        export interface Player {
+            playerId: number;
+            numCommands: number;
+            unitCommands: number;
+            mousePixels: number;
+            mouseClicks: number;
+            keyPresses: number;
+        }
 
-    export interface ScriptMapSettings {
-        [key: string]: string;
-    }
-
-    export interface ScriptRestrictions {
-        [key: string]: string;
-    }
-
-    export interface ScriptAllyTeam {
-        id: number;
-        numallies: number;
-        startrectbottom: number;
-        startrectleft: number;
-        startrecttop: number;
-        startrectright: number;
-        teams: ScriptTeam[];
-    }
-
-    export interface ScriptTeam {
-        id: number;
-        teamleader: number;
-        rgbcolor: number[];
-        allyteam: number;
-        handicap: number;
-        side: string;
-        players: ScriptPlayer[];
-    }
-
-    export interface ScriptPlayer {
-        id: number;
-        skillclass: number;
-        accountid: number;
-        name: string;
-        countrycode: string;
-        skilluncertainty: number;
-        rank: number;
-        skill: string;
-        team?: number;
+        export interface Team {
+        }
     }
 
     // https://github.com/spring/spring/blob/develop/rts/Net/Protocol/NetMessageTypes.h
@@ -156,16 +155,18 @@ export namespace DemoModel {
             GAME_FRAME_PROGRESS = 77,
             PING                = 78,
         }
-        
+
         export type Packet<T extends keyof PacketData> = AbstractPacket<T>;
         export type GetPacketData<T extends keyof PacketData> = PacketData[T];
+
         export interface AbstractPacket<T extends keyof PacketData = any> {
             id: ID;
             name: string;
             fullGameTime: number;
             actualGameTime: number;
-            data: GetPacketData<T>;
+            data?: GetPacketData<T>;
         }
+
         export interface PacketData {
             [ID.KEYFRAME]: {
                 frameNum: number;
@@ -202,10 +203,7 @@ export namespace DemoModel {
             }
             [ID.COMMAND]: {
                 playerNum: number;
-                //commandId: number;
                 timeout: number;
-                //options: number;
-                //params: number[];
                 command: Command.BaseCommand;
             }
             [ID.SELECT]: {
@@ -226,11 +224,6 @@ export namespace DemoModel {
             [ID.AICOMMANDS]: {
                 playerNum: number;
                 aiId: number;
-                // pairwise: number;
-                // refCmdId: number;
-                // refCmdOpts: number;
-                // refCmdSize: number;
-                // unitIds: number[];
                 commands: Array<Command.BaseCommand>;
             }
             [ID.AISHARE]: {
@@ -334,7 +327,7 @@ export namespace DemoModel {
             [ID.LOGMSG]: {
                 playerNum: number;
                 logMsgLvl: number;
-                strData: string;
+                data: string;
             }
             [ID.LUAMSG]: {
                 playerNum: number;
@@ -348,7 +341,7 @@ export namespace DemoModel {
                 param: number;
             }
             [ID.GAMEDATA]: {
-                setup: Script;
+                setup: Script.Script;
                 mapChecksum: string;
                 modChecksum: string;
                 randomSeed: number;
@@ -627,7 +620,7 @@ export namespace DemoModel {
             [ID.AUTOREPAIRLEVEL]: Type.ID.ICON_MODE,
             [ID.IDLEMODE]: Type.ID.ICON_MODE,
             [ID.FAILED]: Type.ID.ICON,
-        }
+        };
     }
 
     export enum LeaveReason {
