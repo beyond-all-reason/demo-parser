@@ -126,8 +126,6 @@ export class DemoParser {
     }
 
     public parseScript(buffer: Buffer) : DemoModel.Script.Script {
-        console.log(buffer.toString());
-
         let script = buffer.toString().replace(/\n/g, "");
         const parts = script.slice(7, script.length -1).split(/\{|\}/);
         const gameSettings = parts.pop() as string;
