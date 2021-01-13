@@ -341,7 +341,7 @@ export namespace DemoModel {
                 param: number;
             }
             [ID.GAMEDATA]: {
-                setup: Script.Script;
+                script: string;
                 mapChecksum: string;
                 modChecksum: string;
                 randomSeed: number;

@@ -222,6 +222,7 @@ export class PacketParser {
                 return { playerNum, numCommands, unitCommands, mousePixels, mouseClicks, keyPresses };
             },
             [DemoModel.Packet.ID.GAMEOVER]: (bufferStream) => {
+                const size = bufferStream.readInt(1);
                 const playerNum = bufferStream.readInt(1);
                 const winningAllyTeams = bufferStream.readInts(bufferStream.readStream.readableLength, 1, true);
                 return { playerNum, winningAllyTeams };
@@ -314,11 +315,11 @@ export class PacketParser {
                 const size = bufferStream.readInt(2);
                 const compressedSize = bufferStream.readInt(2);
                 const setupText = zlib.unzipSync(bufferStream.read(compressedSize));
-                const setup = new DemoParser().parseScript(setupText);
+                const script = setupText.toString().replace(/\\n/g, "\n");
                 const mapChecksum = bufferStream.read(64).toString("hex");
                 const modChecksum = bufferStream.read(64).toString("hex");
                 const randomSeed = bufferStream.readInt(4, true);
-                return { setup, mapChecksum, modChecksum, randomSeed };
+                return { script, mapChecksum, modChecksum, randomSeed };
             },
             [DemoModel.Packet.ID.ALLIANCE]: (bufferStream) => {
             },
