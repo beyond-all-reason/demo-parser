@@ -8,7 +8,7 @@ import * as zlib from "zlib";
 import { BufferStream } from "./buffer-stream";
 import { CommandParser } from "./command-parser";
 import { DemoModel } from "./demo-model";
-import { DemoParser, DemoParserConfig } from "./demo-parser";
+import { DemoParserConfig } from "./demo-parser";
 import { LuaParser } from "./lua-parser";
 
 type PacketHandler<key extends DemoModel.Packet.ID> = (bufferStream: BufferStream) => DemoModel.Packet.GetPacketData<key> | void;
