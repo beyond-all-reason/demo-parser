@@ -34,24 +34,26 @@ export namespace DemoModel {
             mapSettings: { [key: string]: string };
             restrictions: { [key: string]: string };
             allyTeams: AllyTeam[];
-            spectators: Player[];
+            spectators: Spectator[];
         }
 
         export interface AllyTeam {
             id: number;
             numallies: number;
-            startrectbottom: number;
-            startrectleft: number;
-            startrecttop: number;
-            startrectright: number;
+            startBox: {
+                top: number;
+                bottom: number;
+                left: number;
+                right: number;
+            };
             teams: Team[];
         }
 
         export interface Team {
             id: number;
-            teamleader: number;
-            rgbcolor: number[];
-            allyteam: number;
+            teamLeaderId: number;
+            rgbColor: number[];
+            allyTeamId: number;
             handicap: number;
             side: string;
             players: Array<Player | AI>;
@@ -60,18 +62,20 @@ export namespace DemoModel {
         export interface Player {
             id: number;
             skillclass: number;
-            accountid: number;
+            userId: number;
             name: string;
-            countrycode: string;
-            skilluncertainty: number;
+            countryCode: string;
+            skillUncertainty: number;
             rank: number;
             skill: string;
-            teamId?: number;
+            teamId: number;
         }
+
+        export type Spectator = Omit<Player, "teamId">;
 
         export interface AI {
             id: number;
-            shortname: string;
+            shortName: string;
             name: string;
             host: boolean;
             teamId: number;
