@@ -62,12 +62,12 @@ export namespace DemoModel {
 
         export interface Player {
             id: number;
-            skillclass: number;
             userId: number;
             name: string;
             countryCode: string;
-            skillUncertainty?: number;
             rank: number;
+            skillclass?: number;
+            skillUncertainty?: number;
             skill?: string;
             teamId: number;
             startPos?: Command.Type.MapPos;

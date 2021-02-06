@@ -92,9 +92,9 @@ export class ScriptParser {
                     id: parseInt(key.split("player")[1]),
                     userId: parseInt(obj.accountid),
                     name: obj.name,
-                    skillclass: parseInt(obj.skillclass),
+                    skillclass: parseInt(obj.skillclass) || undefined,
                     countryCode: obj.countrycode,
-                    skillUncertainty: parseInt(obj.skilluncertainty),
+                    skillUncertainty: parseInt(obj.skilluncertainty) || undefined,
                     rank: parseInt(obj.rank),
                     skill: obj.skill
                 };
