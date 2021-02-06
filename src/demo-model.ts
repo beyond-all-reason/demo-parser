@@ -2,6 +2,7 @@ export namespace DemoModel {
     export interface Demo {
         header: Header;
         script: Script.Script;
+        rawScript: string;
         statistics: Statistics.Statistics;
         demoStream: Packet.AbstractPacket<any>[];
     }
@@ -65,10 +66,11 @@ export namespace DemoModel {
             userId: number;
             name: string;
             countryCode: string;
-            skillUncertainty: number;
+            skillUncertainty?: number;
             rank: number;
-            skill: string;
+            skill?: string;
             teamId: number;
+            startPos?: Command.Type.MapPos;
         }
 
         export type Spectator = Omit<Player, "teamId">;
@@ -79,6 +81,7 @@ export namespace DemoModel {
             name: string;
             host: boolean;
             teamId: number;
+            startPos?: Command.Type.MapPos;
         }
     }
 

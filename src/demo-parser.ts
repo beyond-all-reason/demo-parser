@@ -41,7 +41,8 @@ const defaultConfig: Partial<DemoParserConfig> = {
     verbose: false,
     includePackets: [],
     excludePackets: [
-        DemoModel.Packet.ID.NEWFRAME
+        DemoModel.Packet.ID.NEWFRAME,
+        DemoModel.Packet.ID.KEYFRAME,
     ],
     includeCommands: [],
     excludeCommands: [],
@@ -85,7 +86,8 @@ export class DemoParser {
         this.bufferStream = new BufferStream(sdf);
 
         this.header = this.parseHeader();
-        this.script = new ScriptParser(this.config).parseScript(this.bufferStream.read(this.header.scriptSize));
+        const rawScript = this.bufferStream.read(this.header.scriptSize);
+        this.script = new ScriptParser(this.config).parseScript(rawScript);
         this.packets = this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
         this.statistics = this.parseStatistics(this.bufferStream.read());
 
@@ -97,6 +99,7 @@ export class DemoParser {
 
         return {
             header: this.header,
+            rawScript: rawScript.toString(),
             script: this.script,
             statistics: this.statistics,
             demoStream: this.packets,
@@ -130,6 +133,7 @@ export class DemoParser {
         const bufferStream = new BufferStream(buffer);
         const packetParser = new PacketParser({ ...this.config });
         const packets: DemoModel.Packet.AbstractPacket[] = [];
+        const startPositions: { [playerNum: number]: DemoModel.Command.Type.MapPos } = {};
 
         while (bufferStream.readStream.readableLength > 0) {
             const modGameTime = bufferStream.readFloat();
@@ -142,8 +146,21 @@ export class DemoParser {
                 if (packet.data.playerNum !== undefined && this.config.includePlayerIds?.length && !this.config.includePlayerIds?.includes(packet.data.playerNum)) {
                     continue;
                 }
+                if (packetParser.isPacket(packet, DemoModel.Packet.ID.STARTPOS) && packet.data.readyState === DemoModel.ReadyState.READY) {
+                    startPositions[packet.data.myTeam] = { x: packet.data.x, y: packet.data.y, z: packet.data.z };
+                }
                 packets.push(packet);
                 this.onPacket.dispatch(packet);
+            }
+        }
+
+        for (const allyTeam of this.script.allyTeams) {
+            for (const team of allyTeam.teams) {
+                for (const player of team.players) {
+                    if (startPositions[player.teamId]) {
+                        player.startPos = startPositions[player.teamId];
+                    }
+                }
             }
         }
 

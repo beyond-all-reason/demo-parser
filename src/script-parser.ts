@@ -102,7 +102,7 @@ export class ScriptParser {
                     const player: DemoModel.Script.Player = {
                         ...playerOrSpec,
                         teamId: parseInt(obj.team)
-                    }
+                    };
                     players[player.teamId] = player;
                 } else {
                     spectators.push(playerOrSpec);
