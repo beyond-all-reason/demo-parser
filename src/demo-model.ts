@@ -68,7 +68,7 @@ export namespace DemoModel {
             rank: number;
             skillclass?: number;
             skillUncertainty?: number;
-            skill?: string;
+            skill: string;
             teamId: number;
             startPos?: Command.Type.MapPos;
         }
