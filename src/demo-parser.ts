@@ -8,6 +8,7 @@ import { DemoModel } from "./demo-model";
 import { LuaHandler } from "./lua-parser";
 import { PacketParser } from "./packet-parser";
 import { ScriptParser } from "./script-parser";
+import { isPlayer } from "./utils";
 
 export interface DemoParserConfig {
     verbose?: boolean;
@@ -43,6 +44,7 @@ const defaultConfig: Partial<DemoParserConfig> = {
     excludePackets: [
         DemoModel.Packet.ID.NEWFRAME,
         DemoModel.Packet.ID.KEYFRAME,
+        DemoModel.Packet.ID.SYNCRESPONSE
     ],
     includeCommands: [],
     excludeCommands: [],
@@ -133,7 +135,8 @@ export class DemoParser {
         const bufferStream = new BufferStream(buffer);
         const packetParser = new PacketParser({ ...this.config });
         const packets: DemoModel.Packet.AbstractPacket[] = [];
-        const startPositions: { [playerNum: number]: DemoModel.Command.Type.MapPos } = {};
+        const startPositions: { [teamId: number]: DemoModel.Command.Type.MapPos } = {};
+        const factions: { [playerId: number]: string } = {};
 
         while (bufferStream.readStream.readableLength > 0) {
             const modGameTime = bufferStream.readFloat();
@@ -146,9 +149,15 @@ export class DemoParser {
                 if (packet.data.playerNum !== undefined && this.config.includePlayerIds?.length && !this.config.includePlayerIds?.includes(packet.data.playerNum)) {
                     continue;
                 }
+
                 if (packetParser.isPacket(packet, DemoModel.Packet.ID.STARTPOS) && packet.data.readyState === DemoModel.ReadyState.READY) {
                     startPositions[packet.data.myTeam] = { x: packet.data.x, y: packet.data.y, z: packet.data.z };
                 }
+
+                if (packetParser.isPacket(packet, DemoModel.Packet.ID.LUAMSG) && packet.data?.data?.name === "FACTION_PICKER") {
+                    factions[packet.data.playerNum] = packet.data.data.data;
+                }
+
                 packets.push(packet);
                 this.onPacket.dispatch(packet);
             }
@@ -159,6 +168,10 @@ export class DemoParser {
                 for (const player of team.players) {
                     if (startPositions[player.teamId]) {
                         player.startPos = startPositions[player.teamId];
+                    }
+
+                    if (isPlayer(player) && factions[player.id]) {
+                        team.side = factions[player.id];
                     }
                 }
             }

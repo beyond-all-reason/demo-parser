@@ -35,7 +35,7 @@ export class LuaParser {
         const name = handler.name;
 
         try {
-            const data = handler.parser(buffer, str);
+            const data = handler.parser(buffer.slice(handler.parseStartIndex), str.slice(handler.parseStartIndex));
             return { name, data };
         } catch (err) {
             if (this.config.verbose) {
@@ -51,7 +51,7 @@ export const standardLuaHandlers: LuaHandler[] = [
     {
         // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/cmd_mouse_pos_broadcast.lua#L80
         name: "MOUSE_POS_BROADCAST",
-        parseStartIndex: 4,
+        parseStartIndex: 0,
         validator: (buffer, str) => str[0] === "£",
         parser: (buffer, str) => {
             const click = str.substr(3, 1) === "1"; // not seen this be true yet, but store it anyway
@@ -69,7 +69,7 @@ export const standardLuaHandlers: LuaHandler[] = [
     {
         // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/fps_broadcast.lua#L37
         name: "FPS_BROADCAST",
-        parseStartIndex: 4,
+        parseStartIndex: 0,
         validator: (buffer, str) => str[0] === "@",
         parser: (buffer, str) => {
             const fps = Number(str.slice(3));
@@ -96,6 +96,15 @@ export const standardLuaHandlers: LuaHandler[] = [
                 mostDamageTaken: parts.shift(),
                 sleep: parts.shift()
             };
+        }
+    },
+    {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luaui/Widgets_BAR/gui_factionpicker.lua
+        name: "FACTION_PICKER",
+        parseStartIndex: 1,
+        validator: (buffer, str) => buffer[0] === 0x8a,
+        parser: (buffer, str) => {
+            return str === "542" ? "Cortex" : "Armada";
         }
     }
 ];
