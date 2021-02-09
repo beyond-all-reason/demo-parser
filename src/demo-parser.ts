@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import { Signal } from "jaz-signals";
+import { delay } from "jaz-ts-utils";
 import { ungzip } from "node-gzip";
 import * as path from "path";
 
@@ -63,7 +64,6 @@ export class DemoParser {
     protected bufferStream!: BufferStream;
     protected header!: DemoModel.Header;
     protected script!: DemoModel.Script.Script;
-    protected packets!: DemoModel.Packet.AbstractPacket[];
     protected statistics!: DemoModel.Statistics.Statistics;
 
     public onPacket: Signal<DemoModel.Packet.AbstractPacket> = new Signal();
@@ -90,7 +90,7 @@ export class DemoParser {
         this.header = this.parseHeader();
         const rawScript = this.bufferStream.read(this.header.scriptSize);
         this.script = new ScriptParser(this.config).parseScript(rawScript);
-        this.packets = this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
+        await this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
         this.statistics = this.parseStatistics(this.bufferStream.read());
 
         const endTime = process.hrtime(startTime);
@@ -103,8 +103,7 @@ export class DemoParser {
             header: this.header,
             rawScript: rawScript.toString(),
             script: this.script,
-            statistics: this.statistics,
-            demoStream: this.packets,
+            statistics: this.statistics
         };
     }
 
@@ -131,12 +130,13 @@ export class DemoParser {
         };
     }
 
-    protected parsePackets(buffer: Buffer) : DemoModel.Packet.AbstractPacket[] {
+    protected async parsePackets(buffer: Buffer) {
         const bufferStream = new BufferStream(buffer);
         const packetParser = new PacketParser({ ...this.config });
-        const packets: DemoModel.Packet.AbstractPacket[] = [];
         const startPositions: { [teamId: number]: DemoModel.Command.Type.MapPos } = {};
         const factions: { [playerId: number]: string } = {};
+
+        let counter = 0;
 
         while (bufferStream.readStream.readableLength > 0) {
             const modGameTime = bufferStream.readFloat();
@@ -158,8 +158,17 @@ export class DemoParser {
                     factions[packet.data.playerNum] = packet.data.data.data;
                 }
 
-                packets.push(packet);
                 this.onPacket.dispatch(packet);
+            }
+
+            counter++;
+            if (counter % 10000 === 0) {
+                // https://stackoverflow.com/questions/66110154/nodejs-readable-stream-causing-memory-leak
+                // const memory = process.memoryUsage();
+                // const used = memory.heapUsed / 1048576;
+                // const total = memory.heapTotal / 1048576;
+                // console.log(`Used: ${used}MB, Total: ${total}MB`);
+                await delay(5);
             }
         }
 
@@ -169,15 +178,12 @@ export class DemoParser {
                     if (startPositions[player.teamId]) {
                         player.startPos = startPositions[player.teamId];
                     }
-
                     if (isPlayer(player) && factions[player.id]) {
                         team.side = factions[player.id];
                     }
                 }
             }
         }
-
-        return packets;
     }
 
     // TODO

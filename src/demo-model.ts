@@ -4,7 +4,6 @@ export namespace DemoModel {
         script: Script.Script;
         rawScript: string;
         statistics: Statistics.Statistics;
-        demoStream: Packet.AbstractPacket<any>[];
     }
 
     export interface Header {
