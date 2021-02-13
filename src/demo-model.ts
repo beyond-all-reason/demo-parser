@@ -109,7 +109,7 @@ export namespace DemoModel {
         time: number;
         playerId: number;
         name: string;
-        type: ChatType;
+        type: "ally" | "spec" | "global" | "self";
         message: string;
     }
 
@@ -692,12 +692,5 @@ export namespace DemoModel {
         RANDOM = 1,
         CHOOSE_IN_GAME = 2,
         CHOOSE_BEFORE_GAME = 3
-    }
-
-    export enum ChatType {
-        ALLY = 252,
-        SPEC = 253,
-        GLOBAL = 254,
-        SELF
     }
 }

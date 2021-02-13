@@ -167,7 +167,7 @@ export class DemoParser {
 
                 if (packetParser.isPacket(packet, DemoModel.Packet.ID.CHAT)) {
                     const chatMessage = this.parseChatPacket(packet);
-                    if (chatMessage.type !== DemoModel.ChatType.SELF) {
+                    if (chatMessage.type !== "self") {
                         this.chatlog.push(chatMessage);
                     }
                 }
@@ -256,7 +256,7 @@ export class DemoParser {
 
     protected parseChatPacket(packet: DemoModel.Packet.Packet<DemoModel.Packet.ID.CHAT>) : DemoModel.ChatMessage {
         const data = packet.data!;
-        const chatType: DemoModel.ChatType = data.toId === 252 ? DemoModel.ChatType.ALLY : data.toId === 253 ? DemoModel.ChatType.SPEC : data.toId === 254 ? DemoModel.ChatType.GLOBAL : DemoModel.ChatType.SELF;
+        const chatType = data.toId === 252 ? "ally" : data.toId === 253 ? "spec" : data.toId === 254 ? "global" : "self";
 
         return {
             time: packet.actualGameTime,
