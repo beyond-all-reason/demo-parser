@@ -4,6 +4,7 @@ export namespace DemoModel {
         script: Script.Script;
         rawScript: string;
         statistics: Statistics.Statistics;
+        chatlog: ChatMessage[];
     }
 
     export interface Header {
@@ -104,6 +105,14 @@ export namespace DemoModel {
         }
     }
 
+    export interface ChatMessage {
+        time: number;
+        playerId: number;
+        name: string;
+        type: ChatType;
+        message: string;
+    }
+
     // https://github.com/spring/spring/blob/develop/rts/Net/Protocol/NetMessageTypes.h
     export namespace Packet {
         export enum ID {
@@ -170,7 +179,7 @@ export namespace DemoModel {
             name: string;
             fullGameTime: number;
             actualGameTime: number;
-            data?: GetPacketData<T>;
+            data: GetPacketData<T>;
         }
 
         export interface PacketData {
@@ -683,5 +692,12 @@ export namespace DemoModel {
         RANDOM = 1,
         CHOOSE_IN_GAME = 2,
         CHOOSE_BEFORE_GAME = 3
+    }
+
+    export enum ChatType {
+        ALLY = 252,
+        SPEC = 253,
+        GLOBAL = 254,
+        SELF
     }
 }

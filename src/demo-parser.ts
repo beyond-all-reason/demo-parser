@@ -1,6 +1,5 @@
 import { promises as fs } from "fs";
-import { Signal } from "jaz-signals";
-import { delay } from "jaz-ts-utils";
+import { delay, Signal } from "jaz-ts-utils";
 import { ungzip } from "node-gzip";
 import * as path from "path";
 
@@ -63,8 +62,10 @@ export class DemoParser {
     protected config: DemoParserConfig;
     protected bufferStream!: BufferStream;
     protected header!: DemoModel.Header;
+    protected playerNames: Map<number, string> = new Map();
     protected script!: DemoModel.Script.Script;
     protected statistics!: DemoModel.Statistics.Statistics;
+    protected chatlog: DemoModel.ChatMessage[] = [];
 
     public onPacket: Signal<DemoModel.Packet.AbstractPacket> = new Signal();
 
@@ -88,9 +89,14 @@ export class DemoParser {
         this.bufferStream = new BufferStream(sdf);
 
         this.header = this.parseHeader();
+
         const rawScript = this.bufferStream.read(this.header.scriptSize);
         this.script = new ScriptParser(this.config).parseScript(rawScript);
+
+        this.indexPlayerNames(this.script);
+
         await this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
+
         this.statistics = this.parseStatistics(this.bufferStream.read());
 
         const endTime = process.hrtime(startTime);
@@ -103,7 +109,8 @@ export class DemoParser {
             header: this.header,
             rawScript: rawScript.toString(),
             script: this.script,
-            statistics: this.statistics
+            statistics: this.statistics,
+            chatlog: this.chatlog
         };
     }
 
@@ -156,6 +163,13 @@ export class DemoParser {
 
                 if (packetParser.isPacket(packet, DemoModel.Packet.ID.LUAMSG) && packet.data?.data?.name === "FACTION_PICKER") {
                     factions[packet.data.playerNum] = packet.data.data.data;
+                }
+
+                if (packetParser.isPacket(packet, DemoModel.Packet.ID.CHAT)) {
+                    const chatMessage = this.parseChatPacket(packet);
+                    if (chatMessage.type !== DemoModel.ChatType.SELF) {
+                        this.chatlog.push(chatMessage);
+                    }
                 }
 
                 this.onPacket.dispatch(packet);
@@ -222,5 +236,34 @@ export class DemoParser {
 
     protected parseTeamStatistics(buffer: Buffer) {
         return [] as DemoModel.Statistics.Team[];
+    }
+
+    protected indexPlayerNames(script: DemoModel.Script.Script) {
+        for (const allyTeam of script.allyTeams) {
+            for (const team of allyTeam.teams) {
+                for (const player of team.players) {
+                    if (isPlayer(player)) {
+                        this.playerNames.set(player.id, player.name);
+                    }
+                }
+            }
+        }
+
+        for (const spec of script.spectators) {
+            this.playerNames.set(spec.id, spec.name);
+        }
+    }
+
+    protected parseChatPacket(packet: DemoModel.Packet.Packet<DemoModel.Packet.ID.CHAT>) : DemoModel.ChatMessage {
+        const data = packet.data!;
+        const chatType: DemoModel.ChatType = data.toId === 252 ? DemoModel.ChatType.ALLY : data.toId === 253 ? DemoModel.ChatType.SPEC : data.toId === 254 ? DemoModel.ChatType.GLOBAL : DemoModel.ChatType.SELF;
+
+        return {
+            time: packet.actualGameTime,
+            playerId: data.fromId,
+            name: this.playerNames.get(data.fromId)!,
+            type: chatType,
+            message: data.message.trim()
+        };
     }
 }
