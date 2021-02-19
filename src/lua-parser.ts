@@ -1,3 +1,5 @@
+import * as zlib from "zlib";
+
 import { BufferStream } from "./buffer-stream";
 import { DemoParserConfig } from "./demo-parser";
 
@@ -20,7 +22,11 @@ export class LuaParser {
     constructor(config: DemoParserConfig) {
         this.config = config;
 
-        this.luaHandlers = standardLuaHandlers.concat(config.customLuaHandlers!);
+        if (this.config.includeStandardLuaHandlers) {
+            this.luaHandlers = standardLuaHandlers.concat(config.customLuaHandlers!);
+        } else {
+            this.luaHandlers = config.customLuaHandlers!;
+        }
     }
 
     public parseLuaData(buffer: Buffer) : LuaData | string {
@@ -105,6 +111,48 @@ export const standardLuaHandlers: LuaHandler[] = [
         validator: (buffer, str) => buffer[0] === 0x8a,
         parser: (buffer, str) => {
             return str === "542" ? "Cortex" : "Armada";
+        }
+    },
+    {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/dbg_unitposition_logger.lua#L249
+        name: "UNIT_POSITION_LOGGER",
+        parseStartIndex: 6,
+        validator: (buffer, str) => str.substr(0, 3) === "log",
+        parser: (buffer, str) => {
+            const headerStrings = str.split(";", 4);
+            const frame = parseInt(headerStrings[0]);
+            const partId = parseInt(headerStrings[1]);
+            const participants = parseInt(headerStrings[2]);
+            const attempts = parseInt(headerStrings[3]);
+
+            const splitChar = 0x3b; // semi-colon
+            let occurrence = 0;
+            let index = 0;
+            for (const byte of buffer) {
+                index++;
+                if (byte === splitChar) {
+                    occurrence++;
+                }
+                if (occurrence === 4) {
+                    break;
+                }
+            }
+            const compressedData = buffer.slice(index);
+            const uncompressedData = zlib.unzipSync(compressedData);
+            const rawData = JSON.parse(uncompressedData.toString()) as { [key: number]: number[][] };
+
+            const positions = Object.values(rawData).map(dataset => {
+                for (const vals of dataset) {
+                    return {
+                        unitId: vals[0],
+                        unitDefId: vals[1],
+                        x: vals[2],
+                        y: vals[3]
+                    };
+                }
+            });
+
+            return { frame, partId, participants, attempts, positions };
         }
     }
 ];

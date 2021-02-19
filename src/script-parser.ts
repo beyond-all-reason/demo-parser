@@ -1,4 +1,4 @@
-import { DemoModel } from ".";
+import { DemoModel } from "./demo-model";
 import { DemoParserConfig } from "./demo-parser";
 
 export class ScriptParser {
@@ -8,9 +8,9 @@ export class ScriptParser {
         this.config = config;
     }
 
-    public parseScript(buffer: Buffer) : DemoModel.Script.Script {
-        let script = buffer.toString().replace(/\n/g, "");
-        const parts = script.slice(7, script.length -1).split(/\{|\}/);
+    public parseScript(buffer: Buffer) : Omit<DemoModel.Info.Info, "meta"> {
+        let scriptStr = buffer.toString().replace(/\n/g, "");
+        const parts = scriptStr.slice(7, scriptStr.length -1).split(/\{|\}/);
         const gameSettings = parts.pop() as string;
         const obj: { [key: string]: { [key: string] : string } } = {};
 
@@ -29,18 +29,18 @@ export class ScriptParser {
             }
         }
 
-        const { allyTeams, spectators } = this.parsePlayers(obj);
+        const { allyTeams, players, ais, spectators } = this.parsePlayers(obj);
 
-        const scriptObj: DemoModel.Script.Script = {
+        return {
             hostSettings: this.parseSettings(gameSettings),
             gameSettings: obj.modoptions,
             mapSettings: obj.mapoptions,
             restrictions: obj.restrict,
             allyTeams,
+            players,
+            ais,
             spectators
         };
-
-        return scriptObj as DemoModel.Script.Script;
     }
 
     protected parseSettings(str: string) : { [key: string]: string } {
@@ -54,81 +54,88 @@ export class ScriptParser {
         return obj;
     }
 
-    protected parsePlayers(script: { [key: string]: { [key: string] : string } }) : { allyTeams: DemoModel.Script.AllyTeam[], spectators: DemoModel.Script.Spectator[] } {
-        const allyTeams: DemoModel.Script.AllyTeam[] = [];
-        const teams: DemoModel.Script.Team[] = [];
-        const players: Array<DemoModel.Script.Player | DemoModel.Script.AI> = [];
-        const spectators: DemoModel.Script.Spectator[] = [];
+    protected parsePlayers(script: { [key: string]: { [key: string] : string } }) {
+        const allyTeams: DemoModel.Info.AllyTeam[] = [];
+        const teams: { [teamId: number]: DemoModel.Info.Team } = {};
+        const partialPlayers: Array<Partial<DemoModel.Info.Player>> = [];
+        const partialAis: Array<Partial<DemoModel.Info.AI>> = [];
+        const spectators: DemoModel.Info.Spectator[] = [];
 
         for (const key in script) {
             const obj = script[key];
             if (key.includes("ally")) {
                 const allyTeamId = parseInt(key.split("allyteam")[1]);
-                allyTeams[allyTeamId] = {
-                    id: allyTeamId,
-                    numallies: parseInt(obj.numallies),
+                allyTeams.push({
+                    allyTeamId,
                     startBox: {
                         bottom: parseFloat(obj.startrectbottom),
                         left: parseFloat(obj.startrectleft),
                         top: parseFloat(obj.startrecttop),
                         right: parseFloat(obj.startrectright),
-                    },
-                    teams: []
-                };
+                    }
+                });
             } else if (key.includes("team")) {
                 const teamId = parseInt(key.split("team")[1]);
                 teams[teamId] = {
-                    id: teamId,
+                    teamId,
                     teamLeaderId: parseInt(obj.teamleader),
                     rgbColor: obj.rgbcolor ? obj.rgbcolor.split(" ").map(str => parseFloat(str)) : [],
                     allyTeamId: parseInt(obj.allyteam),
                     handicap: parseInt(obj.handicap),
-                    side: obj.side,
-                    players: []
+                    faction: obj.side,
                 };
             } else if (key.includes("player")) {
                 const isSpec = obj.spectator === "1";
-                const playerOrSpec: Omit<DemoModel.Script.Player, "teamId"> = {
-                    id: parseInt(key.split("player")[1]),
+                const playerOrSpec: DemoModel.Info.Player | DemoModel.Info.Spectator = {
+                    playerId: parseInt(key.split("player")[1]),
                     userId: parseInt(obj.accountid),
                     name: obj.name,
-                    skillclass: parseInt(obj.skillclass) || undefined,
                     countryCode: obj.countrycode,
-                    skillUncertainty: parseInt(obj.skilluncertainty) || undefined,
                     rank: parseInt(obj.rank),
+                    skillclass: parseInt(obj.skillclass) || undefined,
+                    skillUncertainty: parseInt(obj.skilluncertainty) || undefined,
                     skill: obj.skill
                 };
+
                 if (!isSpec) {
-                    const player: DemoModel.Script.Player = {
+                    partialPlayers.push({
                         ...playerOrSpec,
                         teamId: parseInt(obj.team)
-                    };
-                    players[player.teamId] = player;
+                    });
                 } else {
                     spectators.push(playerOrSpec);
                 }
             } else if (key.includes("ai")) {
-                const ai: DemoModel.Script.AI = {
-                    id: parseInt(key.split("ai")[1]),
+                const partialAi: Partial<DemoModel.Info.AI> = {
+                    aiId: parseInt(key.split("ai")[1]),
                     shortName: obj.shortname,
                     name: obj.name,
                     host: obj.host === "1",
                     teamId: parseInt(obj.team)
                 };
-                players[ai.teamId] = ai;
+                partialAis.push(partialAi);
             }
         }
 
-        for (const player of players) {
-            if (player.teamId !== undefined) {
-                teams[player.teamId].players.push(player);
-            }
+        for (const player of partialPlayers) {
+            const team = teams[player.teamId!];
+            player.rgbColor = { r: 255 * team.rgbColor[0], g: 255 * team.rgbColor[1], b: 255 * team.rgbColor[2] };
+            player.allyTeamId = team.allyTeamId;
+            player.handicap = team.handicap;
+            player.faction = team.faction;
         }
 
-        for (const team of teams) {
-            allyTeams[team.allyTeamId].teams.push(team);
+        for (const ai of partialAis) {
+            const team = teams[ai.teamId!];
+            ai.rgbColor = { r: 255 * team.rgbColor[0], g: 255 * team.rgbColor[1], b: 255 * team.rgbColor[2] };
+            ai.allyTeamId = team.allyTeamId;
+            ai.handicap = team.handicap;
+            ai.faction = team.faction;
         }
 
-        return { allyTeams, spectators };
+        const players = partialPlayers as DemoModel.Info.Player[];
+        const ais = partialAis as DemoModel.Info.AI[];
+
+        return { allyTeams, players, ais, spectators };
     }
 }

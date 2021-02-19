@@ -10,6 +10,7 @@ import { CommandParser } from "./command-parser";
 import { DemoModel } from "./demo-model";
 import { DemoParserConfig } from "./demo-parser";
 import { LuaParser } from "./lua-parser";
+import { isPacket } from "./utils";
 
 type PacketHandler<key extends DemoModel.Packet.ID> = (bufferStream: BufferStream) => DemoModel.Packet.GetPacketData<key> | void;
 
@@ -53,17 +54,13 @@ export class PacketParser {
             data: packetData
         };
 
-        if (this.isPacket(packet, DemoModel.Packet.ID.STARTPLAYING) && packet.data!.countdown === 0) {
+        if (isPacket(packet, DemoModel.Packet.ID.STARTPLAYING) && packet.data!.countdown === 0) {
             this.gameStartTime = packet.fullGameTime;
         } else if (this.gameStartTime > 0) {
             packet.actualGameTime = packet.fullGameTime - this.gameStartTime;
         }
 
         return packet;
-    }
-
-    public isPacket<ID extends DemoModel.Packet.ID>(packet: DemoModel.Packet.AbstractPacket, packetId: ID) : packet is DemoModel.Packet.AbstractPacket<ID> {
-        return packet.id === packetId;
     }
 
     protected setupStandardPacketHandlers() : { [key in DemoModel.Packet.ID]: (bufferStream: BufferStream) => DemoModel.Packet.GetPacketData<key> | void } {
@@ -210,7 +207,7 @@ export class PacketParser {
                 const myTeam = bufferStream.readInt(1);
                 const metalShareFraction = bufferStream.readFloat();
                 const energyShareFraction = bufferStream.readFloat();
-                return { playerNum, myTeam, metalShareFraction, energyShareFraction };
+                return { playerNum, teamId: myTeam, metalShareFraction, energyShareFraction };
             },
             [DemoModel.Packet.ID.PLAYERSTAT]: (bufferStream) => {
                 const playerNum = bufferStream.readInt(1);
@@ -258,12 +255,12 @@ export class PacketParser {
             },
             [DemoModel.Packet.ID.STARTPOS]: (bufferStream) => {
                 const playerNum = bufferStream.readInt(1);
-                const myTeam = bufferStream.readInt(1);
+                const teamId = bufferStream.readInt(1);
                 const readyState = bufferStream.readInt(1) as DemoModel.ReadyState;
                 const x = bufferStream.readFloat();
                 const y = bufferStream.readFloat();
                 const z = bufferStream.readFloat();
-                return { playerNum, myTeam, readyState, x, y, z };
+                return { playerNum, teamId, readyState, x, y, z };
             },
             [DemoModel.Packet.ID.PLAYERINFO]: (bufferStream) => {
                 const playerNum = bufferStream.readInt(1, true);

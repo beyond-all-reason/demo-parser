@@ -1,5 +1,5 @@
 import { promises as fs } from "fs";
-import { delay, Signal } from "jaz-ts-utils";
+import { Signal } from "jaz-ts-utils";
 import { ungzip } from "node-gzip";
 import * as path from "path";
 
@@ -8,7 +8,7 @@ import { DemoModel } from "./demo-model";
 import { LuaHandler } from "./lua-parser";
 import { PacketParser } from "./packet-parser";
 import { ScriptParser } from "./script-parser";
-import { isPlayer } from "./utils";
+import { isPacket } from "./utils";
 
 export interface DemoParserConfig {
     verbose?: boolean;
@@ -61,9 +61,9 @@ const defaultConfig: Partial<DemoParserConfig> = {
 export class DemoParser {
     protected config: DemoParserConfig;
     protected bufferStream!: BufferStream;
+    protected info!: DemoModel.Info.Info;
     protected header!: DemoModel.Header;
     protected playerNames: Map<number, string> = new Map();
-    protected script!: DemoModel.Script.Script;
     protected statistics!: DemoModel.Statistics.Statistics;
     protected chatlog: DemoModel.ChatMessage[] = [];
 
@@ -83,21 +83,28 @@ export class DemoParser {
         }
 
         const sdfz = await fs.readFile(demoFilePath);
-
         const sdf = await ungzip(sdfz);
 
         this.bufferStream = new BufferStream(sdf);
 
         this.header = this.parseHeader();
 
-        const rawScript = this.bufferStream.read(this.header.scriptSize);
-        this.script = new ScriptParser(this.config).parseScript(rawScript);
+        const script = this.bufferStream.read(this.header.scriptSize);
 
-        this.indexPlayerNames(this.script);
+        let gameDuration: number = this.header.wallclockTime;
+        let winningAllyTeamIds: number[] | null = null;
+        this.onPacket.add((packet) => {
+            if (isPacket(packet, DemoModel.Packet.ID.GAMEOVER)) {
+                gameDuration = packet.actualGameTime;
+                winningAllyTeamIds = packet.data.winningAllyTeams;
+            }
+        });
 
-        await this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
+        const { startPositions, factions } = await this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
 
         this.statistics = this.parseStatistics(this.bufferStream.read());
+
+        this.info = this.generateInfo({ script, gameDuration, winningAllyTeamIds, startPositions, factions });
 
         const endTime = process.hrtime(startTime);
         const endTimeMs = (endTime[0]* 1000000000 + endTime[1]) / 1000000;
@@ -106,9 +113,9 @@ export class DemoParser {
         }
 
         return {
+            info: this.info,
             header: this.header,
-            rawScript: rawScript.toString(),
-            script: this.script,
+            script: script.toString(),
             statistics: this.statistics,
             chatlog: this.chatlog
         };
@@ -143,8 +150,6 @@ export class DemoParser {
         const startPositions: { [teamId: number]: DemoModel.Command.Type.MapPos } = {};
         const factions: { [playerId: number]: string } = {};
 
-        let counter = 0;
-
         while (bufferStream.readStream.readableLength > 0) {
             const modGameTime = bufferStream.readFloat();
             const length = bufferStream.readInt(4, true);
@@ -157,15 +162,15 @@ export class DemoParser {
                     continue;
                 }
 
-                if (packetParser.isPacket(packet, DemoModel.Packet.ID.STARTPOS) && packet.data.readyState === DemoModel.ReadyState.READY) {
-                    startPositions[packet.data.myTeam] = { x: packet.data.x, y: packet.data.y, z: packet.data.z };
+                if (isPacket(packet, DemoModel.Packet.ID.STARTPOS) && packet.data.readyState === DemoModel.ReadyState.READY) {
+                    startPositions[packet.data.teamId] = { x: packet.data.x, y: packet.data.y, z: packet.data.z };
                 }
 
-                if (packetParser.isPacket(packet, DemoModel.Packet.ID.LUAMSG) && packet.data?.data?.name === "FACTION_PICKER") {
+                if (isPacket(packet, DemoModel.Packet.ID.LUAMSG) && packet.data?.data?.name === "FACTION_PICKER") {
                     factions[packet.data.playerNum] = packet.data.data.data;
                 }
 
-                if (packetParser.isPacket(packet, DemoModel.Packet.ID.CHAT)) {
+                if (isPacket(packet, DemoModel.Packet.ID.CHAT)) {
                     const chatMessage = this.parseChatPacket(packet);
                     if (chatMessage.type !== "self") {
                         this.chatlog.push(chatMessage);
@@ -174,30 +179,9 @@ export class DemoParser {
 
                 this.onPacket.dispatch(packet);
             }
-
-            counter++;
-            if (counter % 10000 === 0) {
-                // https://stackoverflow.com/questions/66110154/nodejs-readable-stream-causing-memory-leak
-                // const memory = process.memoryUsage();
-                // const used = memory.heapUsed / 1048576;
-                // const total = memory.heapTotal / 1048576;
-                // console.log(`Used: ${used}MB, Total: ${total}MB`);
-                await delay(5);
-            }
         }
 
-        for (const allyTeam of this.script.allyTeams) {
-            for (const team of allyTeam.teams) {
-                for (const player of team.players) {
-                    if (startPositions[player.teamId]) {
-                        player.startPos = startPositions[player.teamId];
-                    }
-                    if (isPlayer(player) && factions[player.id]) {
-                        team.side = factions[player.id];
-                    }
-                }
-            }
-        }
+        return { startPositions, factions };
     }
 
     // TODO
@@ -238,22 +222,6 @@ export class DemoParser {
         return [] as DemoModel.Statistics.Team[];
     }
 
-    protected indexPlayerNames(script: DemoModel.Script.Script) {
-        for (const allyTeam of script.allyTeams) {
-            for (const team of allyTeam.teams) {
-                for (const player of team.players) {
-                    if (isPlayer(player)) {
-                        this.playerNames.set(player.id, player.name);
-                    }
-                }
-            }
-        }
-
-        for (const spec of script.spectators) {
-            this.playerNames.set(spec.id, spec.name);
-        }
-    }
-
     protected parseChatPacket(packet: DemoModel.Packet.Packet<DemoModel.Packet.ID.CHAT>) : DemoModel.ChatMessage {
         const data = packet.data!;
         const chatType = data.toId === 252 ? "ally" : data.toId === 253 ? "spec" : data.toId === 254 ? "global" : "self";
@@ -265,5 +233,29 @@ export class DemoParser {
             type: chatType,
             message: data.message.trim()
         };
+    }
+
+    protected generateInfo(setupInfo: DemoModel.Info.SetupInfo) : DemoModel.Info.Info {
+        const meta: DemoModel.Info.Meta = {
+            gameId: this.header.gameId,
+            engine: this.header.versionString,
+            startTime: this.header.startTime,
+            durationMs: Math.round(setupInfo.gameDuration * 1000),
+            fullDurationMs: this.header.wallclockTime * 1000,
+            winningAllyTeamIds: setupInfo.winningAllyTeamIds,
+        };
+
+        const scriptInfo = new ScriptParser(this.config).parseScript(setupInfo.script);
+
+        for (const player of scriptInfo.players) {
+            if (setupInfo.startPositions[player.teamId]) {
+                player.startPos = setupInfo.startPositions[player.teamId];
+            }
+            if (setupInfo.factions[player.playerId]) {
+                player.faction = setupInfo.factions[player.playerId];
+            }
+        }
+
+        return { meta, ... scriptInfo };
     }
 }

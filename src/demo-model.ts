@@ -1,10 +1,92 @@
 export namespace DemoModel {
     export interface Demo {
+        info: Info.Info;
         header: Header;
-        script: Script.Script;
-        rawScript: string;
+        script: string;
         statistics: Statistics.Statistics;
         chatlog: ChatMessage[];
+    }
+
+    export namespace Info {
+        export interface Info {
+            meta: Meta;
+            hostSettings: { [key: string]: string };
+            gameSettings: { [key: string]: string };
+            mapSettings: { [key: string]: string };
+            restrictions: { [key: string]: string };
+            allyTeams: AllyTeam[];
+            players: Player[];
+            ais: AI[];
+            spectators: Spectator[];
+        }
+
+        export interface Meta {
+            gameId: string;
+            engine: string;
+            startTime: Date;
+            durationMs: number;
+            fullDurationMs: number;
+            winningAllyTeamIds: number[] | null;
+        }
+
+        export interface AllyTeam {
+            allyTeamId: number;
+            startBox: {
+                top: number;
+                bottom: number;
+                left: number;
+                right: number;
+            };
+        }
+
+        export interface Team {
+            teamId: number;
+            teamLeaderId: number;
+            rgbColor: number[];
+            allyTeamId: number;
+            handicap: number;
+            faction: string;
+        }
+
+        export interface Player {
+            playerId: number;
+            teamId: number;
+            allyTeamId: number;
+            userId: number;
+            name: string;
+            faction: string;
+            countryCode: string;
+            rank: number;
+            skill: string;
+            rgbColor: { r: number, g: number, b: number };
+            handicap: number;
+            skillclass?: number;
+            skillUncertainty?: number;
+            startPos?: Command.Type.MapPos;
+        }
+
+        export type Spectator = Omit<Player, "teamId" | "allyTeamId" | "rgbColor" | "handicap" | "faction" | "startPos">;
+
+        export interface AI {
+            aiId: number;
+            teamId: number;
+            allyTeamId: number;
+            name: string;
+            shortName: string;
+            host: boolean;
+            faction: string;
+            rgbColor: { r: number, g: number, b: number };
+            handicap: number;
+            startPos?: Command.Type.MapPos;
+        }
+
+        export interface SetupInfo {
+            script: Buffer;
+            gameDuration: number;
+            winningAllyTeamIds: number[] | null;
+            startPositions: { [teamId: number]: DemoModel.Command.Type.MapPos };
+            factions: { [playerId: number]: string };
+        }
     }
 
     export interface Header {
@@ -26,63 +108,6 @@ export namespace DemoModel {
         teamStatElemSize: number,
         teamStatPeriod: number,
         winningAllyTeamsSize: number
-    }
-
-    export namespace Script {
-        export interface Script {
-            hostSettings: { [key: string]: string };
-            gameSettings: { [key: string]: string };
-            mapSettings: { [key: string]: string };
-            restrictions: { [key: string]: string };
-            allyTeams: AllyTeam[];
-            spectators: Spectator[];
-        }
-
-        export interface AllyTeam {
-            id: number;
-            numallies: number;
-            startBox: {
-                top: number;
-                bottom: number;
-                left: number;
-                right: number;
-            };
-            teams: Team[];
-        }
-
-        export interface Team {
-            id: number;
-            teamLeaderId: number;
-            rgbColor: number[];
-            allyTeamId: number;
-            handicap: number;
-            side: string;
-            players: Array<Player | AI>;
-        }
-
-        export interface Player {
-            id: number;
-            userId: number;
-            name: string;
-            countryCode: string;
-            rank: number;
-            skillclass?: number;
-            skillUncertainty?: number;
-            skill: string;
-            teamId: number;
-            startPos?: Command.Type.MapPos;
-        }
-
-        export type Spectator = Omit<Player, "teamId">;
-
-        export interface AI {
-            id: number;
-            shortName: string;
-            name: string;
-            host: boolean;
-            teamId: number;
-            startPos?: Command.Type.MapPos;
-        }
     }
 
     export namespace Statistics {
@@ -278,7 +303,7 @@ export namespace DemoModel {
             }
             [ID.SETSHARE]: {
                 playerNum: number;
-                myTeam: number;
+                teamId: number;
                 metalShareFraction: number;
                 energyShareFraction: number;
             }
@@ -314,7 +339,7 @@ export namespace DemoModel {
             }
             [ID.STARTPOS]: {
                 playerNum: number;
-                myTeam: number;
+                teamId: number;
                 readyState: ReadyState;
                 x: number;
                 y: number;
