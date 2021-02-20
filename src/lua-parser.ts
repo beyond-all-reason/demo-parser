@@ -29,7 +29,7 @@ export class LuaParser {
         }
     }
 
-    public parseLuaData(buffer: Buffer) : LuaData | string {
+    public parseLuaData(buffer: Buffer) : LuaData | string | boolean {
         const str = buffer.toString();
 
         const handler = this.luaHandlers.find(handler => handler.validator(buffer, str));
@@ -39,6 +39,10 @@ export class LuaParser {
         }
 
         const name = handler.name;
+
+        if (this.config.excludeLuaHandlers?.includes(name)) {
+            return "exclude";
+        }
 
         try {
             const data = handler.parser(buffer.slice(handler.parseStartIndex), str.slice(handler.parseStartIndex));
@@ -153,6 +157,89 @@ export const standardLuaHandlers: LuaHandler[] = [
             });
 
             return { frame, partId, participants, attempts, positions };
+        }
+    },
+    {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/camera_lockcamera.lua
+        name: "CAMERA_LOCKCAMERA",
+        parseStartIndex: 0,
+        validator: (buffer, str) => str[0] === "=",
+        parser: (buffer, str) => {
+            // TODO
+            return str;
+        }
+    },
+    {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/activity_broadcast.lua
+        name: "ACTIVITY_BROADCAST",
+        parseStartIndex: 0,
+        validator: (buffer, str) => str[0] === "^",
+        parser: (buffer, str) => {
+            // TODO
+            return str;
+        }
+    },
+    {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/system_info.lua
+        name: "SYSTEM_INFO",
+        parseStartIndex: 5,
+        validator: (buffer, str) => str.substr(0, 3) === "$y$",
+        parser: (buffer, str) => {
+            const captureRegex = new RegExp(""
+                + /(?:CPU:\s+(?<cpu>.*?)\s*)?/.source
+                + /(?:CPU cores:\s+(?<cpuCores>.*?)]\s+Physical CPU Cores:\s+(?<physicalCpuCOres>.*?)\]\s+Logical CPU Cores:\s+(?<logicalCpuCores>.*?)\s*)?/.source
+                + /(?:RAM:\s+(?<memory>.*?)\s*)?/.source
+                + /(?:GPU:\s+(?<gpu>.*?)\s*)?/.source
+                + /(?:GPU VRAM:\s+(?<gpuMemory>.*?)\s*)?/.source
+                + /(?:Display max:\s+(?<maxRes>.*?)\n(?<display>.*?)\s+(?<windowMode>.*?)\s*)?/.source
+                + /(?:OS:\s+(?<os>.*?)\s*)?/.source
+                + /(?:Engine:\s+(?<wordSize>.*?)\s*)?/.source
+                + /(?:Lobby:\s+(?<lobby>.*?)\s*)?/.source
+                + /$/.source
+            , "gm");
+
+            const groups = captureRegex.exec(str)?.groups;
+
+            return groups;
+        }
+    },
+    {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/game_end.lua
+        name: "GAME_END",
+        parseStartIndex: 0,
+        validator: (buffer, str) => str === "pc",
+        parser: (buffer, str) => {
+            return str;
+        }
+    },
+    {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/cmd_idle_players.lua
+        name: "IDLE_PLAYERS",
+        parseStartIndex: 0,
+        validator: (buffer, str) => str.includes("idleplayers"),
+        parser: (buffer, str) => {
+            const isIdle = str.split(" ")[1] === "1";
+            return { isIdle };
+        }
+    },
+    {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/cmd_selected_units.lua
+        name: "ALLY_SELECTED_UNITS",
+        parseStartIndex: 0,
+        validator: (buffer, str) => str.includes("cosu"),
+        parser: (buffer, str) => {
+            // TODO
+            return str;
+        }
+    },
+    {
+        // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luaui/Widgets_BAR/widget_selector.lua
+        name: "XMAS",
+        parseStartIndex: 4,
+        validator: (buffer, str) => str.substr(0, 4) === "xmas",
+        parser: (buffer, str) => {
+            const isXmas = str === "1";
+            return { isXmas };
         }
     }
 ];

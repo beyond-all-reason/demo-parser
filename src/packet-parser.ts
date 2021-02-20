@@ -297,7 +297,7 @@ export class PacketParser {
                 const mode = bufferStream.readInt(1, true);
                 const msg = bufferStream.read();
                 const data = this.luaParser.parseLuaData(msg);
-                if (typeof data === "string" && this.config.excludeUnparsedLuaData) {
+                if (typeof data === "string" && (this.config.excludeUnparsedLuaData || data === "exclude")) {
                     return;
                 }
                 return { playerNum, script, mode, data };

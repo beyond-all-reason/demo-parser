@@ -34,6 +34,8 @@ export interface DemoParserConfig {
     includeStandardLuaHandlers?: boolean;
     /** Array of lua data handlers */
     customLuaHandlers?: LuaHandler[];
+    /** String array of Lua handlers to exclude from the packet stream, where each string is the handler's name attribute */
+    excludeLuaHandlers?: string[];
     /** Lookup object to replace UnitDefIds with actual unit names */
     unitDefIds?: { [key: string]: string };
 }
@@ -52,6 +54,16 @@ const defaultConfig: Partial<DemoParserConfig> = {
     excludeUnparsedLuaData: true,
     includeStandardLuaHandlers: true,
     customLuaHandlers: [],
+    excludeLuaHandlers: [
+        "MOUSE_POS_BROADCAST",
+        "FPS_BROADCAST",
+        "CAMERA_LOCKCAMERA",
+        "ACTIVITY_BROADCAST",
+        "GAME_END",
+        "IDLE_PLAYERS",
+        "ALLY_SELECTED_UNITS",
+        "XMAS"
+    ],
     unitDefIds: {}
 };
 
