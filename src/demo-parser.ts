@@ -16,17 +16,8 @@ export interface DemoParserConfig {
     includePackets?: DemoModel.Packet.ID[];
     /** Array of all packet IDs to ignore */
     excludePackets?: DemoModel.Packet.ID[];
-    /** If not empty, only save commands with these commandIds */
-    includeCommands?: DemoModel.Command.ID[];
-    /** Array of all command IDs to ignore */
-    excludeCommands?: DemoModel.Command.ID[];
     /** If not empty, only save packets and commands from these playerIds */
     includePlayerIds?: number[];
-    /**
-     * If false, will still include LUAMSG packets even if their data cannot be parsed
-     * @default true
-     * */
-    excludeUnparsedLuaData?: boolean;
     /**
      * Include standard Lua data parsers
      * @default true
