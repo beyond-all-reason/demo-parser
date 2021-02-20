@@ -48,10 +48,7 @@ const defaultConfig: Partial<DemoParserConfig> = {
         DemoModel.Packet.ID.KEYFRAME,
         DemoModel.Packet.ID.SYNCRESPONSE
     ],
-    includeCommands: [],
-    excludeCommands: [],
     includePlayerIds: [],
-    excludeUnparsedLuaData: true,
     includeStandardLuaHandlers: true,
     customLuaHandlers: [],
     excludeLuaHandlers: [
