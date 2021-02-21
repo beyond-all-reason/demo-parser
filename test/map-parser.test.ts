@@ -12,5 +12,5 @@ it("usage-example", async () => {
 
     const demo = await parser.parseDemo(demoPath);
 
-    expect(demo.script.spectators[1].name).toBe("[Fx]Jazcash");
+    expect(demo.info.spectators[1].name).toBe("[Fx]Jazcash");
 });
