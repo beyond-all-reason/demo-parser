@@ -162,7 +162,7 @@ export class DemoParser {
                     continue;
                 }
 
-                if (isPacket(packet, DemoModel.Packet.ID.STARTPOS) && packet.data.readyState === DemoModel.ReadyState.READY) {
+                if (isPacket(packet, DemoModel.Packet.ID.STARTPOS)) {
                     startPositions[packet.data.teamId] = { x: packet.data.x, y: packet.data.y, z: packet.data.z };
                 }
 

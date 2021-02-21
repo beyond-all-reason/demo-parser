@@ -672,7 +672,7 @@ export namespace DemoModel {
     export enum ReadyState {
         NOT_READY = 0,
         READY = 1,
-        NO_UPDATE = 2
+        NO_UPDATE = 2,
     }
 
     export enum TeamAction {

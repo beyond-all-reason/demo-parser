@@ -1,5 +1,5 @@
 import { DemoModel } from "./demo-model";
 import { DemoParser, DemoParserConfig } from "./demo-parser";
-import { isPlayer, isSpec, isPacket } from "./utils";
+import { isPacket, isPlayer, isSpec } from "./utils";
 
-export { DemoModel, DemoParser, DemoParserConfig, isPlayer, isSpec, isPacket };
+export { DemoModel, DemoParser, DemoParserConfig, isPacket, isPlayer, isSpec };
