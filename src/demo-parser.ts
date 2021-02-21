@@ -92,7 +92,7 @@ export class DemoParser {
         const script = this.bufferStream.read(this.header.scriptSize);
 
         let gameDuration: number = this.header.wallclockTime;
-        let winningAllyTeamIds: number[] | null = null;
+        let winningAllyTeamIds: number[] = [];
         this.onPacket.add((packet) => {
             if (isPacket(packet, DemoModel.Packet.ID.GAMEOVER)) {
                 gameDuration = packet.actualGameTime;

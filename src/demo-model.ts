@@ -26,7 +26,7 @@ export namespace DemoModel {
             startTime: Date;
             durationMs: number;
             fullDurationMs: number;
-            winningAllyTeamIds: number[] | null;
+            winningAllyTeamIds: number[];
         }
 
         export interface AllyTeam {
@@ -83,7 +83,7 @@ export namespace DemoModel {
         export interface SetupInfo {
             script: Buffer;
             gameDuration: number;
-            winningAllyTeamIds: number[] | null;
+            winningAllyTeamIds: number[];
             startPositions: { [teamId: number]: DemoModel.Command.Type.MapPos };
             factions: { [playerId: number]: string };
         }
