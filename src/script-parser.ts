@@ -11,7 +11,7 @@ export class ScriptParser {
     public parseScript(buffer: Buffer) : Omit<DemoModel.Info.Info, "meta"> {
         const scriptTxt = `{${buffer.toString()}}`;
         const objStr = scriptTxt
-            .replace(/([^d=])(\[(.*?)\])/g, "$1\"$3\":")
+            .replace(/([^=\w])(\[(.*?)\])/g, "$1\"$3\":")
             .replace(/^(\w*)\=(.*?);/gm, "\"$1\": \"$2\",")
             .replace(/\r|\n/gm, "")
             .replace(/\",}/gm, "\"}")
