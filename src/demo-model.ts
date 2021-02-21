@@ -31,7 +31,7 @@ export namespace DemoModel {
 
         export interface AllyTeam {
             allyTeamId: number;
-            startBox: {
+            startBox?: {
                 top: number;
                 bottom: number;
                 left: number;
@@ -52,14 +52,15 @@ export namespace DemoModel {
             playerId: number;
             teamId: number;
             allyTeamId: number;
-            userId: number;
             name: string;
             faction: string;
-            countryCode: string;
             rank: number;
-            skill: string;
             rgbColor: { r: number, g: number, b: number };
             handicap: number;
+            isFromDemo?: boolean;
+            countryCode?: string;
+            userId?: number;
+            skill?: string;
             skillclass?: number;
             skillUncertainty?: number;
             startPos?: Command.Type.MapPos;
@@ -77,7 +78,10 @@ export namespace DemoModel {
             faction: string;
             rgbColor: { r: number, g: number, b: number };
             handicap: number;
+            isFromDemo?: boolean;
+            version?: string;
             startPos?: Command.Type.MapPos;
+            options?: { [key: string]: string };
         }
 
         export interface SetupInfo {

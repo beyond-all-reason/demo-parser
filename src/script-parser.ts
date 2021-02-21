@@ -9,30 +9,26 @@ export class ScriptParser {
     }
 
     public parseScript(buffer: Buffer) : Omit<DemoModel.Info.Info, "meta"> {
-        let scriptStr = buffer.toString().replace(/\n/g, "");
-        const parts = scriptStr.slice(7, scriptStr.length -1).split(/\{|\}/);
-        const gameSettings = parts.pop() as string;
-        const obj: { [key: string]: { [key: string] : string } } = {};
+        const scriptTxt = `{${buffer.toString()}}`;
+        const objStr = scriptTxt
+            .replace(/([^d=])(\[(.*?)\])/g, "$1\"$3\":")
+            .replace(/^(\w*)\=(.*?);/gm, "\"$1\": \"$2\",")
+            .replace(/\r|\n/gm, "")
+            .replace(/\",}/gm, "\"}")
+            .replace(/}"/gm, "},\"");
+        const obj = JSON.parse(objStr).game;
 
-        let currentProp = "";
-        for (const part of parts) {
-            if (part[0] === "[") {
-                currentProp = part.slice(1, part.length - 1);
-                obj[currentProp] = {};
-            } else if (part !== "") {
-                const pairs = part.split(";").filter(Boolean).map(pair => pair.split("="));
-                for (const pair of pairs) {
-                    const key = pair[0];
-                    const value = pair[1];
-                    obj[currentProp][key] = value;
-                }
+        const hostSettings: any = {};
+        for (const [key, val] of Object.entries(obj)) {
+            if (typeof(val) === "string") {
+                hostSettings[key] = val;
             }
         }
 
         const { allyTeams, players, ais, spectators } = this.parsePlayers(obj);
 
         return {
-            hostSettings: this.parseSettings(gameSettings),
+            hostSettings: hostSettings,
             gameSettings: obj.modoptions,
             mapSettings: obj.mapoptions,
             restrictions: obj.restrict,
@@ -54,47 +50,45 @@ export class ScriptParser {
         return obj;
     }
 
-    protected parsePlayers(script: { [key: string]: { [key: string] : string } }) {
+    protected parsePlayers(scriptObj: any) {
         const allyTeams: DemoModel.Info.AllyTeam[] = [];
         const teams: { [teamId: number]: DemoModel.Info.Team } = {};
         const partialPlayers: Array<Partial<DemoModel.Info.Player>> = [];
         const partialAis: Array<Partial<DemoModel.Info.AI>> = [];
         const spectators: DemoModel.Info.Spectator[] = [];
 
-        for (const key in script) {
-            const obj = script[key];
-            if (key.includes("ally")) {
+        for (const key in scriptObj) {
+            const obj = scriptObj[key];
+            if (key.includes("ally") && typeof obj === "object") {
                 const allyTeamId = parseInt(key.split("allyteam")[1]);
-                allyTeams.push({
-                    allyTeamId,
-                    startBox: {
-                        bottom: parseFloat(obj.startrectbottom),
-                        left: parseFloat(obj.startrectleft),
-                        top: parseFloat(obj.startrecttop),
-                        right: parseFloat(obj.startrectright),
-                    }
-                });
-            } else if (key.includes("team")) {
+                const startBox = obj.startrectbottom ? {
+                    bottom: parseFloat(obj.startrectbottom),
+                    left: parseFloat(obj.startrectleft),
+                    top: parseFloat(obj.startrecttop),
+                    right: parseFloat(obj.startrectright),
+                } : undefined;
+                allyTeams.push({ allyTeamId, startBox});
+            } else if (key.includes("team") && typeof obj === "object") {
                 const teamId = parseInt(key.split("team")[1]);
-                teams[teamId] = {
-                    teamId,
-                    teamLeaderId: parseInt(obj.teamleader),
-                    rgbColor: obj.rgbcolor ? obj.rgbcolor.split(" ").map(str => parseFloat(str)) : [],
-                    allyTeamId: parseInt(obj.allyteam),
-                    handicap: parseInt(obj.handicap),
-                    faction: obj.side,
-                };
-            } else if (key.includes("player")) {
+                const allyTeamId = parseInt(obj.allyteam);
+                const teamLeaderId = parseInt(obj.teamleader);
+                const rgbColor = obj.rgbcolor.split(" ").map((str:string) => parseFloat(str));
+                const handicap = parseInt(obj.handicap);
+                const faction = obj.side;
+                teams[teamId] = { teamId, allyTeamId, teamLeaderId, rgbColor, handicap, faction };
+            } else if (key.includes("player") && typeof obj === "object") {
                 const isSpec = obj.spectator === "1";
+                const playerId = parseInt(key.split("player")[1]);
+                const rank = parseInt(obj.rank);
+                const name = obj.name;
+                const isFromDemo = obj.isfromdemo ? obj.isfromdemo === "1" : undefined;
+                const userId = parseInt(obj.accountid) || undefined;
+                const countryCode = obj.countrycode || undefined;
+                const skillclass = parseInt(obj.skillclass) || undefined;
+                const skillUncertainty = parseInt(obj.skilluncertainty) || undefined;
+                const skill = obj.skill || undefined;
                 const playerOrSpec: DemoModel.Info.Player | DemoModel.Info.Spectator = {
-                    playerId: parseInt(key.split("player")[1]),
-                    userId: parseInt(obj.accountid),
-                    name: obj.name,
-                    countryCode: obj.countrycode,
-                    rank: parseInt(obj.rank),
-                    skillclass: parseInt(obj.skillclass) || undefined,
-                    skillUncertainty: parseInt(obj.skilluncertainty) || undefined,
-                    skill: obj.skill
+                    playerId, userId, name, countryCode, rank, skillclass, skillUncertainty, skill, isFromDemo
                 };
 
                 if (!isSpec) {
@@ -105,13 +99,16 @@ export class ScriptParser {
                 } else {
                     spectators.push(playerOrSpec);
                 }
-            } else if (key.includes("ai")) {
+            } else if (key.includes("ai") && typeof obj === "object") {
                 const partialAi: Partial<DemoModel.Info.AI> = {
                     aiId: parseInt(key.split("ai")[1]),
                     shortName: obj.shortname,
                     name: obj.name,
                     host: obj.host === "1",
-                    teamId: parseInt(obj.team)
+                    teamId: parseInt(obj.team),
+                    isFromDemo: obj.isfromdemo ? obj.isfromdemo === "1" : undefined,
+                    version: obj.version || undefined,
+                    options: obj.options || undefined
                 };
                 partialAis.push(partialAi);
             }
