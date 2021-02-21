@@ -6,9 +6,6 @@ Parser for SpringRTS .sdfz demo files
 `npm i --save sdfz-demo-parser`
 
 ```ts
-import { ungzip } from "node-gzip";
-import { promises as fs } from "fs";
-
 import { DemoParser } from "sdfz-demo-parser";
 
 (async () => {
@@ -18,6 +15,6 @@ import { DemoParser } from "sdfz-demo-parser";
 
     const demo = await parser.parseDemo(demoPath);
 
-    console.log(demo.script.spectators[1].name); // [Fx]Jazcash
+    console.log(demo.info.spectators[1].name); // [Fx]Jazcash
 })();
 ```
