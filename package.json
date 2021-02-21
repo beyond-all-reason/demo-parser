@@ -1,6 +1,6 @@
 {
   "name": "sdfz-demo-parser",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "Parser for SpringRTS .sdfz demo files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
