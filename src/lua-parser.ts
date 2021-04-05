@@ -120,7 +120,7 @@ export const standardLuaHandlers: LuaHandler[] = [
     {
         // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/dbg_unitposition_logger.lua#L249
         name: "UNIT_POSITION_LOGGER",
-        parseStartIndex: 6,
+        parseStartIndex: 5,
         validator: (buffer, str) => str.substr(0, 3) === "log",
         parser: (buffer, str) => {
             const headerStrings = str.split(";", 4);
@@ -145,18 +145,24 @@ export const standardLuaHandlers: LuaHandler[] = [
             const uncompressedData = zlib.unzipSync(compressedData);
             const rawData = JSON.parse(uncompressedData.toString()) as { [key: number]: number[][] };
 
-            const positions = Object.values(rawData).map(dataset => {
-                for (const vals of dataset) {
-                    return {
+            //console.log(uncompressedData.toString());
+
+            const positions: Array<{ teamId: number, unitId: number, unitDefId: number, x: number, z: number; }> = [];
+            for (const teamId in rawData) {
+                const data = rawData[teamId];
+                for (const vals of data) {
+                    positions.push({
+                        teamId: parseInt(teamId),
                         unitId: vals[0],
                         unitDefId: vals[1],
                         x: vals[2],
-                        y: vals[3]
-                    };
+                        z: vals[3]
+                    });
                 }
-            });
+            }
 
-            return { frame, partId, participants, attempts, positions };
+            //return { frame, partId, participants, attempts, positions };
+            return rawData;
         }
     },
     {
