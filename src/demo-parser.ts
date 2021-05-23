@@ -28,7 +28,7 @@ export interface DemoParserConfig {
     /** String array of Lua handlers to exclude from the packet stream, where each string is the handler's name attribute */
     excludeLuaHandlers?: string[];
     /** Lookup object to replace UnitDefIds with actual unit names */
-    unitDefIds?: { [key: string]: string };
+    unitDefIds?: string[];
 }
 
 const defaultConfig: Partial<DemoParserConfig> = {
@@ -37,7 +37,8 @@ const defaultConfig: Partial<DemoParserConfig> = {
     excludePackets: [
         DemoModel.Packet.ID.NEWFRAME,
         DemoModel.Packet.ID.KEYFRAME,
-        DemoModel.Packet.ID.SYNCRESPONSE
+        DemoModel.Packet.ID.SYNCRESPONSE,
+        DemoModel.Packet.ID.PLAYERINFO
     ],
     includePlayerIds: [],
     includeStandardLuaHandlers: true,
@@ -52,7 +53,7 @@ const defaultConfig: Partial<DemoParserConfig> = {
         "ALLY_SELECTED_UNITS",
         "XMAS"
     ],
-    unitDefIds: {}
+    unitDefIds: []
 };
 
 // https://github.com/spring/spring/blob/develop/rts/System/LoadSave/demofile.h
@@ -146,7 +147,7 @@ export class DemoParser {
 
     protected async parsePackets(buffer: Buffer) {
         const bufferStream = new BufferStream(buffer);
-        const packetParser = new PacketParser({ ...this.config });
+        const packetParser = new PacketParser(this.config);
         const startPositions: { [teamId: number]: DemoModel.Command.Type.MapPos } = {};
         const factions: { [playerId: number]: string } = {};
 
@@ -176,6 +177,10 @@ export class DemoParser {
                     if (chatMessage.type !== "self") {
                         this.chatlog.push(chatMessage);
                     }
+                }
+
+                if (isPacket(packet, DemoModel.Packet.ID.LUAMSG) && packet.data?.data?.name === "UNITDEFS") {
+                    this.config.unitDefIds = packet.data.data.data;
                 }
 
                 this.onPacket.dispatch(packet);

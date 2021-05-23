@@ -11,8 +11,8 @@ export interface LuaData {
 export interface LuaHandler {
     name: string;
     parseStartIndex: number;
-    validator: (buffer: Buffer, str: string) => boolean;
-    parser: (buffer: Buffer, str: string) => any;
+    validator: (buffer: Buffer, str: string, config: DemoParserConfig) => boolean;
+    parser: (buffer: Buffer, str: string, config: DemoParserConfig) => any;
 }
 
 export class LuaParser {
@@ -32,7 +32,7 @@ export class LuaParser {
     public parseLuaData(buffer: Buffer) : LuaData | string | boolean {
         const str = buffer.toString();
 
-        const handler = this.luaHandlers.find(handler => handler.validator(buffer, str));
+        const handler = this.luaHandlers.find(handler => handler.validator(buffer, str, this.config));
 
         if (handler === undefined) {
             return str;
@@ -45,7 +45,7 @@ export class LuaParser {
         }
 
         try {
-            const data = handler.parser(buffer.slice(handler.parseStartIndex), str.slice(handler.parseStartIndex));
+            const data = handler.parser(buffer.slice(handler.parseStartIndex), str.slice(handler.parseStartIndex), this.config);
             return { name, data };
         } catch (err) {
             if (this.config.verbose) {
@@ -113,8 +113,18 @@ export const standardLuaHandlers: LuaHandler[] = [
         name: "FACTION_PICKER",
         parseStartIndex: 1,
         validator: (buffer, str) => buffer[0] === 0x8a,
-        parser: (buffer, str) => {
-            return str === "542" ? "Cortex" : "Armada";
+        parser: (buffer, str, config) => {
+            const unitDefIndex = Number(str);
+            if (!Number.isNaN(unitDefIndex)) {
+                const unitDefId = config.unitDefIds?.[unitDefIndex];
+                if (unitDefId?.includes("corcom")) {
+                    return "Cortex";
+                } else if (unitDefId?.includes("armcom")) {
+                    return "Armada";
+                }
+            }
+
+            return "Unknown";
         }
     },
     {
@@ -144,8 +154,6 @@ export const standardLuaHandlers: LuaHandler[] = [
             const compressedData = buffer.slice(index);
             const uncompressedData = zlib.unzipSync(compressedData);
             const rawData = JSON.parse(uncompressedData.toString()) as { [key: number]: number[][] };
-
-            //console.log(uncompressedData.toString());
 
             const positions: Array<{ teamId: number, unitId: number, unitDefId: number, x: number, z: number; }> = [];
             for (const teamId in rawData) {
@@ -246,6 +254,16 @@ export const standardLuaHandlers: LuaHandler[] = [
         parser: (buffer, str) => {
             const isXmas = str === "1";
             return { isXmas };
+        }
+    },
+    {
+        name: "UNITDEFS",
+        parseStartIndex: 9,
+        validator: (buffer, str) => str.substr(0, 8) === "unitdefs",
+        parser: (buffer, str) => {
+            const rawData = zlib.unzipSync(buffer);
+            const unitDefIdsArray = JSON.parse(rawData.toString());
+            return unitDefIdsArray;
         }
     }
 ];

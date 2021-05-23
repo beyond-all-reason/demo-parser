@@ -5,18 +5,6 @@
 import { DemoParserConfig } from "./demo-parser";
 import { DemoModel } from "./index";
 
-type GetDataType<T extends keyof DemoModel.Command.Type.Data> = DemoModel.Command.Type.Data[T];
-
-type Test<T extends keyof DemoModel.Command.Type.Data> = T extends DemoModel.Command.Type.Data ? GetDataType<T> : unknown;
-
-// const test: GetDataType<DemoModel.Command.Type.ID.BUILD> = {
-
-// }
-
-//type Test<T extends keyof DemoModel.Command.Type.Data> = T extends keyof DemoModel.Command.Type.Data
-
-//export type GetDataType<T extends DemoModel.Command.Type.ID> = T extends keyof DemoModel.Command.Type.Data ? DemoModel.Command.Type.Data[T] : unknown;
-
 export class CommandParser {
     protected config: DemoParserConfig;
 
