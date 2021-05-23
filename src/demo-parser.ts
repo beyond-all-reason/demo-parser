@@ -267,6 +267,13 @@ export class DemoParser {
             }
         }
 
+        // AI start positions seem completely wrong so ignoring for now
+        // for (const ai of scriptInfo.ais) {
+        //     if (setupInfo.startPositions[ai.teamId]) {
+        //         ai.startPos = setupInfo.startPositions[ai.teamId];
+        //     }
+        // }
+
         return { meta, ... scriptInfo };
     }
 }

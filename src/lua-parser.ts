@@ -117,9 +117,9 @@ export const standardLuaHandlers: LuaHandler[] = [
             const unitDefIndex = Number(str);
             if (!Number.isNaN(unitDefIndex)) {
                 const unitDefId = config.unitDefIds?.[unitDefIndex];
-                if (unitDefId?.includes("corcom")) {
+                if (unitDefId === "corcom") {
                     return "Cortex";
-                } else if (unitDefId?.includes("armcom")) {
+                } else if (unitDefId ==="armcom") {
                     return "Armada";
                 }
             }
@@ -262,7 +262,8 @@ export const standardLuaHandlers: LuaHandler[] = [
         validator: (buffer, str) => str.substr(0, 8) === "unitdefs",
         parser: (buffer, str) => {
             const rawData = zlib.unzipSync(buffer);
-            const unitDefIdsArray = JSON.parse(rawData.toString());
+            const unitDefIdsArray = JSON.parse(rawData.toString()) as string[];
+            unitDefIdsArray.unshift("");
             return unitDefIdsArray;
         }
     }
