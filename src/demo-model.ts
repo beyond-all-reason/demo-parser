@@ -3,8 +3,8 @@ export namespace DemoModel {
         info: Info.Info;
         header: Header;
         script: string;
-        statistics: Statistics.Statistics;
-        chatlog: ChatMessage[];
+        statistics?: Statistics.Statistics;
+        chatlog?: ChatMessage[];
     }
 
     export namespace Info {

@@ -29,6 +29,13 @@ export interface DemoParserConfig {
     excludeLuaHandlers?: string[];
     /** Lookup object to replace UnitDefIds with actual unit names */
     unitDefIds?: string[];
+    /**
+     * If true, only parses the header info.
+     *
+     * **WARNING:** This may cause certain data in the info object to be incorrect or missing, such as faction or startPos
+     * @default false
+     * */
+    skipPackets?: boolean;
 }
 
 const defaultConfig: Partial<DemoParserConfig> = {
@@ -100,6 +107,18 @@ export class DemoParser {
                 winningAllyTeamIds = packet.data.winningAllyTeams;
             }
         });
+
+        if (this.config.skipPackets) {
+            this.bufferStream.read(this.header.demoStreamSize);
+            this.statistics = this.parseStatistics(this.bufferStream.read());
+
+            return {
+                info: this.info,
+                header: this.header,
+                script: script.toString(),
+                statistics: this.statistics,
+            };
+        }
 
         const { startPositions, factions } = await this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
 
