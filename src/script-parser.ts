@@ -11,11 +11,12 @@ export class ScriptParser {
     public parseScript(buffer: Buffer) : Omit<DemoModel.Info.Info, "meta"> {
         const scriptTxt = `{${buffer.toString()}}`;
         const objStr = scriptTxt
-            .replace(/([^=\w])(\[(.*?)\])/g, "$1\"$3\":")
+            .replace(/([^=\w\]\[])(\[(.*?)\])/g, "$1\"$3\":")
             .replace(/^(\w*)\=(.*?);/gm, "\"$1\": \"$2\",")
             .replace(/\r|\n/gm, "")
             .replace(/\",}/gm, "\"}")
             .replace(/}"/gm, "},\"");
+
         const obj = JSON.parse(objStr).game;
 
         const hostSettings: any = {};
