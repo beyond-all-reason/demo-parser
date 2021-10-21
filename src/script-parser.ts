@@ -10,6 +10,8 @@ export class ScriptParser {
 
     public parseScript(buffer: Buffer) : Omit<DemoModel.Info.Info, "meta"> {
         const scriptTxt = `{${buffer.toString()}}`;
+
+        // hacky regex that transforms script.txt into JSON
         const objStr = scriptTxt
             .replace(/([^=\w\]\[])(\[(.*?)\])/g, "$1\"$3\":")
             .replace(/^(\w*)\=(.*?);/gm, "\"$1\": \"$2\",")
@@ -32,6 +34,7 @@ export class ScriptParser {
             hostSettings: hostSettings,
             gameSettings: obj.modoptions,
             mapSettings: obj.mapoptions,
+            spadsSettings: obj.hostoptions,
             restrictions: obj.restrict,
             allyTeams,
             players,
@@ -88,8 +91,9 @@ export class ScriptParser {
                 const skillclass = parseInt(obj.skillclass) || undefined;
                 const skillUncertainty = parseInt(obj.skilluncertainty) || undefined;
                 const skill = obj.skill || undefined;
+                const clanId = obj.clanid || undefined;
                 const playerOrSpec: DemoModel.Info.Player | DemoModel.Info.Spectator = {
-                    playerId, userId, name, countryCode, rank, skillclass, skillUncertainty, skill, isFromDemo
+                    playerId, userId, name, countryCode, rank, skillclass, skillUncertainty, skill, isFromDemo, clanId
                 };
 
                 if (!isSpec) {

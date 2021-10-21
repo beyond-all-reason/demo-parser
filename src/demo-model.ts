@@ -10,6 +10,7 @@ export namespace DemoModel {
     export namespace Info {
         export interface Info {
             meta: Meta;
+            spadsSettings?: { [key: string]: string };
             hostSettings: { [key: string]: string };
             gameSettings: { [key: string]: string };
             mapSettings: { [key: string]: string };
@@ -64,6 +65,7 @@ export namespace DemoModel {
             skillclass?: number;
             skillUncertainty?: number;
             startPos?: Command.Type.MapPos;
+            clanId?: string;
         }
 
         export type Spectator = Omit<Player, "teamId" | "allyTeamId" | "rgbColor" | "handicap" | "faction" | "startPos">;
