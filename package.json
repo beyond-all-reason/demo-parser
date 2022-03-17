@@ -5,12 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepublish": "./node_modules/.bin/tsc",
-    "build": "./node_modules/.bin/tsc",
-    "dev": "./node_modules/.bin/tsc --watch",
-    "lint": "./node_modules/.bin/eslint . --ext .ts",
-    "lint-fix": "./node_modules/.bin/eslint . --ext .ts --fix",
-    "test": "./node_modules/.bin/jest"
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --ext .ts --fix",
+    "test": "jest"
   },
   "jest": {
     "moduleFileExtensions": [
