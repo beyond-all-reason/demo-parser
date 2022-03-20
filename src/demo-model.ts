@@ -31,7 +31,7 @@ export namespace DemoModel {
         }
 
         export interface AllyTeam {
-            allyTeamId: number;
+            id: number;
             startBox?: {
                 top: number;
                 bottom: number;
@@ -41,7 +41,7 @@ export namespace DemoModel {
         }
 
         export interface Team {
-            teamId: number;
+            id: number;
             teamLeaderId: number;
             rgbColor: number[];
             allyTeamId: number;
@@ -50,7 +50,7 @@ export namespace DemoModel {
         }
 
         export interface Player {
-            playerId: number;
+            id: number;
             teamId: number;
             allyTeamId: number;
             name: string;
@@ -71,7 +71,7 @@ export namespace DemoModel {
         export type Spectator = Omit<Player, "teamId" | "allyTeamId" | "rgbColor" | "handicap" | "faction" | "startPos">;
 
         export interface AI {
-            aiId: number;
+            id: number;
             teamId: number;
             allyTeamId: number;
             name: string;

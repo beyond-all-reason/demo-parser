@@ -281,8 +281,8 @@ export class DemoParser {
             if (setupInfo.startPositions[player.teamId]) {
                 player.startPos = setupInfo.startPositions[player.teamId];
             }
-            if (setupInfo.factions[player.playerId]) {
-                player.faction = setupInfo.factions[player.playerId];
+            if (setupInfo.factions[player.id]) {
+                player.faction = setupInfo.factions[player.id];
             }
         }
 

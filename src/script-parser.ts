@@ -1,45 +1,67 @@
+import { ScriptConverter } from "start-script-converter";
+
 import { DemoModel } from "./demo-model";
 import { DemoParserConfig } from "./demo-parser";
 
+/**
+ * TODO:
+ * - completely remove this file and replace with standard script parser
+ * - remove this package's custom script definition and make major version bump
+ */
 export class ScriptParser {
     protected config: DemoParserConfig;
+    protected converter = new ScriptConverter();
 
     constructor(config: DemoParserConfig) {
         this.config = config;
     }
 
     public parseScript(buffer: Buffer) : Omit<DemoModel.Info.Info, "meta"> {
-        const scriptTxt = `{${buffer.toString()}}`;
+        const scriptStr = buffer.toString();
+        const script = this.converter.parseScript(scriptStr);
+        // const scriptTxt = `{${buffer.toString()}}`;
 
-        // hacky regex that transforms script.txt into JSON
-        const objStr = scriptTxt
-            .replace(/([^=\w\]\[])(\[(.*?)\])/g, "$1\"$3\":")
-            .replace(/^(\w*)\=(.*?);/gm, "\"$1\": \"$2\",")
-            .replace(/\r|\n/gm, "")
-            .replace(/\",}/gm, "\"}")
-            .replace(/}"/gm, "},\"");
+        // // hacky regex that transforms script.txt into JSON
+        // const objStr = scriptTxt
+        //     .replace(/([^=\w\]\[])(\[(.*?)\])/g, "$1\"$3\":")
+        //     .replace(/^(\w*)\=(.*?);/gm, "\"$1\": \"$2\",")
+        //     .replace(/\r|\n/gm, "")
+        //     .replace(/\",}/gm, "\"}")
+        //     .replace(/}"/gm, "},\"");
 
-        const obj = JSON.parse(objStr).game;
+        // const obj = JSON.parse(objStr).game;
 
-        const hostSettings: any = {};
-        for (const [key, val] of Object.entries(obj)) {
-            if (typeof(val) === "string") {
-                hostSettings[key] = val;
+        // const hostSettings: any = {};
+        // for (const [key, val] of Object.entries(obj)) {
+        //     if (typeof(val) === "string") {
+        //         hostSettings[key] = val;
+        //     }
+        // }
+
+        // const { allyTeams, players, ais, spectators } = this.parsePlayers(obj);
+
+        const allUsers = script.players.map(player => {
+            const team = script.teams.find(team => team.id === player.teamId);
+            if (team) {
+                Object.assign(player, team);
             }
-        }
+            return player;
+        });
 
-        const { allyTeams, players, ais, spectators } = this.parsePlayers(obj);
+        const players = allUsers.filter(user => !user.spectator);
+        const spectators = allUsers.filter(user => user.spectator);
 
         return {
-            hostSettings: hostSettings,
-            gameSettings: obj.modoptions,
-            mapSettings: obj.mapoptions,
-            spadsSettings: obj.hostoptions,
-            restrictions: obj.restrict,
-            allyTeams,
-            players,
-            ais,
-            spectators
+            hostSettings: script.game,
+            gameSettings: script.modoptions!,
+            mapSettings: script.mapoptions!,
+            spadsSettings: script.hostoptions,
+            restrictions: script.restrict! as any,
+            allyTeams: script.allyteams,
+            teams: script.teams,
+            players: players,
+            ais: script.ais,
+            spectators: spectators,
         };
     }
 
@@ -71,7 +93,7 @@ export class ScriptParser {
                     top: parseFloat(obj.startrecttop),
                     right: parseFloat(obj.startrectright),
                 } : undefined;
-                allyTeams.push({ allyTeamId, startBox});
+                allyTeams.push({ id: allyTeamId, startBox});
             } else if (key.includes("team") && typeof obj === "object") {
                 const teamId = parseInt(key.split("team")[1]);
                 const allyTeamId = parseInt(obj.allyteam);
@@ -79,7 +101,7 @@ export class ScriptParser {
                 const rgbColor = obj.rgbcolor.split(" ").map((str:string) => parseFloat(str));
                 const handicap = parseInt(obj.handicap);
                 const faction = obj.side;
-                teams[teamId] = { teamId, allyTeamId, teamLeaderId, rgbColor, handicap, faction };
+                teams[teamId] = { id: teamId, allyTeamId, teamLeaderId, rgbColor, handicap, faction };
             } else if (key.includes("player") && typeof obj === "object") {
                 const isSpec = obj.spectator === "1";
                 const playerId = parseInt(key.split("player")[1]);
@@ -93,7 +115,7 @@ export class ScriptParser {
                 const skill = obj.skill || undefined;
                 const clanId = obj.clanid || undefined;
                 const playerOrSpec: DemoModel.Info.Player | DemoModel.Info.Spectator = {
-                    playerId, userId, name, countryCode, rank, skillclass, skillUncertainty, skill, isFromDemo, clanId
+                    id: playerId, userId, name, countryCode, rank, skillclass, skillUncertainty, skill, isFromDemo, clanId
                 };
 
                 if (!isSpec) {
@@ -106,7 +128,7 @@ export class ScriptParser {
                 }
             } else if (key.includes("ai") && typeof obj === "object") {
                 const partialAi: Partial<DemoModel.Info.AI> = {
-                    aiId: parseInt(key.split("ai")[1]),
+                    id: parseInt(key.split("ai")[1]),
                     shortName: obj.shortname,
                     name: obj.name,
                     host: obj.host === "1",
