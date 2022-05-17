@@ -176,10 +176,14 @@ export const standardLuaHandlers: LuaHandler[] = [
     {
         // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luarules/gadgets/camera_lockcamera.lua
         name: "CAMERA_LOCKCAMERA",
-        parseStartIndex: 0,
+        parseStartIndex: 3,
         validator: (buffer, str) => str[0] === "=",
         parser: (buffer, str) => {
             // TODO
+            const bufferStream = new BufferStream(buffer);
+            const cameraId = bufferStream.readInt(1, true);
+            const mode = bufferStream.readInt(1, true);
+            //console.log(cameraId, mode);
             return str;
         }
     },
