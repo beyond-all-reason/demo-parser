@@ -76,7 +76,7 @@ export class ScriptParser {
                 const teamId = parseInt(key.split("team")[1]);
                 const allyTeamId = parseInt(obj.allyteam);
                 const teamLeaderId = parseInt(obj.teamleader);
-                const rgbColor = obj.rgbcolor.split(" ").map((str:string) => parseFloat(str));
+                const rgbColor = obj.rgbcolor?.split(" ").map((str:string) => parseFloat(str));
                 const handicap = parseInt(obj.handicap);
                 const faction = obj.side;
                 teams[teamId] = { teamId, allyTeamId, teamLeaderId, rgbColor, handicap, faction };
@@ -121,7 +121,9 @@ export class ScriptParser {
 
         for (const player of partialPlayers) {
             const team = teams[player.teamId!];
-            player.rgbColor = { r: 255 * team.rgbColor[0], g: 255 * team.rgbColor[1], b: 255 * team.rgbColor[2] };
+            if (team.rgbColor) {
+                player.rgbColor = { r: 255 * team.rgbColor[0], g: 255 * team.rgbColor[1], b: 255 * team.rgbColor[2] };
+            }
             player.allyTeamId = team.allyTeamId;
             player.handicap = team.handicap;
             player.faction = team.faction;
@@ -129,7 +131,9 @@ export class ScriptParser {
 
         for (const ai of partialAis) {
             const team = teams[ai.teamId!];
-            ai.rgbColor = { r: 255 * team.rgbColor[0], g: 255 * team.rgbColor[1], b: 255 * team.rgbColor[2] };
+            if (ai.rgbColor) {
+                ai.rgbColor = { r: 255 * team.rgbColor[0], g: 255 * team.rgbColor[1], b: 255 * team.rgbColor[2] };
+            }
             ai.allyTeamId = team.allyTeamId;
             ai.handicap = team.handicap;
             ai.faction = team.faction;
