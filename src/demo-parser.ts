@@ -4,8 +4,8 @@ import { ungzip } from "node-gzip";
 import * as path from "path";
 
 import { BufferStream } from "./buffer-stream";
-import { DemoModel } from "./demo-model";
 import { LuaHandler } from "./lua-parser";
+import { DemoModel } from "./model/demo-model";
 import { PacketParser } from "./packet-parser";
 import { ScriptParser } from "./script-parser";
 import { isPacket } from "./utils";
@@ -71,7 +71,6 @@ export class DemoParser {
     protected bufferStream!: BufferStream;
     protected info!: DemoModel.Info.Info;
     protected header!: DemoModel.Header;
-    protected playerNames: Map<number, string> = new Map();
     protected statistics!: DemoModel.Statistics.Statistics;
     protected chatlog: DemoModel.ChatMessage[] = [];
 
@@ -130,6 +129,23 @@ export class DemoParser {
         const endTimeMs = (endTime[0]* 1000000000 + endTime[1]) / 1000000;
         if (this.config.verbose) {
             console.log(`Demo ${fileName} processed in ${endTimeMs.toFixed(2)}ms`);
+        }
+
+        if (this.chatlog) {
+            const playerNames = new Map<number, string>();
+            for (const player of this.info.players) {
+                playerNames.set(player.playerId, player.name);
+            }
+            for (const player of this.info.spectators) {
+                playerNames.set(player.playerId, player.name);
+            }
+
+            for (const message of this.chatlog) {
+                const name = playerNames.get(message.playerId);
+                if (name) {
+                    message.name = name;
+                }
+            }
         }
 
         return {
@@ -255,17 +271,18 @@ export class DemoParser {
     protected parseChatPacket(packet: DemoModel.Packet.Packet<DemoModel.Packet.ID.CHAT>) : DemoModel.ChatMessage {
         const data = packet.data!;
         const chatType = data.toId === 252 ? "ally" : data.toId === 253 ? "spec" : data.toId === 254 ? "global" : "self";
-
         return {
-            time: packet.actualGameTime,
+            timeMs: Math.round(packet.actualGameTime * 1000),
             playerId: data.fromId,
-            name: this.playerNames.get(data.fromId)!,
+            name: "",
             type: chatType,
             message: data.message.trim()
         };
     }
 
     protected generateInfo(setupInfo: DemoModel.Info.SetupInfo) : DemoModel.Info.Info {
+        const scriptInfo = new ScriptParser(this.config).parseScript(setupInfo.script);
+
         const meta: DemoModel.Info.Meta = {
             gameId: this.header.gameId,
             engine: this.header.versionString,
@@ -273,9 +290,8 @@ export class DemoParser {
             durationMs: Math.round(setupInfo.gameDuration * 1000),
             fullDurationMs: this.header.wallclockTime * 1000,
             winningAllyTeamIds: setupInfo.winningAllyTeamIds,
+            startPosType: parseInt(scriptInfo.hostSettings.startpostype)
         };
-
-        const scriptInfo = new ScriptParser(this.config).parseScript(setupInfo.script);
 
         for (const player of scriptInfo.players) {
             if (setupInfo.startPositions[player.teamId]) {

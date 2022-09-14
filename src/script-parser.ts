@@ -1,5 +1,5 @@
-import { DemoModel } from "./demo-model";
 import { DemoParserConfig } from "./demo-parser";
+import { DemoModel } from "./model/demo-model";
 
 export class ScriptParser {
     protected config: DemoParserConfig;

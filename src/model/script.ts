@@ -1,4 +1,4 @@
-import { DemoModel } from "../demo-model";
+import { DemoModel } from "./demo-model";
 
 export namespace Script {
     export interface Script {

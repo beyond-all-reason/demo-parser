@@ -28,6 +28,7 @@ export namespace DemoModel {
             durationMs: number;
             fullDurationMs: number;
             winningAllyTeamIds: number[];
+            startPosType: number;
         }
 
         export interface AllyTeam {
@@ -137,7 +138,7 @@ export namespace DemoModel {
     }
 
     export interface ChatMessage {
-        time: number;
+        timeMs: number;
         playerId: number;
         name: string;
         type: "ally" | "spec" | "global" | "self";
