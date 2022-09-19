@@ -1,5 +1,5 @@
 export namespace DemoModel {
-    export interface Demo {
+    export type Demo = {
         info: Info.Info;
         header: Header;
         script: string;
@@ -8,20 +8,20 @@ export namespace DemoModel {
     }
 
     export namespace Info {
-        export interface Info {
+        export type Info = {
             meta: Meta;
-            spadsSettings?: { [key: string]: string };
-            hostSettings: { [key: string]: string };
-            gameSettings: { [key: string]: string };
-            mapSettings: { [key: string]: string };
-            restrictions: { [key: string]: string };
+            spadsSettings?: { [key: string]: string }; // TODO: improve typing here
+            hostSettings: { [key: string]: string }; // TODO: improve typing here
+            gameSettings: { [key: string]: string }; // TODO: improve typing here
+            mapSettings: { [key: string]: string }; // TODO: improve typing here
+            restrictions: { [key: string]: string }; // TODO: improve typing here
             allyTeams: AllyTeam[];
             players: Player[];
             ais: AI[];
             spectators: Spectator[];
         }
 
-        export interface Meta {
+        export type Meta = {
             gameId: string;
             engine: string;
             startTime: Date;
@@ -31,7 +31,7 @@ export namespace DemoModel {
             startPosType: number;
         }
 
-        export interface AllyTeam {
+        export type AllyTeam = {
             allyTeamId: number;
             startBox?: {
                 top: number;
@@ -41,7 +41,7 @@ export namespace DemoModel {
             };
         }
 
-        export interface Team {
+        export type Team = {
             teamId: number;
             teamLeaderId: number;
             rgbColor: number[];
@@ -50,7 +50,7 @@ export namespace DemoModel {
             faction: string;
         }
 
-        export interface Player {
+        export type Player = {
             playerId: number;
             teamId: number;
             allyTeamId: number;
@@ -71,7 +71,7 @@ export namespace DemoModel {
 
         export type Spectator = Omit<Player, "teamId" | "allyTeamId" | "rgbColor" | "handicap" | "faction" | "startPos">;
 
-        export interface AI {
+        export type AI = {
             aiId: number;
             teamId: number;
             allyTeamId: number;
@@ -87,7 +87,7 @@ export namespace DemoModel {
             options?: { [key: string]: string };
         }
 
-        export interface SetupInfo {
+        export type SetupInfo = {
             script: Buffer;
             gameDuration: number;
             winningAllyTeamIds: number[];
@@ -96,7 +96,7 @@ export namespace DemoModel {
         }
     }
 
-    export interface Header {
+    export type Header = {
         magic: string;
         version: number;
         headerSize: number;
@@ -118,13 +118,13 @@ export namespace DemoModel {
     }
 
     export namespace Statistics {
-        export interface Statistics {
+        export type Statistics = {
             winningAllyTeamIds: number[];
             playerStats: Player[];
             teamStats: Team[];
         }
 
-        export interface Player {
+        export type Player = {
             playerId: number;
             numCommands: number;
             unitCommands: number;
@@ -133,11 +133,11 @@ export namespace DemoModel {
             keyPresses: number;
         }
 
-        export interface Team {
+        export type Team = {
         }
     }
 
-    export interface ChatMessage {
+    export type ChatMessage = {
         timeMs: number;
         playerId: number;
         name: string;
@@ -206,7 +206,7 @@ export namespace DemoModel {
         export type Packet<T extends keyof PacketData> = AbstractPacket<T>;
         export type GetPacketData<T extends keyof PacketData> = PacketData[T];
 
-        export interface AbstractPacket<T extends keyof PacketData = any> {
+        export type AbstractPacket<T extends keyof PacketData = any> = {
             id: ID;
             name: string;
             fullGameTime: number;
@@ -214,7 +214,7 @@ export namespace DemoModel {
             data: GetPacketData<T>;
         }
 
-        export interface PacketData {
+        export type PacketData = {
             [ID.KEYFRAME]: {
                 frameNum: number;
             }
@@ -486,60 +486,60 @@ export namespace DemoModel {
 
             //export type Any = Partial<Empty & Mode & MapPos & Radius & UnitID & Front & UnitFeatureOrArea & UnitOrRectangle & Number>;
 
-            export interface Empty {
+            export type Empty = {
             }
 
-            export interface Values {
+            export type Values = {
                 rawValues: number[];
             }
-            export interface Mode {
+            export type Mode = {
                 mode: number;
             }
 
-            export interface MapPos {
+            export type MapPos = {
                 x: number;
                 y: number;
                 z: number;
             }
 
-            export interface Radius {
+            export type Radius = {
                 radius: number;
             }
 
-            export interface UnitID {
+            export type UnitID = {
                 unitId: number;
             }
 
-            export interface Front {
+            export type Front = {
                 camTracePos: MapPos;
                 camTraceDir?: MapPos;
             }
-            export interface UnitFeatureOrArea {
+            export type UnitFeatureOrArea = {
                 unitId?: number;
                 maxUnits?: number;
                 area: MapPos & Radius;
             }
-            export interface UnitOrRectangle {
+            export type UnitOrRectangle = {
                 unitId?: number;
                 mapPos?: MapPos;
                 startPos?: MapPos;
                 endPos?: MapPos;
             }
 
-            export interface Number {
+            export type Number = {
                 number: number;
             }
 
-            export interface Direction {
+            export type Direction = {
                 direction: Facing;
             }
 
-            export interface Insert {
+            export type Insert = {
                 queuePos: number;
                 command: Command.BaseCommand;
             }
 
-            export interface Data {
+            export type Data = {
                 [DemoModel.Command.Type.ID.BUILD]: MapPos & Direction;
                 [DemoModel.Command.Type.ID.ICON]: Empty;
                 [DemoModel.Command.Type.ID.ICON_MODE]: Mode;
@@ -606,7 +606,7 @@ export namespace DemoModel {
             IDLEMODE = 145,
             FAILED = 150,
         }
-        export interface Options {
+        export type Options = {
             META_KEY: boolean;
             INTERNAL_ORDER: boolean;
             RIGHT_MOUSE_KEY: boolean;
@@ -615,7 +615,7 @@ export namespace DemoModel {
             ALT_KEY: boolean;
         }
 
-        export interface BaseCommand {
+        export type BaseCommand = {
             cmdName: string;
             unitId?: number;
             unitDefId?: string | number;
