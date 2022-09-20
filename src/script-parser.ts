@@ -31,11 +31,11 @@ export class ScriptParser {
         const { allyTeams, players, ais, spectators } = this.parsePlayers(obj);
 
         return {
-            hostSettings: hostSettings,
-            gameSettings: obj.modoptions,
-            mapSettings: obj.mapoptions,
-            spadsSettings: obj.hostoptions,
-            restrictions: obj.restrict,
+            hostSettings: hostSettings || {},
+            gameSettings: obj.modoptions || {},
+            mapSettings: obj.mapoptions || {},
+            spadsSettings: obj.hostoptions || {},
+            restrictions: obj.restrict || {},
             allyTeams,
             players,
             ais,
