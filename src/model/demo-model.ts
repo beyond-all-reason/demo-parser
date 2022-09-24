@@ -39,6 +39,7 @@ export namespace DemoModel {
                 left: number;
                 right: number;
             };
+            playerCount: number;
         }
 
         export type Team = {

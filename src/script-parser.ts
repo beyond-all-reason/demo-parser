@@ -71,7 +71,7 @@ export class ScriptParser {
                     top: parseFloat(obj.startrecttop),
                     right: parseFloat(obj.startrectright),
                 } : undefined;
-                allyTeams.push({ allyTeamId, startBox});
+                allyTeams.push({ allyTeamId, startBox, playerCount: 0 });
             } else if (key.includes("team") && typeof obj === "object") {
                 const teamId = parseInt(key.split("team")[1]);
                 const allyTeamId = parseInt(obj.allyteam);
@@ -141,6 +141,18 @@ export class ScriptParser {
 
         const players = partialPlayers as DemoModel.Info.Player[];
         const ais = partialAis as DemoModel.Info.AI[];
+
+        const allyTeamPlayerCounts: Record<number, number> = {};
+        for (const player of [...players, ...ais]) {
+            if (allyTeamPlayerCounts[player.allyTeamId] === undefined) {
+                allyTeamPlayerCounts[player.allyTeamId] = 0;
+            } else {
+                allyTeamPlayerCounts[player.allyTeamId]++;
+            }
+        }
+        for (const allyTeam of allyTeams) {
+            allyTeam.playerCount = allyTeamPlayerCounts[allyTeam.allyTeamId];
+        }
 
         return { allyTeams, players, ais, spectators };
     }
