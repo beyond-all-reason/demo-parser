@@ -286,6 +286,8 @@ export class DemoParser {
         const meta: DemoModel.Info.Meta = {
             gameId: this.header.gameId,
             engine: this.header.versionString,
+            game: scriptInfo.hostSettings.gametype,
+            map: scriptInfo.hostSettings.mapname,
             startTime: this.header.startTime,
             durationMs: Math.round(setupInfo.gameDuration * 1000),
             fullDurationMs: this.header.wallclockTime * 1000,

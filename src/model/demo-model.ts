@@ -24,6 +24,8 @@ export namespace DemoModel {
         export type Meta = {
             gameId: string;
             engine: string;
+            game: string;
+            map: string;
             startTime: Date;
             durationMs: number;
             fullDurationMs: number;
