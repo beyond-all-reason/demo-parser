@@ -145,7 +145,7 @@ export class ScriptParser {
         const allyTeamPlayerCounts: Record<number, number> = {};
         for (const player of [...players, ...ais]) {
             if (allyTeamPlayerCounts[player.allyTeamId] === undefined) {
-                allyTeamPlayerCounts[player.allyTeamId] = 0;
+                allyTeamPlayerCounts[player.allyTeamId] = 1;
             } else {
                 allyTeamPlayerCounts[player.allyTeamId]++;
             }
