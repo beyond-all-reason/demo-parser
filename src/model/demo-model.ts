@@ -94,8 +94,8 @@ export namespace DemoModel {
             script: Buffer;
             gameDuration: number;
             winningAllyTeamIds: number[];
-            startPositions: { [teamId: number]: DemoModel.Command.Type.MapPos };
-            factions: { [playerId: number]: string };
+            startPositions?: { [teamId: number]: DemoModel.Command.Type.MapPos };
+            factions?: { [playerId: number]: string };
         }
     }
 

@@ -111,6 +111,8 @@ export class DemoParser {
             this.bufferStream.read(this.header.demoStreamSize);
             this.statistics = this.parseStatistics(this.bufferStream.read());
 
+            this.info = this.generateInfo({ script, gameDuration, winningAllyTeamIds });
+
             return {
                 info: this.info,
                 header: this.header,
@@ -296,11 +298,15 @@ export class DemoParser {
         };
 
         for (const player of scriptInfo.players) {
-            if (setupInfo.startPositions[player.teamId]) {
-                player.startPos = setupInfo.startPositions[player.teamId];
+            if (setupInfo.startPositions) {
+                if (setupInfo.startPositions[player.teamId]) {
+                    player.startPos = setupInfo.startPositions[player.teamId];
+                }
             }
-            if (setupInfo.factions[player.playerId]) {
-                player.faction = setupInfo.factions[player.playerId];
+            if (setupInfo.factions) {
+                if (setupInfo.factions[player.playerId]) {
+                    player.faction = setupInfo.factions[player.playerId];
+                }
             }
         }
 
