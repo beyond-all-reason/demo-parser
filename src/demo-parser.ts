@@ -111,7 +111,7 @@ export class DemoParser {
             this.bufferStream.read(this.header.demoStreamSize);
             this.statistics = this.parseStatistics(this.bufferStream.read());
 
-            this.info = this.generateInfo({ script, gameDuration, winningAllyTeamIds });
+            this.info = this.generateInfo({ script, gameDuration, winningAllyTeamIds: this.statistics.winningAllyTeamIds });
 
             return {
                 info: this.info,
