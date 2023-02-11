@@ -40,6 +40,12 @@ export class PacketParser {
 
         const packetName = DemoModel.Packet.ID[packetId];
         const packetHandler = this.packetHandlers[packetId];
+        if (!packetHandler) {
+            if (this.config.verbose) {
+                console.warn(`No packet handler defined for packet of type ${packetId}`);
+            }
+            return;
+        }
         const packetData = packetHandler(bufferStream);
 
         if (packetData === undefined && this.config.verbose && packetId !== DemoModel.Packet.ID.NEWFRAME && packetId !== DemoModel.Packet.ID.LUAMSG ) {
