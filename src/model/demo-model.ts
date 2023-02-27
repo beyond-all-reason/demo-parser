@@ -96,6 +96,7 @@ export namespace DemoModel {
             winningAllyTeamIds: number[];
             startPositions?: { [teamId: number]: DemoModel.Command.Type.MapPos };
             factions?: { [playerId: number]: string };
+            colors?: Array<{ teamID: number, r: number, g: number, b: number }>;
         }
     }
 

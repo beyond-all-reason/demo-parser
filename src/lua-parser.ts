@@ -270,5 +270,19 @@ export const standardLuaHandlers: LuaHandler[] = [
             unitDefIdsArray.unshift("");
             return unitDefIdsArray;
         }
+    },
+    {
+        name: "COLORS",
+        validator: (buffer, str) => str.startsWith("AutoColors"),
+        parseStartIndex: "AutoColors".length,
+        parser: (buffer, str) => {
+            const colors: Array<{
+                teamID: number;
+                r: number;
+                g: number;
+                b: number;
+            }> = JSON.parse(str);
+            return colors;
+        }
     }
 ];

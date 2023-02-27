@@ -121,11 +121,11 @@ export class DemoParser {
             };
         }
 
-        const { startPositions, factions } = await this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
+        const { startPositions, factions, colors } = await this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
 
         this.statistics = this.parseStatistics(this.bufferStream.read());
 
-        this.info = this.generateInfo({ script, gameDuration, winningAllyTeamIds, startPositions, factions });
+        this.info = this.generateInfo({ script, gameDuration, winningAllyTeamIds, startPositions, factions, colors });
 
         const endTime = process.hrtime(startTime);
         const endTimeMs = (endTime[0]* 1000000000 + endTime[1]) / 1000000;
@@ -187,6 +187,7 @@ export class DemoParser {
         const packetParser = new PacketParser(this.config);
         const startPositions: { [teamId: number]: DemoModel.Command.Type.MapPos } = {};
         const factions: { [playerId: number]: string } = {};
+        let colors: Array<{ teamID: number, r: number, g: number, b: number }> = [];
 
         let counter = 0;
         while (bufferStream.readStream.readableLength > 0) {
@@ -209,6 +210,10 @@ export class DemoParser {
                     factions[packet.data.playerNum] = packet.data.data.data;
                 }
 
+                if (isPacket(packet, DemoModel.Packet.ID.LUAMSG) && packet.data?.data?.name === "COLORS") {
+                    colors = packet.data.data.data;
+                }
+
                 if (isPacket(packet, DemoModel.Packet.ID.CHAT)) {
                     const chatMessage = this.parseChatPacket(packet);
                     if (chatMessage.type !== "self") {
@@ -229,7 +234,7 @@ export class DemoParser {
             }
         }
 
-        return { startPositions, factions };
+        return { startPositions, factions, colors };
     }
 
     // TODO
@@ -306,6 +311,17 @@ export class DemoParser {
             if (setupInfo.factions) {
                 if (setupInfo.factions[player.playerId]) {
                     player.faction = setupInfo.factions[player.playerId];
+                }
+            }
+        }
+
+        if (setupInfo.colors) {
+            for (const color of setupInfo.colors) {
+                for (const player of scriptInfo.players) {
+                    const { teamID, ...colors } = color;
+                    if (player.teamId === color.teamID) {
+                        player.rgbColor = colors;
+                    }
                 }
             }
         }
