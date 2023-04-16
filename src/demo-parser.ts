@@ -237,30 +237,31 @@ export class DemoParser {
         return { startPositions, factions, colors };
     }
 
-    // TODO
     protected parseStatistics(buffer: Buffer) : DemoModel.Statistics.Statistics {
         const bufferStream = new BufferStream(buffer);
 
-        // not using these because can't figure out how to parse them correctly, using values from demo stream instead
-        const shitPlayerStats = this.parsePlayerStatistics(bufferStream.read(this.header.playerStatSize));
-        const shitTeamStats = this.parseTeamStatistics(bufferStream.read(this.header.teamStatSize));
+        console.log(buffer.length);
+        console.log(this.header.teamStatSize, this.header.playerStatSize);
 
         let winningAllyTeamIds: number[] = [];
         if (bufferStream.readStream.readableLength) {
             winningAllyTeamIds = this.header.winningAllyTeamsSize === 0 ? [] : bufferStream.readInts(this.header.winningAllyTeamsSize, 1, true);
         }
 
-        return {
-            winningAllyTeamIds, playerStats: shitPlayerStats, teamStats: shitTeamStats
-        };
+        const playerStats = this.parsePlayerStatistics(bufferStream.read(this.header.playerStatSize));
+        const teamStats = this.parseTeamStatistics(bufferStream.read(this.header.teamStatSize)); // this will be empty for spring-dedicated demos
+
+        return { winningAllyTeamIds, playerStats, teamStats };
     }
 
+    // https://github.com/springfiles/SpringStatsViewer/blob/master/SpringDemoFile.py#L1540
+    // this data seems wrong for spring-dedicated demos
     protected parsePlayerStatistics(buffer: Buffer) {
         const bufferStream = new BufferStream(buffer);
         const players: DemoModel.Statistics.Player[] = [];
         for (let i=0; i<this.header.numPlayers; i++) {
             players.push({
-                playerId: i, // pretty sure this is all wrong, but dunno why
+                playerId: i,
                 numCommands: bufferStream.readInt(),
                 unitCommands: bufferStream.readInt(),
                 mousePixels: bufferStream.readInt(),
@@ -271,8 +272,47 @@ export class DemoParser {
         return players;
     }
 
+    // https://github.com/springfiles/SpringStatsViewer/blob/master/SpringDemoFile.py#L1603
     protected parseTeamStatistics(buffer: Buffer) {
-        return [] as DemoModel.Statistics.Team[];
+        const bufferStream = new BufferStream(buffer);
+        const teamStats: Record<number, DemoModel.Statistics.Team[]> = {};
+
+        const numOfStatsForTeams: number[] = [];
+        for (let i=0; i<this.header.numTeams; i++) {
+            numOfStatsForTeams.push(bufferStream.readInt());
+            teamStats[i] = [];
+        }
+
+        let teamId = 0;
+        for (const numOfStats of numOfStatsForTeams) {
+            for (let i=0; i<numOfStats; i++) {
+                teamStats[teamId].push({
+                    frame: bufferStream.readInt(),
+                    metalUsed: bufferStream.readFloat(),
+                    energyUsed: bufferStream.readFloat(),
+                    metalProduced: bufferStream.readFloat(),
+                    energyProduced: bufferStream.readFloat(),
+                    metalExcess: bufferStream.readFloat(),
+                    energyExcess: bufferStream.readFloat(),
+                    metalReceived: bufferStream.readFloat(),
+                    energyReceived: bufferStream.readFloat(),
+                    metalSent: bufferStream.readFloat(),
+                    energySent: bufferStream.readFloat(),
+                    damageDealt: bufferStream.readFloat(),
+                    damageReceived: bufferStream.readFloat(),
+                    unitsProduced: bufferStream.readInt(),
+                    unitsDied: bufferStream.readInt(),
+                    unitsReceived: bufferStream.readInt(),
+                    unitsSent: bufferStream.readInt(),
+                    unitsCaptured: bufferStream.readInt(),
+                    unitsOutCaptured: bufferStream.readInt(),
+                    unitsKilled: bufferStream.readInt(),
+                });
+            }
+            teamId++;
+        }
+
+        return teamStats;
     }
 
     protected parseChatPacket(packet: DemoModel.Packet.Packet<DemoModel.Packet.ID.CHAT>) : DemoModel.ChatMessage {

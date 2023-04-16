@@ -125,7 +125,7 @@ export namespace DemoModel {
         export type Statistics = {
             winningAllyTeamIds: number[];
             playerStats: Player[];
-            teamStats: Team[];
+            teamStats: Record<number, Team[]>;
         }
 
         export type Player = {
@@ -138,6 +138,26 @@ export namespace DemoModel {
         }
 
         export type Team = {
+            frame: number;
+            metalUsed: number;
+            energyUsed: number;
+            metalProduced: number;
+            energyProduced: number;
+            metalExcess: number;
+            energyExcess: number;
+            metalReceived: number;
+            energyReceived: number;
+            metalSent: number;
+            energySent: number;
+            damageDealt: number;
+            damageReceived: number;
+            unitsProduced: number;
+            unitsDied: number;
+            unitsReceived: number;
+            unitsSent: number;
+            unitsCaptured: number;
+            unitsOutCaptured: number;
+            unitsKilled: number;
         }
     }
 
