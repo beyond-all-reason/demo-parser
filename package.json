@@ -31,12 +31,15 @@
   },
   "author": "Jazcash",
   "license": "unlicense",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Jazcash/sdfz-demo-parser.git"
   },
   "dependencies": {
-    "jaz-ts-utils": "^3.0.0",
+    "jaz-ts-utils": "^6.2.0",
     "node-gzip": "^1.1.2"
   },
   "devDependencies": {
