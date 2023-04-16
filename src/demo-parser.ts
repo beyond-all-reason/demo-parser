@@ -240,9 +240,6 @@ export class DemoParser {
     protected parseStatistics(buffer: Buffer) : DemoModel.Statistics.Statistics {
         const bufferStream = new BufferStream(buffer);
 
-        console.log(buffer.length);
-        console.log(this.header.teamStatSize, this.header.playerStatSize);
-
         let winningAllyTeamIds: number[] = [];
         if (bufferStream.readStream.readableLength) {
             winningAllyTeamIds = this.header.winningAllyTeamsSize === 0 ? [] : bufferStream.readInts(this.header.winningAllyTeamsSize, 1, true);
