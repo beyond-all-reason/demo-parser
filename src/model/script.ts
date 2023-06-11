@@ -64,7 +64,7 @@ export namespace Script {
         userId?: number;
         skill?: string;
         skillclass?: number;
-        skillUncertainty?: number;
+        skillUncertainty?: string;
         startPos?: DemoModel.Command.Type.MapPos;
     }
 

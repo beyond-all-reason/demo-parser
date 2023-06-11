@@ -67,7 +67,7 @@ export namespace DemoModel {
             userId?: number;
             skill?: string;
             skillclass?: number;
-            skillUncertainty?: number;
+            skillUncertainty?: string;
             startPos?: Command.Type.MapPos;
             clanId?: string;
         }
