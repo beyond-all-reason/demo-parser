@@ -89,7 +89,7 @@ export class ScriptParser {
                 const userId = parseInt(obj.accountid) || undefined;
                 const countryCode = obj.countrycode || undefined;
                 const skillclass = parseInt(obj.skillclass) || undefined;
-                const skillUncertainty = parseInt(obj.skilluncertainty) || undefined;
+                const skillUncertainty = parseFloat(obj.skilluncertainty) || undefined;
                 const skill = obj.skill || undefined;
                 const clanId = obj.clanid || undefined;
                 const playerOrSpec: DemoModel.Info.Player | DemoModel.Info.Spectator = {
