@@ -59,7 +59,7 @@ export namespace DemoModel {
             allyTeamId: number;
             name: string;
             faction: string;
-            rank: number;
+            rank: number | null;
             rgbColor: { r: number, g: number, b: number };
             handicap: number;
             isFromDemo?: boolean;

@@ -83,7 +83,10 @@ export class ScriptParser {
             } else if (key.includes("player") && typeof obj === "object") {
                 const isSpec = obj.spectator === "1";
                 const playerId = parseInt(key.split("player")[1]);
-                const rank = parseInt(obj.rank);
+                let rank: number | null = parseInt(obj.rank);
+                if (Number.isNaN(rank)) {
+                    rank = null;
+                }
                 const name = obj.name;
                 const isFromDemo = obj.isfromdemo ? obj.isfromdemo === "1" : undefined;
                 const userId = parseInt(obj.accountid) || undefined;
