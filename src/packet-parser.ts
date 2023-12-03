@@ -57,6 +57,7 @@ export class PacketParser {
             name: packetName,
             fullGameTime: modGameTime,
             actualGameTime: 0,
+            sizeBytes: buffer.byteLength,
             data: packetData
         };
 

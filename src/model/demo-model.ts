@@ -235,6 +235,7 @@ export namespace DemoModel {
             name: string;
             fullGameTime: number;
             actualGameTime: number;
+            sizeBytes: number;
             data: GetPacketData<T>;
         }
 
