@@ -111,8 +111,8 @@ export const standardLuaHandlers: LuaHandler[] = [
     {
         // https://github.com/beyond-all-reason/Beyond-All-Reason/blob/master/luaui/Widgets_BAR/gui_factionpicker.lua
         name: "FACTION_PICKER",
-        parseStartIndex: 1,
-        validator: (buffer, str) => buffer[0] === 0x8a,
+        parseStartIndex: "changeStartUnit".length,
+        validator: (buffer, str) => str.startsWith("changeStartUnit"),
         parser: (buffer, str, config) => {
             const unitDefIndex = Number(str);
             if (!Number.isNaN(unitDefIndex)) {
