@@ -121,6 +121,8 @@ export const standardLuaHandlers: LuaHandler[] = [
                     return "Cortex";
                 } else if (unitDefId ==="armcom") {
                     return "Armada";
+                } else if (unitDefId === "legcom") {
+                    return "Legion";
                 }
             }
 
