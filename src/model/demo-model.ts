@@ -360,6 +360,7 @@ export namespace DemoModel {
                 x2?: number;
                 z2?: number;
                 label?: string;
+                fromLua?: boolean;
             }
             [ID.MAPDRAW]: {
                 playerNum: number;

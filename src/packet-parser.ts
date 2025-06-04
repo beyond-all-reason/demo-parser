@@ -240,13 +240,18 @@ export class PacketParser {
                 let x2: number | undefined;
                 let z2: number | undefined;
                 let label: string | undefined;
+                let fromLua: boolean | undefined;
                 if (mapDrawAction === DemoModel.MapDrawAction.LINE) {
                     x2 = bufferStream.readInt(2);
                     z2 = bufferStream.readInt(2);
-                } else if (mapDrawAction === DemoModel.MapDrawAction.POINT) {
+                }
+                if (mapDrawAction === DemoModel.MapDrawAction.LINE || mapDrawAction === DemoModel.MapDrawAction.POINT) {
+                    fromLua = !!bufferStream.readInt(1);
+                }
+                if (mapDrawAction === DemoModel.MapDrawAction.POINT) {
                     label = bufferStream.readString();
                 }
-                return { playerNum, mapDrawAction, x, z, x2, z2, label };
+                return { playerNum, mapDrawAction, x, z, x2, z2, label, fromLua };
             },
             [DemoModel.Packet.ID.MAPDRAW]: (bufferStream) => {
                 const size = bufferStream.readInt(1);
