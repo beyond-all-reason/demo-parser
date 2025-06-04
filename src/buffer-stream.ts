@@ -1,5 +1,7 @@
 import { Readable } from "stream";
 
+export type PacketIntSize = 1|2|3|4
+
 export class BufferStream {
     public readStream: Readable;
     public isBigEndian: boolean;
@@ -21,7 +23,7 @@ export class BufferStream {
         return str;
     }
 
-    public readInt(size: 1 | 2 | 3 | 4 = 4, unsigned = false) : number {
+    public readInt(size: PacketIntSize = 4, unsigned = false) : number {
         if (unsigned) {
             return this.isBigEndian ? this.read(size).readUIntBE(0, size) : this.read(size).readUIntLE(0, size);
         } else {

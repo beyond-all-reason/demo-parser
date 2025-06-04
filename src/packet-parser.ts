@@ -5,7 +5,7 @@
 
 import * as zlib from "zlib";
 
-import { BufferStream } from "./buffer-stream";
+import { BufferStream, PacketIntSize } from "./buffer-stream";
 import { CommandParser } from "./command-parser";
 import { DemoParserConfig } from "./demo-parser";
 import { LuaParser } from "./lua-parser";
@@ -70,7 +70,7 @@ export class PacketParser {
         return packet;
     }
 
-    protected parseDrawMsg(bufferStream: BufferStream, coordSize: number) : DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW> | DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW_OLD> {
+    protected parseDrawMsg(bufferStream: BufferStream, coordSize: PacketIntSize) : DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW> | DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW_OLD> {
         const size = bufferStream.readInt(1);
         const playerNum = bufferStream.readInt(1);
         const mapDrawAction = bufferStream.readInt(1) as DemoModel.MapDrawAction;
