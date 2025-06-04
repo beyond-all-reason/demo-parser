@@ -1,6 +1,6 @@
 import { Readable } from "stream";
 
-export type PacketIntSize = 1|2|3|4
+export type PacketIntSize = 1|2|3|4;
 
 export class BufferStream {
     public readStream: Readable;
