@@ -231,7 +231,7 @@ export class PacketParser {
                 const winningAllyTeams = bufferStream.readInts(bufferStream.readStream.readableLength, 1, true);
                 return { playerNum, winningAllyTeams };
             },
-            [DemoModel.Packet.ID.MAPDRAW]: (bufferStream) => {
+            [DemoModel.Packet.ID.MAPDRAW_OLD]: (bufferStream) => {
                 const size = bufferStream.readInt(1);
                 const playerNum = bufferStream.readInt(1);
                 const mapDrawAction = bufferStream.readInt(1) as DemoModel.MapDrawAction;
@@ -247,6 +247,28 @@ export class PacketParser {
                     label = bufferStream.readString();
                 }
                 return { playerNum, mapDrawAction, x, z, x2, z2, label };
+            },
+            [DemoModel.Packet.ID.MAPDRAW]: (bufferStream) => {
+                const size = bufferStream.readInt(1);
+                const playerNum = bufferStream.readInt(1);
+                const mapDrawAction = bufferStream.readInt(1) as DemoModel.MapDrawAction;
+                const x = bufferStream.readInt(4);
+                const z = bufferStream.readInt(4);
+                let x2: number | undefined;
+                let z2: number | undefined;
+                let label: string | undefined;
+                let fromLua: boolean | undefined;
+                if (mapDrawAction === DemoModel.MapDrawAction.LINE) {
+                    x2 = bufferStream.readInt(4);
+                    z2 = bufferStream.readInt(4);
+                }
+                if (mapDrawAction === DemoModel.MapDrawAction.LINE || mapDrawAction === DemoModel.MapDrawAction.POINT) {
+                    fromLua = !!bufferStream.readInt(1);
+                }
+                if (mapDrawAction === DemoModel.MapDrawAction.POINT) {
+                    label = bufferStream.readString();
+                }
+                return { playerNum, mapDrawAction, x, z, x2, z2, label, fromLua };
             },
             [DemoModel.Packet.ID.SYNCRESPONSE]: (bufferStream) => {
                 const playerNum = bufferStream.readInt(1, true);

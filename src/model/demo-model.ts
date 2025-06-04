@@ -197,7 +197,8 @@ export namespace DemoModel {
             SETSHARE            = 27,
             PLAYERSTAT          = 29,
             GAMEOVER            = 30,
-            MAPDRAW             = 31,
+            MAPDRAW_OLD         = 31,
+            MAPDRAW             = 32,
             SYNCRESPONSE        = 33,
             SYSTEMMSG           = 35,
             STARTPOS            = 36,
@@ -351,6 +352,15 @@ export namespace DemoModel {
                 playerNum: number;
                 winningAllyTeams: number[];
             }
+            [ID.MAPDRAW_OLD]: {
+                playerNum: number;
+                mapDrawAction: MapDrawAction;
+                x: number;
+                z: number;
+                x2?: number;
+                z2?: number;
+                label?: string;
+            }
             [ID.MAPDRAW]: {
                 playerNum: number;
                 mapDrawAction: MapDrawAction;
@@ -359,6 +369,7 @@ export namespace DemoModel {
                 x2?: number;
                 z2?: number;
                 label?: string;
+                fromLua?: boolean;
             }
             [ID.SYNCRESPONSE]: {
                 playerNum: number;
