@@ -255,10 +255,10 @@ export class PacketParser {
                 return { playerNum, winningAllyTeams };
             },
             [DemoModel.Packet.ID.MAPDRAW_OLD]: (bufferStream) => {
-                return this.parseDrawMsg(bufferStream, 2)
+                return this.parseDrawMsg(bufferStream, 2);
             },
             [DemoModel.Packet.ID.MAPDRAW]: (bufferStream) => {
-                return this.parseDrawMsg(bufferStream, 4)
+                return this.parseDrawMsg(bufferStream, 4);
             },
             [DemoModel.Packet.ID.SYNCRESPONSE]: (bufferStream) => {
                 const playerNum = bufferStream.readInt(1, true);
