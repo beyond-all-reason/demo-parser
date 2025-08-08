@@ -12,23 +12,6 @@
     "lint-fix": "eslint . --ext .ts --fix",
     "test": "jest"
   },
-  "jest": {
-    "moduleFileExtensions": [
-      "ts",
-      "js"
-    ],
-    "transform": {
-      "^.+\\.ts$": "ts-jest"
-    },
-    "globals": {
-      "ts-jest": {
-        "tsconfig": "tsconfig.json"
-      }
-    },
-    "testMatch": [
-      "**.test.ts"
-    ]
-  },
   "author": "Jazcash",
   "license": "unlicense",
   "files": [
@@ -46,14 +29,14 @@
     "@types/eslint": "^7.2.5",
     "@types/jest": "^26.0.20",
     "@types/node-gzip": "^1.1.0",
-    "@typescript-eslint/eslint-plugin": "^4.8.1",
-    "@typescript-eslint/parser": "^4.8.1",
-    "eslint": "^7.14.0",
-    "eslint-plugin-simple-import-sort": "^6.0.1",
-    "eslint-plugin-unused-imports": "^1.0.0",
-    "jest": "^26.6.3",
-    "ts-jest": "^26.4.4",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
     "ts-node": "^9.1.1",
-    "typescript": "^4.6.2"
+    "typescript": "^5.9.2"
   }
 }
