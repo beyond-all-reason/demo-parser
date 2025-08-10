@@ -5,6 +5,7 @@ export namespace DemoModel {
         script: string;
         statistics?: Statistics.Statistics;
         chatlog?: ChatMessage[];
+        packets?: DemoModel.Packet.AbstractPacket[];
     }
 
     export namespace Info {

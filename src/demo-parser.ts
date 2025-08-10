@@ -73,6 +73,7 @@ export class DemoParser {
     protected header!: DemoModel.Header;
     protected statistics!: DemoModel.Statistics.Statistics;
     protected chatlog: DemoModel.ChatMessage[] = [];
+    protected packets: DemoModel.Packet.AbstractPacket[] = [];
 
     public onPacket: Signal<DemoModel.Packet.AbstractPacket> = new Signal();
 
@@ -121,7 +122,9 @@ export class DemoParser {
             };
         }
 
-        const { startPositions, factions, colors } = await this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
+        const { startPositions, factions, colors, packets} = await this.parsePackets(this.bufferStream.read(this.header.demoStreamSize));
+
+        this.packets = packets;
 
         this.statistics = this.parseStatistics(this.bufferStream.read());
 
@@ -155,7 +158,8 @@ export class DemoParser {
             header: this.header,
             script: script.toString(),
             statistics: this.statistics,
-            chatlog: this.chatlog
+            chatlog: this.chatlog,
+            packets: this.packets
         };
     }
 
@@ -188,6 +192,7 @@ export class DemoParser {
         const startPositions: { [teamId: number]: DemoModel.Command.Type.MapPos } = {};
         const factions: { [playerId: number]: string } = {};
         let colors: Array<{ teamID: number, r: number, g: number, b: number }> = [];
+        const packets: DemoModel.Packet.AbstractPacket[] = [];
 
         let counter = 0;
         while (bufferStream.readStream.readableLength > 0) {
@@ -198,6 +203,8 @@ export class DemoParser {
             const packet = packetParser.parsePacket(packetData, modGameTime, this.header.wallclockTime - this.header.gameTime);
 
             if (packet && packet.data) {
+                packets.push(packet);
+
                 if (packet.data.playerNum !== undefined && this.config.includePlayerIds?.length && !this.config.includePlayerIds?.includes(packet.data.playerNum)) {
                     continue;
                 }
@@ -234,7 +241,7 @@ export class DemoParser {
             }
         }
 
-        return { startPositions, factions, colors };
+        return { startPositions, factions, colors, packets };
     }
 
     protected parseStatistics(buffer: Buffer) : DemoModel.Statistics.Statistics {

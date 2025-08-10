@@ -18,3 +18,13 @@ import { DemoParser } from "sdfz-demo-parser";
     console.log(demo.info.spectators[1].name); // [Fx]Jazcash
 })();
 ```
+
+## Dump entire demo
+
+To just dump the entire contents and all packets to a json on the console
+
+`npm install`
+
+`npm run build`
+
+`npx ts-node parse-demo.ts mydemo.sdfz > mydemo.json`
