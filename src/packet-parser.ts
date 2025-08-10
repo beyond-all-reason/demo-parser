@@ -5,7 +5,7 @@
 
 import * as zlib from "zlib";
 
-import { BufferStream } from "./buffer-stream";
+import { BufferStream, PacketIntSize } from "./buffer-stream";
 import { CommandParser } from "./command-parser";
 import { DemoParserConfig } from "./demo-parser";
 import { LuaParser } from "./lua-parser";
@@ -68,6 +68,29 @@ export class PacketParser {
         }
 
         return packet;
+    }
+
+    protected parseDrawMsg(bufferStream: BufferStream, coordSize: PacketIntSize) : DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW> | DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW_OLD> {
+        const size = bufferStream.readInt(1);
+        const playerNum = bufferStream.readInt(1);
+        const mapDrawAction = bufferStream.readInt(1) as DemoModel.MapDrawAction;
+        const x = bufferStream.readInt(coordSize);
+        const z = bufferStream.readInt(coordSize);
+        let x2: number | undefined;
+        let z2: number | undefined;
+        let label: string | undefined;
+        let fromLua: boolean | undefined;
+        if (mapDrawAction === DemoModel.MapDrawAction.LINE) {
+            x2 = bufferStream.readInt(coordSize);
+            z2 = bufferStream.readInt(coordSize);
+        }
+        if (mapDrawAction === DemoModel.MapDrawAction.LINE || mapDrawAction === DemoModel.MapDrawAction.POINT) {
+            fromLua = !!bufferStream.readInt(1);
+        }
+        if (mapDrawAction === DemoModel.MapDrawAction.POINT) {
+            label = bufferStream.readString();
+        }
+        return { playerNum, mapDrawAction, x, z, x2, z2, label, fromLua };
     }
 
     protected setupStandardPacketHandlers() : { [key in DemoModel.Packet.ID]: (bufferStream: BufferStream) => DemoModel.Packet.GetPacketData<key> | void } {
@@ -231,22 +254,11 @@ export class PacketParser {
                 const winningAllyTeams = bufferStream.readInts(bufferStream.readStream.readableLength, 1, true);
                 return { playerNum, winningAllyTeams };
             },
+            [DemoModel.Packet.ID.MAPDRAW_OLD]: (bufferStream) => {
+                return this.parseDrawMsg(bufferStream, 2);
+            },
             [DemoModel.Packet.ID.MAPDRAW]: (bufferStream) => {
-                const size = bufferStream.readInt(1);
-                const playerNum = bufferStream.readInt(1);
-                const mapDrawAction = bufferStream.readInt(1) as DemoModel.MapDrawAction;
-                const x = bufferStream.readInt(2);
-                const z = bufferStream.readInt(2);
-                let x2: number | undefined;
-                let z2: number | undefined;
-                let label: string | undefined;
-                if (mapDrawAction === DemoModel.MapDrawAction.LINE) {
-                    x2 = bufferStream.readInt(2);
-                    z2 = bufferStream.readInt(2);
-                } else if (mapDrawAction === DemoModel.MapDrawAction.POINT) {
-                    label = bufferStream.readString();
-                }
-                return { playerNum, mapDrawAction, x, z, x2, z2, label };
+                return this.parseDrawMsg(bufferStream, 4);
             },
             [DemoModel.Packet.ID.SYNCRESPONSE]: (bufferStream) => {
                 const playerNum = bufferStream.readInt(1, true);
