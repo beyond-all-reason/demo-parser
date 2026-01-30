@@ -20,6 +20,8 @@ export class PacketParser {
     protected luaParser: LuaParser;
     protected packetHandlers: { [key in DemoModel.Packet.ID]: PacketHandler<key> };
     protected gameStartTime: number;
+    protected includePacketsSet: Set<DemoModel.Packet.ID>;
+    protected excludePacketsSet: Set<DemoModel.Packet.ID>;
 
     constructor(config: DemoParserConfig) {
         this.config = config;
@@ -27,6 +29,8 @@ export class PacketParser {
         this.luaParser = new LuaParser(this.config);
         this.packetHandlers = this.setupStandardPacketHandlers();
         this.gameStartTime = 0;
+        this.includePacketsSet = new Set(config.includePackets);
+        this.excludePacketsSet = new Set(config.excludePackets);
     }
 
     public parsePacket(buffer: Buffer, modGameTime: number, gameTimeOffset: number) : DemoModel.Packet.AbstractPacket | undefined {
@@ -34,7 +38,7 @@ export class PacketParser {
 
         const packetId = bufferStream.readInt(1) as DemoModel.Packet.ID;
 
-        if ((this.config.includePackets!.length > 0 && !this.config.includePackets!.includes(packetId)) || this.config.excludePackets!.includes(packetId)) {
+        if ((this.includePacketsSet.size > 0 && !this.includePacketsSet.has(packetId)) || this.excludePacketsSet.has(packetId)) {
             return;
         }
 
@@ -154,7 +158,7 @@ export class PacketParser {
             [DemoModel.Packet.ID.SELECT]: (bufferStream) => {
                 const size = bufferStream.readInt(2);
                 const playerNum = bufferStream.readInt(1, true);
-                const selectedUnitIds = bufferStream.readInts(bufferStream.readStream.readableLength / 2, 2, true);
+                const selectedUnitIds = bufferStream.readInts(bufferStream.readableLength / 2, 2, true);
                 return { playerNum, selectedUnitIds };
             },
             [DemoModel.Packet.ID.PAUSE]: (bufferStream) => {
@@ -209,7 +213,7 @@ export class PacketParser {
                 const destTeam = bufferStream.readInt(1, true);
                 const metal = bufferStream.readFloat();
                 const energy = bufferStream.readFloat();
-                const unitIds = bufferStream.readInts(bufferStream.readStream.readableLength / 2, 2);
+                const unitIds = bufferStream.readInts(bufferStream.readableLength / 2, 2);
                 return { playerNum, aiId, sourceTeam, destTeam, metal, energy, unitIds };
             },
             [DemoModel.Packet.ID.USER_SPEED]: (bufferStream) => {
@@ -251,7 +255,7 @@ export class PacketParser {
             [DemoModel.Packet.ID.GAMEOVER]: (bufferStream) => {
                 const size = bufferStream.readInt(1);
                 const playerNum = bufferStream.readInt(1);
-                const winningAllyTeams = bufferStream.readInts(bufferStream.readStream.readableLength, 1, true);
+                const winningAllyTeams = bufferStream.readInts(bufferStream.readableLength, 1, true);
                 return { playerNum, winningAllyTeams };
             },
             [DemoModel.Packet.ID.MAPDRAW_OLD]: (bufferStream) => {
