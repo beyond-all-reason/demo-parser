@@ -1,5 +1,4 @@
 import { promises as fs } from "fs";
-import { Signal } from "jaz-ts-utils";
 import { ungzip } from "node-gzip";
 import * as path from "path";
 
@@ -8,6 +7,7 @@ import { LuaHandler } from "./lua-parser";
 import { DemoModel } from "./model/demo-model";
 import { PacketParser } from "./packet-parser";
 import { ScriptParser } from "./script-parser";
+import { Signal } from "./signal";
 import { isPacket } from "./utils";
 
 export interface DemoParserConfig {

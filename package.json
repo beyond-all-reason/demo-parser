@@ -9,7 +9,7 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "lint": "eslint . --ext .ts",
-    "lint-fix": "eslint . --ext .ts --fix",
+    "lint:fix": "eslint . --ext .ts --fix",
     "test": "jest"
   },
   "author": "Jazcash and others",
@@ -25,7 +25,6 @@
     "node": ">=14"
   },
   "dependencies": {
-    "jaz-ts-utils": "^7.10.0",
     "node-gzip": "^1.1.2"
   },
   "devDependencies": {
