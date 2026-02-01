@@ -1,5 +1,5 @@
 import { promises as fs } from "fs";
-import { delay, Signal } from "jaz-ts-utils";
+import { Signal } from "jaz-ts-utils";
 import { ungzip } from "node-gzip";
 import * as path from "path";
 
@@ -189,7 +189,6 @@ export class DemoParser {
         const factions: { [playerId: number]: string } = {};
         let colors: Array<{ teamID: number, r: number, g: number, b: number }> = [];
 
-        let counter = 0;
         while (bufferStream.readStream.readableLength > 0) {
             const modGameTime = bufferStream.readFloat();
             const length = bufferStream.readInt(4, true);
@@ -226,11 +225,6 @@ export class DemoParser {
                 }
 
                 this.onPacket.dispatch(packet);
-            }
-
-            counter++;
-            if (counter % 10000 === 0) {
-                await delay(5); // allow garbage collection - https://stackoverflow.com/questions/66110154/nodejs-readable-stream-causing-memory-leak
             }
         }
 
