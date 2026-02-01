@@ -1,5 +1,6 @@
-# SpringRTS Demo Parser
-Parser for SpringRTS .sdfz demo files
+# SpringRTS/RecoilEngine Demo Parser
+
+Parser for SpringRTS/RecoilEngine .sdfz demo files
 
 ## Usage
 
@@ -17,4 +18,13 @@ import { DemoParser } from "sdfz-demo-parser";
 
     console.log(demo.info.spectators[1].name); // [Fx]Jazcash
 })();
+```
+
+## Development
+
+### Publish new version
+
+```
+npm version --sign-git-tag patch|minor|major
+git push --follow-tags
 ```
