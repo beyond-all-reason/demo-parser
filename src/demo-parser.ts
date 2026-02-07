@@ -9,6 +9,8 @@ import { PacketParser } from "./packet-parser";
 import { ScriptParser } from "./script-parser";
 import { Signal } from "./signal";
 import { isPacket } from "./utils";
+import {createReadStream} from "node:fs";
+import {createGunzip} from "node:zlib";
 
 export interface DemoParserConfig {
     verbose?: boolean;
@@ -94,7 +96,7 @@ export class DemoParser {
 
         this.bufferStream = new BufferStream(sdf);
 
-        this.header = this.parseHeader();
+        this.header = DemoParser.parseHeader(this.bufferStream);
 
         const script = this.bufferStream.read(this.header.scriptSize);
 
@@ -159,26 +161,113 @@ export class DemoParser {
         };
     }
 
-    protected parseHeader() : DemoModel.Header {
+    public static getHeaders(demoFilePath: string): Promise<DemoModel.HeadersOnly> {
+        return new Promise((resolve, reject) => {
+            const HEADER_SIZE = 352;
+            const chunks: Buffer[] = [];
+            let totalLength = 0;
+            let header: DemoModel.Header | null = null;
+            let requiredBytes = HEADER_SIZE;
+            let resolved = false;
+
+            const fileStream = createReadStream(demoFilePath);
+            const gunzip = createGunzip();
+
+            const cleanup = () => {
+                gunzip.removeAllListeners();
+                fileStream.removeAllListeners();
+                gunzip.destroy();
+                fileStream.destroy();
+            };
+
+            gunzip.on("data", (chunk: Buffer) => {
+                if (resolved) return;
+
+                chunks.push(chunk);
+                totalLength += chunk.length;
+
+                if (!header && totalLength >= HEADER_SIZE) {
+                    const buffer = Buffer.concat(chunks);
+                    header = DemoParser.parseHeader(new BufferStream(buffer));
+                    requiredBytes = HEADER_SIZE + header.scriptSize;
+                }
+
+                if (header && totalLength >= requiredBytes) {
+                    resolved = true;
+                    cleanup();
+
+                    const buffer = Buffer.concat(chunks);
+                    const script = buffer.subarray(HEADER_SIZE, HEADER_SIZE + header.scriptSize);
+                    const scriptParser = new ScriptParser({});
+                    const scriptInfo = scriptParser.parseScript(script);
+
+                    const meta: Omit<DemoModel.Info.Meta, 'winningAllyTeamIds'> = {
+                        gameId: header.gameId,
+                        engine: header.versionString,
+                        game: scriptInfo.hostSettings.gametype,
+                        map: scriptInfo.hostSettings.mapname,
+                        startTime: header.startTime,
+                        durationMs: header.wallclockTime * 1000,
+                        fullDurationMs: header.wallclockTime * 1000,
+                        startPosType: parseInt(scriptInfo.hostSettings.startpostype)
+                    };
+
+                    resolve({
+                        info: { meta, ...scriptInfo },
+                        header,
+                        script: script.toString(),
+                    });
+                }
+            });
+
+            gunzip.on("error", (err) => {
+                if (!resolved) {
+                    resolved = true;
+                    cleanup();
+                    reject(err);
+                }
+            });
+
+            gunzip.on("end", () => {
+                if (!resolved) {
+                    resolved = true;
+                    cleanup();
+                    reject(new Error("Unexpected end of gzip stream before reading complete header and script"));
+                }
+            });
+
+            fileStream.on("error", (err) => {
+                if (!resolved) {
+                    resolved = true;
+                    cleanup();
+                    reject(err);
+                }
+            });
+
+            fileStream.pipe(gunzip);
+        });
+    }
+
+    protected static parseHeader(bufferStream: BufferStream) : DemoModel.Header {
         return {
-            magic: this.bufferStream.readString(16),
-            version: this.bufferStream.readInt(),
-            headerSize: this.bufferStream.readInt(),
-            versionString: this.bufferStream.readString(256, true),
-            gameId: this.bufferStream.read(16).toString("hex"),
-            startTime: new Date(Number(this.bufferStream.readBigInt()) * 1000),
-            scriptSize: this.bufferStream.readInt(),
-            demoStreamSize: this.bufferStream.readInt(),
-            gameTime: this.bufferStream.readInt(),
-            wallclockTime: this.bufferStream.readInt(),
-            numPlayers: this.bufferStream.readInt(),
-            playerStatSize: this.bufferStream.readInt(),
-            playerStatElemSize: this.bufferStream.readInt(),
-            numTeams: this.bufferStream.readInt(),
-            teamStatSize: this.bufferStream.readInt(),
-            teamStatElemSize: this.bufferStream.readInt(),
-            teamStatPeriod: this.bufferStream.readInt(),
-            winningAllyTeamsSize: this.bufferStream.readInt(),
+            magic: bufferStream.readString(16),
+            version: bufferStream.readInt(),
+            headerSize: bufferStream.readInt(),
+            versionString: bufferStream.readString(256, true),
+            gameId: bufferStream.read(16).toString("hex"),
+            startTime: new Date(Number(bufferStream.readBigInt()) * 1000),
+            scriptSize: bufferStream.readInt(),
+            demoStreamSize: bufferStream.readInt(),
+            gameTime: bufferStream.readInt(),
+            wallclockTime: bufferStream.readInt(),
+            numPlayers: bufferStream.readInt(),
+            playerStatSize: bufferStream.readInt(),
+            playerStatElemSize: bufferStream.readInt(),
+            numTeams: bufferStream.readInt(),
+            teamStatSize: bufferStream.readInt(),
+            teamStatElemSize: bufferStream.readInt(),
+            teamStatPeriod: bufferStream.readInt(),
+            winningAllyTeamsSize: bufferStream.readInt(),
         };
     }
 

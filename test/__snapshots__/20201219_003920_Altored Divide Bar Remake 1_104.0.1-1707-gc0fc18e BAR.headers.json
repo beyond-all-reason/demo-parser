@@ -1,0 +1,308 @@
+{
+    "info": {
+        "meta": {
+            "gameId": "b44bdd5f15aa52d5f2b60c3bf84a62b8",
+            "engine": "104.0.1-1707-gc0fc18e BAR",
+            "game": "Beyond All Reason test-15077-b342469",
+            "map": "Altored Divide Bar Remake 1.55",
+            "startTime": "2020-12-19T00:39:20.000Z",
+            "durationMs": 860000,
+            "fullDurationMs": 860000,
+            "startPosType": 2
+        },
+        "hostSettings": {
+            "autohostrank": "4",
+            "numplayers": "11",
+            "gametype": "Beyond All Reason test-15077-b342469",
+            "autohostport": "53108",
+            "hostip": "",
+            "ishost": "1",
+            "mapname": "Altored Divide Bar Remake 1.55",
+            "startpostype": "2",
+            "numrestrictions": "0",
+            "autohostaccountid": "3125",
+            "autohostname": "[teh]host08",
+            "autohostcountrycode": "HU",
+            "hostport": "53208",
+            "numallyteams": "2",
+            "hosttype": "SPADS",
+            "numteams": "8"
+        },
+        "gameSettings": {
+            "disablemapdamage": "0",
+            "maxunits": "2000",
+            "chicken_custom_spawnchance": "33",
+            "chicken_custom_lobberemp": "4",
+            "newbie_placer": "0",
+            "transportenemy": "notcoms",
+            "allowmapmutators": "1",
+            "fixedallies": "1",
+            "chicken_custom_chickenspawn": "90",
+            "chicken_maxchicken": "300",
+            "startmetal": "1000",
+            "chicken_queendifficulty": "n_chickenq",
+            "armageddontime": "0",
+            "allowuserwidgets": "1",
+            "deathmode": "com",
+            "map_terraintype": "enabled",
+            "chicken_custom_minchicken": "8",
+            "ffa_mode": "0",
+            "chicken_chickenstart": "alwaysbox",
+            "chicken_custom_angerbonus": "0.15",
+            "scavtechcurve": "normal",
+            "startenergy": "1000",
+            "custom_expstep": "1.5",
+            "chicken_custom_damagemod": "100",
+            "chicken_queenanger": "1",
+            "coop": "0",
+            "scavbosshealth": "normal",
+            "scavevents": "enabled",
+            "critters": "1",
+            "maxspeed": "10",
+            "chicken_graceperiod": "300",
+            "shareddynamicalliancevictory": "0",
+            "minspeed": "0.3",
+            "scavendless": "disabled",
+            "map_tidal": "unchanged",
+            "map_waterlevel": "0",
+            "scaveventsamount": "normal",
+            "ruins": "disabled",
+            "scavdifficulty": "easy",
+            "chicken_custom_queenspawnmult": "1",
+            "chicken_queentime": "40",
+            "lootboxes": "0",
+            "chicken_custom_burrowspawn": "120"
+        },
+        "mapSettings": {},
+        "spadsSettings": {},
+        "restrictions": {},
+        "allyTeams": [
+            {
+                "allyTeamId": 1,
+                "startBox": {
+                    "bottom": 1,
+                    "left": 0,
+                    "top": 0.8,
+                    "right": 1
+                },
+                "playerCount": 4
+            },
+            {
+                "allyTeamId": 0,
+                "startBox": {
+                    "bottom": 0.2,
+                    "left": 0,
+                    "top": 0,
+                    "right": 1
+                },
+                "playerCount": 4
+            }
+        ],
+        "players": [
+            {
+                "playerId": 5,
+                "userId": 131,
+                "name": "Zecrus",
+                "countryCode": "US",
+                "rank": 4,
+                "skillclass": 3,
+                "skill": "~30",
+                "teamId": 5,
+                "rgbColor": {
+                    "r": 255,
+                    "g": 255,
+                    "b": 0
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Armada"
+            },
+            {
+                "playerId": 6,
+                "userId": 4487,
+                "name": "TankTank",
+                "countryCode": "??",
+                "rank": 1,
+                "skillclass": 5,
+                "skillUncertainty": 3,
+                "skill": "~16",
+                "teamId": 6,
+                "rgbColor": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Armada"
+            },
+            {
+                "playerId": 2,
+                "userId": 2154,
+                "name": "[WxN]PHILmyCrack",
+                "countryCode": "DE",
+                "rank": 3,
+                "skillclass": 4,
+                "skillUncertainty": 2,
+                "skill": "~25",
+                "teamId": 2,
+                "rgbColor": {
+                    "r": 255,
+                    "g": 0,
+                    "b": 255
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Armada"
+            },
+            {
+                "playerId": 4,
+                "userId": 26,
+                "name": "[Fx]ShoX",
+                "countryCode": "GB",
+                "rank": 4,
+                "skillclass": 2,
+                "skill": "35.68",
+                "teamId": 4,
+                "rgbColor": {
+                    "r": 140.00009999999997,
+                    "g": 140.00009999999997,
+                    "b": 255
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Armada"
+            },
+            {
+                "playerId": 7,
+                "userId": 2834,
+                "name": "raphael972",
+                "countryCode": "FR",
+                "rank": 4,
+                "skillclass": 5,
+                "skillUncertainty": 1,
+                "skill": "~16",
+                "teamId": 7,
+                "rgbColor": {
+                    "r": 0,
+                    "g": 255,
+                    "b": 255
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Armada"
+            },
+            {
+                "playerId": 3,
+                "userId": 4676,
+                "name": "badosu",
+                "countryCode": "BR",
+                "rank": 3,
+                "skillclass": 5,
+                "skillUncertainty": 3,
+                "skill": "~10",
+                "teamId": 3,
+                "rgbColor": {
+                    "r": 140.00009999999997,
+                    "g": 255,
+                    "b": 140.00009999999997
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Armada"
+            },
+            {
+                "playerId": 1,
+                "userId": 2708,
+                "name": "[Fx]HappyFace",
+                "countryCode": "GB",
+                "rank": 3,
+                "skillclass": 5,
+                "skillUncertainty": 3,
+                "skill": "26.87",
+                "teamId": 1,
+                "rgbColor": {
+                    "r": 0,
+                    "g": 255,
+                    "b": 0
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Armada"
+            },
+            {
+                "playerId": 0,
+                "userId": 2697,
+                "name": "[Fx]Drone",
+                "countryCode": "GB",
+                "rank": 4,
+                "skillclass": 2,
+                "skillUncertainty": 2,
+                "skill": "36.68",
+                "teamId": 0,
+                "rgbColor": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 255
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Armada"
+            }
+        ],
+        "ais": [],
+        "spectators": [
+            {
+                "playerId": 9,
+                "userId": 35,
+                "name": "Raffeh",
+                "countryCode": "GB",
+                "rank": 3,
+                "skillclass": 4,
+                "skillUncertainty": 2,
+                "skill": "~25"
+            },
+            {
+                "playerId": 8,
+                "userId": 36,
+                "name": "[Fx]Jazcash",
+                "countryCode": "GB",
+                "rank": 4,
+                "skillclass": 2,
+                "skillUncertainty": 1,
+                "skill": "37.70"
+            },
+            {
+                "playerId": 10,
+                "userId": 3,
+                "name": "Floris",
+                "countryCode": "NL",
+                "rank": 5,
+                "skillclass": 5,
+                "skillUncertainty": 3,
+                "skill": "22.14"
+            }
+        ]
+    },
+    "header": {
+        "magic": "spring demofile",
+        "version": 5,
+        "headerSize": 352,
+        "versionString": "104.0.1-1707-gc0fc18e BAR",
+        "gameId": "b44bdd5f15aa52d5f2b60c3bf84a62b8",
+        "startTime": "2020-12-19T00:39:20.000Z",
+        "scriptSize": 3781,
+        "demoStreamSize": 1889772,
+        "gameTime": 782,
+        "wallclockTime": 860,
+        "numPlayers": 11,
+        "playerStatSize": 220,
+        "playerStatElemSize": 20,
+        "numTeams": 8,
+        "teamStatSize": 34592,
+        "teamStatElemSize": 80,
+        "teamStatPeriod": 15,
+        "winningAllyTeamsSize": 1
+    },
+    "script": "[game]\n{\n[allyteam1]\n{\nnumallies=0;\nstartrectbottom=1;\nstartrectleft=0;\nstartrecttop=0.8;\nstartrectright=1;\n}\n[restrict]\n{\n}\n[mapoptions]\n{\n}\n[team1]\n{\nteamleader=1;\nrgbcolor=0.00000 1.00000 0.00000;\nallyteam=0;\nhandicap=0;\nside=Armada;\n}\n[player5]\n{\nskillclass=3;\naccountid=131;\nname=Zecrus;\nspectator=0;\ncountrycode=US;\nteam=5;\nskilluncertainty=0;\nrank=4;\nskill=~30;\n}\n[player6]\n{\nskillclass=5;\naccountid=4487;\nname=TankTank;\nspectator=0;\ncountrycode=??;\nteam=6;\nskilluncertainty=3;\nrank=1;\nskill=~16;\n}\n[team4]\n{\nteamleader=4;\nrgbcolor=0.54902 0.54902 1.00000;\nallyteam=1;\nhandicap=0;\nside=Armada;\n}\n[player9]\n{\nskillclass=4;\naccountid=35;\nname=Raffeh;\nspectator=1;\ncountrycode=GB;\nskilluncertainty=2;\nrank=3;\nskill=~25;\n}\n[team7]\n{\nteamleader=7;\nrgbcolor=0.00000 1.00000 1.00000;\nallyteam=1;\nhandicap=0;\nside=Armada;\n}\n[player2]\n{\nskillclass=4;\naccountid=2154;\nname=[WxN]PHILmyCrack;\nspectator=0;\ncountrycode=DE;\nteam=2;\nskilluncertainty=2;\nrank=3;\nskill=~25;\n}\n[team3]\n{\nteamleader=3;\nrgbcolor=0.54902 1.00000 0.54902;\nallyteam=0;\nhandicap=0;\nside=Armada;\n}\n[player4]\n{\nskillclass=2;\naccountid=26;\nname=[Fx]ShoX;\nspectator=0;\ncountrycode=GB;\nteam=4;\nskilluncertainty=0;\nrank=4;\nskill=35.68;\n}\n[allyteam0]\n{\nnumallies=0;\nstartrectbottom=0.2;\nstartrectleft=0;\nstartrecttop=0;\nstartrectright=1;\n}\n[player7]\n{\nskillclass=5;\naccountid=2834;\nname=raphael972;\nspectator=0;\ncountrycode=FR;\nteam=7;\nskilluncertainty=1;\nrank=4;\nskill=~16;\n}\n[player8]\n{\nskillclass=2;\naccountid=36;\nname=[Fx]Jazcash;\nspectator=1;\ncountrycode=GB;\nskilluncertainty=1;\nrank=4;\nskill=37.70;\n}\n[player3]\n{\nskillclass=5;\naccountid=4676;\nname=badosu;\nspectator=0;\ncountrycode=BR;\nteam=3;\nskilluncertainty=3;\nrank=3;\nskill=~10;\n}\n[team6]\n{\nteamleader=6;\nrgbcolor=0.00000 0.00000 0.00000;\nallyteam=1;\nhandicap=0;\nside=Armada;\n}\n[team2]\n{\nteamleader=2;\nrgbcolor=1.00000 0.00000 1.00000;\nallyteam=0;\nhandicap=0;\nside=Armada;\n}\n[modoptions]\n{\ndisablemapdamage=0;\nmaxunits=2000;\nchicken_custom_spawnchance=33;\nchicken_custom_lobberemp=4;\nnewbie_placer=0;\ntransportenemy=notcoms;\nallowmapmutators=1;\nfixedallies=1;\nchicken_custom_chickenspawn=90;\nchicken_maxchicken=300;\nstartmetal=1000;\nchicken_queendifficulty=n_chickenq;\narmageddontime=0;\nallowuserwidgets=1;\ndeathmode=com;\nmap_terraintype=enabled;\nchicken_custom_minchicken=8;\nffa_mode=0;\nchicken_chickenstart=alwaysbox;\nchicken_custom_angerbonus=0.15;\nscavtechcurve=normal;\nstartenergy=1000;\ncustom_expstep=1.5;\nchicken_custom_damagemod=100;\nchicken_queenanger=1;\ncoop=0;\nscavbosshealth=normal;\nscavevents=enabled;\ncritters=1;\nmaxspeed=10;\nchicken_graceperiod=300;\nshareddynamicalliancevictory=0;\nminspeed=0.3;\nscavendless=disabled;\nmap_tidal=unchanged;\nmap_waterlevel=0;\nscaveventsamount=normal;\nruins=disabled;\nscavdifficulty=easy;\nchicken_custom_queenspawnmult=1;\nchicken_queentime=40;\nlootboxes=0;\nchicken_custom_burrowspawn=120;\n}\n[team0]\n{\nteamleader=0;\nrgbcolor=0.00000 0.00000 1.00000;\nallyteam=0;\nhandicap=0;\nside=Armada;\n}\n[player1]\n{\nskillclass=5;\naccountid=2708;\nname=[Fx]HappyFace;\nspectator=0;\ncountrycode=GB;\nteam=1;\nskilluncertainty=3;\nrank=3;\nskill=26.87;\n}\n[player10]\n{\nskillclass=5;\naccountid=3;\nname=Floris;\nspectator=1;\ncountrycode=NL;\nskilluncertainty=3;\nrank=5;\nskill=22.14;\n}\n[player0]\n{\nskillclass=2;\naccountid=2697;\nname=[Fx]Drone;\nspectator=0;\ncountrycode=GB;\nteam=0;\nskilluncertainty=2;\nrank=4;\nskill=36.68;\n}\n[team5]\n{\nteamleader=5;\nrgbcolor=1.00000 1.00000 0.00000;\nallyteam=1;\nhandicap=0;\nside=Armada;\n}\nautohostrank=4;\nnumplayers=11;\ngametype=Beyond All Reason test-15077-b342469;\nautohostport=53108;\nhostip=;\nishost=1;\nmapname=Altored Divide Bar Remake 1.55;\nstartpostype=2;\nnumrestrictions=0;\nautohostaccountid=3125;\nautohostname=[teh]host08;\nautohostcountrycode=HU;\nhostport=53208;\nnumallyteams=2;\nhosttype=SPADS;\nnumteams=8;\n}\n"
+}
