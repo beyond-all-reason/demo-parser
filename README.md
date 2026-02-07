@@ -19,6 +19,18 @@ import { DemoParser } from "sdfz-demo-parser";
     console.log(demo.info.spectators[1].name); // [Fx]Jazcash
 })();
 ```
+Header Infos Only
+```ts
+import { DemoParser } from "sdfz-demo-parser";
+
+(async () => {
+    const demoPath = "./example/20201219_003920_Altored Divide Bar Remake 1_104.0.1-1707-gc0fc18e BAR.sdfz";
+
+    const meta = await DemoParser.getHeaders(demoPath);
+
+    console.log(meta.header.gameId);
+})();
+```
 
 ## Development
 
