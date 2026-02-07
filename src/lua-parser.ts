@@ -66,7 +66,7 @@ export const standardLuaHandlers: LuaHandler[] = [
         parser: (buffer, str) => {
             const click = str.substr(3, 1) === "1"; // not seen this be true yet, but store it anyway
             const posBuffer = new BufferStream(buffer.slice(5));
-            const numMousePos = posBuffer.readStream.readableLength / 4;
+            const numMousePos = posBuffer.remaining / 4;
             const positions: Array<{x: number, z: number}> = [];
             for (let i=0; i<numMousePos; i++) {
                 const x = posBuffer.readInt(2, true);
