@@ -1,0 +1,12 @@
+[
+    {
+        "id": 8,
+        "name": "RANDSEED",
+        "fullGameTime": 0.11223450303077698,
+        "actualGameTime": 0,
+        "sizeBytes": 5,
+        "data": {
+            "randSeed": 314936028
+        }
+    }
+]

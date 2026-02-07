@@ -1,0 +1,15 @@
+[
+    {
+        "id": 75,
+        "name": "CREATE_NEWPLAYER",
+        "fullGameTime": 133.96873474121094,
+        "actualGameTime": 0,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 4,
+            "spectator": true,
+            "teamNum": 0,
+            "playerName": "scanner"
+        }
+    }
+]

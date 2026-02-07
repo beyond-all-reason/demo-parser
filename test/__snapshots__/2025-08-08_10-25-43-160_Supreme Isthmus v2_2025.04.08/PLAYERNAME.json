@@ -1,0 +1,200 @@
+[
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 14.915132522583008,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "playerName": "Feathers"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 17.186105728149414,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 5,
+            "playerName": "[OWL]leobase"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 17.231103897094727,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "playerName": "spanky23"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 18.59905242919922,
+        "actualGameTime": 0,
+        "sizeBytes": 13,
+        "data": {
+            "playerNum": 3,
+            "playerName": "AzurePure"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 18.71904754638672,
+        "actualGameTime": 0,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 11,
+            "playerName": "scoobydoob"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 18.960039138793945,
+        "actualGameTime": 0,
+        "sizeBytes": 13,
+        "data": {
+            "playerNum": 12,
+            "playerName": "Eggnstein"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 20.42499351501465,
+        "actualGameTime": 0,
+        "sizeBytes": 13,
+        "data": {
+            "playerNum": 4,
+            "playerName": "Brotato69"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 22.72490692138672,
+        "actualGameTime": 0,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 2,
+            "playerName": "Dawn005"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 24.126859664916992,
+        "actualGameTime": 0,
+        "sizeBytes": 19,
+        "data": {
+            "playerNum": 8,
+            "playerName": "RighteousRacoon"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 24.56184196472168,
+        "actualGameTime": 0,
+        "sizeBytes": 13,
+        "data": {
+            "playerNum": 7,
+            "playerName": "GoGorilla"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 25.08782196044922,
+        "actualGameTime": 0,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 9,
+            "playerName": "CanIhavesomeshoes"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 30.814613342285156,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 10,
+            "playerName": "Svinpals"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 31.114601135253906,
+        "actualGameTime": 0,
+        "sizeBytes": 13,
+        "data": {
+            "playerNum": 6,
+            "playerName": "zaGeneral"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 32.046566009521484,
+        "actualGameTime": 0,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 13,
+            "playerName": "SethAlamut"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 35.41542434692383,
+        "actualGameTime": 0,
+        "sizeBytes": 9,
+        "data": {
+            "playerNum": 15,
+            "playerName": "Nixha"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 41.47817611694336,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 14,
+            "playerName": "Wittmann"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 537.73583984375,
+        "actualGameTime": 375.8333435058594,
+        "sizeBytes": 15,
+        "data": {
+            "playerNum": 17,
+            "playerName": "LeadHorizon"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 832.6025390625,
+        "actualGameTime": 670.7000427246094,
+        "sizeBytes": 15,
+        "data": {
+            "playerNum": 18,
+            "playerName": "RogelioAFUS"
+        }
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.259698748588562,
+        "actualGameTime": 0,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Zepek_75"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.259698748588562,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.06.12 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.259698748588562,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 1)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.6129377484321594,
+        "actualGameTime": 0,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from pikterra"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.6129377484321594,
+        "actualGameTime": 0,
+        "sizeBytes": 52,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.06.12 [Linux 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.6129377484321594,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 0)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 458.7503356933594,
+        "actualGameTime": 397.26670837402344,
+        "sizeBytes": 51,
+        "data": {
+            "playerNum": 255,
+            "message": "Spectator pikterra left the game:  normal quit"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 460.65032958984375,
+        "actualGameTime": 399.1667022705078,
+        "sizeBytes": 47,
+        "data": {
+            "playerNum": 255,
+            "message": "No clients connected, shutting down server"
+        }
+    }
+]

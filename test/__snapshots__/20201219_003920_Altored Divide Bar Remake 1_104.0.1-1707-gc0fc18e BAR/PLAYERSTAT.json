@@ -1,0 +1,167 @@
+[
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 860.8687133789062,
+        "actualGameTime": 782.2333221435547,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 1,
+            "numCommands": 338,
+            "unitCommands": 749,
+            "mousePixels": 351319,
+            "mouseClicks": 803,
+            "keyPresses": 118
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 860.9020385742188,
+        "actualGameTime": 782.2666473388672,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 0,
+            "numCommands": 742,
+            "unitCommands": 1669,
+            "mousePixels": 427232,
+            "mouseClicks": 1452,
+            "keyPresses": 338
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 860.9353637695312,
+        "actualGameTime": 782.2999725341797,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 2,
+            "numCommands": 576,
+            "unitCommands": 3299,
+            "mousePixels": 585054,
+            "mouseClicks": 742,
+            "keyPresses": 196
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 860.9353637695312,
+        "actualGameTime": 782.2999725341797,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 9,
+            "numCommands": 0,
+            "unitCommands": 0,
+            "mousePixels": 155800,
+            "mouseClicks": 173,
+            "keyPresses": 0
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 860.9686889648438,
+        "actualGameTime": 782.3332977294922,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 4,
+            "numCommands": 404,
+            "unitCommands": 2043,
+            "mousePixels": 684231,
+            "mouseClicks": 932,
+            "keyPresses": 450
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 861.10205078125,
+        "actualGameTime": 782.4666595458984,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 3,
+            "numCommands": 196,
+            "unitCommands": 310,
+            "mousePixels": 179240,
+            "mouseClicks": 537,
+            "keyPresses": 209
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 861.10205078125,
+        "actualGameTime": 782.4666595458984,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 8,
+            "numCommands": 0,
+            "unitCommands": 0,
+            "mousePixels": 128702,
+            "mouseClicks": 106,
+            "keyPresses": 8
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 861.1353759765625,
+        "actualGameTime": 782.4999847412109,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 7,
+            "numCommands": 595,
+            "unitCommands": 758,
+            "mousePixels": 433142,
+            "mouseClicks": 755,
+            "keyPresses": 614
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 861.168701171875,
+        "actualGameTime": 782.5333099365234,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 6,
+            "numCommands": 300,
+            "unitCommands": 409,
+            "mousePixels": 301337,
+            "mouseClicks": 439,
+            "keyPresses": 95
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 861.4020385742188,
+        "actualGameTime": 782.7666473388672,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 10,
+            "numCommands": 0,
+            "unitCommands": 0,
+            "mousePixels": 43496,
+            "mouseClicks": 85,
+            "keyPresses": 44
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 861.4686889648438,
+        "actualGameTime": 782.8332977294922,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 5,
+            "numCommands": 472,
+            "unitCommands": 983,
+            "mousePixels": 567770,
+            "mouseClicks": 925,
+            "keyPresses": 572
+        }
+    }
+]

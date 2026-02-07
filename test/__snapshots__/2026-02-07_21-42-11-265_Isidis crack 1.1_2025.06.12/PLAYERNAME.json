@@ -1,0 +1,57 @@
+[
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 13.532429695129395,
+        "actualGameTime": 0,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 2,
+            "playerName": "Tim_"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 13.577872276306152,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "playerName": "Kububdub"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 20.778644561767578,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 0,
+            "playerName": "RiachuXGamer"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 21.62586212158203,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 3,
+            "playerName": "Gurthang"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 147.1942596435547,
+        "actualGameTime": 0,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "playerName": "scanner"
+        }
+    }
+]

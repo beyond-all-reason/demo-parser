@@ -1,0 +1,28 @@
+[
+    {
+        "id": 30,
+        "name": "GAMEOVER",
+        "fullGameTime": 455.65032958984375,
+        "actualGameTime": 394.1667022705078,
+        "sizeBytes": 4,
+        "data": {
+            "playerNum": 0,
+            "winningAllyTeams": [
+                1
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "name": "GAMEOVER",
+        "fullGameTime": 455.65032958984375,
+        "actualGameTime": 394.1667022705078,
+        "sizeBytes": 4,
+        "data": {
+            "playerNum": 1,
+            "winningAllyTeams": [
+                1
+            ]
+        }
+    }
+]

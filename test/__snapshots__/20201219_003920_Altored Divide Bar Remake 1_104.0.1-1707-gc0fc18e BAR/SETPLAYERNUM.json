@@ -1,0 +1,12 @@
+[
+    {
+        "id": 5,
+        "name": "SETPLAYERNUM",
+        "fullGameTime": 0,
+        "actualGameTime": 0,
+        "sizeBytes": 2,
+        "data": {
+            "playerNum": 8
+        }
+    }
+]

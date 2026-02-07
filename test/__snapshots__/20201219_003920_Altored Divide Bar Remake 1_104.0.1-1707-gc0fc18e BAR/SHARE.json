@@ -1,0 +1,16 @@
+[
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 649.7353515625,
+        "actualGameTime": 571.0999603271484,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "shareTeam": 3,
+            "shareUnits": false,
+            "shareMetal": 153,
+            "shareEnergy": 0
+        }
+    }
+]

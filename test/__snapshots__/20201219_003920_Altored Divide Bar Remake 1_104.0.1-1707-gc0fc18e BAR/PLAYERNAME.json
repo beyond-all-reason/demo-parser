@@ -1,0 +1,123 @@
+[
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 9.014609336853027,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 3,
+            "playerName": "badosu"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 9.014609336853027,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 4,
+            "playerName": "[Fx]ShoX"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 9.014609336853027,
+        "actualGameTime": 0,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 1,
+            "playerName": "[Fx]HappyFace"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 9.014609336853027,
+        "actualGameTime": 0,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 7,
+            "playerName": "raphael972"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 9.014609336853027,
+        "actualGameTime": 0,
+        "sizeBytes": 13,
+        "data": {
+            "playerNum": 0,
+            "playerName": "[Fx]Drone"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 9.014609336853027,
+        "actualGameTime": 0,
+        "sizeBytes": 15,
+        "data": {
+            "playerNum": 8,
+            "playerName": "[Fx]Jazcash"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 9.014609336853027,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 5,
+            "playerName": "Zecrus"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 11.888299942016602,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 6,
+            "playerName": "TankTank"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 13.148041725158691,
+        "actualGameTime": 0,
+        "sizeBytes": 20,
+        "data": {
+            "playerNum": 2,
+            "playerName": "[WxN]PHILmyCrack"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 15.045614242553711,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 9,
+            "playerName": "Raffeh"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 553.3687133789062,
+        "actualGameTime": 474.7333221435547,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 10,
+            "playerName": "Floris"
+        }
+    }
+]

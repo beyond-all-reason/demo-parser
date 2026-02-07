@@ -1,0 +1,13 @@
+[
+    {
+        "id": 39,
+        "name": "PLAYERLEFT",
+        "fullGameTime": 458.7503356933594,
+        "actualGameTime": 397.26670837402344,
+        "sizeBytes": 3,
+        "data": {
+            "playerNum": 0,
+            "reason": 1
+        }
+    }
+]
