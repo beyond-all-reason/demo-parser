@@ -1,0 +1,26 @@
+[
+    {
+        "id": 71,
+        "name": "AI_STATE_CHANGED",
+        "fullGameTime": 14.893260955810547,
+        "actualGameTime": 0,
+        "sizeBytes": 4,
+        "data": {
+            "playerNum": 0,
+            "whichSkirmishAi": 0,
+            "newState": 20
+        }
+    },
+    {
+        "id": 71,
+        "name": "AI_STATE_CHANGED",
+        "fullGameTime": 14.893260955810547,
+        "actualGameTime": 0,
+        "sizeBytes": 4,
+        "data": {
+            "playerNum": 0,
+            "whichSkirmishAi": 0,
+            "newState": 40
+        }
+    }
+]
