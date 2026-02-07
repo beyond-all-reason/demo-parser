@@ -189,7 +189,7 @@ export class DemoParser {
         const factions: { [playerId: number]: string } = {};
         let colors: Array<{ teamID: number, r: number, g: number, b: number }> = [];
 
-        while (bufferStream.readStream.readableLength > 0) {
+        while (bufferStream.remaining > 0) {
             const modGameTime = bufferStream.readFloat();
             const length = bufferStream.readInt(4, true);
             const packetData = bufferStream.read(length);
@@ -235,7 +235,7 @@ export class DemoParser {
         const bufferStream = new BufferStream(buffer);
 
         let winningAllyTeamIds: number[] = [];
-        if (bufferStream.readStream.readableLength) {
+        if (bufferStream.remaining) {
             winningAllyTeamIds = this.header.winningAllyTeamsSize === 0 ? [] : bufferStream.readInts(this.header.winningAllyTeamsSize, 1, true);
         }
 

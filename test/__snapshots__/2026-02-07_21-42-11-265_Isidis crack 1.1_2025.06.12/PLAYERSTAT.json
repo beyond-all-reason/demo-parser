@@ -1,0 +1,77 @@
+[
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 672.7772827148438,
+        "actualGameTime": 521.6000671386719,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 2,
+            "numCommands": 1076,
+            "unitCommands": 4331,
+            "mousePixels": 631954,
+            "mouseClicks": 1317,
+            "keyPresses": 672
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 672.7772827148438,
+        "actualGameTime": 521.6000671386719,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 3,
+            "numCommands": 598,
+            "unitCommands": 3394,
+            "mousePixels": 657653,
+            "mouseClicks": 714,
+            "keyPresses": 117
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 672.8439331054688,
+        "actualGameTime": 521.6667175292969,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 1,
+            "numCommands": 272,
+            "unitCommands": 333,
+            "mousePixels": 549359,
+            "mouseClicks": 382,
+            "keyPresses": 233
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 672.8439331054688,
+        "actualGameTime": 521.6667175292969,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 4,
+            "numCommands": 0,
+            "unitCommands": 0,
+            "mousePixels": 144299,
+            "mouseClicks": 168,
+            "keyPresses": 17
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 672.8439331054688,
+        "actualGameTime": 521.6667175292969,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 0,
+            "numCommands": 198,
+            "unitCommands": 265,
+            "mousePixels": 466846,
+            "mouseClicks": 561,
+            "keyPresses": 581
+        }
+    }
+]

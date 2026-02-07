@@ -154,7 +154,7 @@ export class PacketParser {
             [DemoModel.Packet.ID.SELECT]: (bufferStream) => {
                 const size = bufferStream.readInt(2);
                 const playerNum = bufferStream.readInt(1, true);
-                const selectedUnitIds = bufferStream.readInts(bufferStream.readStream.readableLength / 2, 2, true);
+                const selectedUnitIds = bufferStream.readInts(bufferStream.remaining / 2, 2, true);
                 return { playerNum, selectedUnitIds };
             },
             [DemoModel.Packet.ID.PAUSE]: (bufferStream) => {
@@ -209,7 +209,7 @@ export class PacketParser {
                 const destTeam = bufferStream.readInt(1, true);
                 const metal = bufferStream.readFloat();
                 const energy = bufferStream.readFloat();
-                const unitIds = bufferStream.readInts(bufferStream.readStream.readableLength / 2, 2);
+                const unitIds = bufferStream.readInts(bufferStream.remaining / 2, 2);
                 return { playerNum, aiId, sourceTeam, destTeam, metal, energy, unitIds };
             },
             [DemoModel.Packet.ID.USER_SPEED]: (bufferStream) => {
@@ -251,7 +251,7 @@ export class PacketParser {
             [DemoModel.Packet.ID.GAMEOVER]: (bufferStream) => {
                 const size = bufferStream.readInt(1);
                 const playerNum = bufferStream.readInt(1);
-                const winningAllyTeams = bufferStream.readInts(bufferStream.readStream.readableLength, 1, true);
+                const winningAllyTeams = bufferStream.readInts(bufferStream.remaining, 1, true);
                 return { playerNum, winningAllyTeams };
             },
             [DemoModel.Packet.ID.MAPDRAW_OLD]: (bufferStream) => {
