@@ -1,0 +1,849 @@
+[
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0,
+        "actualGameTime": 0,
+        "sizeBytes": 39,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from scoobydoob"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0,
+        "actualGameTime": 0,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 11)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.12800000607967377,
+        "actualGameTime": 0,
+        "sizeBytes": 38,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Eggnstein"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.12800000607967377,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.12800000607967377,
+        "actualGameTime": 0,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 12)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.203000009059906,
+        "actualGameTime": 0,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from spanky23"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.203000009059906,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.203000009059906,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 1)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.2929999828338623,
+        "actualGameTime": 0,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Feathers"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.2929999828338623,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.2929999828338623,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 0)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.30799996852874756,
+        "actualGameTime": 0,
+        "sizeBytes": 38,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Brotato69"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.30799996852874756,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.30799996852874756,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 4)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.3979998826980591,
+        "actualGameTime": 0,
+        "sizeBytes": 46,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from CanIhavesomeshoes"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.3979998826980591,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.3979998826980591,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 9)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4579998254776001,
+        "actualGameTime": 0,
+        "sizeBytes": 38,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from AzurePure"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4579998254776001,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4579998254776001,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 3)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4579998254776001,
+        "actualGameTime": 0,
+        "sizeBytes": 36,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Dawn005"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4579998254776001,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4579998254776001,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 2)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4889998435974121,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from RighteousRacoon"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4889998435974121,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4889998435974121,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 8)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4889998435974121,
+        "actualGameTime": 0,
+        "sizeBytes": 39,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from SethAlamut"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4889998435974121,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.4889998435974121,
+        "actualGameTime": 0,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 13)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.7329995632171631,
+        "actualGameTime": 0,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from [OWL]leobase"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.7329995632171631,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.7329995632171631,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 5)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.7329995632171631,
+        "actualGameTime": 0,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Svinpals"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.7329995632171631,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.7329995632171631,
+        "actualGameTime": 0,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 10)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.7489995360374451,
+        "actualGameTime": 0,
+        "sizeBytes": 38,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from GoGorilla"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.7489995360374451,
+        "actualGameTime": 0,
+        "sizeBytes": 52,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Linux 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.7489995360374451,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 7)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.8109994530677795,
+        "actualGameTime": 0,
+        "sizeBytes": 38,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from zaGeneral"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.8109994530677795,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.8109994530677795,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 6)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.9469993114471436,
+        "actualGameTime": 0,
+        "sizeBytes": 34,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Nixha"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.9469993114471436,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.9469993114471436,
+        "actualGameTime": 0,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 15)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.0839991569519043,
+        "actualGameTime": 0,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Wittmann"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.0839991569519043,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.0839991569519043,
+        "actualGameTime": 0,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 14)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 6.101993560791016,
+        "actualGameTime": 0,
+        "sizeBytes": 36,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Eloween"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 6.101993560791016,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 6.101993560791016,
+        "actualGameTime": 0,
+        "sizeBytes": 27,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Incorrect password"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 6.161993026733398,
+        "actualGameTime": 0,
+        "sizeBytes": 36,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Eloween"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 6.161993026733398,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 6.161993026733398,
+        "actualGameTime": 0,
+        "sizeBytes": 27,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Incorrect password"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 6.221992492675781,
+        "actualGameTime": 0,
+        "sizeBytes": 36,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Eloween"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 6.221992492675781,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 6.221992492675781,
+        "actualGameTime": 0,
+        "sizeBytes": 27,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Incorrect password"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 500.6025390625,
+        "actualGameTime": 338.7000427246094,
+        "sizeBytes": 40,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from LeadHorizon"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 500.6025390625,
+        "actualGameTime": 338.7000427246094,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 500.6025390625,
+        "actualGameTime": 338.7000427246094,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 17)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 804.7025756835938,
+        "actualGameTime": 642.8000793457031,
+        "sizeBytes": 40,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from RogelioAFUS"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 804.7025756835938,
+        "actualGameTime": 642.8000793457031,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 804.7025756835938,
+        "actualGameTime": 642.8000793457031,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 18)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 909.8358764648438,
+        "actualGameTime": 747.9333801269531,
+        "sizeBytes": 57,
+        "data": {
+            "playerNum": 255,
+            "message": "Player AzurePure resigned from the game: forced spec"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 909.8358764648438,
+        "actualGameTime": 747.9333801269531,
+        "sizeBytes": 57,
+        "data": {
+            "playerNum": 255,
+            "message": "Player GoGorilla resigned from the game: forced spec"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 909.8692016601562,
+        "actualGameTime": 747.9667053222656,
+        "sizeBytes": 55,
+        "data": {
+            "playerNum": 255,
+            "message": "Player Dawn005 resigned from the game: forced spec"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 909.8692016601562,
+        "actualGameTime": 747.9667053222656,
+        "sizeBytes": 60,
+        "data": {
+            "playerNum": 255,
+            "message": "Player [OWL]leobase resigned from the game: forced spec"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 909.902587890625,
+        "actualGameTime": 748.0000915527344,
+        "sizeBytes": 57,
+        "data": {
+            "playerNum": 255,
+            "message": "Player zaGeneral resigned from the game: forced spec"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 909.902587890625,
+        "actualGameTime": 748.0000915527344,
+        "sizeBytes": 56,
+        "data": {
+            "playerNum": 255,
+            "message": "Player Feathers resigned from the game: forced spec"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 909.9359130859375,
+        "actualGameTime": 748.0334167480469,
+        "sizeBytes": 57,
+        "data": {
+            "playerNum": 255,
+            "message": "Player Brotato69 resigned from the game: forced spec"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 909.9359130859375,
+        "actualGameTime": 748.0334167480469,
+        "sizeBytes": 56,
+        "data": {
+            "playerNum": 255,
+            "message": "Player spanky23 resigned from the game: forced spec"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 927.3025512695312,
+        "actualGameTime": 765.4000549316406,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": "Spectator RogelioAFUS left the game:  normal quit"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 927.96923828125,
+        "actualGameTime": 766.0667419433594,
+        "sizeBytes": 52,
+        "data": {
+            "playerNum": 255,
+            "message": "Spectator AzurePure left the game:  normal quit"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 928.2025756835938,
+        "actualGameTime": 766.3000793457031,
+        "sizeBytes": 51,
+        "data": {
+            "playerNum": 255,
+            "message": "Spectator Feathers left the game:  normal quit"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 929.1358642578125,
+        "actualGameTime": 767.2333679199219,
+        "sizeBytes": 50,
+        "data": {
+            "playerNum": 255,
+            "message": "Player scoobydoob left the game:  normal quit"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 929.5025634765625,
+        "actualGameTime": 767.6000671386719,
+        "sizeBytes": 55,
+        "data": {
+            "playerNum": 255,
+            "message": "Spectator [OWL]leobase left the game:  normal quit"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 930.1692504882812,
+        "actualGameTime": 768.2667541503906,
+        "sizeBytes": 47,
+        "data": {
+            "playerNum": 255,
+            "message": "No clients connected, shutting down server"
+        }
+    }
+]

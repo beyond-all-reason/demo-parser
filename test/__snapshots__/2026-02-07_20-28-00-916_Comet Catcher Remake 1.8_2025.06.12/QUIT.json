@@ -1,0 +1,12 @@
+[
+    {
+        "id": 3,
+        "name": "QUIT",
+        "fullGameTime": 460.65032958984375,
+        "actualGameTime": 399.1667022705078,
+        "sizeBytes": 19,
+        "data": {
+            "reason": "Server shutdown"
+        }
+    }
+]

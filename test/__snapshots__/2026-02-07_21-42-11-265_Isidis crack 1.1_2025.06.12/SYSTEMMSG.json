@@ -1,0 +1,211 @@
+[
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.9705829620361328,
+        "actualGameTime": 0,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Tim_"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.9705829620361328,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.06.12 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 0.9705829620361328,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 2)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.000942587852478,
+        "actualGameTime": 0,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Kububdub"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.000942587852478,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.06.12 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.000942587852478,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 1)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.486103892326355,
+        "actualGameTime": 0,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Gurthang"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.486103892326355,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.06.12 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.486103892326355,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 3)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.6529501676559448,
+        "actualGameTime": 0,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from RiachuXGamer"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.6529501676559448,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.06.12 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.6529501676559448,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 0)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 135.25469970703125,
+        "actualGameTime": 0,
+        "sizeBytes": 36,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from scanner"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 135.25469970703125,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.06.12 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 135.25469970703125,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 4)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 674.7105712890625,
+        "actualGameTime": 523.5333557128906,
+        "sizeBytes": 48,
+        "data": {
+            "playerNum": 255,
+            "message": "Player Gurthang left the game:  normal quit"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 675.17724609375,
+        "actualGameTime": 524.0000305175781,
+        "sizeBytes": 55,
+        "data": {
+            "playerNum": 255,
+            "message": "Spectator RiachuXGamer left the game:  normal quit"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 675.7439575195312,
+        "actualGameTime": 524.5667419433594,
+        "sizeBytes": 51,
+        "data": {
+            "playerNum": 255,
+            "message": "Spectator Kububdub left the game:  normal quit"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 677.9439086914062,
+        "actualGameTime": 526.7666931152344,
+        "sizeBytes": 47,
+        "data": {
+            "playerNum": 255,
+            "message": "No clients connected, shutting down server"
+        }
+    }
+]

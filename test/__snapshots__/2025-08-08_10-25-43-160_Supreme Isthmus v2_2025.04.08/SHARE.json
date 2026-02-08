@@ -1,0 +1,422 @@
+[
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 209.73583984375,
+        "actualGameTime": 47.833343505859375,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "shareTeam": 5,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 221.9025115966797,
+        "actualGameTime": 60.00001525878906,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "shareTeam": 1,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 231.0358428955078,
+        "actualGameTime": 69.13334655761719,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "shareTeam": 5,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 233.7691650390625,
+        "actualGameTime": 71.86666870117188,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 13,
+            "shareTeam": 12,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 240.63583374023438,
+        "actualGameTime": 78.73333740234375,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 13,
+            "shareTeam": 12,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 242.83584594726562,
+        "actualGameTime": 80.933349609375,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "shareTeam": 1,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 249.06918334960938,
+        "actualGameTime": 87.16668701171875,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 13,
+            "shareTeam": 12,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 255.46917724609375,
+        "actualGameTime": 93.56668090820312,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "shareTeam": 4,
+            "shareUnits": false,
+            "shareMetal": 44,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 258.669189453125,
+        "actualGameTime": 96.76669311523438,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 13,
+            "shareTeam": 12,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 266.40252685546875,
+        "actualGameTime": 104.50003051757812,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 13,
+            "shareTeam": 12,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 269.90252685546875,
+        "actualGameTime": 108.00003051757812,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "shareTeam": 3,
+            "shareUnits": false,
+            "shareMetal": 127,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 287.23583984375,
+        "actualGameTime": 125.33334350585938,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 3,
+            "shareTeam": 0,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 438.1025390625,
+        "actualGameTime": 276.2000427246094,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 7,
+            "shareTeam": 0,
+            "shareUnits": false,
+            "shareMetal": 0,
+            "shareEnergy": 1124
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 538.0358276367188,
+        "actualGameTime": 376.1333312988281,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "shareTeam": 3,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 594.9025268554688,
+        "actualGameTime": 433.0000305175781,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 8,
+            "shareTeam": 9,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 599.9358520507812,
+        "actualGameTime": 438.0333557128906,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 9,
+            "shareTeam": 8,
+            "shareUnits": false,
+            "shareMetal": 209,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 607.8358764648438,
+        "actualGameTime": 445.9333801269531,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 13,
+            "shareTeam": 12,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 611.9358520507812,
+        "actualGameTime": 450.0333557128906,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 9,
+            "shareTeam": 8,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 625.8358764648438,
+        "actualGameTime": 463.9333801269531,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "shareTeam": 3,
+            "shareUnits": false,
+            "shareMetal": 137,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 639.4691772460938,
+        "actualGameTime": 477.5666809082031,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "shareTeam": 3,
+            "shareUnits": false,
+            "shareMetal": 123,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 649.3692016601562,
+        "actualGameTime": 487.4667053222656,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 8,
+            "shareTeam": 10,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 649.4358520507812,
+        "actualGameTime": 487.5333557128906,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 3,
+            "shareTeam": 0,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 650.3025512695312,
+        "actualGameTime": 488.4000549316406,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "shareTeam": 3,
+            "shareUnits": false,
+            "shareMetal": 137,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 687.9358520507812,
+        "actualGameTime": 526.0333557128906,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 4,
+            "shareTeam": 1,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 700.7025756835938,
+        "actualGameTime": 538.8000793457031,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 3,
+            "shareTeam": 6,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 717.5025634765625,
+        "actualGameTime": 555.6000671386719,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 4,
+            "shareTeam": 7,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 721.0692138671875,
+        "actualGameTime": 559.1667175292969,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 3,
+            "shareTeam": 2,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 768.8358764648438,
+        "actualGameTime": 606.9333801269531,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 3,
+            "shareTeam": 1,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 786.3358764648438,
+        "actualGameTime": 624.4333801269531,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 3,
+            "shareTeam": 5,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "SHARE",
+        "fullGameTime": 867.2025756835938,
+        "actualGameTime": 705.3000793457031,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 8,
+            "shareTeam": 11,
+            "shareUnits": true,
+            "shareMetal": 0,
+            "shareEnergy": 0
+        }
+    }
+]
