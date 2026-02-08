@@ -1,0 +1,12 @@
+[
+    {
+        "id": 9,
+        "name": "GAMEID",
+        "fullGameTime": 0,
+        "actualGameTime": 0,
+        "sizeBytes": 17,
+        "data": {
+            "gameId": "a7d0956891e1ffa229f3ffac6d8b25ac"
+        }
+    }
+]

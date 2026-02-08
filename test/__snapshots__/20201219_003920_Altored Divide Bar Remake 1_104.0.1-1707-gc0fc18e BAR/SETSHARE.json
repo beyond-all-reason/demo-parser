@@ -1,0 +1,990 @@
+[
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.33538818359375,
+        "actualGameTime": 85.69999694824219,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.9273504018783569
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.33538818359375,
+        "actualGameTime": 85.69999694824219,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.9273504018783569
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.43539428710938,
+        "actualGameTime": 85.80000305175781,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.9145299196243286
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.46871948242188,
+        "actualGameTime": 85.83332824707031,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.8974359035491943
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.46871948242188,
+        "actualGameTime": 85.83332824707031,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.8760683536529541
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.46871948242188,
+        "actualGameTime": 85.83332824707031,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.8547008633613586
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.46871948242188,
+        "actualGameTime": 85.83332824707031,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.8205128312110901
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.46871948242188,
+        "actualGameTime": 85.83332824707031,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.7905982732772827
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.50205993652344,
+        "actualGameTime": 85.86666870117188,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.7606837749481201
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.50205993652344,
+        "actualGameTime": 85.86666870117188,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.7393162250518799
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.50205993652344,
+        "actualGameTime": 85.86666870117188,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.7222222089767456
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.50205993652344,
+        "actualGameTime": 85.86666870117188,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.7051281929016113
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.50205993652344,
+        "actualGameTime": 85.86666870117188,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.692307710647583
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.535400390625,
+        "actualGameTime": 85.90000915527344,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.6837607026100159
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.535400390625,
+        "actualGameTime": 85.90000915527344,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.6752136945724487
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.535400390625,
+        "actualGameTime": 85.90000915527344,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.6709401607513428
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.535400390625,
+        "actualGameTime": 85.90000915527344,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.6666666865348816
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.5687255859375,
+        "actualGameTime": 85.93333435058594,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.6623931527137756
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.60205078125,
+        "actualGameTime": 85.96665954589844,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.6581196784973145
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.60205078125,
+        "actualGameTime": 85.96665954589844,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.6495726704597473
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.63539123535156,
+        "actualGameTime": 86,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.6367521286010742
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.63539123535156,
+        "actualGameTime": 86,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.6196581125259399
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.63539123535156,
+        "actualGameTime": 86,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.6068376302719116
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.63539123535156,
+        "actualGameTime": 86,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5982906222343445
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.66873168945312,
+        "actualGameTime": 86.03334045410156,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5897436141967773
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.66873168945312,
+        "actualGameTime": 86.03334045410156,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5811966061592102
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.66873168945312,
+        "actualGameTime": 86.03334045410156,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5726495981216431
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.66873168945312,
+        "actualGameTime": 86.03334045410156,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5683760643005371
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.66873168945312,
+        "actualGameTime": 86.03334045410156,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5641025900840759
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.70205688476562,
+        "actualGameTime": 86.06666564941406,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.55982905626297
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.70205688476562,
+        "actualGameTime": 86.06666564941406,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5470085740089417
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.70205688476562,
+        "actualGameTime": 86.06666564941406,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5427350401878357
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.73538208007812,
+        "actualGameTime": 86.09999084472656,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5384615659713745
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.73538208007812,
+        "actualGameTime": 86.09999084472656,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5341880321502686
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.73538208007812,
+        "actualGameTime": 86.09999084472656,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5299145579338074
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.7687225341797,
+        "actualGameTime": 86.13333129882812,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5256410241127014
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.7687225341797,
+        "actualGameTime": 86.13333129882812,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5213675498962402
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.83538818359375,
+        "actualGameTime": 86.19999694824219,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5170940160751343
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.83538818359375,
+        "actualGameTime": 86.19999694824219,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5128205418586731
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.83538818359375,
+        "actualGameTime": 86.19999694824219,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5085470080375671
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.83538818359375,
+        "actualGameTime": 86.19999694824219,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.504273533821106
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.83538818359375,
+        "actualGameTime": 86.19999694824219,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.5
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.90206909179688,
+        "actualGameTime": 86.26667785644531,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.49145299196243286
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.90206909179688,
+        "actualGameTime": 86.26667785644531,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.4871794879436493
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.90206909179688,
+        "actualGameTime": 86.26667785644531,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.4829059839248657
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.93539428710938,
+        "actualGameTime": 86.30000305175781,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.47863247990608215
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.93539428710938,
+        "actualGameTime": 86.30000305175781,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.4743589758872986
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.93539428710938,
+        "actualGameTime": 86.30000305175781,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.470085471868515
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.96871948242188,
+        "actualGameTime": 86.33332824707031,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.46581196784973145
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 164.96871948242188,
+        "actualGameTime": 86.33332824707031,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.4615384638309479
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 165.00205993652344,
+        "actualGameTime": 86.36666870117188,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.4572649598121643
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 165.00205993652344,
+        "actualGameTime": 86.36666870117188,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.45299145579338074
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 165.035400390625,
+        "actualGameTime": 86.40000915527344,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.44871795177459717
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 165.035400390625,
+        "actualGameTime": 86.40000915527344,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.4444444477558136
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 165.035400390625,
+        "actualGameTime": 86.40000915527344,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.44017094373703003
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 165.13539123535156,
+        "actualGameTime": 86.5,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "metalShareFraction": 0.9900000095367432,
+            "energyShareFraction": 0.44017094373703003
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.03538513183594,
+        "actualGameTime": 137.39999389648438,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9789029359817505,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.03538513183594,
+        "actualGameTime": 137.39999389648438,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9746835231781006,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.0687255859375,
+        "actualGameTime": 137.43333435058594,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9704641103744507,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.0687255859375,
+        "actualGameTime": 137.43333435058594,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9662446975708008,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.0687255859375,
+        "actualGameTime": 137.43333435058594,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9620253443717957,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.10205078125,
+        "actualGameTime": 137.46665954589844,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9578059315681458,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.10205078125,
+        "actualGameTime": 137.46665954589844,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9535865187644958,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.10205078125,
+        "actualGameTime": 137.46665954589844,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.949367105960846,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.10205078125,
+        "actualGameTime": 137.46665954589844,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9409282803535461,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.13539123535156,
+        "actualGameTime": 137.5,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9367088675498962,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.13539123535156,
+        "actualGameTime": 137.5,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9282700419425964,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.13539123535156,
+        "actualGameTime": 137.5,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9240506291389465,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.13539123535156,
+        "actualGameTime": 137.5,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9198312163352966,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.13539123535156,
+        "actualGameTime": 137.5,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9156118035316467,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.13539123535156,
+        "actualGameTime": 137.5,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.9071729779243469,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.20205688476562,
+        "actualGameTime": 137.56666564941406,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.8987341523170471,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.20205688476562,
+        "actualGameTime": 137.56666564941406,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.8945147395133972,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.20205688476562,
+        "actualGameTime": 137.56666564941406,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.8902953863143921,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.20205688476562,
+        "actualGameTime": 137.56666564941406,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.8860759735107422,
+            "energyShareFraction": 0.949999988079071
+        }
+    },
+    {
+        "id": 27,
+        "name": "SETSHARE",
+        "fullGameTime": 216.2353973388672,
+        "actualGameTime": 137.60000610351562,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 4,
+            "teamId": 4,
+            "metalShareFraction": 0.8860759735107422,
+            "energyShareFraction": 0.949999988079071
+        }
+    }
+]

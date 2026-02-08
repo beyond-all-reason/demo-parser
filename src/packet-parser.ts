@@ -70,10 +70,44 @@ export class PacketParser {
         return packet;
     }
 
-    protected parseDrawMsg(bufferStream: BufferStream, coordSize: PacketIntSize) : DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW> | DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW_OLD> {
+    protected parseDrawMsg(bufferStream: BufferStream, coordSize?: PacketIntSize) : DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW> | DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW_OLD> {
         const size = bufferStream.readInt(1);
         const playerNum = bufferStream.readInt(1);
         const mapDrawAction = bufferStream.readInt(1) as DemoModel.MapDrawAction;
+
+        /** @see https://github.com/beyond-all-reason/demo-parser/issues/28 **/
+        if (coordSize === undefined) {
+            const remaining = bufferStream.readStream.readableLength;
+            if (mapDrawAction === DemoModel.MapDrawAction.ERASE) {
+                // ERASE has fixed payload: x + z only
+                coordSize = remaining >= 8 ? 4 : 2;
+            } else if (mapDrawAction === DemoModel.MapDrawAction.LINE) {
+                // LINE has fixed payload: x + z + x2 + z2 + fromLua
+                coordSize = remaining >= 17 ? 4 : 2;
+            } else if (remaining >= 9) {
+                // POINT has variable-length label, so remaining bytes are ambiguous.
+                // Read the first 4 bytes and check: if the uint32 value exceeds
+                // 65535 (max map coordinate), it must be two 2-byte coords.
+                const rawCoords = bufferStream.read(4);
+                const asUint32 = rawCoords.readUInt32LE(0);
+                if (asUint32 > 65535) {
+                    const x = rawCoords.readIntLE(0, 2);
+                    const z = rawCoords.readIntLE(2, 2);
+                    const fromLua = !!bufferStream.readInt(1);
+                    const label = bufferStream.readString();
+                    return { playerNum, mapDrawAction, x, z, label, fromLua };
+                } else {
+                    const x = rawCoords.readIntLE(0, 4);
+                    const z = bufferStream.readInt(4);
+                    const fromLua = !!bufferStream.readInt(1);
+                    const label = bufferStream.readString();
+                    return { playerNum, mapDrawAction, x, z, label, fromLua };
+                }
+            } else {
+                coordSize = 2;
+            }
+        }
+
         const x = bufferStream.readInt(coordSize);
         const z = bufferStream.readInt(coordSize);
         let x2: number | undefined;
@@ -255,7 +289,7 @@ export class PacketParser {
                 return { playerNum, winningAllyTeams };
             },
             [DemoModel.Packet.ID.MAPDRAW_OLD]: (bufferStream) => {
-                return this.parseDrawMsg(bufferStream, 2);
+                return this.parseDrawMsg(bufferStream);
             },
             [DemoModel.Packet.ID.MAPDRAW]: (bufferStream) => {
                 return this.parseDrawMsg(bufferStream, 4);

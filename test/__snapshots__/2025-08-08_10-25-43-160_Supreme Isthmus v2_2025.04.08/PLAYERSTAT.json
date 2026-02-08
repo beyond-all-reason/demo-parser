@@ -1,0 +1,272 @@
+[
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.5025634765625,
+        "actualGameTime": 763.6000671386719,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 11,
+            "numCommands": 439,
+            "unitCommands": 448,
+            "mousePixels": 706322,
+            "mouseClicks": 644,
+            "keyPresses": 739
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.535888671875,
+        "actualGameTime": 763.6333923339844,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 1,
+            "numCommands": 393,
+            "unitCommands": 577,
+            "mousePixels": 499703,
+            "mouseClicks": 578,
+            "keyPresses": 20
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.5692138671875,
+        "actualGameTime": 763.6667175292969,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 2,
+            "numCommands": 822,
+            "unitCommands": 5510,
+            "mousePixels": 957661,
+            "mouseClicks": 1128,
+            "keyPresses": 851
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.5692138671875,
+        "actualGameTime": 763.6667175292969,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 5,
+            "numCommands": 444,
+            "unitCommands": 1029,
+            "mousePixels": 278883,
+            "mouseClicks": 608,
+            "keyPresses": 114
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.5692138671875,
+        "actualGameTime": 763.6667175292969,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 15,
+            "numCommands": 134,
+            "unitCommands": 253,
+            "mousePixels": 463737,
+            "mouseClicks": 259,
+            "keyPresses": 414
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6025390625,
+        "actualGameTime": 763.7000427246094,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 0,
+            "numCommands": 250,
+            "unitCommands": 409,
+            "mousePixels": 616520,
+            "mouseClicks": 344,
+            "keyPresses": 137
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6025390625,
+        "actualGameTime": 763.7000427246094,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 4,
+            "numCommands": 208,
+            "unitCommands": 243,
+            "mousePixels": 230519,
+            "mouseClicks": 422,
+            "keyPresses": 111
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6025390625,
+        "actualGameTime": 763.7000427246094,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 6,
+            "numCommands": 276,
+            "unitCommands": 366,
+            "mousePixels": 675431,
+            "mouseClicks": 400,
+            "keyPresses": 48
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6025390625,
+        "actualGameTime": 763.7000427246094,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 8,
+            "numCommands": 141,
+            "unitCommands": 167,
+            "mousePixels": 941393,
+            "mouseClicks": 284,
+            "keyPresses": 98
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6025390625,
+        "actualGameTime": 763.7000427246094,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 9,
+            "numCommands": 560,
+            "unitCommands": 734,
+            "mousePixels": 473979,
+            "mouseClicks": 626,
+            "keyPresses": 437
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6025390625,
+        "actualGameTime": 763.7000427246094,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 10,
+            "numCommands": 519,
+            "unitCommands": 2178,
+            "mousePixels": 893894,
+            "mouseClicks": 516,
+            "keyPresses": 401
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6025390625,
+        "actualGameTime": 763.7000427246094,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 3,
+            "numCommands": 141,
+            "unitCommands": 220,
+            "mousePixels": 547026,
+            "mouseClicks": 373,
+            "keyPresses": 174
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6025390625,
+        "actualGameTime": 763.7000427246094,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 12,
+            "numCommands": 651,
+            "unitCommands": 2913,
+            "mousePixels": 548746,
+            "mouseClicks": 937,
+            "keyPresses": 237
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6025390625,
+        "actualGameTime": 763.7000427246094,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 13,
+            "numCommands": 286,
+            "unitCommands": 672,
+            "mousePixels": 233903,
+            "mouseClicks": 373,
+            "keyPresses": 28
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6025390625,
+        "actualGameTime": 763.7000427246094,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 14,
+            "numCommands": 821,
+            "unitCommands": 5362,
+            "mousePixels": 286450,
+            "mouseClicks": 1115,
+            "keyPresses": 559
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.6692504882812,
+        "actualGameTime": 763.7667541503906,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 17,
+            "numCommands": 0,
+            "unitCommands": 0,
+            "mousePixels": 40519,
+            "mouseClicks": 0,
+            "keyPresses": 0
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.7692260742188,
+        "actualGameTime": 763.8667297363281,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 18,
+            "numCommands": 0,
+            "unitCommands": 0,
+            "mousePixels": 16194,
+            "mouseClicks": 17,
+            "keyPresses": 1
+        }
+    },
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 925.902587890625,
+        "actualGameTime": 764.0000915527344,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 7,
+            "numCommands": 363,
+            "unitCommands": 469,
+            "mousePixels": 491071,
+            "mouseClicks": 379,
+            "keyPresses": 64
+        }
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "id": 75,
+        "name": "CREATE_NEWPLAYER",
+        "fullGameTime": 5.741996765136719,
+        "actualGameTime": 0,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 16,
+            "spectator": true,
+            "teamNum": 0,
+            "playerName": "Eloween"
+        }
+    },
+    {
+        "id": 75,
+        "name": "CREATE_NEWPLAYER",
+        "fullGameTime": 499.5692138671875,
+        "actualGameTime": 337.6667175292969,
+        "sizeBytes": 18,
+        "data": {
+            "playerNum": 17,
+            "spectator": true,
+            "teamNum": 0,
+            "playerName": "LeadHorizon"
+        }
+    },
+    {
+        "id": 75,
+        "name": "CREATE_NEWPLAYER",
+        "fullGameTime": 790.8358764648438,
+        "actualGameTime": 628.9333801269531,
+        "sizeBytes": 18,
+        "data": {
+            "playerNum": 18,
+            "spectator": true,
+            "teamNum": 0,
+            "playerName": "RogelioAFUS"
+        }
+    }
+]
