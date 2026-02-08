@@ -1,3 +1,6 @@
+import {createReadStream} from "node:fs";
+import {createGunzip} from "node:zlib";
+
 import { promises as fs } from "fs";
 import { ungzip } from "node-gzip";
 import * as path from "path";
@@ -9,8 +12,6 @@ import { PacketParser } from "./packet-parser";
 import { ScriptParser } from "./script-parser";
 import { Signal } from "./signal";
 import { isPacket } from "./utils";
-import {createReadStream} from "node:fs";
-import {createGunzip} from "node:zlib";
 
 export interface DemoParserConfig {
     verbose?: boolean;
@@ -181,7 +182,9 @@ export class DemoParser {
             };
 
             gunzip.on("data", (chunk: Buffer) => {
-                if (resolved) return;
+                if (resolved) {
+                    return;
+                }
 
                 chunks.push(chunk);
                 totalLength += chunk.length;
@@ -201,7 +204,7 @@ export class DemoParser {
                     const scriptParser = new ScriptParser({});
                     const scriptInfo = scriptParser.parseScript(script);
 
-                    const meta: Omit<DemoModel.Info.Meta, 'winningAllyTeamIds'> = {
+                    const meta: Omit<DemoModel.Info.Meta, "winningAllyTeamIds"> = {
                         gameId: header.gameId,
                         engine: header.versionString,
                         game: scriptInfo.hostSettings.gametype,
