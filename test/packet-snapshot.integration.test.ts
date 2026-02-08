@@ -41,7 +41,9 @@ describe.each(replayFiles)("%s packets", (name, demoPath) => {
     beforeAll(async () => {
         const parser = new DemoParser();
         parser.onPacket.add((packet) => {
-            if (!packetsByType[packet.name]) packetsByType[packet.name] = [];
+            if (!packetsByType[packet.name]) {
+                packetsByType[packet.name] = [];
+            }
             packetsByType[packet.name].push(packet);
         });
         await parser.parseDemo(demoPath);
