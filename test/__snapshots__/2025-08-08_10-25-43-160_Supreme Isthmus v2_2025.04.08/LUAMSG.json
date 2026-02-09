@@ -2615,7 +2615,17 @@
             "data": {
                 "name": "SYSTEM_INFO",
                 "data": {
-                    "cpu": "Intel E3-1230 V2 @ 3.30GHz"
+                    "cpu": "Intel E3-1230 V2 @ 3.30GHz",
+                    "cpuCores": "4",
+                    "logicalCpuCores": "8",
+                    "memory": "16342MB",
+                    "gpu": "NVIDIA GeForce GTX 970",
+                    "gpuMemory": "4194MB",
+                    "maxRes": "1920x1080",
+                    "display": "1920x1080x24bpp@60Hz",
+                    "windowMode": "borderless",
+                    "os": "Windows 10",
+                    "lobby": "Chobby"
                 }
             }
         }
