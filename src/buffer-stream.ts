@@ -3,12 +3,10 @@ export type PacketIntSize = 1|2|3|4;
 export class BufferStream {
     public buffer: Buffer;
     public offset: number;
-    public isBigEndian: boolean;
 
-    constructor(buffer: Buffer, isBigEndian = false) {
+    constructor(buffer: Buffer) {
         this.buffer = buffer;
         this.offset = 0;
-        this.isBigEndian = isBigEndian;
     }
 
     public get remaining(): number {
@@ -25,18 +23,14 @@ export class BufferStream {
     }
 
     public readInt(size: PacketIntSize = 4, unsigned = false): number {
-        let val: number;
+        let value: number;
         if (unsigned) {
-            val = this.isBigEndian
-                ? this.buffer.readUIntBE(this.offset, size)
-                : this.buffer.readUIntLE(this.offset, size);
+            value = this.buffer.readUIntLE(this.offset, size);
         } else {
-            val = this.isBigEndian
-                ? this.buffer.readIntBE(this.offset, size)
-                : this.buffer.readIntLE(this.offset, size);
+            value = this.buffer.readIntLE(this.offset, size);
         }
         this.offset += size;
-        return val;
+        return value;
     }
 
     public readInts(amount: number, size: PacketIntSize = 4, unsigned = false): number[] {
@@ -48,26 +42,20 @@ export class BufferStream {
     }
 
     public readBigInt(unsigned = false): bigint {
-        let val: bigint;
+        let value: bigint;
         if (unsigned) {
-            val = this.isBigEndian
-                ? this.buffer.readBigUInt64BE(this.offset)
-                : this.buffer.readBigUInt64LE(this.offset);
+            value = this.buffer.readBigUInt64LE(this.offset);
         } else {
-            val = this.isBigEndian
-                ? this.buffer.readBigInt64BE(this.offset)
-                : this.buffer.readBigInt64LE(this.offset);
+            value = this.buffer.readBigInt64LE(this.offset);
         }
         this.offset += 8;
-        return val;
+        return value;
     }
 
     public readFloat(): number {
-        const val = this.isBigEndian
-            ? this.buffer.readFloatBE(this.offset)
-            : this.buffer.readFloatLE(this.offset);
+        const value = this.buffer.readFloatLE(this.offset);
         this.offset += 4;
-        return val;
+        return value;
     }
 
     public readFloats(amount: number): number[] {
@@ -79,13 +67,15 @@ export class BufferStream {
     }
 
     public readUntilNull(): Buffer {
-        const start = this.offset;
-        while (this.offset < this.buffer.length && this.buffer[this.offset] !== 0) {
-            this.offset++;
+        const nullPos = this.buffer.indexOf(0x00, this.offset);
+        if (nullPos === -1) {
+            const slice = this.buffer.subarray(this.offset);
+            this.offset = this.buffer.length;
+            return slice;
         }
-        const result = this.buffer.subarray(start, this.offset);
-        this.offset++; // skip null byte
-        return result;
+        const slice = this.buffer.subarray(this.offset, nullPos);
+        this.offset = nullPos + 1;
+        return slice;
     }
 
     public readIntFloatPairs(): number[][] {
