@@ -32,61 +32,61 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 27.031763076782227,
+        "fullGameTime": 161.90249633789062,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9741.6328125,
-            "y": 49.96533203125,
-            "z": 4356.009765625
+            "playerNum": 4,
+            "teamId": 4,
+            "readyState": 1,
+            "x": 7931,
+            "y": 61.6131591796875,
+            "z": 2448
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 27.1817569732666,
+        "fullGameTime": 55.339595794677734,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 11,
+            "teamId": 11,
             "readyState": 0,
-            "x": 9748.48046875,
-            "y": 49.925048828125,
-            "z": 4351.142578125
+            "x": 4940.27685546875,
+            "y": 47.86767578125,
+            "z": 11181.82421875
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 27.331750869750977,
+        "fullGameTime": 150.06016540527344,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 9,
+            "teamId": 9,
             "readyState": 0,
-            "x": 9748.5625,
-            "y": 49.888427734375,
-            "z": 4349.5009765625
+            "x": 2042.7855224609375,
+            "y": 265.3677978515625,
+            "z": 11837.72265625
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 27.451745986938477,
+        "fullGameTime": 150.03016662597656,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 11,
+            "teamId": 11,
             "readyState": 0,
-            "x": 9760.982421875,
-            "y": 49.82763671875,
-            "z": 4339.73876953125
+            "x": 4769.16943359375,
+            "y": 49.760498046875,
+            "z": 11131.169921875
         }
     },
     {
@@ -122,16 +122,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 28.51670265197754,
+        "fullGameTime": 140.5263671875,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
             "playerNum": 2,
             "teamId": 2,
             "readyState": 0,
-            "x": 9800.1181640625,
-            "y": 50.006591796875,
-            "z": 4328.47021484375
+            "x": 9804.4912109375,
+            "y": 49.808837890625,
+            "z": 4306.0859375
         }
     },
     {
@@ -152,46 +152,46 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 28.83369255065918,
+        "fullGameTime": 69.8060073852539,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 11,
+            "teamId": 11,
             "readyState": 0,
-            "x": 9800.1181640625,
-            "y": 50.006591796875,
-            "z": 4328.47021484375
+            "x": 4984.634765625,
+            "y": 43.905029296875,
+            "z": 11033.03125
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 28.983686447143555,
+        "fullGameTime": 73.3348617553711,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 11,
+            "teamId": 11,
             "readyState": 0,
-            "x": 9800.1181640625,
-            "y": 50.006591796875,
-            "z": 4328.47021484375
+            "x": 4826.333984375,
+            "y": 50.079345703125,
+            "z": 11172.662109375
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 29.554664611816406,
+        "fullGameTime": 77.36569213867188,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 15,
+            "teamId": 15,
             "readyState": 0,
-            "x": 9800.1171875,
-            "y": 50.0068359375,
-            "z": 4328.4697265625
+            "x": 4378.298828125,
+            "y": 56.6895751953125,
+            "z": 9818.068359375
         }
     },
     {
@@ -212,16 +212,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 31.971567153930664,
+        "fullGameTime": 56.94453048706055,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 11,
+            "teamId": 11,
             "readyState": 0,
-            "x": 9746.9892578125,
-            "y": 48.93701171875,
-            "z": 4271.69189453125
+            "x": 4878.3896484375,
+            "y": 50.3818359375,
+            "z": 11221.3134765625
         }
     },
     {
@@ -242,31 +242,31 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 34.34946823120117,
+        "fullGameTime": 158.04293823242188,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9818.6611328125,
-            "y": 50.23095703125,
-            "z": 4335.47802734375
+            "playerNum": 0,
+            "teamId": 0,
+            "readyState": 2,
+            "x": 10255,
+            "y": 255.8658447265625,
+            "z": 510
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 34.49946212768555,
+        "fullGameTime": 161.90249633789062,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
             "playerNum": 2,
             "teamId": 2,
-            "readyState": 0,
-            "x": 9809.5908203125,
-            "y": 50.164306640625,
-            "z": 4335.43408203125
+            "readyState": 1,
+            "x": 9804,
+            "y": 49.808837890625,
+            "z": 4306
         }
     },
     {
@@ -287,16 +287,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 34.82944869995117,
+        "fullGameTime": 52.9236946105957,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 10,
+            "teamId": 10,
             "readyState": 0,
-            "x": 9790.1923828125,
-            "y": 50.001953125,
-            "z": 4333.77734375
+            "x": 672.506591796875,
+            "y": 66.87213134765625,
+            "z": 7370.5048828125
         }
     },
     {
@@ -332,16 +332,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 35.2794303894043,
+        "fullGameTime": 130.21449279785156,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 1,
-            "teamId": 1,
+            "playerNum": 13,
+            "teamId": 13,
             "readyState": 0,
-            "x": 7436.96435546875,
-            "y": 44.76495361328125,
-            "z": 3816.07470703125
+            "x": 2537.75830078125,
+            "y": 45.77734375,
+            "z": 8000.2724609375
         }
     },
     {
@@ -407,31 +407,31 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 36.78036880493164,
+        "fullGameTime": 161.90249633789062,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9809.77734375,
-            "y": 50.07958984375,
-            "z": 4329.1728515625
+            "playerNum": 10,
+            "teamId": 10,
+            "readyState": 1,
+            "x": 670,
+            "y": 67.03033447265625,
+            "z": 7375
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 36.97536087036133,
+        "fullGameTime": 161.90249633789062,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9809.77734375,
-            "y": 50.07958984375,
-            "z": 4329.1728515625
+            "playerNum": 6,
+            "teamId": 6,
+            "readyState": 1,
+            "x": 11615,
+            "y": 69.1962890625,
+            "z": 4851
         }
     },
     {
@@ -467,61 +467,61 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 37.83132553100586,
+        "fullGameTime": 157.90794372558594,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9809.77734375,
-            "y": 50.07958984375,
-            "z": 4329.1728515625
+            "playerNum": 15,
+            "teamId": 15,
+            "readyState": 2,
+            "x": 4378,
+            "y": 56.6895751953125,
+            "z": 9818
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 38.02631759643555,
+        "fullGameTime": 161.90249633789062,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9809.77734375,
-            "y": 50.07958984375,
-            "z": 4329.1728515625
+            "playerNum": 9,
+            "teamId": 9,
+            "readyState": 1,
+            "x": 2042,
+            "y": 265.3677978515625,
+            "z": 11837
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 38.19131088256836,
+        "fullGameTime": 157.9679412841797,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
             "playerNum": 2,
             "teamId": 2,
-            "readyState": 0,
-            "x": 9809.77734375,
-            "y": 50.07958984375,
-            "z": 4329.1728515625
+            "readyState": 2,
+            "x": 9804,
+            "y": 49.808837890625,
+            "z": 4306
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 38.38630294799805,
+        "fullGameTime": 56.13456344604492,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 4,
+            "teamId": 4,
             "readyState": 0,
-            "x": 9809.77734375,
-            "y": 50.07958984375,
-            "z": 4329.1728515625
+            "x": 7931.04052734375,
+            "y": 61.6131591796875,
+            "z": 2448.853515625
         }
     },
     {
@@ -602,31 +602,31 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 39.46725845336914,
+        "fullGameTime": 51.061771392822266,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 3,
+            "teamId": 3,
             "readyState": 0,
-            "x": 9809.77734375,
-            "y": 50.07958984375,
-            "z": 4329.1728515625
+            "x": 11528.1328125,
+            "y": 247.8446044921875,
+            "z": 1791.744873046875
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 39.64725112915039,
+        "fullGameTime": 157.95294189453125,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9809.77734375,
-            "y": 50.07958984375,
-            "z": 4329.1728515625
+            "playerNum": 5,
+            "teamId": 5,
+            "readyState": 2,
+            "x": 7763,
+            "y": 56.4637451171875,
+            "z": 4892
         }
     },
     {
@@ -647,16 +647,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 39.99223709106445,
+        "fullGameTime": 149.26219177246094,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 11,
+            "teamId": 11,
             "readyState": 0,
-            "x": 9809.77734375,
-            "y": 50.07958984375,
-            "z": 4329.1728515625
+            "x": 4769.42529296875,
+            "y": 49.7568359375,
+            "z": 11127.05859375
         }
     },
     {
@@ -707,31 +707,31 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 40.74320602416992,
+        "fullGameTime": 71.4129409790039,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 15,
+            "teamId": 15,
             "readyState": 0,
-            "x": 9809.7783203125,
-            "y": 50.079345703125,
-            "z": 4329.17236328125
+            "x": 4347.87255859375,
+            "y": 56.145751953125,
+            "z": 9844.5693359375
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 40.908199310302734,
+        "fullGameTime": 157.98294067382812,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9809.7783203125,
-            "y": 50.079345703125,
-            "z": 4329.17236328125
+            "playerNum": 13,
+            "teamId": 13,
+            "readyState": 2,
+            "x": 2414,
+            "y": 46.949462890625,
+            "z": 8000
         }
     },
     {
@@ -767,16 +767,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 41.47817611694336,
+        "fullGameTime": 133.595458984375,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 13,
+            "teamId": 13,
             "readyState": 0,
-            "x": 9809.7783203125,
-            "y": 50.079345703125,
-            "z": 4329.17236328125
+            "x": 2414.96923828125,
+            "y": 46.949462890625,
+            "z": 8000.8544921875
         }
     },
     {
@@ -797,16 +797,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 41.842159271240234,
+        "fullGameTime": 161.90249633789062,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9809.7783203125,
-            "y": 50.079345703125,
-            "z": 4329.17236328125
+            "playerNum": 11,
+            "teamId": 11,
+            "readyState": 1,
+            "x": 4818,
+            "y": 49.96826171875,
+            "z": 11114
         }
     },
     {
@@ -842,31 +842,31 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 42.37313461303711,
+        "fullGameTime": 52.9236946105957,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 7,
+            "teamId": 7,
             "readyState": 0,
-            "x": 9809.7783203125,
-            "y": 50.079345703125,
-            "z": 4329.17236328125
+            "x": 7567.67333984375,
+            "y": 52.6044921875,
+            "z": 1195.6845703125
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 42.586124420166016,
+        "fullGameTime": 67.55509948730469,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 3,
+            "teamId": 3,
             "readyState": 0,
-            "x": 9809.7783203125,
-            "y": 50.079345703125,
-            "z": 4329.17236328125
+            "x": 11539.2490234375,
+            "y": 248.0001220703125,
+            "z": 1840.8846435546875
         }
     },
     {
@@ -887,16 +887,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 42.917110443115234,
+        "fullGameTime": 52.74370193481445,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 1,
-            "teamId": 1,
+            "playerNum": 10,
+            "teamId": 10,
             "readyState": 0,
-            "x": 7308.49072265625,
-            "y": 47.63037109375,
-            "z": 3693.3017578125
+            "x": 672.506591796875,
+            "y": 66.87213134765625,
+            "z": 7370.5048828125
         }
     },
     {
@@ -962,16 +962,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 43.51908493041992,
+        "fullGameTime": 66.15515899658203,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 3,
+            "teamId": 3,
             "readyState": 0,
-            "x": 9809.7783203125,
-            "y": 50.079345703125,
-            "z": 4329.17236328125
+            "x": 11513.8271484375,
+            "y": 247.40228271484375,
+            "z": 1828.758056640625
         }
     },
     {
@@ -992,46 +992,46 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 43.69907760620117,
+        "fullGameTime": 158.012939453125,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 7,
+            "teamId": 7,
             "readyState": 0,
-            "x": 9809.7783203125,
-            "y": 50.079345703125,
-            "z": 4329.17236328125
+            "x": 7438.0361328125,
+            "y": 54.386474609375,
+            "z": 1074.193359375
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 43.804073333740234,
+        "fullGameTime": 70.3609848022461,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 6,
+            "teamId": 6,
+            "readyState": 0,
+            "x": 11448.5751953125,
+            "y": 62.21435546875,
+            "z": 5077.30712890625
+        }
+    },
+    {
+        "id": 36,
+        "name": "STARTPOS",
+        "fullGameTime": 157.99794006347656,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
             "playerNum": 1,
             "teamId": 1,
-            "readyState": 0,
-            "x": 7494.0048828125,
-            "y": 45.8516845703125,
-            "z": 3722.662353515625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 43.924068450927734,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9809.7783203125,
-            "y": 50.079345703125,
-            "z": 4329.17236328125
+            "readyState": 2,
+            "x": 7447,
+            "y": 46.560302734375,
+            "z": 3701
         }
     },
     {
@@ -1127,586 +1127,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 45.590999603271484,
+        "fullGameTime": 131.3784942626953,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 10,
-            "teamId": 10,
+            "playerNum": 13,
+            "teamId": 13,
             "readyState": 0,
-            "x": 702.194091796875,
-            "y": 71.087890625,
-            "z": 7448.56494140625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 45.66599655151367,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 4,
-            "teamId": 4,
-            "readyState": 0,
-            "x": 7894.6767578125,
-            "y": 62.59423828125,
-            "z": 2538.79833984375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 45.89198684692383,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 0,
-            "teamId": 0,
-            "readyState": 0,
-            "x": 10289.3642578125,
-            "y": 254.6839599609375,
-            "z": 531.8643798828125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 45.966983795166016,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 0,
-            "x": 9828.296875,
-            "y": 49.8876953125,
-            "z": 4280.3134765625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 46.057979583740234,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 6,
-            "teamId": 6,
-            "readyState": 0,
-            "x": 7860.74267578125,
-            "y": 62.27734375,
-            "z": 2556.75390625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 46.55595779418945,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 0,
-            "x": 688.7880859375,
-            "y": 71.0224609375,
-            "z": 7448.5126953125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 46.63095474243164,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11515.1513671875,
-            "y": 247.641845703125,
-            "z": 1876.21484375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 46.88594436645508,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11543.0107421875,
-            "y": 248.117919921875,
-            "z": 1824.2650146484375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 47.2159309387207,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11557.9189453125,
-            "y": 249.103515625,
-            "z": 1759.843994140625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 47.74190902709961,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 9,
-            "teamId": 9,
-            "readyState": 0,
-            "x": 2085.2705078125,
-            "y": 265.26953125,
-            "z": 11836.107421875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 47.951900482177734,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 5,
-            "teamId": 5,
-            "readyState": 0,
-            "x": 7744.62841796875,
-            "y": 57.037109375,
-            "z": 4910.32177734375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 48.02689743041992,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11524.171875,
-            "y": 247.8857421875,
-            "z": 1771.355224609375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 48.251888275146484,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11530.32421875,
-            "y": 248.7724609375,
-            "z": 1710.581298828125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 48.387882232666016,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 0,
-            "x": 692.86376953125,
-            "y": 73.3173828125,
-            "z": 7484.21728515625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 48.7038688659668,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11518.2255859375,
-            "y": 247.9901123046875,
-            "z": 1742.7032470703125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 48.92985916137695,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11515.1787109375,
-            "y": 247.7567138671875,
-            "z": 1758.2578125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 49.06485366821289,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 6,
-            "teamId": 6,
-            "readyState": 0,
-            "x": 11615.7333984375,
-            "y": 69.1962890625,
-            "z": 4851.30224609375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 49.27584457397461,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 8,
-            "teamId": 8,
-            "readyState": 0,
-            "x": 837.7576904296875,
-            "y": 255.6451416015625,
-            "z": 10555.3798828125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 49.39583969116211,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 9,
-            "teamId": 9,
-            "readyState": 0,
-            "x": 2023.3621826171875,
-            "y": 265.1912841796875,
-            "z": 11813.5693359375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 49.561832427978516,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 0,
-            "teamId": 0,
-            "readyState": 0,
-            "x": 10255.138671875,
-            "y": 255.8658447265625,
-            "z": 510.7659606933594
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 49.77182388305664,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 8,
-            "teamId": 8,
-            "readyState": 0,
-            "x": 860.4353637695312,
-            "y": 254.645751953125,
-            "z": 10556.4453125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 49.78682327270508,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 9,
-            "teamId": 9,
-            "readyState": 0,
-            "x": 2039.88818359375,
-            "y": 265.2755126953125,
-            "z": 11820.09765625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 50.01181411743164,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11551.896484375,
-            "y": 248.3614501953125,
-            "z": 1833.17578125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 50.37179946899414,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11533.0966796875,
-            "y": 247.8974609375,
-            "z": 1808.243408203125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 50.401798248291016,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 5,
-            "teamId": 5,
-            "readyState": 0,
-            "x": 7763.20947265625,
-            "y": 56.4637451171875,
-            "z": 4892.60205078125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 50.701786041259766,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11533.09765625,
-            "y": 247.9029541015625,
-            "z": 1807.249755859375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 51.061771392822266,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11528.1328125,
-            "y": 247.8446044921875,
-            "z": 1791.744873046875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 51.452754974365234,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 0,
-            "x": 670.9398193359375,
-            "y": 67.1109619140625,
-            "z": 7377.263671875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 51.632747650146484,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 0,
-            "x": 670.9398193359375,
-            "y": 67.1109619140625,
-            "z": 7377.263671875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 51.872737884521484,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 0,
-            "x": 670.9398193359375,
-            "y": 67.1109619140625,
-            "z": 7377.263671875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 52.06772994995117,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 0,
-            "x": 670.9398193359375,
-            "y": 67.1109619140625,
-            "z": 7377.263671875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 52.23372268676758,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 0,
-            "x": 670.7742309570312,
-            "y": 67.03033447265625,
-            "z": 7375.33349609375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 52.5637092590332,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 0,
-            "x": 672.506591796875,
-            "y": 66.8719482421875,
-            "z": 7370.50537109375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 52.74370193481445,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 0,
-            "x": 672.506591796875,
-            "y": 66.87213134765625,
-            "z": 7370.5048828125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 52.9236946105957,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 7,
-            "teamId": 7,
-            "readyState": 0,
-            "x": 7567.67333984375,
-            "y": 52.6044921875,
-            "z": 1195.6845703125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 52.9236946105957,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 0,
-            "x": 672.506591796875,
-            "y": 66.87213134765625,
-            "z": 7370.5048828125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 53.299678802490234,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4811.28515625,
-            "y": 50.0078125,
-            "z": 11160.46484375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 53.599666595458984,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4827.75439453125,
-            "y": 50.8828125,
-            "z": 11227.3076171875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 55.339595794677734,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4940.27685546875,
-            "y": 47.86767578125,
-            "z": 11181.82421875
+            "x": 2482.861572265625,
+            "y": 46.13818359375,
+            "z": 7994.34033203125
         }
     },
     {
@@ -1727,421 +1157,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 56.13456344604492,
+        "fullGameTime": 45.89198684692383,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 4,
-            "teamId": 4,
+            "playerNum": 0,
+            "teamId": 0,
             "readyState": 0,
-            "x": 7931.04052734375,
-            "y": 61.6131591796875,
-            "z": 2448.853515625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 56.44955062866211,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4875.61572265625,
-            "y": 49.530517578125,
-            "z": 11119.375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 56.73453903198242,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4883.29052734375,
-            "y": 49.81494140625,
-            "z": 11187.564453125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 56.94453048706055,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4878.3896484375,
-            "y": 50.3818359375,
-            "z": 11221.3134765625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 57.39451217651367,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4855.29150390625,
-            "y": 50.539306640625,
-            "z": 11213.955078125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 57.739498138427734,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4860.025390625,
-            "y": 50.16748046875,
-            "z": 11191.447265625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 58.17448043823242,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4874.0322265625,
-            "y": 49.87841796875,
-            "z": 11181.3447265625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 62.96028518676758,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 13,
-            "teamId": 13,
-            "readyState": 0,
-            "x": 2555.64990234375,
-            "y": 46.1044921875,
-            "z": 7985.9892578125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 63.92024612426758,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11501.7451171875,
-            "y": 247.51513671875,
-            "z": 1884.50390625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 64.68521881103516,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11501.603515625,
-            "y": 247.1678466796875,
-            "z": 1826.911865234375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 64.89521026611328,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11510.611328125,
-            "y": 247.3988037109375,
-            "z": 1852.771484375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 65.13520050048828,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11510.611328125,
-            "y": 247.3988037109375,
-            "z": 1852.771484375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 65.31519317626953,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11510.591796875,
-            "y": 247.349609375,
-            "z": 1839.9676513671875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 65.51018524169922,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11510.58984375,
-            "y": 247.34576416015625,
-            "z": 1837.33154296875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 65.93016815185547,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11512.2080078125,
-            "y": 247.36761474609375,
-            "z": 1831.3470458984375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 66.15515899658203,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11513.8271484375,
-            "y": 247.40228271484375,
-            "z": 1828.758056640625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 66.36914825439453,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11516.248046875,
-            "y": 247.454345703125,
-            "z": 1825.823486328125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 66.92412567138672,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11525.4580078125,
-            "y": 247.66412353515625,
-            "z": 1841.368896484375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 67.1191177368164,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11533.3779296875,
-            "y": 247.87432861328125,
-            "z": 1851.886474609375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 67.37410736083984,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11539.255859375,
-            "y": 248.02008056640625,
-            "z": 1850.8436279296875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 67.55509948730469,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11539.2490234375,
-            "y": 248.0001220703125,
-            "z": 1840.8846435546875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 67.79508972167969,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 11538.0771484375,
-            "y": 247.9715576171875,
-            "z": 1835.6944580078125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 68.56005859375,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 14,
-            "teamId": 14,
-            "readyState": 0,
-            "x": 4852.81591796875,
-            "y": 46.5050048828125,
-            "z": 8596.6435546875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 68.86004638671875,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 5011.81201171875,
-            "y": 43.1328125,
-            "z": 11131.93359375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 69.8060073852539,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4984.634765625,
-            "y": 43.905029296875,
-            "z": 11033.03125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 70.09099578857422,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4874.49951171875,
-            "y": 49.59375,
-            "z": 11110.4765625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 70.3609848022461,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 6,
-            "teamId": 6,
-            "readyState": 0,
-            "x": 11448.5751953125,
-            "y": 62.21435546875,
-            "z": 5077.30712890625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 70.3609848022461,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4857.8193359375,
-            "y": 49.880859375,
-            "z": 11163.7958984375
+            "x": 10289.3642578125,
+            "y": 254.6839599609375,
+            "z": 531.8643798828125
         }
     },
     {
@@ -2162,46 +1187,181 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 71.0079574584961,
+        "fullGameTime": 161.90249633789062,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 6,
-            "teamId": 6,
-            "readyState": 0,
-            "x": 11651.4384765625,
-            "y": 68.05224609375,
-            "z": 4836.24072265625
+            "playerNum": 0,
+            "teamId": 0,
+            "readyState": 1,
+            "x": 10255,
+            "y": 255.8658447265625,
+            "z": 510
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 71.3679428100586,
+        "fullGameTime": 149.81716918945312,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 9,
+            "teamId": 9,
+            "readyState": 0,
+            "x": 2044.9111328125,
+            "y": 265.37762451171875,
+            "z": 11839.126953125
+        }
+    },
+    {
+        "id": 36,
+        "name": "STARTPOS",
+        "fullGameTime": 52.06772994995117,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 10,
+            "teamId": 10,
+            "readyState": 0,
+            "x": 670.9398193359375,
+            "y": 67.1109619140625,
+            "z": 7377.263671875
+        }
+    },
+    {
+        "id": 36,
+        "name": "STARTPOS",
+        "fullGameTime": 130.64947509765625,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 13,
+            "teamId": 13,
+            "readyState": 0,
+            "x": 2416.637939453125,
+            "y": 47.3961181640625,
+            "z": 7972.05908203125
+        }
+    },
+    {
+        "id": 36,
+        "name": "STARTPOS",
+        "fullGameTime": 68.86004638671875,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
             "playerNum": 11,
             "teamId": 11,
             "readyState": 0,
-            "x": 4862.46630859375,
-            "y": 49.8671875,
-            "z": 11167.55859375
+            "x": 5011.81201171875,
+            "y": 43.1328125,
+            "z": 11131.93359375
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 71.4129409790039,
+        "fullGameTime": 145.6212615966797,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 15,
-            "teamId": 15,
+            "playerNum": 11,
+            "teamId": 11,
             "readyState": 0,
-            "x": 4347.87255859375,
-            "y": 56.145751953125,
-            "z": 9844.5693359375
+            "x": 4819.66845703125,
+            "y": 50.00634765625,
+            "z": 11163.76171875
+        }
+    },
+    {
+        "id": 36,
+        "name": "STARTPOS",
+        "fullGameTime": 161.90249633789062,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 13,
+            "teamId": 13,
+            "readyState": 1,
+            "x": 2414,
+            "y": 46.949462890625,
+            "z": 8000
+        }
+    },
+    {
+        "id": 36,
+        "name": "STARTPOS",
+        "fullGameTime": 48.02689743041992,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 3,
+            "teamId": 3,
+            "readyState": 0,
+            "x": 11524.171875,
+            "y": 247.8857421875,
+            "z": 1771.355224609375
+        }
+    },
+    {
+        "id": 36,
+        "name": "STARTPOS",
+        "fullGameTime": 64.68521881103516,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 3,
+            "teamId": 3,
+            "readyState": 0,
+            "x": 11501.603515625,
+            "y": 247.1678466796875,
+            "z": 1826.911865234375
+        }
+    },
+    {
+        "id": 36,
+        "name": "STARTPOS",
+        "fullGameTime": 48.387882232666016,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 10,
+            "teamId": 10,
+            "readyState": 0,
+            "x": 692.86376953125,
+            "y": 73.3173828125,
+            "z": 7484.21728515625
+        }
+    },
+    {
+        "id": 36,
+        "name": "STARTPOS",
+        "fullGameTime": 56.73453903198242,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 11,
+            "teamId": 11,
+            "readyState": 0,
+            "x": 4883.29052734375,
+            "y": 49.81494140625,
+            "z": 11187.564453125
+        }
+    },
+    {
+        "id": 36,
+        "name": "STARTPOS",
+        "fullGameTime": 48.92985916137695,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 3,
+            "teamId": 3,
+            "readyState": 0,
+            "x": 11515.1787109375,
+            "y": 247.7567138671875,
+            "z": 1758.2578125
         }
     },
     {
@@ -2237,136 +1397,16 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 73.3348617553711,
+        "fullGameTime": 156.1510009765625,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
             "playerNum": 11,
             "teamId": 11,
             "readyState": 0,
-            "x": 4826.333984375,
-            "y": 50.079345703125,
-            "z": 11172.662109375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 77.36569213867188,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 15,
-            "teamId": 15,
-            "readyState": 0,
-            "x": 4378.298828125,
-            "y": 56.6895751953125,
-            "z": 9818.068359375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 80.44256591796875,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 12,
-            "teamId": 12,
-            "readyState": 0,
-            "x": 4623.89453125,
-            "y": 51.4119873046875,
-            "z": 7428.30517578125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 82.48648071289062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 5,
-            "teamId": 5,
-            "readyState": 0,
-            "x": 9751.5498046875,
-            "y": 50.291748046875,
-            "z": 4363.48779296875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 106.59346008300781,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 0,
-            "x": 7752.15380859375,
-            "y": -81.29296875,
-            "z": 8720.96875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 130.21449279785156,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 13,
-            "teamId": 13,
-            "readyState": 0,
-            "x": 2537.75830078125,
-            "y": 45.77734375,
-            "z": 8000.2724609375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 130.64947509765625,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 13,
-            "teamId": 13,
-            "readyState": 0,
-            "x": 2416.637939453125,
-            "y": 47.3961181640625,
-            "z": 7972.05908203125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 131.3784942626953,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 13,
-            "teamId": 13,
-            "readyState": 0,
-            "x": 2482.861572265625,
-            "y": 46.13818359375,
-            "z": 7994.34033203125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 133.595458984375,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 13,
-            "teamId": 13,
-            "readyState": 0,
-            "x": 2414.96923828125,
-            "y": 46.949462890625,
-            "z": 8000.8544921875
+            "x": 4815.38427734375,
+            "y": 49.9952392578125,
+            "z": 11106.4482421875
         }
     },
     {
@@ -2387,106 +1427,31 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 140.5263671875,
+        "fullGameTime": 49.77182388305664,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 2,
-            "teamId": 2,
+            "playerNum": 8,
+            "teamId": 8,
             "readyState": 0,
-            "x": 9804.4912109375,
-            "y": 49.808837890625,
-            "z": 4306.0859375
+            "x": 860.4353637695312,
+            "y": 254.645751953125,
+            "z": 10556.4453125
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 145.6212615966797,
+        "fullGameTime": 157.99794006347656,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4819.66845703125,
-            "y": 50.00634765625,
-            "z": 11163.76171875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 146.0302734375,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4781.416015625,
-            "y": 49.8577880859375,
-            "z": 11150.439453125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 147.26223754882812,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4794.61181640625,
-            "y": 49.9061279296875,
-            "z": 11152.7734375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 147.74221801757812,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4787.626953125,
-            "y": 49.8955078125,
-            "z": 11153.92578125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 148.13522338867188,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4772.69775390625,
-            "y": 49.77685546875,
-            "z": 11134.6904296875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 149.26219177246094,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4769.42529296875,
-            "y": 49.7568359375,
-            "z": 11127.05859375
+            "playerNum": 4,
+            "teamId": 4,
+            "readyState": 2,
+            "x": 7931,
+            "y": 61.6131591796875,
+            "z": 2448
         }
     },
     {
@@ -2507,571 +1472,31 @@
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 149.81716918945312,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 9,
-            "teamId": 9,
-            "readyState": 0,
-            "x": 2044.9111328125,
-            "y": 265.37762451171875,
-            "z": 11839.126953125
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 150.03016662597656,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4769.16943359375,
-            "y": 49.760498046875,
-            "z": 11131.169921875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 150.06016540527344,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 9,
-            "teamId": 9,
-            "readyState": 0,
-            "x": 2042.7855224609375,
-            "y": 265.3677978515625,
-            "z": 11837.72265625
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 156.1510009765625,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4815.38427734375,
-            "y": 49.9952392578125,
-            "z": 11106.4482421875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.35195922851562,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 0,
-            "x": 4818.01025390625,
-            "y": 49.96826171875,
-            "z": 11114.1591796875
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.90794372558594,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 15,
-            "teamId": 15,
-            "readyState": 2,
-            "x": 4378,
-            "y": 56.6895751953125,
-            "z": 9818
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.95294189453125,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 5,
-            "teamId": 5,
-            "readyState": 2,
-            "x": 7763,
-            "y": 56.4637451171875,
-            "z": 4892
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.95294189453125,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 2,
-            "x": 4818,
-            "y": 49.96826171875,
-            "z": 11114
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.9679412841797,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 2,
-            "x": 9804,
-            "y": 49.808837890625,
-            "z": 4306
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.9679412841797,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 9,
-            "teamId": 9,
-            "readyState": 2,
-            "x": 2042,
-            "y": 265.3677978515625,
-            "z": 11837
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.9679412841797,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 2,
-            "x": 670,
-            "y": 67.03033447265625,
-            "z": 7375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.98294067382812,
+        "fullGameTime": 50.37179946899414,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
             "playerNum": 3,
             "teamId": 3,
-            "readyState": 2,
-            "x": 11538,
-            "y": 247.9715576171875,
-            "z": 1835
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.98294067382812,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 6,
-            "teamId": 6,
-            "readyState": 2,
-            "x": 11615,
-            "y": 69.1962890625,
-            "z": 4851
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.98294067382812,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 8,
-            "teamId": 8,
-            "readyState": 2,
-            "x": 860,
-            "y": 254.645751953125,
-            "z": 10556
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.98294067382812,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 13,
-            "teamId": 13,
-            "readyState": 2,
-            "x": 2414,
-            "y": 46.949462890625,
-            "z": 8000
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.99794006347656,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 1,
-            "teamId": 1,
-            "readyState": 2,
-            "x": 7447,
-            "y": 46.560302734375,
-            "z": 3701
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 157.99794006347656,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 4,
-            "teamId": 4,
-            "readyState": 2,
-            "x": 7931,
-            "y": 61.6131591796875,
-            "z": 2448
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 158.012939453125,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 7,
-            "teamId": 7,
             "readyState": 0,
-            "x": 7438.0361328125,
-            "y": 54.386474609375,
-            "z": 1074.193359375
+            "x": 11533.0966796875,
+            "y": 247.8974609375,
+            "z": 1808.243408203125
         }
     },
     {
         "id": 36,
         "name": "STARTPOS",
-        "fullGameTime": 158.012939453125,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 12,
-            "teamId": 12,
-            "readyState": 2,
-            "x": 4623,
-            "y": 51.4119873046875,
-            "z": 7428
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 158.012939453125,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 14,
-            "teamId": 14,
-            "readyState": 2,
-            "x": 4852,
-            "y": 46.5050048828125,
-            "z": 8596
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 158.02793884277344,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 7,
-            "teamId": 7,
-            "readyState": 2,
-            "x": 7567,
-            "y": 52.6044921875,
-            "z": 1195
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 158.04293823242188,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 0,
-            "teamId": 0,
-            "readyState": 2,
-            "x": 10255,
-            "y": 255.8658447265625,
-            "z": 510
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 0,
-            "teamId": 0,
-            "readyState": 1,
-            "x": 10255,
-            "y": 255.8658447265625,
-            "z": 510
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 1,
-            "teamId": 1,
-            "readyState": 1,
-            "x": 7447,
-            "y": 46.560302734375,
-            "z": 3701
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 2,
-            "teamId": 2,
-            "readyState": 1,
-            "x": 9804,
-            "y": 49.808837890625,
-            "z": 4306
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 3,
-            "teamId": 3,
-            "readyState": 1,
-            "x": 11538,
-            "y": 247.9715576171875,
-            "z": 1835
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 4,
-            "teamId": 4,
-            "readyState": 1,
-            "x": 7931,
-            "y": 61.6131591796875,
-            "z": 2448
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
+        "fullGameTime": 50.401798248291016,
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
             "playerNum": 5,
             "teamId": 5,
-            "readyState": 1,
-            "x": 7763,
+            "readyState": 0,
+            "x": 7763.20947265625,
             "y": 56.4637451171875,
-            "z": 4892
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 6,
-            "teamId": 6,
-            "readyState": 1,
-            "x": 11615,
-            "y": 69.1962890625,
-            "z": 4851
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 7,
-            "teamId": 7,
-            "readyState": 1,
-            "x": 7567,
-            "y": 52.6044921875,
-            "z": 1195
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 8,
-            "teamId": 8,
-            "readyState": 1,
-            "x": 860,
-            "y": 254.645751953125,
-            "z": 10556
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 9,
-            "teamId": 9,
-            "readyState": 1,
-            "x": 2042,
-            "y": 265.3677978515625,
-            "z": 11837
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 10,
-            "teamId": 10,
-            "readyState": 1,
-            "x": 670,
-            "y": 67.03033447265625,
-            "z": 7375
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 11,
-            "teamId": 11,
-            "readyState": 1,
-            "x": 4818,
-            "y": 49.96826171875,
-            "z": 11114
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 12,
-            "teamId": 12,
-            "readyState": 1,
-            "x": 4623,
-            "y": 51.4119873046875,
-            "z": 7428
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 13,
-            "teamId": 13,
-            "readyState": 1,
-            "x": 2414,
-            "y": 46.949462890625,
-            "z": 8000
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 14,
-            "teamId": 14,
-            "readyState": 1,
-            "x": 4852,
-            "y": 46.5050048828125,
-            "z": 8596
-        }
-    },
-    {
-        "id": 36,
-        "name": "STARTPOS",
-        "fullGameTime": 161.90249633789062,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
-        "data": {
-            "playerNum": 15,
-            "teamId": 15,
-            "readyState": 1,
-            "x": 4378,
-            "y": 56.6895751953125,
-            "z": 9818
+            "z": 4892.60205078125
         }
     }
 ]

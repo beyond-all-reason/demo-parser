@@ -61,61 +61,27 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 9.014609336853027,
-        "actualGameTime": 0,
-        "sizeBytes": 303,
+        "fullGameTime": 693.2020263671875,
+        "actualGameTime": 614.5666351318359,
+        "sizeBytes": 10,
         "data": {
-            "playerNum": 7,
+            "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": {
-                "name": "SYSTEM_INFO",
-                "data": {
-                    "cpu": "Intel i5-9600K @ 3.70GHz",
-                    "cpuCores": "00:00:00.009974",
-                    "physicalCpuCOres": "6 / 00:00:00.009974",
-                    "logicalCpuCores": "6",
-                    "memory": "16319MB",
-                    "gpu": "GeForce RTX 2060",
-                    "gpuMemory": "6291MB",
-                    "maxRes": "1920x1080",
-                    "display": "1920x1017x24bpp@144Hz",
-                    "windowMode": "borderless",
-                    "os": "Windows 10",
-                    "wordSize": "64 bit",
-                    "lobby": "Chobby"
-                }
-            }
+            "data": "�88"
         }
     },
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 9.014609336853027,
-        "actualGameTime": 0,
-        "sizeBytes": 314,
+        "fullGameTime": 693.1353759765625,
+        "actualGameTime": 614.4999847412109,
+        "sizeBytes": 10,
         "data": {
-            "playerNum": 0,
+            "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": {
-                "name": "SYSTEM_INFO",
-                "data": {
-                    "cpu": "AMD Ryzen 5 3600 6-Core",
-                    "cpuCores": "00:00:00.084076",
-                    "physicalCpuCOres": "12 / 00:00:00.084076",
-                    "logicalCpuCores": "12",
-                    "memory": "16335MB",
-                    "gpu": "GeForce GTX 1050 Ti",
-                    "gpuMemory": "4194MB",
-                    "maxRes": "1920x1080",
-                    "display": "1920x1017x24bpp@144Hz",
-                    "windowMode": "borderless",
-                    "os": "Windows 10",
-                    "wordSize": "64 bit",
-                    "lobby": "Chobby"
-                }
-            }
+            "data": "�88"
         }
     },
     {
@@ -282,14 +248,75 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 9.014609336853027,
-        "actualGameTime": 0,
-        "sizeBytes": 11,
+        "fullGameTime": 860.9020385742188,
+        "actualGameTime": 782.2666473388672,
+        "sizeBytes": 123,
         "data": {
-            "playerNum": 3,
+            "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "�542"
+            "data": {
+                "name": "AWARDS",
+                "data": {
+                    "econDestroyed": [
+                        {
+                            "teamId": 1,
+                            "value": 29620
+                        },
+                        {
+                            "teamId": 3,
+                            "value": 5750
+                        },
+                        {
+                            "teamId": -1,
+                            "value": 0
+                        }
+                    ],
+                    "fightingUnitsDestroyed": [
+                        {
+                            "teamId": 2,
+                            "value": 647561
+                        },
+                        {
+                            "teamId": 4,
+                            "value": 640341
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 549126
+                        }
+                    ],
+                    "resourceEfficiency": [
+                        {
+                            "teamId": 5,
+                            "value": 0.4214474
+                        },
+                        {
+                            "teamId": 2,
+                            "value": 0.30780733
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 0.18128848
+                        }
+                    ],
+                    "cow": {
+                        "teamId": -1
+                    },
+                    "mostResourcesProduced": {
+                        "teamId": 4,
+                        "value": 2312271.75
+                    },
+                    "mostDamageTaken": {
+                        "teamId": 5,
+                        "value": 51479.5469
+                    },
+                    "sleep": {
+                        "teamId": -1,
+                        "value": 0
+                    }
+                }
+            }
         }
     },
     {
@@ -308,14 +335,14 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 61.19493865966797,
-        "actualGameTime": 0,
-        "sizeBytes": 11,
+        "fullGameTime": 693.1353759765625,
+        "actualGameTime": 614.4999847412109,
+        "sizeBytes": 10,
         "data": {
-            "playerNum": 5,
+            "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�542"
+            "data": "�88"
         }
     },
     {
@@ -334,14 +361,14 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 165.7687225341797,
-        "actualGameTime": 87.13333129882812,
+        "fullGameTime": 693.2353515625,
+        "actualGameTime": 614.5999603271484,
         "sizeBytes": 10,
         "data": {
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�71"
+            "data": "�88"
         }
     },
     {
@@ -360,27 +387,88 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 165.7687225341797,
-        "actualGameTime": 87.13333129882812,
-        "sizeBytes": 10,
+        "fullGameTime": 861.4686889648438,
+        "actualGameTime": 782.8332977294922,
+        "sizeBytes": 123,
         "data": {
-            "playerNum": 6,
+            "playerNum": 5,
             "script": 100,
             "mode": 0,
-            "data": "�70"
+            "data": {
+                "name": "AWARDS",
+                "data": {
+                    "econDestroyed": [
+                        {
+                            "teamId": 1,
+                            "value": 29620
+                        },
+                        {
+                            "teamId": 3,
+                            "value": 5750
+                        },
+                        {
+                            "teamId": -1,
+                            "value": 0
+                        }
+                    ],
+                    "fightingUnitsDestroyed": [
+                        {
+                            "teamId": 2,
+                            "value": 647561
+                        },
+                        {
+                            "teamId": 4,
+                            "value": 640341
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 549126
+                        }
+                    ],
+                    "resourceEfficiency": [
+                        {
+                            "teamId": 5,
+                            "value": 0.4214474
+                        },
+                        {
+                            "teamId": 2,
+                            "value": 0.30780733
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 0.18128848
+                        }
+                    ],
+                    "cow": {
+                        "teamId": -1
+                    },
+                    "mostResourcesProduced": {
+                        "teamId": 4,
+                        "value": 2312271.75
+                    },
+                    "mostDamageTaken": {
+                        "teamId": 5,
+                        "value": 51479.5469
+                    },
+                    "sleep": {
+                        "teamId": -1,
+                        "value": 0
+                    }
+                }
+            }
         }
     },
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 165.80206298828125,
-        "actualGameTime": 87.16667175292969,
+        "fullGameTime": 693.0687255859375,
+        "actualGameTime": 614.4333343505859,
         "sizeBytes": 10,
         "data": {
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�69"
+            "data": "�88"
         }
     },
     {
@@ -399,14 +487,14 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 165.80206298828125,
-        "actualGameTime": 87.16667175292969,
+        "fullGameTime": 693.1353759765625,
+        "actualGameTime": 614.4999847412109,
         "sizeBytes": 10,
         "data": {
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�65"
+            "data": "�88"
         }
     },
     {
@@ -438,14 +526,75 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 165.83538818359375,
-        "actualGameTime": 87.19999694824219,
-        "sizeBytes": 10,
+        "fullGameTime": 861.1353759765625,
+        "actualGameTime": 782.4999847412109,
+        "sizeBytes": 123,
         "data": {
-            "playerNum": 6,
+            "playerNum": 7,
             "script": 100,
             "mode": 0,
-            "data": "�57"
+            "data": {
+                "name": "AWARDS",
+                "data": {
+                    "econDestroyed": [
+                        {
+                            "teamId": 1,
+                            "value": 29620
+                        },
+                        {
+                            "teamId": 3,
+                            "value": 5750
+                        },
+                        {
+                            "teamId": -1,
+                            "value": 0
+                        }
+                    ],
+                    "fightingUnitsDestroyed": [
+                        {
+                            "teamId": 2,
+                            "value": 647561
+                        },
+                        {
+                            "teamId": 4,
+                            "value": 640341
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 549126
+                        }
+                    ],
+                    "resourceEfficiency": [
+                        {
+                            "teamId": 5,
+                            "value": 0.4214474
+                        },
+                        {
+                            "teamId": 2,
+                            "value": 0.30780733
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 0.18128848
+                        }
+                    ],
+                    "cow": {
+                        "teamId": -1
+                    },
+                    "mostResourcesProduced": {
+                        "teamId": 4,
+                        "value": 2312271.75
+                    },
+                    "mostDamageTaken": {
+                        "teamId": 5,
+                        "value": 51479.5469
+                    },
+                    "sleep": {
+                        "teamId": -1,
+                        "value": 0
+                    }
+                }
+            }
         }
     },
     {
@@ -581,27 +730,27 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 165.90206909179688,
-        "actualGameTime": 87.26667785644531,
+        "fullGameTime": 693.1353759765625,
+        "actualGameTime": 614.4999847412109,
         "sizeBytes": 10,
         "data": {
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�22"
+            "data": "�88"
         }
     },
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 165.90206909179688,
-        "actualGameTime": 87.26667785644531,
+        "fullGameTime": 693.2020263671875,
+        "actualGameTime": 614.5666351318359,
         "sizeBytes": 10,
         "data": {
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�20"
+            "data": "�88"
         }
     },
     {
@@ -672,14 +821,14 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 165.93539428710938,
-        "actualGameTime": 87.30000305175781,
+        "fullGameTime": 693.035400390625,
+        "actualGameTime": 614.4000091552734,
         "sizeBytes": 10,
         "data": {
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�41"
         }
     },
     {
@@ -763,14 +912,75 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 166.00205993652344,
-        "actualGameTime": 87.36666870117188,
-        "sizeBytes": 10,
+        "fullGameTime": 860.9686889648438,
+        "actualGameTime": 782.3332977294922,
+        "sizeBytes": 123,
         "data": {
-            "playerNum": 6,
+            "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": {
+                "name": "AWARDS",
+                "data": {
+                    "econDestroyed": [
+                        {
+                            "teamId": 1,
+                            "value": 29620
+                        },
+                        {
+                            "teamId": 3,
+                            "value": 5750
+                        },
+                        {
+                            "teamId": -1,
+                            "value": 0
+                        }
+                    ],
+                    "fightingUnitsDestroyed": [
+                        {
+                            "teamId": 2,
+                            "value": 647561
+                        },
+                        {
+                            "teamId": 4,
+                            "value": 640341
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 549126
+                        }
+                    ],
+                    "resourceEfficiency": [
+                        {
+                            "teamId": 5,
+                            "value": 0.4214474
+                        },
+                        {
+                            "teamId": 2,
+                            "value": 0.30780733
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 0.18128848
+                        }
+                    ],
+                    "cow": {
+                        "teamId": -1
+                    },
+                    "mostResourcesProduced": {
+                        "teamId": 4,
+                        "value": 2312271.75
+                    },
+                    "mostDamageTaken": {
+                        "teamId": 5,
+                        "value": 51479.5469
+                    },
+                    "sleep": {
+                        "teamId": -1,
+                        "value": 0
+                    }
+                }
+            }
         }
     },
     {
@@ -836,6 +1046,80 @@
             "script": 100,
             "mode": 0,
             "data": "�12"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 860.9353637695312,
+        "actualGameTime": 782.2999725341797,
+        "sizeBytes": 123,
+        "data": {
+            "playerNum": 9,
+            "script": 100,
+            "mode": 0,
+            "data": {
+                "name": "AWARDS",
+                "data": {
+                    "econDestroyed": [
+                        {
+                            "teamId": 1,
+                            "value": 29620
+                        },
+                        {
+                            "teamId": 3,
+                            "value": 5750
+                        },
+                        {
+                            "teamId": -1,
+                            "value": 0
+                        }
+                    ],
+                    "fightingUnitsDestroyed": [
+                        {
+                            "teamId": 2,
+                            "value": 647561
+                        },
+                        {
+                            "teamId": 4,
+                            "value": 640341
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 549126
+                        }
+                    ],
+                    "resourceEfficiency": [
+                        {
+                            "teamId": 5,
+                            "value": 0.4214474
+                        },
+                        {
+                            "teamId": 2,
+                            "value": 0.30780733
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 0.18128848
+                        }
+                    ],
+                    "cow": {
+                        "teamId": -1
+                    },
+                    "mostResourcesProduced": {
+                        "teamId": 4,
+                        "value": 2312271.75
+                    },
+                    "mostDamageTaken": {
+                        "teamId": 5,
+                        "value": 51479.5469
+                    },
+                    "sleep": {
+                        "teamId": -1,
+                        "value": 0
+                    }
+                }
+            }
         }
     },
     {
@@ -867,27 +1151,14 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 166.0687255859375,
-        "actualGameTime": 87.43333435058594,
+        "fullGameTime": 693.10205078125,
+        "actualGameTime": 614.4666595458984,
         "sizeBytes": 10,
         "data": {
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 166.10205078125,
-        "actualGameTime": 87.46665954589844,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�12"
+            "data": "�88"
         }
     },
     {
@@ -919,14 +1190,14 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 166.16873168945312,
-        "actualGameTime": 87.53334045410156,
+        "fullGameTime": 693.10205078125,
+        "actualGameTime": 614.4666595458984,
         "sizeBytes": 10,
         "data": {
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�88"
         }
     },
     {
@@ -1023,27 +1294,88 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 471.5020751953125,
-        "actualGameTime": 392.86668395996094,
+        "fullGameTime": 693.035400390625,
+        "actualGameTime": 614.4000091552734,
         "sizeBytes": 10,
         "data": {
-            "playerNum": 4,
+            "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�68"
+            "data": "�47"
         }
     },
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 471.5020751953125,
-        "actualGameTime": 392.86668395996094,
-        "sizeBytes": 10,
+        "fullGameTime": 861.168701171875,
+        "actualGameTime": 782.5333099365234,
+        "sizeBytes": 123,
         "data": {
-            "playerNum": 4,
+            "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�67"
+            "data": {
+                "name": "AWARDS",
+                "data": {
+                    "econDestroyed": [
+                        {
+                            "teamId": 1,
+                            "value": 29620
+                        },
+                        {
+                            "teamId": 3,
+                            "value": 5750
+                        },
+                        {
+                            "teamId": -1,
+                            "value": 0
+                        }
+                    ],
+                    "fightingUnitsDestroyed": [
+                        {
+                            "teamId": 2,
+                            "value": 647561
+                        },
+                        {
+                            "teamId": 4,
+                            "value": 640341
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 549126
+                        }
+                    ],
+                    "resourceEfficiency": [
+                        {
+                            "teamId": 5,
+                            "value": 0.4214474
+                        },
+                        {
+                            "teamId": 2,
+                            "value": 0.30780733
+                        },
+                        {
+                            "teamId": 0,
+                            "value": 0.18128848
+                        }
+                    ],
+                    "cow": {
+                        "teamId": -1
+                    },
+                    "mostResourcesProduced": {
+                        "teamId": 4,
+                        "value": 2312271.75
+                    },
+                    "mostDamageTaken": {
+                        "teamId": 5,
+                        "value": 51479.5469
+                    },
+                    "sleep": {
+                        "teamId": -1,
+                        "value": 0
+                    }
+                }
+            }
         }
     },
     {
@@ -1140,6 +1472,19 @@
     {
         "id": 50,
         "name": "LUAMSG",
+        "fullGameTime": 693.2020263671875,
+        "actualGameTime": 614.5666351318359,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 6,
+            "script": 100,
+            "mode": 0,
+            "data": "�88"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
         "fullGameTime": 471.535400390625,
         "actualGameTime": 392.90000915527344,
         "sizeBytes": 10,
@@ -1148,321 +1493,6 @@
             "script": 100,
             "mode": 0,
             "data": "�59"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.535400390625,
-        "actualGameTime": 392.90000915527344,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�59"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.5687255859375,
-        "actualGameTime": 392.93333435058594,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�58"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.5687255859375,
-        "actualGameTime": 392.93333435058594,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�57"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.5687255859375,
-        "actualGameTime": 392.93333435058594,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�56"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.5687255859375,
-        "actualGameTime": 392.93333435058594,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�55"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.5687255859375,
-        "actualGameTime": 392.93333435058594,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�55"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.5687255859375,
-        "actualGameTime": 392.93333435058594,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�54"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.60205078125,
-        "actualGameTime": 392.96665954589844,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�54"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.60205078125,
-        "actualGameTime": 392.96665954589844,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�53"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.60205078125,
-        "actualGameTime": 392.96665954589844,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�52"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.60205078125,
-        "actualGameTime": 392.96665954589844,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�51"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.60205078125,
-        "actualGameTime": 392.96665954589844,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�51"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.60205078125,
-        "actualGameTime": 392.96665954589844,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�51"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.6353759765625,
-        "actualGameTime": 392.99998474121094,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�50"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.6353759765625,
-        "actualGameTime": 392.99998474121094,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�50"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.6353759765625,
-        "actualGameTime": 392.99998474121094,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�49"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 471.70208740234375,
-        "actualGameTime": 393.0666961669922,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 4,
-            "script": 100,
-            "mode": 0,
-            "data": "�49"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 530.3353881835938,
-        "actualGameTime": 451.6999969482422,
-        "sizeBytes": 292,
-        "data": {
-            "playerNum": 10,
-            "script": 100,
-            "mode": 0,
-            "data": {
-                "name": "SYSTEM_INFO",
-                "data": {
-                    "cpu": "Intel i7-9750H @ 2.60GHz",
-                    "cpuCores": "00:00:00.021941",
-                    "physicalCpuCOres": "6 / 00:00:00.021941",
-                    "logicalCpuCores": "12",
-                    "memory": "32624MB",
-                    "gpu": "GeForce GTX 1660 Ti",
-                    "gpuMemory": "6291MB",
-                    "maxRes": "2560x1440",
-                    "display": "2560x1440x24bpp@144Hz",
-                    "windowMode": "borderless",
-                    "os": "Windows 10",
-                    "wordSize": "64 bit"
-                }
-            }
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.0020141601562,
-        "actualGameTime": 614.3666229248047,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�13"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.0020141601562,
-        "actualGameTime": 614.3666229248047,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�15"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.0020141601562,
-        "actualGameTime": 614.3666229248047,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�17"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.0020141601562,
-        "actualGameTime": 614.3666229248047,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�24"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.035400390625,
-        "actualGameTime": 614.4000091552734,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�28"
         }
     },
     {
@@ -1476,388 +1506,6 @@
             "script": 100,
             "mode": 0,
             "data": "�32"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.035400390625,
-        "actualGameTime": 614.4000091552734,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�41"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.035400390625,
-        "actualGameTime": 614.4000091552734,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�47"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.0687255859375,
-        "actualGameTime": 614.4333343505859,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�56"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.0687255859375,
-        "actualGameTime": 614.4333343505859,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.0687255859375,
-        "actualGameTime": 614.4333343505859,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.10205078125,
-        "actualGameTime": 614.4666595458984,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.10205078125,
-        "actualGameTime": 614.4666595458984,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.10205078125,
-        "actualGameTime": 614.4666595458984,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.10205078125,
-        "actualGameTime": 614.4666595458984,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.1353759765625,
-        "actualGameTime": 614.4999847412109,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.1353759765625,
-        "actualGameTime": 614.4999847412109,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.1353759765625,
-        "actualGameTime": 614.4999847412109,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.1353759765625,
-        "actualGameTime": 614.4999847412109,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.2020263671875,
-        "actualGameTime": 614.5666351318359,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.2020263671875,
-        "actualGameTime": 614.5666351318359,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.2020263671875,
-        "actualGameTime": 614.5666351318359,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.2020263671875,
-        "actualGameTime": 614.5666351318359,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 693.2353515625,
-        "actualGameTime": 614.5999603271484,
-        "sizeBytes": 10,
-        "data": {
-            "playerNum": 6,
-            "script": 100,
-            "mode": 0,
-            "data": "�88"
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 860.8687133789062,
-        "actualGameTime": 782.2333221435547,
-        "sizeBytes": 123,
-        "data": {
-            "playerNum": 1,
-            "script": 100,
-            "mode": 0,
-            "data": {
-                "name": "AWARDS",
-                "data": {
-                    "econDestroyed": [
-                        {
-                            "teamId": 1,
-                            "value": 29620
-                        },
-                        {
-                            "teamId": 3,
-                            "value": 5750
-                        },
-                        {
-                            "teamId": -1,
-                            "value": 0
-                        }
-                    ],
-                    "fightingUnitsDestroyed": [
-                        {
-                            "teamId": 2,
-                            "value": 647561
-                        },
-                        {
-                            "teamId": 4,
-                            "value": 640341
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 549126
-                        }
-                    ],
-                    "resourceEfficiency": [
-                        {
-                            "teamId": 5,
-                            "value": 0.4214474
-                        },
-                        {
-                            "teamId": 2,
-                            "value": 0.30780733
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 0.18128848
-                        }
-                    ],
-                    "cow": {
-                        "teamId": -1
-                    },
-                    "mostResourcesProduced": {
-                        "teamId": 4,
-                        "value": 2312271.75
-                    },
-                    "mostDamageTaken": {
-                        "teamId": 5,
-                        "value": 51479.5469
-                    },
-                    "sleep": {
-                        "teamId": -1,
-                        "value": 0
-                    }
-                }
-            }
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 860.9020385742188,
-        "actualGameTime": 782.2666473388672,
-        "sizeBytes": 123,
-        "data": {
-            "playerNum": 0,
-            "script": 100,
-            "mode": 0,
-            "data": {
-                "name": "AWARDS",
-                "data": {
-                    "econDestroyed": [
-                        {
-                            "teamId": 1,
-                            "value": 29620
-                        },
-                        {
-                            "teamId": 3,
-                            "value": 5750
-                        },
-                        {
-                            "teamId": -1,
-                            "value": 0
-                        }
-                    ],
-                    "fightingUnitsDestroyed": [
-                        {
-                            "teamId": 2,
-                            "value": 647561
-                        },
-                        {
-                            "teamId": 4,
-                            "value": 640341
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 549126
-                        }
-                    ],
-                    "resourceEfficiency": [
-                        {
-                            "teamId": 5,
-                            "value": 0.4214474
-                        },
-                        {
-                            "teamId": 2,
-                            "value": 0.30780733
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 0.18128848
-                        }
-                    ],
-                    "cow": {
-                        "teamId": -1
-                    },
-                    "mostResourcesProduced": {
-                        "teamId": 4,
-                        "value": 2312271.75
-                    },
-                    "mostDamageTaken": {
-                        "teamId": 5,
-                        "value": 51479.5469
-                    },
-                    "sleep": {
-                        "teamId": -1,
-                        "value": 0
-                    }
-                }
-            }
         }
     },
     {
@@ -1937,223 +1585,27 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 860.9353637695312,
-        "actualGameTime": 782.2999725341797,
-        "sizeBytes": 123,
-        "data": {
-            "playerNum": 9,
-            "script": 100,
-            "mode": 0,
-            "data": {
-                "name": "AWARDS",
-                "data": {
-                    "econDestroyed": [
-                        {
-                            "teamId": 1,
-                            "value": 29620
-                        },
-                        {
-                            "teamId": 3,
-                            "value": 5750
-                        },
-                        {
-                            "teamId": -1,
-                            "value": 0
-                        }
-                    ],
-                    "fightingUnitsDestroyed": [
-                        {
-                            "teamId": 2,
-                            "value": 647561
-                        },
-                        {
-                            "teamId": 4,
-                            "value": 640341
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 549126
-                        }
-                    ],
-                    "resourceEfficiency": [
-                        {
-                            "teamId": 5,
-                            "value": 0.4214474
-                        },
-                        {
-                            "teamId": 2,
-                            "value": 0.30780733
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 0.18128848
-                        }
-                    ],
-                    "cow": {
-                        "teamId": -1
-                    },
-                    "mostResourcesProduced": {
-                        "teamId": 4,
-                        "value": 2312271.75
-                    },
-                    "mostDamageTaken": {
-                        "teamId": 5,
-                        "value": 51479.5469
-                    },
-                    "sleep": {
-                        "teamId": -1,
-                        "value": 0
-                    }
-                }
-            }
-        }
-    },
-    {
-        "id": 50,
-        "name": "LUAMSG",
-        "fullGameTime": 860.9686889648438,
-        "actualGameTime": 782.3332977294922,
-        "sizeBytes": 123,
+        "fullGameTime": 471.5687255859375,
+        "actualGameTime": 392.93333435058594,
+        "sizeBytes": 10,
         "data": {
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": {
-                "name": "AWARDS",
-                "data": {
-                    "econDestroyed": [
-                        {
-                            "teamId": 1,
-                            "value": 29620
-                        },
-                        {
-                            "teamId": 3,
-                            "value": 5750
-                        },
-                        {
-                            "teamId": -1,
-                            "value": 0
-                        }
-                    ],
-                    "fightingUnitsDestroyed": [
-                        {
-                            "teamId": 2,
-                            "value": 647561
-                        },
-                        {
-                            "teamId": 4,
-                            "value": 640341
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 549126
-                        }
-                    ],
-                    "resourceEfficiency": [
-                        {
-                            "teamId": 5,
-                            "value": 0.4214474
-                        },
-                        {
-                            "teamId": 2,
-                            "value": 0.30780733
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 0.18128848
-                        }
-                    ],
-                    "cow": {
-                        "teamId": -1
-                    },
-                    "mostResourcesProduced": {
-                        "teamId": 4,
-                        "value": 2312271.75
-                    },
-                    "mostDamageTaken": {
-                        "teamId": 5,
-                        "value": 51479.5469
-                    },
-                    "sleep": {
-                        "teamId": -1,
-                        "value": 0
-                    }
-                }
-            }
+            "data": "�56"
         }
     },
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 861.10205078125,
-        "actualGameTime": 782.4666595458984,
-        "sizeBytes": 123,
+        "fullGameTime": 693.0687255859375,
+        "actualGameTime": 614.4333343505859,
+        "sizeBytes": 10,
         "data": {
-            "playerNum": 3,
+            "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": {
-                "name": "AWARDS",
-                "data": {
-                    "econDestroyed": [
-                        {
-                            "teamId": 1,
-                            "value": 29620
-                        },
-                        {
-                            "teamId": 3,
-                            "value": 5750
-                        },
-                        {
-                            "teamId": -1,
-                            "value": 0
-                        }
-                    ],
-                    "fightingUnitsDestroyed": [
-                        {
-                            "teamId": 2,
-                            "value": 647561
-                        },
-                        {
-                            "teamId": 4,
-                            "value": 640341
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 549126
-                        }
-                    ],
-                    "resourceEfficiency": [
-                        {
-                            "teamId": 5,
-                            "value": 0.4214474
-                        },
-                        {
-                            "teamId": 2,
-                            "value": 0.30780733
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 0.18128848
-                        }
-                    ],
-                    "cow": {
-                        "teamId": -1
-                    },
-                    "mostResourcesProduced": {
-                        "teamId": 4,
-                        "value": 2312271.75
-                    },
-                    "mostDamageTaken": {
-                        "teamId": 5,
-                        "value": 51479.5469
-                    },
-                    "sleep": {
-                        "teamId": -1,
-                        "value": 0
-                    }
-                }
-            }
+            "data": "�88"
         }
     },
     {
@@ -2233,11 +1685,63 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 861.1353759765625,
-        "actualGameTime": 782.4999847412109,
+        "fullGameTime": 471.5687255859375,
+        "actualGameTime": 392.93333435058594,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 4,
+            "script": 100,
+            "mode": 0,
+            "data": "�54"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 471.60205078125,
+        "actualGameTime": 392.96665954589844,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 4,
+            "script": 100,
+            "mode": 0,
+            "data": "�54"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 471.60205078125,
+        "actualGameTime": 392.96665954589844,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 4,
+            "script": 100,
+            "mode": 0,
+            "data": "�53"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 471.60205078125,
+        "actualGameTime": 392.96665954589844,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 4,
+            "script": 100,
+            "mode": 0,
+            "data": "�52"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 861.10205078125,
+        "actualGameTime": 782.4666595458984,
         "sizeBytes": 123,
         "data": {
-            "playerNum": 7,
+            "playerNum": 3,
             "script": 100,
             "mode": 0,
             "data": {
@@ -2307,75 +1811,79 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 861.168701171875,
-        "actualGameTime": 782.5333099365234,
-        "sizeBytes": 123,
+        "fullGameTime": 471.60205078125,
+        "actualGameTime": 392.96665954589844,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 4,
+            "script": 100,
+            "mode": 0,
+            "data": "�51"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 693.2020263671875,
+        "actualGameTime": 614.5666351318359,
+        "sizeBytes": 10,
         "data": {
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": {
-                "name": "AWARDS",
-                "data": {
-                    "econDestroyed": [
-                        {
-                            "teamId": 1,
-                            "value": 29620
-                        },
-                        {
-                            "teamId": 3,
-                            "value": 5750
-                        },
-                        {
-                            "teamId": -1,
-                            "value": 0
-                        }
-                    ],
-                    "fightingUnitsDestroyed": [
-                        {
-                            "teamId": 2,
-                            "value": 647561
-                        },
-                        {
-                            "teamId": 4,
-                            "value": 640341
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 549126
-                        }
-                    ],
-                    "resourceEfficiency": [
-                        {
-                            "teamId": 5,
-                            "value": 0.4214474
-                        },
-                        {
-                            "teamId": 2,
-                            "value": 0.30780733
-                        },
-                        {
-                            "teamId": 0,
-                            "value": 0.18128848
-                        }
-                    ],
-                    "cow": {
-                        "teamId": -1
-                    },
-                    "mostResourcesProduced": {
-                        "teamId": 4,
-                        "value": 2312271.75
-                    },
-                    "mostDamageTaken": {
-                        "teamId": 5,
-                        "value": 51479.5469
-                    },
-                    "sleep": {
-                        "teamId": -1,
-                        "value": 0
-                    }
-                }
-            }
+            "data": "�88"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 471.6353759765625,
+        "actualGameTime": 392.99998474121094,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 4,
+            "script": 100,
+            "mode": 0,
+            "data": "�50"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 471.6353759765625,
+        "actualGameTime": 392.99998474121094,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 4,
+            "script": 100,
+            "mode": 0,
+            "data": "�50"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 693.10205078125,
+        "actualGameTime": 614.4666595458984,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 6,
+            "script": 100,
+            "mode": 0,
+            "data": "�88"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 471.70208740234375,
+        "actualGameTime": 393.0666961669922,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 4,
+            "script": 100,
+            "mode": 0,
+            "data": "�49"
         }
     },
     {
@@ -2455,11 +1963,24 @@
     {
         "id": 50,
         "name": "LUAMSG",
-        "fullGameTime": 861.4686889648438,
-        "actualGameTime": 782.8332977294922,
+        "fullGameTime": 693.0020141601562,
+        "actualGameTime": 614.3666229248047,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 6,
+            "script": 100,
+            "mode": 0,
+            "data": "�13"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 860.8687133789062,
+        "actualGameTime": 782.2333221435547,
         "sizeBytes": 123,
         "data": {
-            "playerNum": 5,
+            "playerNum": 1,
             "script": 100,
             "mode": 0,
             "data": {
@@ -2524,6 +2045,45 @@
                     }
                 }
             }
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 693.0020141601562,
+        "actualGameTime": 614.3666229248047,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 6,
+            "script": 100,
+            "mode": 0,
+            "data": "�17"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 693.0020141601562,
+        "actualGameTime": 614.3666229248047,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 6,
+            "script": 100,
+            "mode": 0,
+            "data": "�24"
+        }
+    },
+    {
+        "id": 50,
+        "name": "LUAMSG",
+        "fullGameTime": 693.035400390625,
+        "actualGameTime": 614.4000091552734,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 6,
+            "script": 100,
+            "mode": 0,
+            "data": "�28"
         }
     }
 ]

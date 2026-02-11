@@ -26,25 +26,25 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 42.491188049316406,
-        "actualGameTime": 0,
-        "sizeBytes": 29,
+        "fullGameTime": 697.1920166015625,
+        "actualGameTime": 560.800048828125,
+        "sizeBytes": 31,
         "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "more i play more i sleep"
+            "fromId": 13,
+            "toId": 254,
+            "message": "need differnet frontliners"
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 44.158119201660156,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
+        "fullGameTime": 695.4586791992188,
+        "actualGameTime": 559.0667114257812,
+        "sizeBytes": 12,
         "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "on keyboard"
+            "fromId": 10,
+            "toId": 254,
+            "message": "!vote n"
         }
     },
     {
@@ -122,37 +122,37 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 77.05775451660156,
-        "actualGameTime": 0,
-        "sizeBytes": 38,
+        "fullGameTime": 731.7586669921875,
+        "actualGameTime": 595.36669921875,
+        "sizeBytes": 12,
         "data": {
-            "fromId": 15,
-            "toId": 252,
-            "message": "I'm not doin that drongo shit btw"
+            "fromId": 9,
+            "toId": 254,
+            "message": "!vote b"
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 82.73651885986328,
-        "actualGameTime": 0,
-        "sizeBytes": 7,
+        "fullGameTime": 733.6586303710938,
+        "actualGameTime": 597.2666625976562,
+        "sizeBytes": 97,
         "data": {
-            "fromId": 1,
-            "toId": 252,
-            "message": "ty"
+            "fromId": 255,
+            "toId": 254,
+            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you cannot vote currently, there is no vote in progress."
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 87.17633819580078,
-        "actualGameTime": 0,
-        "sizeBytes": 50,
+        "fullGameTime": 737.1253051757812,
+        "actualGameTime": 600.7333374023438,
+        "sizeBytes": 29,
         "data": {
-            "fromId": 15,
-            "toId": 252,
-            "message": "idk if that virus is infecting this lobby yet"
+            "fromId": 13,
+            "toId": 254,
+            "message": "i went double con turret"
         }
     },
     {
@@ -170,13 +170,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 94.32404327392578,
-        "actualGameTime": 0,
-        "sizeBytes": 20,
+        "fullGameTime": 701.2919921875,
+        "actualGameTime": 564.9000244140625,
+        "sizeBytes": 22,
         "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "okay so no figs"
+            "fromId": 13,
+            "toId": 254,
+            "message": "to lose that fast"
         }
     },
     {
@@ -194,25 +194,25 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 97.94589233398438,
-        "actualGameTime": 0,
-        "sizeBytes": 17,
+        "fullGameTime": 714.8919677734375,
+        "actualGameTime": 578.5,
+        "sizeBytes": 58,
         "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "i give trans"
+            "fromId": 255,
+            "toId": 254,
+            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37"
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 101.98772430419922,
-        "actualGameTime": 0,
-        "sizeBytes": 13,
+        "fullGameTime": 686.3919677734375,
+        "actualGameTime": 550,
+        "sizeBytes": 99,
         "data": {
-            "fromId": 10,
+            "fromId": 255,
             "toId": 254,
-            "message": "gl hf :)"
+            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37,TheMicroManager,ibeSleepy,Xeaner,CLANKER"
         }
     },
     {
@@ -230,13 +230,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 109.24842071533203,
-        "actualGameTime": 0,
-        "sizeBytes": 12,
+        "fullGameTime": 688.6253051757812,
+        "actualGameTime": 552.2333374023438,
+        "sizeBytes": 91,
         "data": {
-            "fromId": 13,
-            "toId": 252,
-            "message": "and res"
+            "fromId": 255,
+            "toId": 254,
+            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:4/6, n:1/3] (56s remaining)"
         }
     },
     {
@@ -266,13 +266,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 121.99089813232422,
-        "actualGameTime": 0,
-        "sizeBytes": 16,
+        "fullGameTime": 744.6586303710938,
+        "actualGameTime": 608.2666625976562,
+        "sizeBytes": 7,
         "data": {
-            "fromId": 1,
-            "toId": 254,
-            "message": "!forcestart"
+            "fromId": 6,
+            "toId": 252,
+            "message": "gg"
         }
     },
     {
@@ -398,25 +398,25 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 123.92781829833984,
-        "actualGameTime": 0,
-        "sizeBytes": 12,
+        "fullGameTime": 690.8919677734375,
+        "actualGameTime": 554.5,
+        "sizeBytes": 19,
         "data": {
-            "fromId": 15,
+            "fromId": 13,
             "toId": 254,
-            "message": "!vote y"
+            "message": "then jumped up"
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 124.04781341552734,
-        "actualGameTime": 0,
-        "sizeBytes": 83,
+        "fullGameTime": 695.4920043945312,
+        "actualGameTime": 559.1000366210938,
+        "sizeBytes": 74,
         "data": {
             "fromId": 255,
             "toId": 254,
-            "message": "Host[EU8][006] * Vote in progress: \"forcestart\" [y:5/9, n:0/8] (27s remaining)"
+            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37,TheMicroManager"
         }
     },
     {
@@ -482,25 +482,25 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 130.24356079101562,
-        "actualGameTime": 0,
-        "sizeBytes": 12,
+        "fullGameTime": 686.0919799804688,
+        "actualGameTime": 549.7000122070312,
+        "sizeBytes": 91,
         "data": {
-            "fromId": 3,
+            "fromId": 255,
             "toId": 254,
-            "message": "!vote y"
+            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:1/6, n:1/3] (58s remaining)"
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 130.2735595703125,
-        "actualGameTime": 0,
-        "sizeBytes": 83,
+        "fullGameTime": 732.2919921875,
+        "actualGameTime": 595.9000244140625,
+        "sizeBytes": 12,
         "data": {
-            "fromId": 255,
+            "fromId": 9,
             "toId": 254,
-            "message": "Host[EU8][006] * Vote in progress: \"forcestart\" [y:8/9, n:0/8] (21s remaining)"
+            "message": "!vote b"
         }
     },
     {
@@ -518,13 +518,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 132.49346923828125,
-        "actualGameTime": 0,
-        "sizeBytes": 59,
+        "fullGameTime": 731.7919921875,
+        "actualGameTime": 595.4000244140625,
+        "sizeBytes": 81,
         "data": {
             "fromId": 255,
             "toId": 254,
-            "message": "Host[EU8][006] * Vote for command \"forcestart\" passed."
+            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you have already voted for current vote."
         }
     },
     {
@@ -566,13 +566,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 139.99197387695312,
-        "actualGameTime": 3.600006103515625,
-        "sizeBytes": 7,
+        "fullGameTime": 732.6920166015625,
+        "actualGameTime": 596.300048828125,
+        "sizeBytes": 12,
         "data": {
-            "fromId": 15,
-            "toId": 252,
-            "message": "si"
+            "fromId": 9,
+            "toId": 254,
+            "message": "!vote b"
         }
     },
     {
@@ -638,13 +638,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 171.25863647460938,
-        "actualGameTime": 34.866668701171875,
-        "sizeBytes": 32,
+        "fullGameTime": 729.3919677734375,
+        "actualGameTime": 593,
+        "sizeBytes": 12,
         "data": {
-            "fromId": 11,
-            "toId": 252,
-            "message": "i shall answer your prayers"
+            "fromId": 9,
+            "toId": 254,
+            "message": "!vote b"
         }
     },
     {
@@ -674,25 +674,25 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 218.92532348632812,
-        "actualGameTime": 82.53335571289062,
+        "fullGameTime": 688.5919799804688,
+        "actualGameTime": 552.2000122070312,
         "sizeBytes": 12,
         "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "op wind"
+            "fromId": 15,
+            "toId": 254,
+            "message": "!vote y"
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 219.39198303222656,
-        "actualGameTime": 83.00001525878906,
-        "sizeBytes": 26,
+        "fullGameTime": 720.6586303710938,
+        "actualGameTime": 584.2666625976562,
+        "sizeBytes": 81,
         "data": {
-            "fromId": 3,
+            "fromId": 255,
             "toId": 254,
-            "message": "wind does not love us"
+            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you have already voted for current vote."
         }
     },
     {
@@ -710,13 +710,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 271.62530517578125,
-        "actualGameTime": 135.23333740234375,
-        "sizeBytes": 27,
+        "fullGameTime": 686.92529296875,
+        "actualGameTime": 550.5333251953125,
+        "sizeBytes": 92,
         "data": {
-            "fromId": 6,
-            "toId": 252,
-            "message": "I pinged and asked sry"
+            "fromId": 255,
+            "toId": 254,
+            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37,TheMicroManager,ibeSleepy,CLANKER"
         }
     },
     {
@@ -770,13 +770,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 288.8919677734375,
-        "actualGameTime": 152.5,
+        "fullGameTime": 714.8919677734375,
+        "actualGameTime": 578.5,
         "sizeBytes": 20,
         "data": {
-            "fromId": 11,
+            "fromId": 9,
             "toId": 252,
-            "message": "who is this guy"
+            "message": "TheMicroManager"
         }
     },
     {
@@ -806,25 +806,25 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 320.05865478515625,
-        "actualGameTime": 183.66668701171875,
-        "sizeBytes": 9,
+        "fullGameTime": 731.858642578125,
+        "actualGameTime": 595.4666748046875,
+        "sizeBytes": 12,
         "data": {
-            "fromId": 13,
-            "toId": 252,
-            "message": "baby"
+            "fromId": 14,
+            "toId": 254,
+            "message": "!vote y"
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 322.65863037109375,
-        "actualGameTime": 186.26666259765625,
-        "sizeBytes": 30,
+        "fullGameTime": 720.6586303710938,
+        "actualGameTime": 584.2666625976562,
+        "sizeBytes": 12,
         "data": {
-            "fromId": 13,
-            "toId": 252,
-            "message": "share the fuckign con bot"
+            "fromId": 9,
+            "toId": 254,
+            "message": "!vote b"
         }
     },
     {
@@ -902,25 +902,25 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 352.02532958984375,
-        "actualGameTime": 215.63336181640625,
-        "sizeBytes": 22,
+        "fullGameTime": 749.7586669921875,
+        "actualGameTime": 613.36669921875,
+        "sizeBytes": 21,
         "data": {
             "fromId": 13,
             "toId": 254,
-            "message": "!kickban baby afk"
+            "message": "yeah i got fed 0"
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 352.02532958984375,
-        "actualGameTime": 215.63336181640625,
-        "sizeBytes": 52,
+        "fullGameTime": 695.4920043945312,
+        "actualGameTime": 559.1000366210938,
+        "sizeBytes": 91,
         "data": {
             "fromId": 255,
             "toId": 254,
-            "message": "Host[EU8][006] * Invalid kickban command usage."
+            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:4/6, n:2/3] (49s remaining)"
         }
     },
     {
@@ -938,25 +938,25 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 360.225341796875,
-        "actualGameTime": 223.8333740234375,
-        "sizeBytes": 12,
+        "fullGameTime": 732.3253173828125,
+        "actualGameTime": 595.933349609375,
+        "sizeBytes": 81,
         "data": {
-            "fromId": 13,
+            "fromId": 255,
             "toId": 254,
-            "message": "as fuck"
+            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you have already voted for current vote."
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 410.55865478515625,
-        "actualGameTime": 274.16668701171875,
-        "sizeBytes": 7,
+        "fullGameTime": 709.9586791992188,
+        "actualGameTime": 573.5667114257812,
+        "sizeBytes": 20,
         "data": {
-            "fromId": 12,
-            "toId": 252,
-            "message": "oh"
+            "fromId": 16,
+            "toId": 254,
+            "message": "free commandaaa"
         }
     },
     {
@@ -974,37 +974,37 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 444.6920166015625,
-        "actualGameTime": 308.300048828125,
-        "sizeBytes": 7,
+        "fullGameTime": 686.6253051757812,
+        "actualGameTime": 550.2333374023438,
+        "sizeBytes": 28,
         "data": {
-            "fromId": 5,
-            "toId": 252,
-            "message": "ik"
+            "fromId": 13,
+            "toId": 254,
+            "message": "right before theg round"
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 445.2919921875,
-        "actualGameTime": 308.9000244140625,
-        "sizeBytes": 20,
+        "fullGameTime": 749.225341796875,
+        "actualGameTime": 612.8333740234375,
+        "sizeBytes": 42,
         "data": {
             "fromId": 11,
-            "toId": 252,
-            "message": "help front asap"
+            "toId": 253,
+            "message": "clanker sniper would have been better"
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 446.6920166015625,
-        "actualGameTime": 310.300048828125,
-        "sizeBytes": 15,
+        "fullGameTime": 731.5253295898438,
+        "actualGameTime": 595.1333618164062,
+        "sizeBytes": 39,
         "data": {
-            "fromId": 11,
-            "toId": 252,
-            "message": "super dead"
+            "fromId": 13,
+            "toId": 254,
+            "message": "they had 6m30 banisher... so what?"
         }
     },
     {
@@ -1022,13 +1022,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 464.358642578125,
-        "actualGameTime": 327.9666748046875,
-        "sizeBytes": 11,
+        "fullGameTime": 729.4253540039062,
+        "actualGameTime": 593.0333862304688,
+        "sizeBytes": 81,
         "data": {
-            "fromId": 13,
-            "toId": 252,
-            "message": "i know"
+            "fromId": 255,
+            "toId": 254,
+            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you have already voted for current vote."
         }
     },
     {
@@ -1046,13 +1046,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 515.7586669921875,
-        "actualGameTime": 379.36669921875,
-        "sizeBytes": 10,
+        "fullGameTime": 711.9586791992188,
+        "actualGameTime": 575.5667114257812,
+        "sizeBytes": 74,
         "data": {
-            "fromId": 15,
-            "toId": 252,
-            "message": "needm"
+            "fromId": 255,
+            "toId": 254,
+            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37,TheMicroManager"
         }
     },
     {
@@ -1070,13 +1070,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 540.65869140625,
-        "actualGameTime": 404.2667236328125,
-        "sizeBytes": 14,
+        "fullGameTime": 699.1920166015625,
+        "actualGameTime": 562.800048828125,
+        "sizeBytes": 19,
         "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "rip front"
+            "fromId": 13,
+            "toId": 254,
+            "message": "that was crazy"
         }
     },
     {
@@ -1094,25 +1094,25 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 662.7919921875,
-        "actualGameTime": 526.4000244140625,
-        "sizeBytes": 26,
+        "fullGameTime": 732.725341796875,
+        "actualGameTime": 596.3333740234375,
+        "sizeBytes": 97,
         "data": {
-            "fromId": 13,
-            "toId": 252,
-            "message": "yeah mountin bad idea"
+            "fromId": 255,
+            "toId": 254,
+            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you cannot vote currently, there is no vote in progress."
         }
     },
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 674.358642578125,
-        "actualGameTime": 537.9666748046875,
-        "sizeBytes": 8,
+        "fullGameTime": 733.6253051757812,
+        "actualGameTime": 597.2333374023438,
+        "sizeBytes": 12,
         "data": {
-            "fromId": 13,
+            "fromId": 9,
             "toId": 254,
-            "message": "wow"
+            "message": "!vote b"
         }
     },
     {
@@ -1130,13 +1130,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 677.7586669921875,
-        "actualGameTime": 541.36669921875,
-        "sizeBytes": 21,
+        "fullGameTime": 714.8919677734375,
+        "actualGameTime": 578.5,
+        "sizeBytes": 91,
         "data": {
-            "fromId": 13,
+            "fromId": 255,
             "toId": 254,
-            "message": "it fucking moved"
+            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:5/6, n:1/2] (29s remaining)"
         }
     },
     {
@@ -1154,13 +1154,13 @@
     {
         "id": 7,
         "name": "CHAT",
-        "fullGameTime": 684.0586547851562,
-        "actualGameTime": 547.6666870117188,
-        "sizeBytes": 103,
+        "fullGameTime": 706.42529296875,
+        "actualGameTime": 570.0333251953125,
+        "sizeBytes": 22,
         "data": {
-            "fromId": 255,
+            "fromId": 13,
             "toId": 254,
-            "message": "Host[EU8][006] * Naigel called a vote for command \"resign Naigel TEAM\" [!vote y, !vote n, !vote b]"
+            "message": "to 5 centurion..."
         }
     },
     {
@@ -1197,690 +1197,6 @@
             "fromId": 13,
             "toId": 254,
             "message": "it literlaly stopped"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 686.0586547851562,
-        "actualGameTime": 549.6666870117188,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 9,
-            "toId": 254,
-            "message": "!vote n"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 686.0919799804688,
-        "actualGameTime": 549.7000122070312,
-        "sizeBytes": 91,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:1/6, n:1/3] (58s remaining)"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 686.358642578125,
-        "actualGameTime": 549.9666748046875,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 8,
-            "toId": 254,
-            "message": "!vote y"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 686.3919677734375,
-        "actualGameTime": 550,
-        "sizeBytes": 91,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:2/6, n:1/3] (58s remaining)"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 686.3919677734375,
-        "actualGameTime": 550,
-        "sizeBytes": 99,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37,TheMicroManager,ibeSleepy,Xeaner,CLANKER"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 686.6253051757812,
-        "actualGameTime": 550.2333374023438,
-        "sizeBytes": 28,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "right before theg round"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 686.858642578125,
-        "actualGameTime": 550.4666748046875,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 11,
-            "toId": 254,
-            "message": "!vote y"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 686.8919677734375,
-        "actualGameTime": 550.5,
-        "sizeBytes": 91,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:3/6, n:1/3] (57s remaining)"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 686.92529296875,
-        "actualGameTime": 550.5333251953125,
-        "sizeBytes": 92,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37,TheMicroManager,ibeSleepy,CLANKER"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 688.5919799804688,
-        "actualGameTime": 552.2000122070312,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 15,
-            "toId": 254,
-            "message": "!vote y"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 688.6253051757812,
-        "actualGameTime": 552.2333374023438,
-        "sizeBytes": 91,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:4/6, n:1/3] (56s remaining)"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 688.6253051757812,
-        "actualGameTime": 552.2333374023438,
-        "sizeBytes": 84,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37,TheMicroManager,ibeSleepy"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 690.8919677734375,
-        "actualGameTime": 554.5,
-        "sizeBytes": 19,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "then jumped up"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 695.4586791992188,
-        "actualGameTime": 559.0667114257812,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 10,
-            "toId": 254,
-            "message": "!vote n"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 695.4920043945312,
-        "actualGameTime": 559.1000366210938,
-        "sizeBytes": 91,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:4/6, n:2/3] (49s remaining)"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 695.4920043945312,
-        "actualGameTime": 559.1000366210938,
-        "sizeBytes": 74,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37,TheMicroManager"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 697.1920166015625,
-        "actualGameTime": 560.800048828125,
-        "sizeBytes": 31,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "need differnet frontliners"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 699.1920166015625,
-        "actualGameTime": 562.800048828125,
-        "sizeBytes": 19,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "that was crazy"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 701.2919921875,
-        "actualGameTime": 564.9000244140625,
-        "sizeBytes": 22,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "to lose that fast"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 706.42529296875,
-        "actualGameTime": 570.0333251953125,
-        "sizeBytes": 22,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "to 5 centurion..."
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 708.1920166015625,
-        "actualGameTime": 571.800048828125,
-        "sizeBytes": 21,
-        "data": {
-            "fromId": 12,
-            "toId": 254,
-            "message": "yeah u did great"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 709.9586791992188,
-        "actualGameTime": 573.5667114257812,
-        "sizeBytes": 20,
-        "data": {
-            "fromId": 16,
-            "toId": 254,
-            "message": "free commandaaa"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 711.92529296875,
-        "actualGameTime": 575.5333251953125,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 9,
-            "toId": 254,
-            "message": "!vote b"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 711.9586791992188,
-        "actualGameTime": 575.5667114257812,
-        "sizeBytes": 91,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:4/6, n:1/2] (32s remaining)"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 711.9586791992188,
-        "actualGameTime": 575.5667114257812,
-        "sizeBytes": 74,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37,TheMicroManager"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 712.92529296875,
-        "actualGameTime": 576.5333251953125,
-        "sizeBytes": 13,
-        "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "its fine"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 712.9586791992188,
-        "actualGameTime": 576.5667114257812,
-        "sizeBytes": 25,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "yueah frontline redo"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 714.858642578125,
-        "actualGameTime": 578.4666748046875,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "!vote y"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 714.8919677734375,
-        "actualGameTime": 578.5,
-        "sizeBytes": 91,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Vote in progress: \"resign Naigel TEAM\" [y:5/6, n:1/2] (29s remaining)"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 714.8919677734375,
-        "actualGameTime": 578.5,
-        "sizeBytes": 58,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Awaiting following vote(s): Potato37"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 714.8919677734375,
-        "actualGameTime": 578.5,
-        "sizeBytes": 20,
-        "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "TheMicroManager"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 715.9586791992188,
-        "actualGameTime": 579.5667114257812,
-        "sizeBytes": 10,
-        "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "u got"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 716.4920043945312,
-        "actualGameTime": 580.1000366210938,
-        "sizeBytes": 6,
-        "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "a"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 718.858642578125,
-        "actualGameTime": 582.4666748046875,
-        "sizeBytes": 9,
-        "data": {
-            "fromId": 9,
-            "toId": 252,
-            "message": "6m30"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 720.6586303710938,
-        "actualGameTime": 584.2666625976562,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 9,
-            "toId": 254,
-            "message": "!vote b"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 720.6586303710938,
-        "actualGameTime": 584.2666625976562,
-        "sizeBytes": 81,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you have already voted for current vote."
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 729.3919677734375,
-        "actualGameTime": 593,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 9,
-            "toId": 254,
-            "message": "!vote b"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 729.4253540039062,
-        "actualGameTime": 593.0333862304688,
-        "sizeBytes": 81,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you have already voted for current vote."
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 731.5253295898438,
-        "actualGameTime": 595.1333618164062,
-        "sizeBytes": 39,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "they had 6m30 banisher... so what?"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 731.7586669921875,
-        "actualGameTime": 595.36669921875,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 9,
-            "toId": 254,
-            "message": "!vote b"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 731.7919921875,
-        "actualGameTime": 595.4000244140625,
-        "sizeBytes": 81,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you have already voted for current vote."
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 731.858642578125,
-        "actualGameTime": 595.4666748046875,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 14,
-            "toId": 254,
-            "message": "!vote y"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 732.2919921875,
-        "actualGameTime": 595.9000244140625,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 9,
-            "toId": 254,
-            "message": "!vote b"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 732.3253173828125,
-        "actualGameTime": 595.933349609375,
-        "sizeBytes": 81,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you have already voted for current vote."
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 732.358642578125,
-        "actualGameTime": 595.9666748046875,
-        "sizeBytes": 67,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Vote for command \"resign Naigel TEAM\" passed."
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 732.4920043945312,
-        "actualGameTime": 596.1000366210938,
-        "sizeBytes": 52,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * Resigned 7 players (by Naigel)"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 732.6920166015625,
-        "actualGameTime": 596.300048828125,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 9,
-            "toId": 254,
-            "message": "!vote b"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 732.725341796875,
-        "actualGameTime": 596.3333740234375,
-        "sizeBytes": 97,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you cannot vote currently, there is no vote in progress."
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 733.6253051757812,
-        "actualGameTime": 597.2333374023438,
-        "sizeBytes": 12,
-        "data": {
-            "fromId": 9,
-            "toId": 254,
-            "message": "!vote b"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 733.6586303710938,
-        "actualGameTime": 597.2666625976562,
-        "sizeBytes": 97,
-        "data": {
-            "fromId": 255,
-            "toId": 254,
-            "message": "Host[EU8][006] * [Cookie]Baby_Evis, you cannot vote currently, there is no vote in progress."
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 737.1253051757812,
-        "actualGameTime": 600.7333374023438,
-        "sizeBytes": 29,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "i went double con turret"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 741.0253295898438,
-        "actualGameTime": 604.6333618164062,
-        "sizeBytes": 8,
-        "data": {
-            "fromId": 9,
-            "toId": 253,
-            "message": "ggs"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 743.9586791992188,
-        "actualGameTime": 607.5667114257812,
-        "sizeBytes": 23,
-        "data": {
-            "fromId": 1,
-            "toId": 254,
-            "message": "he got fed like 3K"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 744.5919799804688,
-        "actualGameTime": 608.2000122070312,
-        "sizeBytes": 21,
-        "data": {
-            "fromId": 9,
-            "toId": 253,
-            "message": "still loose with"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 744.6586303710938,
-        "actualGameTime": 608.2666625976562,
-        "sizeBytes": 7,
-        "data": {
-            "fromId": 6,
-            "toId": 252,
-            "message": "gg"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 749.225341796875,
-        "actualGameTime": 612.8333740234375,
-        "sizeBytes": 42,
-        "data": {
-            "fromId": 11,
-            "toId": 253,
-            "message": "clanker sniper would have been better"
-        }
-    },
-    {
-        "id": 7,
-        "name": "CHAT",
-        "fullGameTime": 749.7586669921875,
-        "actualGameTime": 613.36669921875,
-        "sizeBytes": 21,
-        "data": {
-            "fromId": 13,
-            "toId": 254,
-            "message": "yeah i got fed 0"
         }
     }
 ]
