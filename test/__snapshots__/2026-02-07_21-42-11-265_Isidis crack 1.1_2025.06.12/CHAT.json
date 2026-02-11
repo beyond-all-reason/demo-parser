@@ -1,0 +1,362 @@
+[
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 26.117149353027344,
+        "actualGameTime": 0,
+        "sizeBytes": 35,
+        "data": {
+            "fromId": 1,
+            "toId": 252,
+            "message": "this is absolutly not balanced"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 35.35500717163086,
+        "actualGameTime": 0,
+        "sizeBytes": 19,
+        "data": {
+            "fromId": 0,
+            "toId": 254,
+            "message": "uh minor issue"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 43.45564270019531,
+        "actualGameTime": 0,
+        "sizeBytes": 13,
+        "data": {
+            "fromId": 2,
+            "toId": 254,
+            "message": "whats up"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 44.288124084472656,
+        "actualGameTime": 0,
+        "sizeBytes": 33,
+        "data": {
+            "fromId": 0,
+            "toId": 254,
+            "message": "i cant scroll my screen down"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 45.69640350341797,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "fromId": 1,
+            "toId": 252,
+            "message": "what?"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 56.395076751708984,
+        "actualGameTime": 0,
+        "sizeBytes": 38,
+        "data": {
+            "fromId": 2,
+            "toId": 254,
+            "message": "try rejoining? we'll wait for you"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 59.3800048828125,
+        "actualGameTime": 0,
+        "sizeBytes": 53,
+        "data": {
+            "fromId": 0,
+            "toId": 254,
+            "message": "I changed it to windowed, cause it kept crashing"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 66.08969116210938,
+        "actualGameTime": 0,
+        "sizeBytes": 20,
+        "data": {
+            "fromId": 0,
+            "toId": 254,
+            "message": "thats the issue"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 68.69358825683594,
+        "actualGameTime": 0,
+        "sizeBytes": 11,
+        "data": {
+            "fromId": 2,
+            "toId": 254,
+            "message": "hmm ok"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 73.88729858398438,
+        "actualGameTime": 0,
+        "sizeBytes": 39,
+        "data": {
+            "fromId": 1,
+            "toId": 252,
+            "message": "yea restart your game we will wait"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 99.04689025878906,
+        "actualGameTime": 0,
+        "sizeBytes": 46,
+        "data": {
+            "fromId": 2,
+            "toId": 254,
+            "message": "well we can pause while you figure it out"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 109.7547378540039,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "fromId": 0,
+            "toId": 254,
+            "message": "fixed"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 115.2343978881836,
+        "actualGameTime": 0,
+        "sizeBytes": 9,
+        "data": {
+            "fromId": 2,
+            "toId": 254,
+            "message": "glhf"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 115.5215072631836,
+        "actualGameTime": 0,
+        "sizeBytes": 30,
+        "data": {
+            "fromId": 0,
+            "toId": 254,
+            "message": "until it crashes at least"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 118.0245361328125,
+        "actualGameTime": 0,
+        "sizeBytes": 8,
+        "data": {
+            "fromId": 2,
+            "toId": 254,
+            "message": "lol"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 132.21389770507812,
+        "actualGameTime": 0,
+        "sizeBytes": 13,
+        "data": {
+            "fromId": 0,
+            "toId": 254,
+            "message": "GLHF all"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 148.2395782470703,
+        "actualGameTime": 0,
+        "sizeBytes": 103,
+        "data": {
+            "fromId": 255,
+            "toId": 254,
+            "message": "Host[US1][032] * Auto-forcing game start (only already in-game or unsynced spectators are missing)"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 187.243896484375,
+        "actualGameTime": 36.066680908203125,
+        "sizeBytes": 56,
+        "data": {
+            "fromId": 0,
+            "toId": 252,
+            "message": "need to focus on light units and radars for defence"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 200.97723388671875,
+        "actualGameTime": 49.800018310546875,
+        "sizeBytes": 34,
+        "data": {
+            "fromId": 0,
+            "toId": 252,
+            "message": "its too open to cover in LLts"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 210.54388427734375,
+        "actualGameTime": 59.366668701171875,
+        "sizeBytes": 9,
+        "data": {
+            "fromId": 1,
+            "toId": 252,
+            "message": "dude"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 215.64389038085938,
+        "actualGameTime": 64.4666748046875,
+        "sizeBytes": 22,
+        "data": {
+            "fromId": 1,
+            "toId": 252,
+            "message": "ive got 250 hours"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 217.743896484375,
+        "actualGameTime": 66.56668090820312,
+        "sizeBytes": 15,
+        "data": {
+            "fromId": 1,
+            "toId": 252,
+            "message": "ill be alr"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 224.64389038085938,
+        "actualGameTime": 73.4666748046875,
+        "sizeBytes": 9,
+        "data": {
+            "fromId": 0,
+            "toId": 252,
+            "message": "BRUH"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 238.34390258789062,
+        "actualGameTime": 87.16668701171875,
+        "sizeBytes": 27,
+        "data": {
+            "fromId": 0,
+            "toId": 252,
+            "message": "not the air in 2v2 man"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 245.2105712890625,
+        "actualGameTime": 94.03335571289062,
+        "sizeBytes": 8,
+        "data": {
+            "fromId": 1,
+            "toId": 252,
+            "message": "alr"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 247.34390258789062,
+        "actualGameTime": 96.16668701171875,
+        "sizeBytes": 12,
+        "data": {
+            "fromId": 1,
+            "toId": 252,
+            "message": "not air"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 565.67724609375,
+        "actualGameTime": 414.5000305175781,
+        "sizeBytes": 36,
+        "data": {
+            "fromId": 0,
+            "toId": 252,
+            "message": "man im justt getting bullied rn"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 648.8106079101562,
+        "actualGameTime": 497.6333923339844,
+        "sizeBytes": 35,
+        "data": {
+            "fromId": 0,
+            "toId": 252,
+            "message": "sorry i just lost so early lol"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 654.2105712890625,
+        "actualGameTime": 503.0333557128906,
+        "sizeBytes": 7,
+        "data": {
+            "fromId": 0,
+            "toId": 254,
+            "message": "GG"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CHAT",
+        "fullGameTime": 669.9105834960938,
+        "actualGameTime": 518.7333679199219,
+        "sizeBytes": 7,
+        "data": {
+            "fromId": 2,
+            "toId": 254,
+            "message": "gg"
+        }
+    }
+]

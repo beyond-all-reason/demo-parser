@@ -1,0 +1,35 @@
+[
+    {
+        "id": 39,
+        "name": "PLAYERLEFT",
+        "fullGameTime": 674.7105712890625,
+        "actualGameTime": 523.5333557128906,
+        "sizeBytes": 3,
+        "data": {
+            "playerNum": 3,
+            "reason": 1
+        }
+    },
+    {
+        "id": 39,
+        "name": "PLAYERLEFT",
+        "fullGameTime": 675.17724609375,
+        "actualGameTime": 524.0000305175781,
+        "sizeBytes": 3,
+        "data": {
+            "playerNum": 0,
+            "reason": 1
+        }
+    },
+    {
+        "id": 39,
+        "name": "PLAYERLEFT",
+        "fullGameTime": 675.7439575195312,
+        "actualGameTime": 524.5667419433594,
+        "sizeBytes": 3,
+        "data": {
+            "playerNum": 1,
+            "reason": 1
+        }
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "id": 75,
+        "name": "CREATE_NEWPLAYER",
+        "fullGameTime": 137.3919677734375,
+        "actualGameTime": 1,
+        "sizeBytes": 15,
+        "data": {
+            "playerNum": 40,
+            "spectator": true,
+            "teamNum": 0,
+            "playerName": "infdrake"
+        }
+    },
+    {
+        "id": 75,
+        "name": "CREATE_NEWPLAYER",
+        "fullGameTime": 548.1920166015625,
+        "actualGameTime": 411.800048828125,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 41,
+            "spectator": true,
+            "teamNum": 0,
+            "playerName": "Carri0n"
+        }
+    }
+]

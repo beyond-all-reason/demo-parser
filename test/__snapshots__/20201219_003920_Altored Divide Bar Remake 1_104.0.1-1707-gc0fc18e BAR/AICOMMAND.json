@@ -1,0 +1,3226 @@
+[
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 248.03538513183594,
+        "actualGameTime": 169.39999389648438,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 12111,
+                "unitDefId": -870,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    8072,
+                    152.2637939453125,
+                    6776,
+                    3
+                ],
+                "data": {
+                    "x": 8072,
+                    "y": 152.2637939453125,
+                    "z": 6776,
+                    "direction": 3
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 448.5687255859375,
+        "actualGameTime": 369.93333435058594,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 3,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 9125,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {
+                    "mode": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 553.9353637695312,
+        "actualGameTime": 475.2999725341797,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 6943,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    61803
+                ],
+                "data": {
+                    "unitId": 61803
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 275.2020568847656,
+        "actualGameTime": 196.56666564941406,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 17604,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 646.5687255859375,
+        "actualGameTime": 567.9333343505859,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 26083,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4048.07666015625,
+                    192.1588134765625,
+                    7198.00048828125
+                ],
+                "data": {
+                    "x": 4048.07666015625,
+                    "y": 192.1588134765625,
+                    "z": 7198.00048828125
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 671.9020385742188,
+        "actualGameTime": 593.2666473388672,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 4069,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    7294,
+                    151.3433837890625,
+                    7088
+                ],
+                "data": {
+                    "x": 7294,
+                    "y": 151.3433837890625,
+                    "z": 7088
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 726.0020141601562,
+        "actualGameTime": 647.3666229248047,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 22999,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    55877
+                ],
+                "data": {
+                    "unitId": 55877
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 282.0020751953125,
+        "actualGameTime": 203.36668395996094,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 28324,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    7296,
+                    192.5396728515625,
+                    1168
+                ],
+                "data": {
+                    "x": 7296,
+                    "y": 192.5396728515625,
+                    "z": 1168
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 312.10205078125,
+        "actualGameTime": 233.46665954589844,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 8137,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 454.70208740234375,
+        "actualGameTime": 376.0666961669922,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 3,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 25687,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    792,
+                    70.196533203125,
+                    1510
+                ],
+                "data": {
+                    "x": 792,
+                    "y": 70.196533203125,
+                    "z": 1510
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 188.20205688476562,
+        "actualGameTime": 109.56666564941406,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 7,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 4210,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 628.2687377929688,
+        "actualGameTime": 549.6333465576172,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 4896,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 258.10205078125,
+        "actualGameTime": 179.46665954589844,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 21237,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 79.76872253417969,
+        "actualGameTime": 1.133331298828125,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 5997,
+                "unitDefId": -343,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4008,
+                    187.4774169921875,
+                    600,
+                    0
+                ],
+                "data": {
+                    "x": 4008,
+                    "y": 187.4774169921875,
+                    "z": 600,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 824.10205078125,
+        "actualGameTime": 745.4666595458984,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 18464,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    35929
+                ],
+                "data": {
+                    "unitId": 35929
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 79.76872253417969,
+        "actualGameTime": 1.133331298828125,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 5997,
+                "unitDefId": -409,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3968,
+                    188.5882568359375,
+                    840,
+                    0
+                ],
+                "data": {
+                    "x": 3968,
+                    "y": 188.5882568359375,
+                    "z": 840,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 726.0020141601562,
+        "actualGameTime": 647.3666229248047,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 22999,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    47399
+                ],
+                "data": {
+                    "unitId": 47399
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 232.60205078125,
+        "actualGameTime": 153.96665954589844,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 1164,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {
+                    "mode": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 435.43536376953125,
+        "actualGameTime": 356.7999725341797,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 28446,
+                "options": {
+                    "META_KEY": true,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2442,
+                    73.64410400390625,
+                    1434
+                ],
+                "data": {
+                    "x": 2442,
+                    "y": 73.64410400390625,
+                    "z": 1434
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 164.83538818359375,
+        "actualGameTime": 86.19999694824219,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 18329,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 454.5687255859375,
+        "actualGameTime": 375.93333435058594,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "unitId": 6361,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    12797
+                ],
+                "data": {
+                    "unitId": 12797
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 628.2687377929688,
+        "actualGameTime": 549.6333465576172,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 31022,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    7294,
+                    151.3433837890625,
+                    7198
+                ],
+                "data": {
+                    "x": 7294,
+                    "y": 151.3433837890625,
+                    "z": 7198
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 792.4020385742188,
+        "actualGameTime": 713.7666473388672,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 16054,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 568.1353759765625,
+        "actualGameTime": 489.49998474121094,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 5310,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4200,
+                    180.9234619140625,
+                    7576,
+                    4150,
+                    180.9234619140625,
+                    7526
+                ],
+                "data": {
+                    "x": 4200,
+                    "y": 180.9234619140625,
+                    "z": 7576
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 259.10205078125,
+        "actualGameTime": 180.46665954589844,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 31175,
+                "options": {
+                    "META_KEY": true,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    714,
+                    107.04864501953125,
+                    7174
+                ],
+                "data": {
+                    "x": 714,
+                    "y": 107.04864501953125,
+                    "z": 7174
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 608.1353759765625,
+        "actualGameTime": 529.4999847412109,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 15094,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4152,
+                    180.2252197265625,
+                    7576,
+                    4102,
+                    180.2252197265625,
+                    7526
+                ],
+                "data": {
+                    "x": 4152,
+                    "y": 180.2252197265625,
+                    "z": 7576
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 612.8353881835938,
+        "actualGameTime": 534.1999969482422,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 15904,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {
+                    "mode": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 647.8353881835938,
+        "actualGameTime": 569.1999969482422,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 6556,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 714.3353881835938,
+        "actualGameTime": 635.6999969482422,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 977,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 454.40203857421875,
+        "actualGameTime": 375.7666473388672,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 26848,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 80.00205993652344,
+        "actualGameTime": 1.366668701171875,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 17550,
+                "unitDefId": -243,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2600,
+                    108.58795166015625,
+                    968,
+                    0
+                ],
+                "data": {
+                    "x": 2600,
+                    "y": 108.58795166015625,
+                    "z": 968,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 726.4686889648438,
+        "actualGameTime": 647.8332977294922,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "unitId": 18868,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    17133
+                ],
+                "data": {
+                    "unitId": 17133
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 828.8353881835938,
+        "actualGameTime": 750.1999969482422,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 3,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 7815,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 726.4686889648438,
+        "actualGameTime": 647.8332977294922,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 18868,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    7416,
+                    192.5396728515625,
+                    1168
+                ],
+                "data": {
+                    "x": 7416,
+                    "y": 192.5396728515625,
+                    "z": 1168
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 334.83538818359375,
+        "actualGameTime": 256.1999969482422,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 26796,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 675.6353759765625,
+        "actualGameTime": 596.9999847412109,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 13402,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 381.23541259765625,
+        "actualGameTime": 302.6000213623047,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 27176,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 343.0020751953125,
+        "actualGameTime": 264.36668395996094,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 5997,
+                "unitDefId": -243,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4568,
+                    156.5802001953125,
+                    4136,
+                    0
+                ],
+                "data": {
+                    "x": 4568,
+                    "y": 156.5802001953125,
+                    "z": 4136,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 344.73541259765625,
+        "actualGameTime": 266.1000213623047,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 2281,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    7184,
+                    151.3433837890625,
+                    7198
+                ],
+                "data": {
+                    "x": 7184,
+                    "y": 151.3433837890625,
+                    "z": 7198
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 323.5020751953125,
+        "actualGameTime": 244.86668395996094,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 8137,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 524.0687255859375,
+        "actualGameTime": 445.43333435058594,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 17604,
+                "unitDefId": -15,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2272,
+                    70.5615234375,
+                    1248,
+                    0
+                ],
+                "data": {
+                    "x": 2272,
+                    "y": 70.5615234375,
+                    "z": 1248,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 780.9686889648438,
+        "actualGameTime": 702.3332977294922,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 28446,
+                "options": {
+                    "META_KEY": true,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2442,
+                    73.64013671875,
+                    1434
+                ],
+                "data": {
+                    "x": 2442,
+                    "y": 73.64013671875,
+                    "z": 1434
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 734.2353515625,
+        "actualGameTime": 655.5999603271484,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 7,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 1013,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 391.6353759765625,
+        "actualGameTime": 312.99998474121094,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 26796,
+                "unitDefId": -291,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3344,
+                    96.32110595703125,
+                    3760,
+                    0
+                ],
+                "data": {
+                    "x": 3344,
+                    "y": 96.32110595703125,
+                    "z": 3760,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 442.168701171875,
+        "actualGameTime": 363.53330993652344,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 16135,
+                "options": {
+                    "META_KEY": true,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3850,
+                    187.1124267578125,
+                    922
+                ],
+                "data": {
+                    "x": 3850,
+                    "y": 187.1124267578125,
+                    "z": 922
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 107.36872863769531,
+        "actualGameTime": 28.73333740234375,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 15539,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 321.0687255859375,
+        "actualGameTime": 242.43333435058594,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 552,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 248.03538513183594,
+        "actualGameTime": 169.39999389648438,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 12111,
+                "unitDefId": -870,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    8168,
+                    150.66497802734375,
+                    6728,
+                    3
+                ],
+                "data": {
+                    "x": 8168,
+                    "y": 150.66497802734375,
+                    "z": 6728,
+                    "direction": 3
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 228.96871948242188,
+        "actualGameTime": 150.3333282470703,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 16234,
+                "unitDefId": -243,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6040,
+                    198.3319091796875,
+                    744,
+                    0
+                ],
+                "data": {
+                    "x": 6040,
+                    "y": 198.3319091796875,
+                    "z": 744,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 309.23541259765625,
+        "actualGameTime": 230.6000213623047,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 2281,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 579.2020874023438,
+        "actualGameTime": 500.5666961669922,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 28172,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4152,
+                    183.3726043701172,
+                    7448,
+                    4102,
+                    183.3726043701172,
+                    7398
+                ],
+                "data": {
+                    "x": 4152,
+                    "y": 183.3726043701172,
+                    "z": 7448
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 739.2020263671875,
+        "actualGameTime": 660.5666351318359,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 1973,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    7296,
+                    192.5396728515625,
+                    1168
+                ],
+                "data": {
+                    "x": 7296,
+                    "y": 192.5396728515625,
+                    "z": 1168
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 728.535400390625,
+        "actualGameTime": 649.9000091552734,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 21423,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 454.70208740234375,
+        "actualGameTime": 376.0666961669922,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 3,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 25687,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    918,
+                    70.196533203125,
+                    1510
+                ],
+                "data": {
+                    "x": 918,
+                    "y": 70.196533203125,
+                    "z": 1510
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 726.4353637695312,
+        "actualGameTime": 647.7999725341797,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 18868,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 714.0020141601562,
+        "actualGameTime": 635.3666229248047,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "unitId": 2517,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    12797
+                ],
+                "data": {
+                    "unitId": 12797
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 162.80206298828125,
+        "actualGameTime": 84.16667175292969,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 16342,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    46842
+                ],
+                "data": {
+                    "unitId": 46842
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 739.6353759765625,
+        "actualGameTime": 660.9999847412109,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 21423,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 752.4353637695312,
+        "actualGameTime": 673.7999725341797,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 27299,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    7184,
+                    151.3433837890625,
+                    7198
+                ],
+                "data": {
+                    "x": 7184,
+                    "y": 151.3433837890625,
+                    "z": 7198
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 357.73541259765625,
+        "actualGameTime": 279.1000213623047,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 3,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "unitId": 25536,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    20703
+                ],
+                "data": {
+                    "unitId": 20703
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 142.30206298828125,
+        "actualGameTime": 63.66667175292969,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 31482,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 307.9353942871094,
+        "actualGameTime": 229.3000030517578,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 23603,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    32621
+                ],
+                "data": {
+                    "unitId": 32621
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 751.168701171875,
+        "actualGameTime": 672.5333099365234,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 6353,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 727.5687255859375,
+        "actualGameTime": 648.9333343505859,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 7,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 23293,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1784,
+                    130.4437255859375,
+                    7288
+                ],
+                "data": {
+                    "x": 1784,
+                    "y": 130.4437255859375,
+                    "z": 7288
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 181.7687225341797,
+        "actualGameTime": 103.13333129882812,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 14463,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 553.9353637695312,
+        "actualGameTime": 475.2999725341797,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 6943,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    41598
+                ],
+                "data": {
+                    "unitId": 41598
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 573.60205078125,
+        "actualGameTime": 494.96665954589844,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 23166,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 271.4687194824219,
+        "actualGameTime": 192.8333282470703,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 31774,
+                "unitDefId": -690,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5672,
+                    159.6429443359375,
+                    6904
+                ],
+                "data": {
+                    "x": 5672,
+                    "y": 159.6429443359375,
+                    "z": 6904
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 563.168701171875,
+        "actualGameTime": 484.53330993652344,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 16234,
+                "unitDefId": -415,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3928,
+                    188.37799072265625,
+                    520,
+                    0
+                ],
+                "data": {
+                    "x": 3928,
+                    "y": 188.37799072265625,
+                    "z": 520,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 150.23538208007812,
+        "actualGameTime": 71.59999084472656,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 23603,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    41467
+                ],
+                "data": {
+                    "unitId": 41467
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 777.035400390625,
+        "actualGameTime": 698.4000091552734,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 10181,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 824.10205078125,
+        "actualGameTime": 745.4666595458984,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 18464,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    43836
+                ],
+                "data": {
+                    "unitId": 43836
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 452.86871337890625,
+        "actualGameTime": 374.2333221435547,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 4479,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 680.10205078125,
+        "actualGameTime": 601.4666595458984,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 7,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 3091,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 150.23538208007812,
+        "actualGameTime": 71.59999084472656,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 23603,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    39074
+                ],
+                "data": {
+                    "unitId": 39074
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 268.83538818359375,
+        "actualGameTime": 190.1999969482422,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 31774,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 167.00205993652344,
+        "actualGameTime": 88.36666870117188,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 12797,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 457.83538818359375,
+        "actualGameTime": 379.1999969482422,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 17102,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 190.60205078125,
+        "actualGameTime": 111.96665954589844,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 5436,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 231.00205993652344,
+        "actualGameTime": 152.36666870117188,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 7,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "unitId": 1739,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    24918
+                ],
+                "data": {
+                    "unitId": 24918
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 559.60205078125,
+        "actualGameTime": 480.96665954589844,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 3169,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 759.8020629882812,
+        "actualGameTime": 681.1666717529297,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 3142,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 202.63539123535156,
+        "actualGameTime": 124,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "unitId": 14705,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 307.9353942871094,
+        "actualGameTime": 229.3000030517578,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 23603,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    57453
+                ],
+                "data": {
+                    "unitId": 57453
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 699.8353881835938,
+        "actualGameTime": 621.1999969482422,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 8821,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {
+                    "mode": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 343.0020751953125,
+        "actualGameTime": 264.36668395996094,
+        "sizeBytes": 37,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitId": 5997,
+                "unitDefId": -219,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4592,
+                    158.3099365234375,
+                    4208,
+                    0
+                ],
+                "data": {
+                    "x": 4592,
+                    "y": 158.3099365234375,
+                    "z": 4208,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 847.035400390625,
+        "actualGameTime": 768.4000091552734,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 3,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 29050,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 628.3353881835938,
+        "actualGameTime": 549.6999969482422,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 2,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 3830,
+                "options": {
+                    "META_KEY": true,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1770,
+                    70.196533203125,
+                    1274
+                ],
+                "data": {
+                    "x": 1770,
+                    "y": 70.196533203125,
+                    "z": 1274
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 567.8020629882812,
+        "actualGameTime": 489.1666717529297,
+        "sizeBytes": 45,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 5310,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4200,
+                    180.9234619140625,
+                    7576,
+                    4150,
+                    180.9234619140625,
+                    7526
+                ],
+                "data": {
+                    "x": 4200,
+                    "y": 180.9234619140625,
+                    "z": 7576
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 726.0020141601562,
+        "actualGameTime": 647.3666229248047,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 22999,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    54750
+                ],
+                "data": {
+                    "unitId": 54750
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 559.4020385742188,
+        "actualGameTime": 480.7666473388672,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 0,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "unitId": 2798,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    25493
+                ],
+                "data": {
+                    "unitId": 25493
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 463.5687255859375,
+        "actualGameTime": 384.93333435058594,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 12152,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    7462,
+                    178.1463623046875,
+                    1226
+                ],
+                "data": {
+                    "x": 7462,
+                    "y": 178.1463623046875,
+                    "z": 1226
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 726.0020141601562,
+        "actualGameTime": 647.3666229248047,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 22999,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    32027
+                ],
+                "data": {
+                    "unitId": 32027
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 566.668701171875,
+        "actualGameTime": 488.03330993652344,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 6,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 10804,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    7294,
+                    151.3433837890625,
+                    7088
+                ],
+                "data": {
+                    "x": 7294,
+                    "y": 151.3433837890625,
+                    "z": 7088
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 661.035400390625,
+        "actualGameTime": 582.4000091552734,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "unitId": 10195,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4112.07666015625,
+                    191.6933135986328,
+                    7230.00048828125
+                ],
+                "data": {
+                    "x": 4112.07666015625,
+                    "y": 191.6933135986328,
+                    "z": 7230.00048828125
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 518.7354125976562,
+        "actualGameTime": 440.1000213623047,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "REPAIR",
+                "unitId": 13303,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3469
+                ],
+                "data": {
+                    "unitId": 3469
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 439.40203857421875,
+        "actualGameTime": 360.7666473388672,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 5,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE_STATE",
+                "unitId": 22480,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    0
+                ],
+                "data": {
+                    "mode": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 518.6353759765625,
+        "actualGameTime": 439.99998474121094,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 1,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "unitId": 13303,
+                "options": {
+                    "META_KEY": true,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    7526,
+                    172.6080322265625,
+                    1226
+                ],
+                "data": {
+                    "x": 7526,
+                    "y": 172.6080322265625,
+                    "z": 1226
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 162.80206298828125,
+        "actualGameTime": 84.16667175292969,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 16342,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    38492
+                ],
+                "data": {
+                    "unitId": 38492
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "AICOMMAND",
+        "fullGameTime": 162.80206298828125,
+        "actualGameTime": 84.16667175292969,
+        "sizeBytes": 25,
+        "data": {
+            "playerNum": 4,
+            "aiId": 255,
+            "aiTeamId": 255,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "unitId": 16342,
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    50385
+                ],
+                "data": {
+                    "unitId": 50385
+                }
+            }
+        }
+    }
+]

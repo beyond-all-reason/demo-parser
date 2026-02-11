@@ -1,0 +1,995 @@
+[
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 13.83520221710205,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 0,
+            "z": 0
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 16.731481552124023,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 5330,
+            "z": 1701
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 17.70077896118164,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2137,
+            "z": 5193
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 17.959022521972656,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2144,
+            "z": 5164
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 18.14069175720215,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2144,
+            "z": 5164
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 18.353700637817383,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2144,
+            "z": 5164
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 18.5816593170166,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2149,
+            "z": 5171
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 18.944425582885742,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2151,
+            "z": 5174
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 19.642438888549805,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2148,
+            "z": 5177
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.005680084228516,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2129,
+            "z": 5180
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.778644561767578,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 0,
+            "z": 0
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.778644561767578,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 2269,
+            "z": 3504
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.778644561767578,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 2865,
+            "z": 3828
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.778644561767578,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 3585,
+            "z": 4316
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.778644561767578,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 3585,
+            "z": 4316
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.778644561767578,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 3710,
+            "z": 4463
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.778644561767578,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 3710,
+            "z": 4463
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.778644561767578,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 3710,
+            "z": 4463
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.824113845825195,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 4008,
+            "z": 5856
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 20.89977264404297,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2129,
+            "z": 5179
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 21.35369873046875,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2132,
+            "z": 5186
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 21.958744049072266,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2132,
+            "z": 5184
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 23.77370834350586,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2132,
+            "z": 5184
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 24.24219512939453,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2127,
+            "z": 5197
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 24.48381233215332,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2131,
+            "z": 5193
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 24.846811294555664,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2131,
+            "z": 5193
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 25.481868743896484,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2131,
+            "z": 5193
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 26.631406784057617,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2131,
+            "z": 5193
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 27.330692291259766,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 3,
+            "mapDrawAction": 1,
+            "x": 0,
+            "z": 0
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 27.361011505126953,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2131,
+            "z": 5193
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 27.93707275390625,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2131,
+            "z": 5193
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 28.559133529663086,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 2,
+            "mapDrawAction": 1,
+            "x": 2131,
+            "z": 5193
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 32.14573669433594,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 0,
+            "z": 0
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 32.43284606933594,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5015,
+            "z": 1899
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 73.53984069824219,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 3,
+            "mapDrawAction": 1,
+            "x": 633,
+            "z": 5270
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 75.70213317871094,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5061,
+            "z": 1947
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 75.70213317871094,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 3,
+            "mapDrawAction": 1,
+            "x": 710,
+            "z": 5475
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 76.05006408691406,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5046,
+            "z": 1951
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 76.5185546875,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5039,
+            "z": 1958
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 102.30262756347656,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5020,
+            "z": 1970
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 102.96906280517578,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5040,
+            "z": 1986
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 103.53133392333984,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5037,
+            "z": 1981
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 104.66655731201172,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5049,
+            "z": 1992
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 105.07513427734375,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5046,
+            "z": 1987
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 120.25298309326172,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 3981,
+            "z": 5634
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 122.34320831298828,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6549,
+            "z": 1995
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 122.72187805175781,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6501,
+            "z": 1934
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 122.8735580444336,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6506,
+            "z": 1936
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 123.14619445800781,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6518,
+            "z": 1936
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 124.08432006835938,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6537,
+            "z": 1936
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 124.26583862304688,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6581,
+            "z": 1861
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 124.58317565917969,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6560,
+            "z": 1864
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 124.79524993896484,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6533,
+            "z": 1893
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 125.15835571289062,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6544,
+            "z": 1899
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 125.35518646240234,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6558,
+            "z": 1892
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 125.88551330566406,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6564,
+            "z": 1892
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 126.1886978149414,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 6561,
+            "z": 1896
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 133.74130249023438,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5042,
+            "z": 1978
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 134.42227172851562,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5048,
+            "z": 1998
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 135.1489715576172,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5046,
+            "z": 1989
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 135.77232360839844,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 1,
+            "x": 5041,
+            "z": 1986
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 160.91055297851562,
+        "actualGameTime": 9.73333740234375,
+        "sizeBytes": 43,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 0,
+            "x": 5818,
+            "z": 1401,
+            "label": "you got bots, these are yours",
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 245.61056518554688,
+        "actualGameTime": 94.433349609375,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 0,
+            "x": 4651,
+            "z": 2705,
+            "label": "",
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 309.2105712890625,
+        "actualGameTime": 158.03335571289062,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 0,
+            "x": 5156,
+            "z": 2416,
+            "label": "",
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 376.1439208984375,
+        "actualGameTime": 224.96670532226562,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 0,
+            "x": 4001,
+            "z": 3966,
+            "label": "-__",
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 418.54388427734375,
+        "actualGameTime": 267.3666687011719,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 0,
+            "x": 4261,
+            "z": 4483,
+            "label": "",
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 473.47723388671875,
+        "actualGameTime": 322.3000183105469,
+        "sizeBytes": 18,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 0,
+            "x": 2064,
+            "z": 504,
+            "label": "care",
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 545.810546875,
+        "actualGameTime": 394.6333312988281,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 0,
+            "x": 5452,
+            "z": 723,
+            "label": "",
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 578.0438842773438,
+        "actualGameTime": 426.8666687011719,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 2,
+            "x": 5509,
+            "z": 875,
+            "x2": 5512,
+            "z2": 873,
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 578.110595703125,
+        "actualGameTime": 426.9333801269531,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 2,
+            "x": 5199,
+            "z": 738,
+            "x2": 5509,
+            "z2": 875,
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 578.1439208984375,
+        "actualGameTime": 426.9667053222656,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 2,
+            "x": 4782,
+            "z": 579,
+            "x2": 5199,
+            "z2": 738,
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 578.2105712890625,
+        "actualGameTime": 427.0333557128906,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 2,
+            "x": 4513,
+            "z": 586,
+            "x2": 4782,
+            "z2": 579,
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 578.243896484375,
+        "actualGameTime": 427.0666809082031,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 2,
+            "x": 4306,
+            "z": 591,
+            "x2": 4513,
+            "z2": 586,
+            "fromLua": false
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 578.4439086914062,
+        "actualGameTime": 427.2666931152344,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 1,
+            "mapDrawAction": 0,
+            "x": 4258,
+            "z": 670,
+            "label": "",
+            "fromLua": false
+        }
+    }
+]

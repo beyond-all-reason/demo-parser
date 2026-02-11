@@ -1,0 +1,1279 @@
+{
+    "info": {
+        "meta": {
+            "gameId": "a7d0956891e1ffa229f3ffac6d8b25ac",
+            "engine": "2025.04.08",
+            "game": "Beyond All Reason test-28438-3f3eceb",
+            "map": "Supreme Isthmus v2.1",
+            "startTime": "2025-08-08T10:25:43.000Z",
+            "durationMs": 764000,
+            "fullDurationMs": 937000,
+            "winningAllyTeamIds": [
+                1
+            ],
+            "startPosType": 2
+        },
+        "hostSettings": {
+            "ishost": "1",
+            "hostip": "",
+            "numallyteams": "2",
+            "server_match_id": "6503429",
+            "numteams": "16",
+            "startpostype": "2",
+            "gametype": "Beyond All Reason test-28438-3f3eceb",
+            "hosttype": "SPADS",
+            "mapname": "Supreme Isthmus v2.1",
+            "autohostport": "54206",
+            "numrestrictions": "0",
+            "autohostname": "Host[US4][006]",
+            "autohostrank": "0",
+            "autohostaccountid": "235166",
+            "numplayers": "16",
+            "autohostcountrycode": "US",
+            "hostport": "53206"
+        },
+        "gameSettings": {
+            "transportenemy": "notcoms",
+            "tweakunits3": "",
+            "experimentalextraunits": "0",
+            "map_lavahighdwell": "60",
+            "maxunits": "2000",
+            "unit_restrictions_noair": "0",
+            "raptor_firstwavesboost": "1",
+            "raptor_raptorstart": "initialbox",
+            "assistdronescount": "10",
+            "disablemapdamage": "0",
+            "nowasting": "default",
+            "scav_spawntimemult": "1",
+            "draft_mode": "skill",
+            "unit_restrictions_noendgamelrpc": "0",
+            "tweakunits": "",
+            "debugcommands": "",
+            "allowpausegameplay": "1",
+            "multiplier_energyproduction": "1",
+            "unit_restrictions_nonukes": "0",
+            "evocomleveluptime": "5",
+            "factory_costs": "0",
+            "scav_spawncountmult": "1",
+            "multiplier_builddistance": "1",
+            "tweakdefs3": "",
+            "assistdronesair": "1",
+            "startenergy": "1000",
+            "junorework": "0",
+            "tweakdefs2": "",
+            "ruins_civilian_disable": "0",
+            "startmetal": "1000",
+            "teamffa_start_boxes_shuffle": "1",
+            "forceallunits": "0",
+            "raptor_spawncountmult": "1",
+            "mapmetadata_startpos": "eJyNksFqhDAQht9lzkIzk4mTeO0LeOit7EFaS4WtLsalXRbfvTgxy4IL7kUk3zf5k1-vcBpiN3VDH6G6Qo3L8w8qQSzgApUQ-rmAGs0KENmVijAYVJRn0CAFRY4ToZUEKVkBWxuU2Jwj6wh765RwJhRIiRUSJS6TQE4JOWOUlJnwOoNESvIBvJW0btjoZjmf0KW9EIWV5HxyaFMFwdsF5Hh2IY0Is4bkdA4hpXgnCiQDK2ki-HRgn4FHXtONaHq41exk7dKUdp4LmNrmB6r3K5yOzaUdY92Ob7rkC4jdZxsVxqkZp_Q6DscWKohtAwXEU_Pb10PXT1AtX3kubsLUfnxvDLo3mm7cCPZe-BqHftoovK-4faXcKC8PTyz33qNLe5gPi_JcRWG3IjR7HSHuXw_pCeeJsnHb9uOe0O0VheXS1CH9cq_DeVml-TD_A7ALNtk",
+            "splittiers": "0",
+            "lootboxes": "scav_only",
+            "ffa_wreckage": "0",
+            "factionlimiter": "0",
+            "animationcleanup": "0",
+            "multiplier_weaponrange": "1",
+            "multiplier_maxvelocity": "1",
+            "raptor_queentimemult": "1",
+            "tax_resource_sharing_amount": "0",
+            "tweakunits9": "",
+            "ruins_density": "normal",
+            "assistdronesenabled": "disabled",
+            "tweakdefs7": "",
+            "map_waterlevel": "0",
+            "scav_difficulty": "normal",
+            "unit_restrictions_notech3": "0",
+            "comrespawn": "evocom",
+            "unit_restrictions_notech2": "0",
+            "dummyboolfeelfreetotouch": "0",
+            "disable_unit_sharing": "0",
+            "multiplier_shieldpower": "1",
+            "tweakdefs5": "",
+            "commanderbuildersenabled": "disabled",
+            "tweakdefs": "",
+            "unit_restrictions_noconverters": "0",
+            "emprework": "0",
+            "pushresistant": "0",
+            "raptor_graceperiodmult": "1",
+            "evocomlevelcap": "10",
+            "evocomlevelupmethod": "dynamic",
+            "map_lavatidemode": "lavastartlow",
+            "tweakdefs9": "",
+            "temp_enable_territorial_domination": "0",
+            "tweakunits4": "",
+            "multiplier_buildpower": "1",
+            "unit_restrictions_nodefence": "0",
+            "teamcolors_icon_dev_mode": "disabled",
+            "scav_scavstart": "initialbox",
+            "assistdronesbuildpowermultiplier": "1",
+            "ruins": "scav_only",
+            "ruins_only_t1": "0",
+            "shieldsrework": "0",
+            "proposed_unit_reworks": "0",
+            "map_lavalowlevel": "0",
+            "map_lavahighlevel": "0",
+            "multiplier_resourceincome": "1",
+            "scavunitsforplayers": "0",
+            "evocomlevelupmultiplier": "1",
+            "tweakdefs8": "",
+            "map_tidal": "unchanged",
+            "unit_restrictions_nolrpc": "0",
+            "evocomxpmultiplier": "1",
+            "unit_restrictions_noextractors": "0",
+            "multiplier_turnrate": "1",
+            "tweakdefs1": "",
+            "map_lavalowdwell": "300",
+            "norushtimer": "0",
+            "raptor_spawntimemult": "1",
+            "skyshift": "0",
+            "tweakunits2": "",
+            "tweakunits8": "",
+            "lootboxes_density": "normal",
+            "multiplier_energyconversion": "1",
+            "allowuserwidgets": "1",
+            "shareddynamicalliancevictory": "0",
+            "tweakunits5": "",
+            "evocom": "0",
+            "unit_restrictions_notacnukes": "0",
+            "experimentallegionfaction": "0",
+            "experimentalshields": "unchanged",
+            "startenergystorage": "1000",
+            "raptor_queen_count": "1",
+            "unit_restrictions_nofusion": "0",
+            "startmetalstorage": "1000",
+            "scav_boss_count": "1",
+            "map_atmosphere": "1",
+            "lategame_rebalance": "0",
+            "map_lavatiderhythm": "default",
+            "multiplier_metalextraction": "1",
+            "tweakunits6": "",
+            "multiplier_losrange": "1",
+            "tweakdefs4": "",
+            "scav_endless": "0",
+            "disable_fogofwar": "0",
+            "tweakunits1": "",
+            "unit_restrictions_noantinuke": "0",
+            "ranked_game": "1",
+            "unit_restrictions_notech15": "0",
+            "fixedallies": "1",
+            "coop": "0",
+            "territorial_domination_config": "default",
+            "dynamiccheats": "1",
+            "scav_bosstimemult": "1",
+            "critters": "1",
+            "tweakunits7": "",
+            "commanderbuildersrange": "1000",
+            "defaultdecals": "1",
+            "multiplier_weapondamage": "1",
+            "releasecandidates": "0",
+            "multiplier_radarrange": "1",
+            "map_waterislava": "0",
+            "commanderbuildersbuildpower": "400",
+            "disable_assist_ally_construction": "0",
+            "raptor_difficulty": "normal",
+            "unit_market": "0",
+            "raptor_endless": "0",
+            "tweakdefs6": "",
+            "teamcolors_anonymous_mode": "disabled",
+            "ai_incomemultiplier": "1",
+            "deathmode": "com",
+            "air_rework": "0"
+        },
+        "mapSettings": {
+            "dry": "0"
+        },
+        "spadsSettings": {
+            "clanmode": "tag(5):pref(5)",
+            "autobalance": "advanced",
+            "colorsensitivity": "-1",
+            "nbplayerbyid": "1",
+            "rankmode": "account",
+            "minplayers": "1",
+            "botsrank": "3",
+            "extrabox": "0",
+            "forcestarted": "0",
+            "maxspecs": "",
+            "autostop": "gameOver",
+            "nospecdraw": "0",
+            "autoaddbotnb": "0",
+            "springservertype": "dedicated",
+            "autostart": "off",
+            "speedcontrol": "2",
+            "autofixcolors": "off",
+            "autospecextraplayers": "1",
+            "skillmode": "rank",
+            "minteamsize": "1",
+            "autoblockcolors": "0",
+            "teamsize": "8",
+            "idsharemode": "off",
+            "autoblockbalance": "1",
+            "nbteams": "2",
+            "spadsversion": "0.13.43",
+            "nospecchat": "0",
+            "balancemode": "clan:skill"
+        },
+        "restrictions": {},
+        "allyTeams": [
+            {
+                "allyTeamId": 1,
+                "startBox": {
+                    "bottom": 1,
+                    "left": 0,
+                    "top": 0.6,
+                    "right": 0.4
+                },
+                "playerCount": 8
+            },
+            {
+                "allyTeamId": 0,
+                "startBox": {
+                    "bottom": 0.4,
+                    "left": 0.6,
+                    "top": 0,
+                    "right": 1
+                },
+                "playerCount": 8
+            }
+        ],
+        "players": [
+            {
+                "playerId": 10,
+                "userId": 354015,
+                "name": "Svinpals",
+                "countryCode": "SE",
+                "rank": 4,
+                "skillUncertainty": 3.1,
+                "skill": "[19.53]",
+                "teamId": 10,
+                "rgbColor": {
+                    "b": 7,
+                    "g": 97,
+                    "r": 255
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Cortex",
+                "startPos": {
+                    "x": 670,
+                    "y": 67.03033447265625,
+                    "z": 7375
+                }
+            },
+            {
+                "playerId": 6,
+                "userId": 427343,
+                "name": "zaGeneral",
+                "countryCode": "RO",
+                "rank": 2,
+                "skillUncertainty": 4.66,
+                "skill": "[8.91]",
+                "teamId": 6,
+                "rgbColor": {
+                    "b": 255,
+                    "g": 194,
+                    "r": 124
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Armada",
+                "startPos": {
+                    "x": 11615,
+                    "y": 69.1962890625,
+                    "z": 4851
+                }
+            },
+            {
+                "playerId": 8,
+                "userId": 171361,
+                "name": "RighteousRacoon",
+                "countryCode": "DE",
+                "rank": 2,
+                "skillUncertainty": 7.42,
+                "skill": "[23.37]",
+                "teamId": 8,
+                "rgbColor": {
+                    "b": 5,
+                    "g": 16,
+                    "r": 255
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Armada",
+                "startPos": {
+                    "x": 860,
+                    "y": 254.645751953125,
+                    "z": 10556
+                }
+            },
+            {
+                "playerId": 14,
+                "userId": 315054,
+                "name": "Wittmann",
+                "countryCode": "DE",
+                "rank": 3,
+                "skillUncertainty": 3.98,
+                "skill": "[13.54]",
+                "teamId": 14,
+                "rgbColor": {
+                    "b": 179,
+                    "g": 144,
+                    "r": 241
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Cortex",
+                "startPos": {
+                    "x": 4852,
+                    "y": 46.5050048828125,
+                    "z": 8596
+                }
+            },
+            {
+                "playerId": 4,
+                "userId": 356043,
+                "name": "Brotato69",
+                "countryCode": "AU",
+                "rank": 4,
+                "skillUncertainty": 3.42,
+                "skill": "[14.39]",
+                "teamId": 4,
+                "rgbColor": {
+                    "b": 148,
+                    "g": 255,
+                    "r": 143
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Armada",
+                "startPos": {
+                    "x": 7931,
+                    "y": 61.6131591796875,
+                    "z": 2448
+                }
+            },
+            {
+                "playerId": 7,
+                "userId": 427052,
+                "name": "GoGorilla",
+                "countryCode": "SE",
+                "rank": 2,
+                "skillUncertainty": 5,
+                "skill": "[6.16]",
+                "teamId": 7,
+                "rgbColor": {
+                    "b": 255,
+                    "g": 148,
+                    "r": 162
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Armada",
+                "startPos": {
+                    "x": 7567,
+                    "y": 52.6044921875,
+                    "z": 1195
+                }
+            },
+            {
+                "playerId": 1,
+                "userId": 390075,
+                "name": "spanky23",
+                "countryCode": "AU",
+                "rank": 1,
+                "skillUncertainty": 7.84,
+                "skill": "[21.78]",
+                "teamId": 1,
+                "rgbColor": {
+                    "b": 8,
+                    "g": 233,
+                    "r": 12
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Cortex",
+                "startPos": {
+                    "x": 7447,
+                    "y": 46.560302734375,
+                    "z": 3701
+                }
+            },
+            {
+                "playerId": 9,
+                "userId": 63982,
+                "name": "CanIhavesomeshoes",
+                "countryCode": "AU",
+                "rank": 4,
+                "skillUncertainty": 4.24,
+                "skill": "[22.42]",
+                "teamId": 9,
+                "rgbColor": {
+                    "b": 0,
+                    "g": 210,
+                    "r": 255
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Cortex",
+                "startPos": {
+                    "x": 2042,
+                    "y": 265.3677978515625,
+                    "z": 11837
+                }
+            },
+            {
+                "playerId": 2,
+                "userId": 90793,
+                "name": "Dawn005",
+                "countryCode": "AU",
+                "rank": 5,
+                "skillUncertainty": 2.98,
+                "skill": "[19.11]",
+                "teamId": 2,
+                "rgbColor": {
+                    "b": 229,
+                    "g": 245,
+                    "r": 0
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Armada",
+                "startPos": {
+                    "x": 9804,
+                    "y": 49.808837890625,
+                    "z": 4306
+                }
+            },
+            {
+                "playerId": 15,
+                "userId": 404701,
+                "name": "Nixha",
+                "countryCode": "US",
+                "rank": 2,
+                "skillUncertainty": 6.99,
+                "skill": "[3.06]",
+                "teamId": 15,
+                "rgbColor": {
+                    "b": 47,
+                    "g": 139,
+                    "r": 200
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Cortex",
+                "startPos": {
+                    "x": 4378,
+                    "y": 56.6895751953125,
+                    "z": 9818
+                }
+            },
+            {
+                "playerId": 12,
+                "userId": 405087,
+                "name": "Eggnstein",
+                "countryCode": "AU",
+                "rank": 2,
+                "skillUncertainty": 5.25,
+                "skill": "[16.57]",
+                "teamId": 12,
+                "rgbColor": {
+                    "b": 164,
+                    "g": 238,
+                    "r": 252
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Armada",
+                "startPos": {
+                    "x": 4623,
+                    "y": 51.4119873046875,
+                    "z": 7428
+                }
+            },
+            {
+                "playerId": 13,
+                "userId": 383408,
+                "name": "SethAlamut",
+                "countryCode": "DE",
+                "rank": 2,
+                "skillUncertainty": 5.21,
+                "skill": "[13.86]",
+                "teamId": 13,
+                "rgbColor": {
+                    "b": 40,
+                    "g": 40,
+                    "r": 138
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Armada",
+                "startPos": {
+                    "x": 2414,
+                    "y": 46.949462890625,
+                    "z": 8000
+                }
+            },
+            {
+                "playerId": 11,
+                "userId": 382001,
+                "name": "scoobydoob",
+                "countryCode": "GB",
+                "rank": 2,
+                "skillUncertainty": 4.21,
+                "skill": "[17.82]",
+                "teamId": 11,
+                "rgbColor": {
+                    "b": 137,
+                    "g": 8,
+                    "r": 248
+                },
+                "allyTeamId": 1,
+                "handicap": 0,
+                "faction": "Cortex",
+                "startPos": {
+                    "x": 4818,
+                    "y": 49.96826171875,
+                    "z": 11114
+                }
+            },
+            {
+                "playerId": 3,
+                "userId": 363234,
+                "name": "AzurePure",
+                "countryCode": "SG",
+                "rank": 3,
+                "skillUncertainty": 3.58,
+                "skill": "[16.73]",
+                "teamId": 3,
+                "rgbColor": {
+                    "b": 242,
+                    "g": 65,
+                    "r": 105
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Cortex",
+                "startPos": {
+                    "x": 11538,
+                    "y": 247.9715576171875,
+                    "z": 1835
+                }
+            },
+            {
+                "playerId": 0,
+                "userId": 358687,
+                "name": "Feathers",
+                "countryCode": "AU",
+                "rank": 3,
+                "skillUncertainty": 3.4,
+                "skill": "[22.92]",
+                "teamId": 0,
+                "rgbColor": {
+                    "b": 243,
+                    "g": 62,
+                    "r": 11
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Cortex",
+                "startPos": {
+                    "x": 10255,
+                    "y": 255.8658447265625,
+                    "z": 510
+                }
+            },
+            {
+                "playerId": 5,
+                "userId": 145817,
+                "name": "[OWL]leobase",
+                "countryCode": "DE",
+                "rank": 4,
+                "skillUncertainty": 4.04,
+                "skill": "[12.96]",
+                "teamId": 5,
+                "rgbColor": {
+                    "b": 47,
+                    "g": 112,
+                    "r": 27
+                },
+                "allyTeamId": 0,
+                "handicap": 0,
+                "faction": "Armada",
+                "startPos": {
+                    "x": 7763,
+                    "y": 56.4637451171875,
+                    "z": 4892
+                }
+            }
+        ],
+        "ais": [],
+        "spectators": []
+    },
+    "header": {
+        "magic": "spring demofile",
+        "version": 5,
+        "headerSize": 352,
+        "versionString": "2025.04.08",
+        "gameId": "a7d0956891e1ffa229f3ffac6d8b25ac",
+        "startTime": "2025-08-08T10:25:43.000Z",
+        "scriptSize": 8469,
+        "demoStreamSize": 3038824,
+        "gameTime": 768,
+        "wallclockTime": 937,
+        "numPlayers": 19,
+        "playerStatSize": 380,
+        "playerStatElemSize": 20,
+        "numTeams": 15,
+        "teamStatSize": 60,
+        "teamStatElemSize": 80,
+        "teamStatPeriod": 15,
+        "winningAllyTeamsSize": 1
+    },
+    "script": "[game]\n{\n[player10]\n{\nteam=10;\ncountrycode=SE;\naccountid=354015;\nname=Svinpals;\nrank=4;\nskill=[19.53];\nspectator=0;\nskilluncertainty=3.1;\n}\n[player6]\n{\nteam=6;\ncountrycode=RO;\naccountid=427343;\nname=zaGeneral;\nrank=2;\nskill=[8.91];\nspectator=0;\nskilluncertainty=4.66;\n}\n[team13]\n{\nallyteam=1;\nteamleader=13;\nrgbcolor=0.27451 0.00784 0.20000;\nside=Armada;\nhandicap=0;\n}\n[player8]\n{\nteam=8;\ncountrycode=DE;\naccountid=171361;\nname=RighteousRacoon;\nrank=2;\nskill=[23.37];\nspectator=0;\nskilluncertainty=7.42;\n}\n[modoptions]\n{\ntransportenemy=notcoms;\ntweakunits3=;\nexperimentalextraunits=0;\nmap_lavahighdwell=60;\nmaxunits=2000;\nunit_restrictions_noair=0;\nraptor_firstwavesboost=1;\nraptor_raptorstart=initialbox;\nassistdronescount=10;\ndisablemapdamage=0;\nnowasting=default;\nscav_spawntimemult=1;\ndraft_mode=skill;\nunit_restrictions_noendgamelrpc=0;\ntweakunits=;\ndebugcommands=;\nallowpausegameplay=1;\nmultiplier_energyproduction=1;\nunit_restrictions_nonukes=0;\nevocomleveluptime=5;\nfactory_costs=0;\nscav_spawncountmult=1;\nmultiplier_builddistance=1;\ntweakdefs3=;\nassistdronesair=1;\nstartenergy=1000;\njunorework=0;\ntweakdefs2=;\nruins_civilian_disable=0;\nstartmetal=1000;\nteamffa_start_boxes_shuffle=1;\nforceallunits=0;\nraptor_spawncountmult=1;\nmapmetadata_startpos=eJyNksFqhDAQht9lzkIzk4mTeO0LeOit7EFaS4WtLsalXRbfvTgxy4IL7kUk3zf5k1-vcBpiN3VDH6G6Qo3L8w8qQSzgApUQ-rmAGs0KENmVijAYVJRn0CAFRY4ToZUEKVkBWxuU2Jwj6wh765RwJhRIiRUSJS6TQE4JOWOUlJnwOoNESvIBvJW0btjoZjmf0KW9EIWV5HxyaFMFwdsF5Hh2IY0Is4bkdA4hpXgnCiQDK2ki-HRgn4FHXtONaHq41exk7dKUdp4LmNrmB6r3K5yOzaUdY92Ob7rkC4jdZxsVxqkZp_Q6DscWKohtAwXEU_Pb10PXT1AtX3kubsLUfnxvDLo3mm7cCPZe-BqHftoovK-4faXcKC8PTyz33qNLe5gPi_JcRWG3IjR7HSHuXw_pCeeJsnHb9uOe0O0VheXS1CH9cq_DeVml-TD_A7ALNtk;\nsplittiers=0;\nlootboxes=scav_only;\nffa_wreckage=0;\nfactionlimiter=0;\nanimationcleanup=0;\nmultiplier_weaponrange=1;\nmultiplier_maxvelocity=1;\nraptor_queentimemult=1;\ntax_resource_sharing_amount=0;\ntweakunits9=;\nruins_density=normal;\nassistdronesenabled=disabled;\ntweakdefs7=;\nmap_waterlevel=0;\nscav_difficulty=normal;\nunit_restrictions_notech3=0;\ncomrespawn=evocom;\nunit_restrictions_notech2=0;\ndummyboolfeelfreetotouch=0;\ndisable_unit_sharing=0;\nmultiplier_shieldpower=1;\ntweakdefs5=;\ncommanderbuildersenabled=disabled;\ntweakdefs=;\nunit_restrictions_noconverters=0;\nemprework=0;\npushresistant=0;\nraptor_graceperiodmult=1;\nevocomlevelcap=10;\nevocomlevelupmethod=dynamic;\nmap_lavatidemode=lavastartlow;\ntweakdefs9=;\ntemp_enable_territorial_domination=0;\ntweakunits4=;\nmultiplier_buildpower=1;\nunit_restrictions_nodefence=0;\nteamcolors_icon_dev_mode=disabled;\nscav_scavstart=initialbox;\nassistdronesbuildpowermultiplier=1;\nruins=scav_only;\nruins_only_t1=0;\nshieldsrework=0;\nproposed_unit_reworks=0;\nmap_lavalowlevel=0;\nmap_lavahighlevel=0;\nmultiplier_resourceincome=1;\nscavunitsforplayers=0;\nevocomlevelupmultiplier=1;\ntweakdefs8=;\nmap_tidal=unchanged;\nunit_restrictions_nolrpc=0;\nevocomxpmultiplier=1;\nunit_restrictions_noextractors=0;\nmultiplier_turnrate=1;\ntweakdefs1=;\nmap_lavalowdwell=300;\nnorushtimer=0;\nraptor_spawntimemult=1;\nskyshift=0;\ntweakunits2=;\ntweakunits8=;\nlootboxes_density=normal;\nmultiplier_energyconversion=1;\nallowuserwidgets=1;\nshareddynamicalliancevictory=0;\ntweakunits5=;\nevocom=0;\nunit_restrictions_notacnukes=0;\nexperimentallegionfaction=0;\nexperimentalshields=unchanged;\nstartenergystorage=1000;\nraptor_queen_count=1;\nunit_restrictions_nofusion=0;\nstartmetalstorage=1000;\nscav_boss_count=1;\nmap_atmosphere=1;\nlategame_rebalance=0;\nmap_lavatiderhythm=default;\nmultiplier_metalextraction=1;\ntweakunits6=;\nmultiplier_losrange=1;\ntweakdefs4=;\nscav_endless=0;\ndisable_fogofwar=0;\ntweakunits1=;\nunit_restrictions_noantinuke=0;\nranked_game=1;\nunit_restrictions_notech15=0;\nfixedallies=1;\ncoop=0;\nterritorial_domination_config=default;\ndynamiccheats=1;\nscav_bosstimemult=1;\ncritters=1;\ntweakunits7=;\ncommanderbuildersrange=1000;\ndefaultdecals=1;\nmultiplier_weapondamage=1;\nreleasecandidates=0;\nmultiplier_radarrange=1;\nmap_waterislava=0;\ncommanderbuildersbuildpower=400;\ndisable_assist_ally_construction=0;\nraptor_difficulty=normal;\nunit_market=0;\nraptor_endless=0;\ntweakdefs6=;\nteamcolors_anonymous_mode=disabled;\nai_incomemultiplier=1;\ndeathmode=com;\nair_rework=0;\n}\n[team4]\n{\nallyteam=0;\nteamleader=4;\nrgbcolor=0.38824 0.83922 0.63922;\nside=Armada;\nhandicap=0;\n}\n[player14]\n{\nteam=14;\ncountrycode=DE;\naccountid=315054;\nname=Wittmann;\nrank=3;\nskill=[13.54];\nspectator=0;\nskilluncertainty=3.98;\n}\n[team8]\n{\nallyteam=1;\nteamleader=8;\nrgbcolor=0.68627 0.27059 0.18039;\nside=Armada;\nhandicap=0;\n}\n[player4]\n{\nteam=4;\ncountrycode=AU;\naccountid=356043;\nname=Brotato69;\nrank=4;\nskill=[14.39];\nspectator=0;\nskilluncertainty=3.42;\n}\n[player7]\n{\nteam=7;\ncountrycode=SE;\naccountid=427052;\nname=GoGorilla;\nrank=2;\nskill=[6.16];\nspectator=0;\nskilluncertainty=5;\n}\n[restrict]\n{\n}\n[player1]\n{\nteam=1;\ncountrycode=AU;\naccountid=390075;\nname=spanky23;\nrank=1;\nskill=[21.78];\nspectator=0;\nskilluncertainty=7.84;\n}\n[mapoptions]\n{\ndry=0;\n}\n[player9]\n{\nteam=9;\ncountrycode=AU;\naccountid=63982;\nname=CanIhavesomeshoes;\nrank=4;\nskill=[22.42];\nspectator=0;\nskilluncertainty=4.24;\n}\n[team15]\n{\nallyteam=1;\nteamleader=15;\nrgbcolor=0.56471 0.70196 0.34118;\nside=Armada;\nhandicap=0;\n}\n[team0]\n{\nallyteam=0;\nteamleader=0;\nrgbcolor=0.18824 0.83922 0.59608;\nside=Cortex;\nhandicap=0;\n}\n[team3]\n{\nallyteam=0;\nteamleader=3;\nrgbcolor=0.90196 0.27451 0.92157;\nside=Armada;\nhandicap=0;\n}\n[player2]\n{\nteam=2;\ncountrycode=AU;\naccountid=90793;\nname=Dawn005;\nrank=5;\nskill=[19.11];\nspectator=0;\nskilluncertainty=2.98;\n}\n[team5]\n{\nallyteam=0;\nteamleader=5;\nrgbcolor=0.92549 0.68235 0.46275;\nside=Armada;\nhandicap=0;\n}\n[team10]\n{\nallyteam=1;\nteamleader=10;\nrgbcolor=0.70196 0.17255 0.58039;\nside=Cortex;\nhandicap=0;\n}\n[player15]\n{\nteam=15;\ncountrycode=US;\naccountid=404701;\nname=Nixha;\nrank=2;\nskill=[3.06];\nspectator=0;\nskilluncertainty=6.99;\n}\n[player12]\n{\nteam=12;\ncountrycode=AU;\naccountid=405087;\nname=Eggnstein;\nrank=2;\nskill=[16.57];\nspectator=0;\nskilluncertainty=5.25;\n}\n[team11]\n{\nallyteam=1;\nteamleader=11;\nrgbcolor=0.90588 0.59608 0.29804;\nside=Cortex;\nhandicap=0;\n}\n[player13]\n{\nteam=13;\ncountrycode=DE;\naccountid=383408;\nname=SethAlamut;\nrank=2;\nskill=[13.86];\nspectator=0;\nskilluncertainty=5.21;\n}\n[allyteam1]\n{\nstartrectleft=0;\nstartrectright=0.4;\nstartrectbottom=1;\nnumallies=0;\nstartrecttop=0.6;\n}\n[hostoptions]\n{\nclanmode=tag(5):pref(5);\nautobalance=advanced;\ncolorsensitivity=-1;\nnbplayerbyid=1;\nrankmode=account;\nminplayers=1;\nbotsrank=3;\nextrabox=0;\nforcestarted=0;\nmaxspecs=;\nautostop=gameOver;\nnospecdraw=0;\nautoaddbotnb=0;\nspringservertype=dedicated;\nautostart=off;\nspeedcontrol=2;\nautofixcolors=off;\nautospecextraplayers=1;\nskillmode=rank;\nminteamsize=1;\nautoblockcolors=0;\nteamsize=8;\nidsharemode=off;\nautoblockbalance=1;\nnbteams=2;\nspadsversion=0.13.43;\nnospecchat=0;\nbalancemode=clan:skill;\n}\n[player11]\n{\nteam=11;\ncountrycode=GB;\naccountid=382001;\nname=scoobydoob;\nrank=2;\nskill=[17.82];\nspectator=0;\nskilluncertainty=4.21;\n}\n[player3]\n{\nteam=3;\ncountrycode=SG;\naccountid=363234;\nname=AzurePure;\nrank=3;\nskill=[16.73];\nspectator=0;\nskilluncertainty=3.58;\n}\n[team2]\n{\nallyteam=0;\nteamleader=2;\nrgbcolor=0.47059 0.45490 0.17647;\nside=Armada;\nhandicap=0;\n}\n[allyteam0]\n{\nstartrectleft=0.6;\nstartrectright=1;\nstartrectbottom=0.4;\nnumallies=0;\nstartrecttop=0;\n}\n[team12]\n{\nallyteam=1;\nteamleader=12;\nrgbcolor=0.80392 0.60392 0.58824;\nside=Armada;\nhandicap=0;\n}\n[team6]\n{\nallyteam=0;\nteamleader=6;\nrgbcolor=0.65490 0.41176 0.65882;\nside=Armada;\nhandicap=0;\n}\n[team9]\n{\nallyteam=1;\nteamleader=9;\nrgbcolor=0.20784 0.05098 0.02353;\nside=Cortex;\nhandicap=0;\n}\n[player0]\n{\nteam=0;\ncountrycode=AU;\naccountid=358687;\nname=Feathers;\nrank=3;\nskill=[22.92];\nspectator=0;\nskilluncertainty=3.4;\n}\n[player5]\n{\nteam=5;\ncountrycode=DE;\naccountid=145817;\nname=[OWL]leobase;\nrank=4;\nskill=[12.96];\nspectator=0;\nskilluncertainty=4.04;\n}\n[team14]\n{\nallyteam=1;\nteamleader=14;\nrgbcolor=0.42353 0.82745 0.20784;\nside=Cortex;\nhandicap=0;\n}\n[team7]\n{\nallyteam=0;\nteamleader=7;\nrgbcolor=0.22745 0.19216 0.27451;\nside=Armada;\nhandicap=0;\n}\n[team1]\n{\nallyteam=0;\nteamleader=1;\nrgbcolor=0.08627 0.54902 0.84706;\nside=Armada;\nhandicap=0;\n}\nishost=1;\nhostip=;\nnumallyteams=2;\nserver_match_id=6503429;\nnumteams=16;\nstartpostype=2;\ngametype=Beyond All Reason test-28438-3f3eceb;\nhosttype=SPADS;\nmapname=Supreme Isthmus v2.1;\nautohostport=54206;\nnumrestrictions=0;\nautohostname=Host[US4][006];\nautohostrank=0;\nautohostaccountid=235166;\nnumplayers=16;\nautohostcountrycode=US;\nhostport=53206;\n}\n",
+    "statistics": {
+        "winningAllyTeamIds": [
+            1
+        ],
+        "playerStats": [
+            {
+                "playerId": 0,
+                "numCommands": -100663296,
+                "unitCommands": -1727987712,
+                "mousePixels": 1214777600,
+                "mouseClicks": 1476460544,
+                "keyPresses": -1996488704
+            },
+            {
+                "playerId": 1,
+                "numCommands": -1996423168,
+                "unitCommands": 1090650112,
+                "mousePixels": -140572928,
+                "mouseClicks": 1107427328,
+                "keyPresses": 335544320
+            },
+            {
+                "playerId": 2,
+                "numCommands": 906166272,
+                "unitCommands": -2045444096,
+                "mousePixels": -576975360,
+                "mouseClicks": 1745092608,
+                "keyPresses": 1392705536
+            },
+            {
+                "playerId": 3,
+                "numCommands": -1929379840,
+                "unitCommands": -603979776,
+                "mousePixels": -765982720,
+                "mouseClicks": 1962999808,
+                "keyPresses": -1375731712
+            },
+            {
+                "playerId": 4,
+                "numCommands": -805306368,
+                "unitCommands": -218103808,
+                "mousePixels": 2005140224,
+                "mouseClicks": -1509883904,
+                "keyPresses": 1862270976
+            },
+            {
+                "playerId": 5,
+                "numCommands": -1140785152,
+                "unitCommands": 84148224,
+                "mousePixels": 1665205248,
+                "mouseClicks": 1610743808,
+                "keyPresses": 1912602624
+            },
+            {
+                "playerId": 6,
+                "numCommands": 335609856,
+                "unitCommands": 1845559296,
+                "mousePixels": 1733167616,
+                "mouseClicks": -1878982656,
+                "keyPresses": 805306368
+            },
+            {
+                "playerId": 7,
+                "numCommands": 1795227648,
+                "unitCommands": -721354752,
+                "mousePixels": 1065223936,
+                "mouseClicks": 2063663104,
+                "keyPresses": 1073741824
+            },
+            {
+                "playerId": 8,
+                "numCommands": -1929379840,
+                "unitCommands": -1493172224,
+                "mousePixels": 1365052928,
+                "mouseClicks": 469827584,
+                "keyPresses": 1644167168
+            },
+            {
+                "playerId": 9,
+                "numCommands": 805437440,
+                "unitCommands": -570294272,
+                "mousePixels": 2067465984,
+                "mouseClicks": 1912733696,
+                "keyPresses": -1258225664
+            },
+            {
+                "playerId": 10,
+                "numCommands": 117571584,
+                "unitCommands": -2113404928,
+                "mousePixels": -962392832,
+                "mouseClicks": 67239936,
+                "keyPresses": -1862205440
+            },
+            {
+                "playerId": 11,
+                "numCommands": -1224671232,
+                "unitCommands": -1073676288,
+                "mousePixels": 315034112,
+                "mouseClicks": -2080243712,
+                "keyPresses": -486408192
+            },
+            {
+                "playerId": 12,
+                "numCommands": -1962803200,
+                "unitCommands": 1628110848,
+                "mousePixels": -1973483520,
+                "mouseClicks": -1459421184,
+                "keyPresses": -318767104
+            },
+            {
+                "playerId": 13,
+                "numCommands": 503382016,
+                "unitCommands": -1610481664,
+                "mousePixels": -1349451008,
+                "mouseClicks": 1962999808,
+                "keyPresses": 469762048
+            },
+            {
+                "playerId": 14,
+                "numCommands": 889389056,
+                "unitCommands": -233570304,
+                "mousePixels": -228719616,
+                "mouseClicks": 1526988800,
+                "keyPresses": 788660224
+            },
+            {
+                "playerId": 15,
+                "numCommands": -2046820352,
+                "unitCommands": -50331648,
+                "mousePixels": 2031290112,
+                "mouseClicks": 50397184,
+                "keyPresses": -1644101632
+            },
+            {
+                "playerId": 16,
+                "numCommands": 0,
+                "unitCommands": 0,
+                "mousePixels": 0,
+                "mouseClicks": 0,
+                "keyPresses": 0
+            },
+            {
+                "playerId": 17,
+                "numCommands": 0,
+                "unitCommands": 0,
+                "mousePixels": 1201537024,
+                "mouseClicks": 0,
+                "keyPresses": 0
+            },
+            {
+                "playerId": 18,
+                "numCommands": 0,
+                "unitCommands": 0,
+                "mousePixels": 1111425024,
+                "mouseClicks": 285212672,
+                "keyPresses": 16777216
+            }
+        ],
+        "teamStats": {
+            "0": [],
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            "6": [],
+            "7": [],
+            "8": [],
+            "9": [],
+            "10": [],
+            "11": [],
+            "12": [],
+            "13": [],
+            "14": []
+        }
+    },
+    "chatlog": [
+        {
+            "timeMs": 0,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Warning: in-game IP address does not match lobby IP address for user Nixha (spoof protection)"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * morta called a vote for command \"lock\" [!vote y, !vote n, !vote b]"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * 16 users allowed to vote."
+        },
+        {
+            "timeMs": 0,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Ringing 16 remaining voters (by Host[US4][006])"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Vote in progress: \"lock\" [y:0/9, n:1/9] (28s remaining)"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 2,
+            "name": "Dawn005",
+            "type": "ally",
+            "message": "yes"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Away vote mode for Dawn005"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Vote in progress: \"lock\" [y:0/9, n:1/8(9)] (10s remaining)"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 5,
+            "name": "[OWL]leobase",
+            "type": "ally",
+            "message": "thx"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 3,
+            "name": "AzurePure",
+            "type": "global",
+            "message": "!forcestart"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * AzurePure, there is already a vote in progress, please wait for it to finish before calling another one."
+        },
+        {
+            "timeMs": 0,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Vote for command \"lock\" failed (delay expired, away vote mode activated for 15 users)."
+        },
+        {
+            "timeMs": 0,
+            "playerId": 3,
+            "name": "AzurePure",
+            "type": "ally",
+            "message": "ok"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 3,
+            "name": "AzurePure",
+            "type": "ally",
+            "message": "100 metal"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 0,
+            "name": "Feathers",
+            "type": "ally",
+            "message": "y"
+        },
+        {
+            "timeMs": 0,
+            "playerId": 14,
+            "name": "Wittmann",
+            "type": "ally",
+            "message": "front boost?"
+        },
+        {
+            "timeMs": 300,
+            "playerId": 15,
+            "name": "Nixha",
+            "type": "ally",
+            "message": "seth start here"
+        },
+        {
+            "timeMs": 73667,
+            "playerId": 5,
+            "name": "[OWL]leobase",
+            "type": "ally",
+            "message": "thx"
+        },
+        {
+            "timeMs": 114600,
+            "playerId": 14,
+            "name": "Wittmann",
+            "type": "ally",
+            "message": "nice boost xD"
+        },
+        {
+            "timeMs": 212533,
+            "playerId": 12,
+            "name": "Eggnstein",
+            "type": "ally",
+            "message": "1.65k of it"
+        },
+        {
+            "timeMs": 219500,
+            "playerId": 0,
+            "name": "Feathers",
+            "type": "ally",
+            "message": "red is tehc and yellow is air"
+        },
+        {
+            "timeMs": 250833,
+            "playerId": 12,
+            "name": "Eggnstein",
+            "type": "ally",
+            "message": "pushj"
+        },
+        {
+            "timeMs": 272700,
+            "playerId": 5,
+            "name": "[OWL]leobase",
+            "type": "ally",
+            "message": "spanky"
+        },
+        {
+            "timeMs": 302967,
+            "playerId": 2,
+            "name": "Dawn005",
+            "type": "ally",
+            "message": "nm back too late"
+        },
+        {
+            "timeMs": 306367,
+            "playerId": 9,
+            "name": "CanIhavesomeshoes",
+            "type": "ally",
+            "message": "uh my man"
+        },
+        {
+            "timeMs": 395133,
+            "playerId": 9,
+            "name": "CanIhavesomeshoes",
+            "type": "ally",
+            "message": "why is there just zero response"
+        },
+        {
+            "timeMs": 396600,
+            "playerId": 15,
+            "name": "Nixha",
+            "type": "ally",
+            "message": "eat"
+        },
+        {
+            "timeMs": 398167,
+            "playerId": 9,
+            "name": "CanIhavesomeshoes",
+            "type": "ally",
+            "message": "to these hovers"
+        },
+        {
+            "timeMs": 408467,
+            "playerId": 15,
+            "name": "Nixha",
+            "type": "ally",
+            "message": "stop building turrets"
+        },
+        {
+            "timeMs": 409833,
+            "playerId": 15,
+            "name": "Nixha",
+            "type": "ally",
+            "message": "eat"
+        },
+        {
+            "timeMs": 512900,
+            "playerId": 2,
+            "name": "Dawn005",
+            "type": "ally",
+            "message": "how are you 4 chevs so bad and slow?????????"
+        },
+        {
+            "timeMs": 532133,
+            "playerId": 11,
+            "name": "scoobydoob",
+            "type": "ally",
+            "message": "can I get a t1 con?"
+        },
+        {
+            "timeMs": 552067,
+            "playerId": 12,
+            "name": "Eggnstein",
+            "type": "ally",
+            "message": "e plz"
+        },
+        {
+            "timeMs": 581900,
+            "playerId": 4,
+            "name": "Brotato69",
+            "type": "ally",
+            "message": "shut up"
+        },
+        {
+            "timeMs": 584667,
+            "playerId": 4,
+            "name": "Brotato69",
+            "type": "ally",
+            "message": "im doing it"
+        },
+        {
+            "timeMs": 588933,
+            "playerId": 2,
+            "name": "Dawn005",
+            "type": "ally",
+            "message": "im done with you noobs  im dokne"
+        },
+        {
+            "timeMs": 649667,
+            "playerId": 5,
+            "name": "[OWL]leobase",
+            "type": "ally",
+            "message": "thats it"
+        },
+        {
+            "timeMs": 650033,
+            "playerId": 8,
+            "name": "RighteousRacoon",
+            "type": "ally",
+            "message": "sure"
+        },
+        {
+            "timeMs": 656733,
+            "playerId": 2,
+            "name": "Dawn005",
+            "type": "ally",
+            "message": "yes thanks noob brotatao"
+        },
+        {
+            "timeMs": 656800,
+            "playerId": 11,
+            "name": "scoobydoob",
+            "type": "ally",
+            "message": "thanks"
+        },
+        {
+            "timeMs": 706133,
+            "playerId": 15,
+            "name": "Nixha",
+            "type": "ally",
+            "message": "roll up"
+        },
+        {
+            "timeMs": 708267,
+            "playerId": 7,
+            "name": "GoGorilla",
+            "type": "ally",
+            "message": "i lost sea"
+        },
+        {
+            "timeMs": 713933,
+            "playerId": 2,
+            "name": "Dawn005",
+            "type": "ally",
+            "message": "so tired of this foolishness  so tired of it"
+        },
+        {
+            "timeMs": 740133,
+            "playerId": 5,
+            "name": "[OWL]leobase",
+            "type": "global",
+            "message": "!cv resign"
+        },
+        {
+            "timeMs": 740133,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * [OWL]leobase called a vote for command \"resign [OWL]leobase TEAM\" [!vote y, !vote n, !vote b]"
+        },
+        {
+            "timeMs": 740167,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * 7 users allowed to vote."
+        },
+        {
+            "timeMs": 740167,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Ringing 7 remaining voters (by Host[US4][006])"
+        },
+        {
+            "timeMs": 741767,
+            "playerId": 3,
+            "name": "AzurePure",
+            "type": "global",
+            "message": "!vote n"
+        },
+        {
+            "timeMs": 741800,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Vote in progress: \"resign [OWL]leobase TEAM\" [y:1/6, n:1/3] (59s remaining)"
+        },
+        {
+            "timeMs": 741833,
+            "playerId": 2,
+            "name": "Dawn005",
+            "type": "global",
+            "message": "!vote y"
+        },
+        {
+            "timeMs": 741867,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Vote in progress: \"resign [OWL]leobase TEAM\" [y:2/6, n:1/3] (58s remaining)"
+        },
+        {
+            "timeMs": 741900,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Awaiting following vote(s): GoGorilla,Brotato69,spanky23,Feathers,zaGeneral"
+        },
+        {
+            "timeMs": 743400,
+            "playerId": 7,
+            "name": "GoGorilla",
+            "type": "global",
+            "message": "!vote y"
+        },
+        {
+            "timeMs": 743433,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Vote in progress: \"resign [OWL]leobase TEAM\" [y:3/6, n:1/3] (57s remaining)"
+        },
+        {
+            "timeMs": 743433,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Awaiting following vote(s): Brotato69,spanky23,Feathers,zaGeneral"
+        },
+        {
+            "timeMs": 744033,
+            "playerId": 1,
+            "name": "spanky23",
+            "type": "global",
+            "message": "!vote y"
+        },
+        {
+            "timeMs": 744067,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Vote in progress: \"resign [OWL]leobase TEAM\" [y:4/6, n:1/3] (56s remaining)"
+        },
+        {
+            "timeMs": 744067,
+            "playerId": 6,
+            "name": "zaGeneral",
+            "type": "global",
+            "message": "!vote y"
+        },
+        {
+            "timeMs": 744067,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Awaiting following vote(s): Brotato69,Feathers,zaGeneral"
+        },
+        {
+            "timeMs": 744100,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Vote in progress: \"resign [OWL]leobase TEAM\" [y:5/6, n:1/3] (56s remaining)"
+        },
+        {
+            "timeMs": 744100,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Awaiting following vote(s): Brotato69,Feathers"
+        },
+        {
+            "timeMs": 747700,
+            "playerId": 0,
+            "name": "Feathers",
+            "type": "global",
+            "message": "!vote y"
+        },
+        {
+            "timeMs": 747933,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Vote for command \"resign [OWL]leobase TEAM\" passed."
+        },
+        {
+            "timeMs": 748067,
+            "playerId": 255,
+            "name": "",
+            "type": "global",
+            "message": "Host[US4][006] * Resigned 8 players (by [OWL]leobase)"
+        },
+        {
+            "timeMs": 751367,
+            "playerId": 0,
+            "name": "Feathers",
+            "type": "global",
+            "message": "gg"
+        },
+        {
+            "timeMs": 752833,
+            "playerId": 12,
+            "name": "Eggnstein",
+            "type": "global",
+            "message": "gg"
+        },
+        {
+            "timeMs": 757333,
+            "playerId": 15,
+            "name": "Nixha",
+            "type": "global",
+            "message": "gg"
+        }
+    ]
+}

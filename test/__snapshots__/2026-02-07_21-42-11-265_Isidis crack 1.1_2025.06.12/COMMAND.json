@@ -1,0 +1,3292 @@
+[
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 258.4105529785156,
+        "actualGameTime": 107.23333740234375,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "corrad",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6480,
+                    254.9896240234375,
+                    2400,
+                    3
+                ],
+                "data": {
+                    "x": 6480,
+                    "y": 254.9896240234375,
+                    "z": 2400,
+                    "direction": 3
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 320.243896484375,
+        "actualGameTime": 169.06668090820312,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6408.14306640625,
+                    254.994384765625,
+                    2386.55322265625,
+                    6405.287109375,
+                    0,
+                    2279.844970703125
+                ],
+                "data": {
+                    "x": 6408.14306640625,
+                    "y": 254.994384765625,
+                    "z": 2386.55322265625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 594.7105712890625,
+        "actualGameTime": 443.5333557128906,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5031.67529296875,
+                    254.9908447265625,
+                    4365.6005859375
+                ],
+                "data": {
+                    "x": 5031.67529296875,
+                    "y": 254.9908447265625,
+                    "z": 4365.6005859375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 278.743896484375,
+        "actualGameTime": 127.56668090820312,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    2056,
+                    254.9896240234375,
+                    5768,
+                    2
+                ],
+                "data": {
+                    "x": 2056,
+                    "y": 254.9896240234375,
+                    "z": 5768,
+                    "direction": 2
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 575.67724609375,
+        "actualGameTime": 424.5000305175781,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4318.2919921875,
+                    254.992919921875,
+                    763.0191650390625
+                ],
+                "data": {
+                    "x": 4318.2919921875,
+                    "y": 254.992919921875,
+                    "z": 763.0191650390625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 414.34393310546875,
+        "actualGameTime": 263.1667175292969,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1897.36962890625,
+                    254.992919921875,
+                    4360.9482421875
+                ],
+                "data": {
+                    "x": 1897.36962890625,
+                    "y": 254.992919921875,
+                    "z": 4360.9482421875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 641.3106079101562,
+        "actualGameTime": 490.1333923339844,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5141.11376953125,
+                    254.995849609375,
+                    3154.56494140625
+                ],
+                "data": {
+                    "x": 5141.11376953125,
+                    "y": 254.995849609375,
+                    "z": 3154.56494140625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 278.743896484375,
+        "actualGameTime": 127.56668090820312,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    2056,
+                    254.9896240234375,
+                    5960,
+                    2
+                ],
+                "data": {
+                    "x": 2056,
+                    "y": 254.9896240234375,
+                    "z": 5960,
+                    "direction": 2
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 289.3772277832031,
+        "actualGameTime": 138.20001220703125,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2076.8984375,
+                    254.9906005859375,
+                    3192.951904296875
+                ],
+                "data": {
+                    "x": 2076.8984375,
+                    "y": 254.9906005859375,
+                    "z": 3192.951904296875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 648.610595703125,
+        "actualGameTime": 497.4333801269531,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5161.88720703125,
+                    254.990478515625,
+                    2625.39111328125
+                ],
+                "data": {
+                    "x": 5161.88720703125,
+                    "y": 254.990478515625,
+                    "z": 2625.39111328125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 248.0772247314453,
+        "actualGameTime": 96.90000915527344,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1214.1390380859375,
+                    254.9925537109375,
+                    4624.744140625,
+                    1237.248046875,
+                    0,
+                    4437.32421875
+                ],
+                "data": {
+                    "x": 1214.1390380859375,
+                    "y": 254.9925537109375,
+                    "z": 4624.744140625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 402.17724609375,
+        "actualGameTime": 251.00003051757812,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "corexp",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6256,
+                    254.9896240234375,
+                    4704,
+                    3
+                ],
+                "data": {
+                    "x": 6256,
+                    "y": 254.9896240234375,
+                    "z": 4704,
+                    "direction": 3
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 276.6105651855469,
+        "actualGameTime": 125.433349609375,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "corwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    6664,
+                    254.9896240234375,
+                    2056,
+                    3
+                ],
+                "data": {
+                    "x": 6664,
+                    "y": 254.9896240234375,
+                    "z": 2056,
+                    "direction": 3
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 570.2105712890625,
+        "actualGameTime": 419.0333557128906,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5338.8037109375,
+                    254.9920654296875,
+                    3689.7421875
+                ],
+                "data": {
+                    "x": 5338.8037109375,
+                    "y": 254.9920654296875,
+                    "z": 3689.7421875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 486.67724609375,
+        "actualGameTime": 335.5000305175781,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6644.15087890625,
+                    254.993408203125,
+                    2819.88916015625
+                ],
+                "data": {
+                    "x": 6644.15087890625,
+                    "y": 254.993408203125,
+                    "z": 2819.88916015625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 573.4772338867188,
+        "actualGameTime": 422.3000183105469,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5045.0537109375,
+                    254.989990234375,
+                    3874.445068359375
+                ],
+                "data": {
+                    "x": 5045.0537109375,
+                    "y": 254.989990234375,
+                    "z": 3874.445068359375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 446.6439208984375,
+        "actualGameTime": 295.4667053222656,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "corwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    392,
+                    254.9896240234375,
+                    6888,
+                    1
+                ],
+                "data": {
+                    "x": 392,
+                    "y": 254.9896240234375,
+                    "z": 6888,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 526.743896484375,
+        "actualGameTime": 375.5666809082031,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 1,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "ATTACK",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    27462
+                ],
+                "data": {
+                    "unitId": 27462
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 315.6105651855469,
+        "actualGameTime": 164.433349609375,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6286.3056640625,
+                    254.99072265625,
+                    2210.249755859375,
+                    6259.439453125,
+                    0,
+                    2009.845703125
+                ],
+                "data": {
+                    "x": 6286.3056640625,
+                    "y": 254.99072265625,
+                    "z": 2210.249755859375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 243.91055297851562,
+        "actualGameTime": 92.73333740234375,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4420.83203125,
+                    254.9906005859375,
+                    2702.07177734375,
+                    4358.60302734375,
+                    0,
+                    2518.9951171875
+                ],
+                "data": {
+                    "x": 4420.83203125,
+                    "y": 254.9906005859375,
+                    "z": 2702.07177734375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 627.8106079101562,
+        "actualGameTime": 476.6333923339844,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5158.916015625,
+                    255,
+                    3470.509765625,
+                    5136.42431640625,
+                    0,
+                    3387.6923828125
+                ],
+                "data": {
+                    "x": 5158.916015625,
+                    "y": 255,
+                    "z": 3470.509765625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 401.8439025878906,
+        "actualGameTime": 250.66668701171875,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3346.427978515625,
+                    254.9951171875,
+                    5006.8662109375
+                ],
+                "data": {
+                    "x": 3346.427978515625,
+                    "y": 254.9951171875,
+                    "z": 5006.8662109375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 484.54388427734375,
+        "actualGameTime": 333.3666687011719,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    956.5706787109375,
+                    268.607666015625,
+                    3878.16064453125
+                ],
+                "data": {
+                    "x": 956.5706787109375,
+                    "y": 268.607666015625,
+                    "z": 3878.16064453125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 377.2105712890625,
+        "actualGameTime": 226.03335571289062,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2302.395263671875,
+                    254.9932861328125,
+                    4067.611083984375
+                ],
+                "data": {
+                    "x": 2302.395263671875,
+                    "y": 254.9932861328125,
+                    "z": 4067.611083984375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 276.9105529785156,
+        "actualGameTime": 125.73333740234375,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2373.62841796875,
+                    254.9970703125,
+                    5274.02392578125
+                ],
+                "data": {
+                    "x": 2373.62841796875,
+                    "y": 254.9970703125,
+                    "z": 5274.02392578125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 393.7105712890625,
+        "actualGameTime": 242.53335571289062,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2124.664794921875,
+                    254.98974609375,
+                    2767.415771484375
+                ],
+                "data": {
+                    "x": 2124.664794921875,
+                    "y": 254.98974609375,
+                    "z": 2767.415771484375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 581.7772216796875,
+        "actualGameTime": 430.6000061035156,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5821.3984375,
+                    254.9903564453125,
+                    4553.63916015625
+                ],
+                "data": {
+                    "x": 5821.3984375,
+                    "y": 254.9903564453125,
+                    "z": 4553.63916015625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 567.5772705078125,
+        "actualGameTime": 416.4000549316406,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4408.1474609375,
+                    254.994384765625,
+                    509.0028076171875
+                ],
+                "data": {
+                    "x": 4408.1474609375,
+                    "y": 254.994384765625,
+                    "z": 509.0028076171875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 430.54388427734375,
+        "actualGameTime": 279.3666687011719,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4465.39453125,
+                    254.998779296875,
+                    4668.259765625
+                ],
+                "data": {
+                    "x": 4465.39453125,
+                    "y": 254.998779296875,
+                    "z": 4668.259765625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 325.51055908203125,
+        "actualGameTime": 174.33334350585938,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5167.34912109375,
+                    255.00048828125,
+                    3253.429931640625,
+                    5118.3544921875,
+                    0,
+                    3136.985595703125
+                ],
+                "data": {
+                    "x": 5167.34912109375,
+                    "y": 255.00048828125,
+                    "z": 3253.429931640625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 206.47723388671875,
+        "actualGameTime": 55.300018310546875,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "corak",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 570.4439086914062,
+        "actualGameTime": 419.2666931152344,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4467.8466796875,
+                    254.99365234375,
+                    482.72509765625
+                ],
+                "data": {
+                    "x": 4467.8466796875,
+                    "y": 254.99365234375,
+                    "z": 482.72509765625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 551.9439086914062,
+        "actualGameTime": 400.7666931152344,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 1,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4728,
+                    254.9896240234375,
+                    1224,
+                    0
+                ],
+                "data": {
+                    "x": 4728,
+                    "y": 254.9896240234375,
+                    "z": 1224,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 550.0772705078125,
+        "actualGameTime": 398.9000549316406,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 1,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    4728,
+                    254.9896240234375,
+                    1176,
+                    0
+                ],
+                "data": {
+                    "x": 4728,
+                    "y": 254.9896240234375,
+                    "z": 1176,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 295.1438903808594,
+        "actualGameTime": 143.9666748046875,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5487.388671875,
+                    254.99658203125,
+                    4368.5703125,
+                    5524.0810546875,
+                    0,
+                    4261.173828125
+                ],
+                "data": {
+                    "x": 5487.388671875,
+                    "y": 254.99658203125,
+                    "z": 4368.5703125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 553.0105590820312,
+        "actualGameTime": 401.8333435058594,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armsam",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": true,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 298.6438903808594,
+        "actualGameTime": 147.4666748046875,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5299.48486328125,
+                    254.992431640625,
+                    3231.67578125,
+                    5320.23681640625,
+                    0,
+                    3027.838134765625
+                ],
+                "data": {
+                    "x": 5299.48486328125,
+                    "y": 254.992431640625,
+                    "z": 3231.67578125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 295.3439025878906,
+        "actualGameTime": 144.16668701171875,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5460.1650390625,
+                    254.998046875,
+                    4215.3818359375,
+                    5494.548828125,
+                    0,
+                    4094.9892578125
+                ],
+                "data": {
+                    "x": 5460.1650390625,
+                    "y": 254.998046875,
+                    "z": 4215.3818359375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 295.8772277832031,
+        "actualGameTime": 144.70001220703125,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5412.83056640625,
+                    254.99853515625,
+                    3916.35498046875,
+                    5443.19873046875,
+                    0,
+                    3770.59521484375
+                ],
+                "data": {
+                    "x": 5412.83056640625,
+                    "y": 254.99853515625,
+                    "z": 3916.35498046875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 293.1438903808594,
+        "actualGameTime": 141.9666748046875,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2743.6572265625,
+                    256.550537109375,
+                    3853.942138671875
+                ],
+                "data": {
+                    "x": 2743.6572265625,
+                    "y": 256.550537109375,
+                    "z": 3853.942138671875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 355.17724609375,
+        "actualGameTime": 204.00003051757812,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3580.647705078125,
+                    255.003662109375,
+                    4817.861328125
+                ],
+                "data": {
+                    "x": 3580.647705078125,
+                    "y": 255.003662109375,
+                    "z": 4817.861328125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 483.41058349609375,
+        "actualGameTime": 332.2333679199219,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6526.35546875,
+                    254.996826171875,
+                    3679.2021484375
+                ],
+                "data": {
+                    "x": 6526.35546875,
+                    "y": 254.996826171875,
+                    "z": 3679.2021484375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 509.6439208984375,
+        "actualGameTime": 358.4667053222656,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6650.4296875,
+                    254.9954833984375,
+                    1619.46533203125
+                ],
+                "data": {
+                    "x": 6650.4296875,
+                    "y": 254.9954833984375,
+                    "z": 1619.46533203125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 572.4105834960938,
+        "actualGameTime": 421.2333679199219,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4533.83154296875,
+                    254.991943359375,
+                    314.09783935546875
+                ],
+                "data": {
+                    "x": 4533.83154296875,
+                    "y": 254.991943359375,
+                    "z": 314.09783935546875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 316.8772277832031,
+        "actualGameTime": 165.70001220703125,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6682.85400390625,
+                    254.99169921875,
+                    2242.64111328125,
+                    6734.13525390625,
+                    0,
+                    2107.5732421875
+                ],
+                "data": {
+                    "x": 6682.85400390625,
+                    "y": 254.99169921875,
+                    "z": 2242.64111328125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 214.243896484375,
+        "actualGameTime": 63.066680908203125,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "corgator",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 579.4105834960938,
+        "actualGameTime": 428.2333679199219,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5683.748046875,
+                    254.9951171875,
+                    4215.56494140625
+                ],
+                "data": {
+                    "x": 5683.748046875,
+                    "y": 254.9951171875,
+                    "z": 4215.56494140625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 256.4105529785156,
+        "actualGameTime": 105.23333740234375,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1397.894287109375,
+                    254.98974609375,
+                    4479.09716796875,
+                    1343.79833984375,
+                    0,
+                    4230.93505859375
+                ],
+                "data": {
+                    "x": 1397.894287109375,
+                    "y": 254.98974609375,
+                    "z": 4479.09716796875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 565.4105834960938,
+        "actualGameTime": 414.2333679199219,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4324.97998046875,
+                    254.9952392578125,
+                    365.08843994140625
+                ],
+                "data": {
+                    "x": 4324.97998046875,
+                    "y": 254.9952392578125,
+                    "z": 365.08843994140625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 550.0772705078125,
+        "actualGameTime": 398.9000549316406,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 1,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    4728,
+                    254.9896240234375,
+                    1560,
+                    0
+                ],
+                "data": {
+                    "x": 4728,
+                    "y": 254.9896240234375,
+                    "z": 1560,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 382.94390869140625,
+        "actualGameTime": 231.76669311523438,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armllt",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3824,
+                    254.9896240234375,
+                    4368,
+                    2
+                ],
+                "data": {
+                    "x": 3824,
+                    "y": 254.9896240234375,
+                    "z": 4368,
+                    "direction": 2
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 460.07720947265625,
+        "actualGameTime": 308.8999938964844,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2389.050048828125,
+                    254.99267578125,
+                    3720.474609375
+                ],
+                "data": {
+                    "x": 2389.050048828125,
+                    "y": 254.99267578125,
+                    "z": 3720.474609375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 618.5772705078125,
+        "actualGameTime": 467.4000549316406,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5434.6640625,
+                    254.999267578125,
+                    3858.37646484375,
+                    5409.82421875,
+                    0,
+                    3786.601318359375
+                ],
+                "data": {
+                    "x": 5434.6640625,
+                    "y": 254.999267578125,
+                    "z": 3858.37646484375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 336.17724609375,
+        "actualGameTime": 185.00003051757812,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3578.26708984375,
+                    254.989501953125,
+                    4546.3818359375
+                ],
+                "data": {
+                    "x": 3578.26708984375,
+                    "y": 254.989501953125,
+                    "z": 4546.3818359375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 620.7772216796875,
+        "actualGameTime": 469.6000061035156,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5213.88525390625,
+                    254.993408203125,
+                    3838.952392578125,
+                    549.0048828125
+                ],
+                "data": {
+                    "x": 5213.88525390625,
+                    "y": 254.993408203125,
+                    "z": 3838.952392578125,
+                    "radius": 549.0048828125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 430.37725830078125,
+        "actualGameTime": 279.2000427246094,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4469.8056640625,
+                    254.998779296875,
+                    4644.57568359375
+                ],
+                "data": {
+                    "x": 4469.8056640625,
+                    "y": 254.998779296875,
+                    "z": 4644.57568359375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 243.87722778320312,
+        "actualGameTime": 92.70001220703125,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4462.22998046875,
+                    254.9908447265625,
+                    2738.486083984375,
+                    4405.384765625,
+                    0,
+                    2560.14501953125
+                ],
+                "data": {
+                    "x": 4462.22998046875,
+                    "y": 254.9908447265625,
+                    "z": 2738.486083984375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 579.9772338867188,
+        "actualGameTime": 428.8000183105469,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4543.9306640625,
+                    254.990966796875,
+                    910.6463012695312
+                ],
+                "data": {
+                    "x": 4543.9306640625,
+                    "y": 254.990966796875,
+                    "z": 910.6463012695312
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 550.0772705078125,
+        "actualGameTime": 398.9000549316406,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 1,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    4680,
+                    254.9896240234375,
+                    1704,
+                    0
+                ],
+                "data": {
+                    "x": 4680,
+                    "y": 254.9896240234375,
+                    "z": 1704,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 297.01055908203125,
+        "actualGameTime": 145.83334350585938,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5288.12744140625,
+                    254.99755859375,
+                    3692.78857421875,
+                    5307.91650390625,
+                    0,
+                    3528.063720703125
+                ],
+                "data": {
+                    "x": 5288.12744140625,
+                    "y": 254.99755859375,
+                    "z": 3692.78857421875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 546.9439086914062,
+        "actualGameTime": 395.7666931152344,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5566.05517578125,
+                    254.990478515625,
+                    4349.70166015625
+                ],
+                "data": {
+                    "x": 5566.05517578125,
+                    "y": 254.990478515625,
+                    "z": 4349.70166015625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 285.44390869140625,
+        "actualGameTime": 134.26669311523438,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4783.0146484375,
+                    254.98974609375,
+                    4386.5400390625,
+                    4899.3232421875,
+                    0,
+                    4186.8193359375
+                ],
+                "data": {
+                    "x": 4783.0146484375,
+                    "y": 254.98974609375,
+                    "z": 4386.5400390625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 551.3772583007812,
+        "actualGameTime": 400.2000427246094,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armsam",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": true,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 448.810546875,
+        "actualGameTime": 297.6333312988281,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3722.71142578125,
+                    254.990478515625,
+                    4497.205078125,
+                    3805.13330078125,
+                    0,
+                    4336.9736328125
+                ],
+                "data": {
+                    "x": 3722.71142578125,
+                    "y": 254.990478515625,
+                    "z": 4497.205078125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 247.51055908203125,
+        "actualGameTime": 96.33334350585938,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1206.8974609375,
+                    254.9932861328125,
+                    4898.8310546875,
+                    1228.552734375,
+                    0,
+                    4722.3330078125
+                ],
+                "data": {
+                    "x": 1206.8974609375,
+                    "y": 254.9932861328125,
+                    "z": 4898.8310546875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 364.6439208984375,
+        "actualGameTime": 213.46670532226562,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3938.99951171875,
+                    254.990966796875,
+                    4521.556640625,
+                    4008.508544921875,
+                    0,
+                    4398.828125
+                ],
+                "data": {
+                    "x": 3938.99951171875,
+                    "y": 254.990966796875,
+                    "z": 4521.556640625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 379.743896484375,
+        "actualGameTime": 228.56668090820312,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2091.858642578125,
+                    255,
+                    3662.02490234375
+                ],
+                "data": {
+                    "x": 2091.858642578125,
+                    "y": 255,
+                    "z": 3662.02490234375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 278.743896484375,
+        "actualGameTime": 127.56668090820312,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    2248,
+                    254.9896240234375,
+                    5576,
+                    2
+                ],
+                "data": {
+                    "x": 2248,
+                    "y": 254.9896240234375,
+                    "z": 5576,
+                    "direction": 2
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 586.610595703125,
+        "actualGameTime": 435.4333801269531,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5402.91650390625,
+                    254.9913330078125,
+                    672.8289184570312
+                ],
+                "data": {
+                    "x": 5402.91650390625,
+                    "y": 254.9913330078125,
+                    "z": 672.8289184570312
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 227.84390258789062,
+        "actualGameTime": 76.66668701171875,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "corwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    1240,
+                    156.74591064453125,
+                    5416,
+                    1
+                ],
+                "data": {
+                    "x": 1240,
+                    "y": 156.74591064453125,
+                    "z": 5416,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 513.7105712890625,
+        "actualGameTime": 362.5333557128906,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1903.706787109375,
+                    254.996826171875,
+                    4195.556640625
+                ],
+                "data": {
+                    "x": 1903.706787109375,
+                    "y": 254.996826171875,
+                    "z": 4195.556640625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 487.310546875,
+        "actualGameTime": 336.1333312988281,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    334.4105224609375,
+                    254.98974609375,
+                    3535.857421875
+                ],
+                "data": {
+                    "x": 334.4105224609375,
+                    "y": 254.98974609375,
+                    "z": 3535.857421875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 536.810546875,
+        "actualGameTime": 385.6333312988281,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6172.80029296875,
+                    254.9931640625,
+                    652.709228515625
+                ],
+                "data": {
+                    "x": 6172.80029296875,
+                    "y": 254.9931640625,
+                    "z": 652.709228515625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 514.243896484375,
+        "actualGameTime": 363.0666809082031,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1744.8197021484375,
+                    254.998779296875,
+                    4394.1982421875
+                ],
+                "data": {
+                    "x": 1744.8197021484375,
+                    "y": 254.998779296875,
+                    "z": 4394.1982421875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 570.3772583007812,
+        "actualGameTime": 419.2000427246094,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5384.2626953125,
+                    254.992919921875,
+                    3719.288330078125
+                ],
+                "data": {
+                    "x": 5384.2626953125,
+                    "y": 254.992919921875,
+                    "z": 3719.288330078125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 672.8106079101562,
+        "actualGameTime": 521.6333923339844,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5087.208984375,
+                    255.067626953125,
+                    762.17724609375
+                ],
+                "data": {
+                    "x": 5087.208984375,
+                    "y": 255.067626953125,
+                    "z": 762.17724609375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 657.2105712890625,
+        "actualGameTime": 506.0333557128906,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5228.02099609375,
+                    254.99609375,
+                    2067.947265625
+                ],
+                "data": {
+                    "x": 5228.02099609375,
+                    "y": 254.99609375,
+                    "z": 2067.947265625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 340.04388427734375,
+        "actualGameTime": 188.86666870117188,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4352.60546875,
+                    254.9912109375,
+                    5038.5498046875
+                ],
+                "data": {
+                    "x": 4352.60546875,
+                    "y": 254.9912109375,
+                    "z": 5038.5498046875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 519.3439331054688,
+        "actualGameTime": 368.1667175292969,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 1,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2153.003662109375,
+                    254.989990234375,
+                    4486.94482421875,
+                    2132.82421875,
+                    0,
+                    4667.90185546875
+                ],
+                "data": {
+                    "x": 2153.003662109375,
+                    "y": 254.989990234375,
+                    "z": 4486.94482421875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 253.5772247314453,
+        "actualGameTime": 102.40000915527344,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2737.88916015625,
+                    254.9908447265625,
+                    5051.7138671875,
+                    2685.08154296875,
+                    0,
+                    4863.18212890625
+                ],
+                "data": {
+                    "x": 2737.88916015625,
+                    "y": 254.9908447265625,
+                    "z": 5051.7138671875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 366.3772277832031,
+        "actualGameTime": 215.20001220703125,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4137.30029296875,
+                    254.989990234375,
+                    4422.75341796875
+                ],
+                "data": {
+                    "x": 4137.30029296875,
+                    "y": 254.989990234375,
+                    "z": 4422.75341796875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 549.3439331054688,
+        "actualGameTime": 398.1667175292969,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5634.033203125,
+                    254.990234375,
+                    4412.96435546875
+                ],
+                "data": {
+                    "x": 5634.033203125,
+                    "y": 254.990234375,
+                    "z": 4412.96435546875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 500.37725830078125,
+        "actualGameTime": 349.2000427246094,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6849.46875,
+                    254.9937744140625,
+                    1908.15771484375
+                ],
+                "data": {
+                    "x": 6849.46875,
+                    "y": 254.9937744140625,
+                    "z": 1908.15771484375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 639.8772583007812,
+        "actualGameTime": 488.7000427246094,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4902.71728515625,
+                    254.989990234375,
+                    2957.9892578125
+                ],
+                "data": {
+                    "x": 4902.71728515625,
+                    "y": 254.989990234375,
+                    "z": 2957.9892578125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 428.51055908203125,
+        "actualGameTime": 277.3333435058594,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    669.3189086914062,
+                    254.994873046875,
+                    6835.46484375,
+                    671.8139038085938,
+                    0,
+                    6736.5146484375
+                ],
+                "data": {
+                    "x": 669.3189086914062,
+                    "y": 254.994873046875,
+                    "z": 6835.46484375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 295.310546875,
+        "actualGameTime": 144.13333129882812,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5493.62060546875,
+                    254.997314453125,
+                    4263.6806640625,
+                    5530.84228515625,
+                    0,
+                    4147.3857421875
+                ],
+                "data": {
+                    "x": 5493.62060546875,
+                    "y": 254.997314453125,
+                    "z": 4263.6806640625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 640.5772705078125,
+        "actualGameTime": 489.4000549316406,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4901.10693359375,
+                    254.589111328125,
+                    2899.744140625
+                ],
+                "data": {
+                    "x": 4901.10693359375,
+                    "y": 254.589111328125,
+                    "z": 2899.744140625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 402.810546875,
+        "actualGameTime": 251.63333129882812,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1428.042236328125,
+                    254.99462890625,
+                    4091.99365234375,
+                    1406.933349609375,
+                    0,
+                    3905.01611328125
+                ],
+                "data": {
+                    "x": 1428.042236328125,
+                    "y": 254.99462890625,
+                    "z": 4091.99365234375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 372.8439025878906,
+        "actualGameTime": 221.66668701171875,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3593.9326171875,
+                    254.9930419921875,
+                    4283.228515625
+                ],
+                "data": {
+                    "x": 3593.9326171875,
+                    "y": 254.9930419921875,
+                    "z": 4283.228515625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 436.2772216796875,
+        "actualGameTime": 285.1000061035156,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "corllt",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4240,
+                    254.9896240234375,
+                    4336,
+                    3
+                ],
+                "data": {
+                    "x": 4240,
+                    "y": 254.9896240234375,
+                    "z": 4336,
+                    "direction": 3
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 366.243896484375,
+        "actualGameTime": 215.06668090820312,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4125.09130859375,
+                    254.98974609375,
+                    4454.30517578125
+                ],
+                "data": {
+                    "x": 4125.09130859375,
+                    "y": 254.98974609375,
+                    "z": 4454.30517578125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 664.3772583007812,
+        "actualGameTime": 513.2000427246094,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4726.40771484375,
+                    254.992919921875,
+                    1510.2752685546875
+                ],
+                "data": {
+                    "x": 4726.40771484375,
+                    "y": 254.992919921875,
+                    "z": 1510.2752685546875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 505.01055908203125,
+        "actualGameTime": 353.8333435058594,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6767.7685546875,
+                    254.9952392578125,
+                    1959.5582275390625
+                ],
+                "data": {
+                    "x": 6767.7685546875,
+                    "y": 254.9952392578125,
+                    "z": 1959.5582275390625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 517.3439331054688,
+        "actualGameTime": 366.1667175292969,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 1,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1886.29833984375,
+                    254.99365234375,
+                    4152.08056640625
+                ],
+                "data": {
+                    "x": 1886.29833984375,
+                    "y": 254.99365234375,
+                    "z": 4152.08056640625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 410.84393310546875,
+        "actualGameTime": 259.6667175292969,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 3,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1833.210693359375,
+                    254.9931640625,
+                    4351.2822265625
+                ],
+                "data": {
+                    "x": 1833.210693359375,
+                    "y": 254.9931640625,
+                    "z": 4351.2822265625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 579.243896484375,
+        "actualGameTime": 428.0666809082031,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5683.71728515625,
+                    254.9952392578125,
+                    4214.2783203125
+                ],
+                "data": {
+                    "x": 5683.71728515625,
+                    "y": 254.9952392578125,
+                    "z": 4214.2783203125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 316.47723388671875,
+        "actualGameTime": 165.30001831054688,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    6604.9736328125,
+                    254.9930419921875,
+                    2204.128662109375,
+                    6640.9072265625,
+                    0,
+                    2061.461669921875
+                ],
+                "data": {
+                    "x": 6604.9736328125,
+                    "y": 254.9930419921875,
+                    "z": 2204.128662109375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 352.94390869140625,
+        "actualGameTime": 201.76669311523438,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3271.658935546875,
+                    254.98974609375,
+                    5045.0615234375
+                ],
+                "data": {
+                    "x": 3271.658935546875,
+                    "y": 254.98974609375,
+                    "z": 5045.0615234375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 589.4439086914062,
+        "actualGameTime": 438.2666931152344,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5325.55322265625,
+                    254.9913330078125,
+                    4328.2978515625
+                ],
+                "data": {
+                    "x": 5325.55322265625,
+                    "y": 254.9913330078125,
+                    "z": 4328.2978515625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 242.54388427734375,
+        "actualGameTime": 91.36666870117188,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 2,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5109.27392578125,
+                    254.993896484375,
+                    2498.96337890625,
+                    5124.451171875,
+                    0,
+                    2306.660400390625
+                ],
+                "data": {
+                    "x": 5109.27392578125,
+                    "y": 254.993896484375,
+                    "z": 2498.96337890625
+                }
+            }
+        }
+    }
+]

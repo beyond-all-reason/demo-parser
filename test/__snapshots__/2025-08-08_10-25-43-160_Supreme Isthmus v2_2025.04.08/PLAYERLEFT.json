@@ -1,0 +1,57 @@
+[
+    {
+        "id": 39,
+        "name": "PLAYERLEFT",
+        "fullGameTime": 927.3025512695312,
+        "actualGameTime": 765.4000549316406,
+        "sizeBytes": 3,
+        "data": {
+            "playerNum": 18,
+            "reason": 1
+        }
+    },
+    {
+        "id": 39,
+        "name": "PLAYERLEFT",
+        "fullGameTime": 927.96923828125,
+        "actualGameTime": 766.0667419433594,
+        "sizeBytes": 3,
+        "data": {
+            "playerNum": 3,
+            "reason": 1
+        }
+    },
+    {
+        "id": 39,
+        "name": "PLAYERLEFT",
+        "fullGameTime": 928.2025756835938,
+        "actualGameTime": 766.3000793457031,
+        "sizeBytes": 3,
+        "data": {
+            "playerNum": 0,
+            "reason": 1
+        }
+    },
+    {
+        "id": 39,
+        "name": "PLAYERLEFT",
+        "fullGameTime": 929.1358642578125,
+        "actualGameTime": 767.2333679199219,
+        "sizeBytes": 3,
+        "data": {
+            "playerNum": 11,
+            "reason": 1
+        }
+    },
+    {
+        "id": 39,
+        "name": "PLAYERLEFT",
+        "fullGameTime": 929.5025634765625,
+        "actualGameTime": 767.6000671386719,
+        "sizeBytes": 3,
+        "data": {
+            "playerNum": 5,
+            "reason": 1
+        }
+    }
+]

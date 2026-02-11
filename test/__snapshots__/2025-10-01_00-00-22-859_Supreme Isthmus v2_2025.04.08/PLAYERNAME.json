@@ -1,0 +1,431 @@
+[
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 13.050089836120605,
+        "actualGameTime": 0,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 28,
+            "playerName": "[TOPGUN]Commander"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 16.251140594482422,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 11,
+            "playerName": "Xeaner"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 17.035114288330078,
+        "actualGameTime": 0,
+        "sizeBytes": 24,
+        "data": {
+            "playerNum": 6,
+            "playerName": "AnyGothBaddiesInHere"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 17.32010269165039,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 8,
+            "playerName": "Immort"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 17.336103439331055,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "playerName": "Malady"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 18.43208122253418,
+        "actualGameTime": 0,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 1,
+            "playerName": "UsurpeR"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 18.53807830810547,
+        "actualGameTime": 0,
+        "sizeBytes": 9,
+        "data": {
+            "playerNum": 33,
+            "playerName": "rt100"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 18.61507797241211,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 24,
+            "playerName": "Tink3r"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 18.976064682006836,
+        "actualGameTime": 0,
+        "sizeBytes": 9,
+        "data": {
+            "playerNum": 22,
+            "playerName": "TOWNS"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 19.06606101989746,
+        "actualGameTime": 0,
+        "sizeBytes": 15,
+        "data": {
+            "playerNum": 31,
+            "playerName": "Solarpotato"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 19.262054443359375,
+        "actualGameTime": 0,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 37,
+            "playerName": "XenoTheSlayer"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 19.33805274963379,
+        "actualGameTime": 0,
+        "sizeBytes": 19,
+        "data": {
+            "playerNum": 13,
+            "playerName": "TheMicroManager"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 20.707021713256836,
+        "actualGameTime": 0,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 20,
+            "playerName": "[Grump]Grumpiness"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 21.139015197753906,
+        "actualGameTime": 0,
+        "sizeBytes": 9,
+        "data": {
+            "playerNum": 34,
+            "playerName": "JoeJo"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 21.27501106262207,
+        "actualGameTime": 0,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 15,
+            "playerName": "CLANKER"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 21.8179931640625,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 2,
+            "playerName": "mazuki"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 22.372970581054688,
+        "actualGameTime": 0,
+        "sizeBytes": 18,
+        "data": {
+            "playerNum": 4,
+            "playerName": "SentientWaffle"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 23.1009521484375,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 16,
+            "playerName": "Baby_N2G"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 23.602941513061523,
+        "actualGameTime": 0,
+        "sizeBytes": 7,
+        "data": {
+            "playerNum": 21,
+            "playerName": "Gav"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 23.722936630249023,
+        "actualGameTime": 0,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 9,
+            "playerName": "[Cookie]Baby_Evis"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 24.067922592163086,
+        "actualGameTime": 0,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 32,
+            "playerName": "SillyGoops"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 24.09792137145996,
+        "actualGameTime": 0,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 39,
+            "playerName": "Hadigel"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 24.339914321899414,
+        "actualGameTime": 0,
+        "sizeBytes": 13,
+        "data": {
+            "playerNum": 10,
+            "playerName": "ibeSleepy"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 24.415912628173828,
+        "actualGameTime": 0,
+        "sizeBytes": 20,
+        "data": {
+            "playerNum": 25,
+            "playerName": "[55]prawnography"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 24.58390998840332,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 27,
+            "playerName": "Royden"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 25.9068603515625,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 30,
+            "playerName": "beardedcoder"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 26.134855270385742,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 29,
+            "playerName": "Leemon"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 27.69579315185547,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 36,
+            "playerName": "biologix"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 28.10077667236328,
+        "actualGameTime": 0,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 7,
+            "playerName": "FacelessDude"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 30.07270622253418,
+        "actualGameTime": 0,
+        "sizeBytes": 20,
+        "data": {
+            "playerNum": 18,
+            "playerName": "[Grump]Glorp_TTV"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 31.12666893005371,
+        "actualGameTime": 0,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 5,
+            "playerName": "Duke_of_Stars"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 31.562652587890625,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 35,
+            "playerName": "Tetrarch"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 37.247413635253906,
+        "actualGameTime": 0,
+        "sizeBytes": 15,
+        "data": {
+            "playerNum": 19,
+            "playerName": "Smoked2Much"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 39.60331726074219,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 12,
+            "playerName": "Naigel"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 39.90330505371094,
+        "actualGameTime": 0,
+        "sizeBytes": 9,
+        "data": {
+            "playerNum": 3,
+            "playerName": "Shieo"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 41.44923400878906,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 14,
+            "playerName": "Potato37"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 159.45864868164062,
+        "actualGameTime": 23.066680908203125,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 40,
+            "playerName": "infdrake"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 416.59197998046875,
+        "actualGameTime": 280.20001220703125,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 23,
+            "playerName": "resopmok"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 606.7919921875,
+        "actualGameTime": 470.4000244140625,
+        "sizeBytes": 11,
+        "data": {
+            "playerNum": 41,
+            "playerName": "Carri0n"
+        }
+    }
+]

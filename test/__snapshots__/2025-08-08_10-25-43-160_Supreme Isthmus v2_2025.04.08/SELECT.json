@@ -1,0 +1,1584 @@
+[
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 349.93585205078125,
+        "actualGameTime": 188.03335571289062,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 1,
+            "selectedUnitIds": [
+                3569
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 530.9358520507812,
+        "actualGameTime": 369.0333557128906,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 12,
+            "selectedUnitIds": [
+                9163
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 594.9025268554688,
+        "actualGameTime": 433.0000305175781,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 8,
+            "selectedUnitIds": [
+                16021
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 407.23583984375,
+        "actualGameTime": 245.33334350585938,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 11,
+            "selectedUnitIds": [
+                30581
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 687.9358520507812,
+        "actualGameTime": 526.0333557128906,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 4,
+            "selectedUnitIds": [
+                17708
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 712.96923828125,
+        "actualGameTime": 551.0667419433594,
+        "sizeBytes": 32,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                11565,
+                10034,
+                10420,
+                8373,
+                21951,
+                23161,
+                20346
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 762.4359130859375,
+        "actualGameTime": 600.5334167480469,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 10,
+            "selectedUnitIds": [
+                24539
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 410.86920166015625,
+        "actualGameTime": 248.96670532226562,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 11,
+            "selectedUnitIds": [
+                7780
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 441.6025390625,
+        "actualGameTime": 279.7000427246094,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 9,
+            "selectedUnitIds": [
+                10594
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 536.5692138671875,
+        "actualGameTime": 374.6667175292969,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 0,
+            "selectedUnitIds": [
+                26699
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 309.2691650390625,
+        "actualGameTime": 147.36666870117188,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 5,
+            "selectedUnitIds": [
+                13136
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 680.2692260742188,
+        "actualGameTime": 518.3667297363281,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                22035
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 391.6358642578125,
+        "actualGameTime": 229.73336791992188,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 7,
+            "selectedUnitIds": [
+                17124,
+                19511
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 219.0691680908203,
+        "actualGameTime": 57.16667175292969,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 5,
+            "selectedUnitIds": [
+                4539
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 882.035888671875,
+        "actualGameTime": 720.1333923339844,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 11,
+            "selectedUnitIds": [
+                17265
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 221.7691650390625,
+        "actualGameTime": 59.866668701171875,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 9,
+            "selectedUnitIds": [
+                10594
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 772.4359130859375,
+        "actualGameTime": 610.5334167480469,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                30704
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 336.50250244140625,
+        "actualGameTime": 174.60000610351562,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 5,
+            "selectedUnitIds": [
+                28302,
+                8624
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 518.2025146484375,
+        "actualGameTime": 356.3000183105469,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 8,
+            "selectedUnitIds": [
+                4957
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 290.1358642578125,
+        "actualGameTime": 128.23336791992188,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 13,
+            "selectedUnitIds": [
+                18454
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 535.1358642578125,
+        "actualGameTime": 373.2333679199219,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                14698,
+                1964,
+                28117,
+                19032
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 679.5025634765625,
+        "actualGameTime": 517.6000671386719,
+        "sizeBytes": 28,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                6816,
+                23555,
+                966,
+                14698,
+                1964,
+                22478,
+                31790,
+                28117,
+                23158,
+                25943,
+                19032,
+                31995
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 856.6025390625,
+        "actualGameTime": 694.7000427246094,
+        "sizeBytes": 24,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                23555,
+                966,
+                30982,
+                21642,
+                1964,
+                28117,
+                1432,
+                26453,
+                31995,
+                21759
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 617.8692016601562,
+        "actualGameTime": 455.9667053222656,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                5941
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 392.3358459472656,
+        "actualGameTime": 230.433349609375,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 5,
+            "selectedUnitIds": [
+                2335,
+                28302,
+                8624
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 651.8692016601562,
+        "actualGameTime": 489.9667053222656,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 13,
+            "selectedUnitIds": [
+                754
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 658.8358764648438,
+        "actualGameTime": 496.9333801269531,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                25858
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 692.3358764648438,
+        "actualGameTime": 530.4333801269531,
+        "sizeBytes": 32,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                11565,
+                10034,
+                10420,
+                8373,
+                21951,
+                23161,
+                20346
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 743.5692138671875,
+        "actualGameTime": 581.6667175292969,
+        "sizeBytes": 32,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                11565,
+                10034,
+                10420,
+                8373,
+                21951,
+                23161,
+                20346
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 533.7025146484375,
+        "actualGameTime": 371.8000183105469,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                26848
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 236.43585205078125,
+        "actualGameTime": 74.53335571289062,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                5941
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 775.7692260742188,
+        "actualGameTime": 613.8667297363281,
+        "sizeBytes": 32,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                11565,
+                10034,
+                10420,
+                8373,
+                21951,
+                23161,
+                20346
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 903.402587890625,
+        "actualGameTime": 741.5000915527344,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                3239,
+                9533
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 774.7359008789062,
+        "actualGameTime": 612.8334045410156,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                18567,
+                22089
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 463.86920166015625,
+        "actualGameTime": 301.9667053222656,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 9,
+            "selectedUnitIds": [
+                1443
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 716.2359008789062,
+        "actualGameTime": 554.3334045410156,
+        "sizeBytes": 32,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                11565,
+                10034,
+                10420,
+                8373,
+                21951,
+                23161,
+                20346
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 481.53582763671875,
+        "actualGameTime": 319.6333312988281,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 8,
+            "selectedUnitIds": [
+                2687
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 466.43585205078125,
+        "actualGameTime": 304.5333557128906,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 8,
+            "selectedUnitIds": [
+                4957
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 468.46917724609375,
+        "actualGameTime": 306.5666809082031,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 10,
+            "selectedUnitIds": [
+                16459
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 452.802490234375,
+        "actualGameTime": 290.8999938964844,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 9,
+            "selectedUnitIds": [
+                19001,
+                6271,
+                5104
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 575.2691650390625,
+        "actualGameTime": 413.3666687011719,
+        "sizeBytes": 26,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                10420,
+                8373,
+                21951,
+                23161
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 848.3692016601562,
+        "actualGameTime": 686.4667053222656,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 4,
+            "selectedUnitIds": [
+                16165,
+                20046
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 801.2692260742188,
+        "actualGameTime": 639.3667297363281,
+        "sizeBytes": 56,
+        "data": {
+            "playerNum": 12,
+            "selectedUnitIds": [
+                29057,
+                11663,
+                16919,
+                14114,
+                9518,
+                12982,
+                23865,
+                7482,
+                11580,
+                7361,
+                7491,
+                18502,
+                23752,
+                21067,
+                4833,
+                3811,
+                28903,
+                28648,
+                7660,
+                21871,
+                2672,
+                24051,
+                19572,
+                12533,
+                7418,
+                7806
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 494.43585205078125,
+        "actualGameTime": 332.5333557128906,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 8,
+            "selectedUnitIds": [
+                19799,
+                27403
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 523.8025512695312,
+        "actualGameTime": 361.9000549316406,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 0,
+            "selectedUnitIds": [
+                15365
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 247.46917724609375,
+        "actualGameTime": 85.56668090820312,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 6,
+            "selectedUnitIds": [
+                10776
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 451.302490234375,
+        "actualGameTime": 289.3999938964844,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 5,
+            "selectedUnitIds": [
+                29987
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 345.50250244140625,
+        "actualGameTime": 183.60000610351562,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 4,
+            "selectedUnitIds": [
+                22272
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 330.669189453125,
+        "actualGameTime": 168.76669311523438,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                15276
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 437.6358642578125,
+        "actualGameTime": 275.7333679199219,
+        "sizeBytes": 16,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                26128,
+                23555,
+                22629,
+                27255,
+                20969,
+                18683
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 634.9025268554688,
+        "actualGameTime": 473.0000305175781,
+        "sizeBytes": 32,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                11565,
+                10034,
+                10420,
+                8373,
+                21951,
+                23161,
+                20346
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 807.6025390625,
+        "actualGameTime": 645.7000427246094,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                21287
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 796.0025634765625,
+        "actualGameTime": 634.1000671386719,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 13,
+            "selectedUnitIds": [
+                27359
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 536.6358642578125,
+        "actualGameTime": 374.7333679199219,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 8,
+            "selectedUnitIds": [
+                22786
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 774.1025390625,
+        "actualGameTime": 612.2000427246094,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                25858
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 742.4025268554688,
+        "actualGameTime": 580.5000305175781,
+        "sizeBytes": 20,
+        "data": {
+            "playerNum": 10,
+            "selectedUnitIds": [
+                11648,
+                31329,
+                30644,
+                25509,
+                26468,
+                22058,
+                20571,
+                29788
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 290.1025085449219,
+        "actualGameTime": 128.20001220703125,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 0,
+            "selectedUnitIds": [
+                9137
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 809.0025634765625,
+        "actualGameTime": 647.1000671386719,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                22035
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 825.2692260742188,
+        "actualGameTime": 663.3667297363281,
+        "sizeBytes": 32,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                11565,
+                10034,
+                10420,
+                8373,
+                21951,
+                23161,
+                20346
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 475.96917724609375,
+        "actualGameTime": 314.0666809082031,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 9,
+            "selectedUnitIds": [
+                19001
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 258.302490234375,
+        "actualGameTime": 96.39999389648438,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 3,
+            "selectedUnitIds": [
+                10704
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 429.7025146484375,
+        "actualGameTime": 267.8000183105469,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                14211
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 824.4359130859375,
+        "actualGameTime": 662.5334167480469,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 8,
+            "selectedUnitIds": [
+                22786
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 780.0025634765625,
+        "actualGameTime": 618.1000671386719,
+        "sizeBytes": 38,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                6816,
+                23555,
+                966,
+                30982,
+                4713,
+                21642,
+                1964,
+                12492,
+                22478,
+                31790,
+                28117,
+                23158,
+                25943,
+                1432,
+                26453,
+                31995,
+                21759
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 304.0691833496094,
+        "actualGameTime": 142.16668701171875,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 8,
+            "selectedUnitIds": [
+                4080
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 594.5025024414062,
+        "actualGameTime": 432.6000061035156,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 9,
+            "selectedUnitIds": [
+                27141,
+                7179,
+                6271,
+                21848
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 623.9691772460938,
+        "actualGameTime": 462.0666809082031,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                30819,
+                19466,
+                9516,
+                6300
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 403.73583984375,
+        "actualGameTime": 241.83334350585938,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                9383
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 608.0692138671875,
+        "actualGameTime": 446.1667175292969,
+        "sizeBytes": 30,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                11565,
+                10420,
+                8373,
+                21951,
+                23161,
+                20346
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 264.802490234375,
+        "actualGameTime": 102.89999389648438,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                15276
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 840.8358764648438,
+        "actualGameTime": 678.9333801269531,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 9,
+            "selectedUnitIds": [
+                10594
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 885.4359130859375,
+        "actualGameTime": 723.5334167480469,
+        "sizeBytes": 34,
+        "data": {
+            "playerNum": 12,
+            "selectedUnitIds": [
+                29057,
+                16919,
+                14114,
+                12982,
+                7482,
+                7361,
+                7491,
+                18502,
+                23752,
+                21067,
+                4833,
+                28648,
+                7660,
+                21871,
+                7418
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 532.1025390625,
+        "actualGameTime": 370.2000427246094,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 12,
+            "selectedUnitIds": [
+                3513,
+                9163,
+                2381,
+                22138
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 719.0025634765625,
+        "actualGameTime": 557.1000671386719,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 1,
+            "selectedUnitIds": [
+                3569
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 268.6358337402344,
+        "actualGameTime": 106.73333740234375,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 5,
+            "selectedUnitIds": [
+                13501,
+                24512,
+                5319
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 398.86920166015625,
+        "actualGameTime": 236.96670532226562,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                22035
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 294.802490234375,
+        "actualGameTime": 132.89999389648438,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 12,
+            "selectedUnitIds": [
+                19087,
+                10155,
+                16326,
+                6764
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 538.3358764648438,
+        "actualGameTime": 376.4333801269531,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                26848
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 311.2025146484375,
+        "actualGameTime": 149.30001831054688,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 1,
+            "selectedUnitIds": [
+                7148,
+                5271
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 335.6025085449219,
+        "actualGameTime": 173.70001220703125,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                29368
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 603.3358764648438,
+        "actualGameTime": 441.4333801269531,
+        "sizeBytes": 30,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                11565,
+                10420,
+                8373,
+                21951,
+                23161,
+                20346
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 830.3358764648438,
+        "actualGameTime": 668.4333801269531,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 12,
+            "selectedUnitIds": [
+                20882
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 316.7691650390625,
+        "actualGameTime": 154.86666870117188,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 5,
+            "selectedUnitIds": [
+                13136
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 429.2025146484375,
+        "actualGameTime": 267.3000183105469,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                5941
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 736.0692138671875,
+        "actualGameTime": 574.1667175292969,
+        "sizeBytes": 18,
+        "data": {
+            "playerNum": 5,
+            "selectedUnitIds": [
+                5735,
+                3215,
+                30126,
+                25541,
+                198,
+                27337,
+                8427
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 466.03582763671875,
+        "actualGameTime": 304.1333312988281,
+        "sizeBytes": 14,
+        "data": {
+            "playerNum": 12,
+            "selectedUnitIds": [
+                5249,
+                17712,
+                9163,
+                10212,
+                15869
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 650.8692016601562,
+        "actualGameTime": 488.9667053222656,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 11,
+            "selectedUnitIds": [
+                7106,
+                13966
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 681.46923828125,
+        "actualGameTime": 519.5667419433594,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 10,
+            "selectedUnitIds": [
+                24539
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 614.0692138671875,
+        "actualGameTime": 452.1667175292969,
+        "sizeBytes": 30,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                11565,
+                10420,
+                8373,
+                21951,
+                23161,
+                20346
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 761.4359130859375,
+        "actualGameTime": 599.5334167480469,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 10,
+            "selectedUnitIds": [
+                11648,
+                31329,
+                30644,
+                25509,
+                12100,
+                22058,
+                20571,
+                29788,
+                25020
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 602.9691772460938,
+        "actualGameTime": 441.0666809082031,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 6,
+            "selectedUnitIds": [
+                362
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 546.7691650390625,
+        "actualGameTime": 384.8666687011719,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 14,
+            "selectedUnitIds": [
+                16525,
+                46
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 769.8358764648438,
+        "actualGameTime": 607.9333801269531,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 15,
+            "selectedUnitIds": [
+                14211
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 611.535888671875,
+        "actualGameTime": 449.6333923339844,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 1,
+            "selectedUnitIds": [
+                13722
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 701.2359008789062,
+        "actualGameTime": 539.3334045410156,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 11,
+            "selectedUnitIds": [
+                3530
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 571.4691772460938,
+        "actualGameTime": 409.5666809082031,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 10,
+            "selectedUnitIds": [
+                23391
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 521.8358764648438,
+        "actualGameTime": 359.9333801269531,
+        "sizeBytes": 24,
+        "data": {
+            "playerNum": 2,
+            "selectedUnitIds": [
+                24340,
+                26772,
+                7194,
+                17948,
+                16417,
+                18214,
+                10407,
+                10420,
+                8373,
+                23161
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 570.4025268554688,
+        "actualGameTime": 408.5000305175781,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 7,
+            "selectedUnitIds": [
+                10297
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 285.0691833496094,
+        "actualGameTime": 123.16668701171875,
+        "sizeBytes": 8,
+        "data": {
+            "playerNum": 1,
+            "selectedUnitIds": [
+                29419,
+                25969
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "SELECT",
+        "fullGameTime": 285.6025085449219,
+        "actualGameTime": 123.70001220703125,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 3,
+            "selectedUnitIds": [
+                9137
+            ]
+        }
+    }
+]

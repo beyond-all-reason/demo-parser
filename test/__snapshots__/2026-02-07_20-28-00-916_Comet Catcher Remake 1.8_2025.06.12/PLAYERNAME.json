@@ -1,0 +1,24 @@
+[
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 17.98023223876953,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "playerName": "pikterra"
+        }
+    },
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 24.498905181884766,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 1,
+            "playerName": "Zepek_75"
+        }
+    }
+]
