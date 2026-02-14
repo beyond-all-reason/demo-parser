@@ -193,7 +193,17 @@
             "data": {
                 "name": "SYSTEM_INFO",
                 "data": {
-                    "cpu": "AMD Ryzen 7 7800X3D 8-Core"
+                    "cpu": "AMD Ryzen 7 7800X3D 8-Core",
+                    "cpuCores": "8",
+                    "logicalCpuCores": "16",
+                    "memory": "64624MB",
+                    "gpu": "NVIDIA GeForce RTX 4070",
+                    "gpuMemory": "12576MB",
+                    "maxRes": "2560x1440",
+                    "display": "2560x1440x24bpp@144Hz",
+                    "windowMode": "borderless",
+                    "os": "Windows 10",
+                    "lobby": "Chobby"
                 }
             }
         }
@@ -211,7 +221,17 @@
             "data": {
                 "name": "SYSTEM_INFO",
                 "data": {
-                    "cpu": "AMD Ryzen 7 7800X3D 8-Core"
+                    "cpu": "AMD Ryzen 7 7800X3D 8-Core",
+                    "cpuCores": "8",
+                    "logicalCpuCores": "16",
+                    "memory": "31849MB",
+                    "gpu": "NVIDIA GeForce RTX 5070",
+                    "gpuMemory": "12520MB",
+                    "maxRes": "2560x1440",
+                    "display": "2560x1440x24bpp@180Hz",
+                    "windowMode": "borderless",
+                    "os": "Windows 10",
+                    "lobby": "Chobby"
                 }
             }
         }
@@ -3952,7 +3972,17 @@
             "data": {
                 "name": "SYSTEM_INFO",
                 "data": {
-                    "cpu": "AMD Ryzen 9 7900X 12-Core"
+                    "cpu": "AMD Ryzen 9 7900X 12-Core",
+                    "cpuCores": "12",
+                    "logicalCpuCores": "24",
+                    "memory": "31899MB",
+                    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+                    "gpuMemory": "11534MB",
+                    "maxRes": "1920x1080",
+                    "display": "1920x1080x24bpp@60Hz",
+                    "windowMode": "(fullscreen::exclusive)",
+                    "os": "Windows 10",
+                    "lobby": "Chobby"
                 }
             }
         }

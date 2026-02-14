@@ -207,7 +207,7 @@ export const standardLuaHandlers: LuaHandler[] = [
         parser: (buffer, str) => {
             const captureRegex = new RegExp(""
                 + /(?:CPU:\s+(?<cpu>.*?)\s*)?/.source
-                + /(?:CPU cores:\s+(?<cpuCores>.*?)]\s+Physical CPU Cores:\s+(?<physicalCpuCOres>.*?)\]\s+Logical CPU Cores:\s+(?<logicalCpuCores>.*?)\s*)?/.source
+                + /(?:CPU cores:\s+(?:[\d:.]+\]\s+Physical CPU Cores:\s+)?(?<cpuCores>\d+)\s*(?:\/\s*(?:[\d:.]+\]\s+Logical CPU Cores:\s+)?(?<logicalCpuCores>\d+))?\s*)?/.source
                 + /(?:RAM:\s+(?<memory>.*?)\s*)?/.source
                 + /(?:GPU:\s+(?<gpu>.*?)\s*)?/.source
                 + /(?:GPU VRAM:\s+(?<gpuMemory>.*?)\s*)?/.source
@@ -216,7 +216,7 @@ export const standardLuaHandlers: LuaHandler[] = [
                 + /(?:Engine:\s+(?<wordSize>.*?)\s*)?/.source
                 + /(?:Lobby:\s+(?<lobby>.*?)\s*)?/.source
                 + /$/.source
-            , "gm");
+            );
 
             const groups = captureRegex.exec(str)?.groups;
 

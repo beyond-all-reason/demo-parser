@@ -365,7 +365,16 @@
             "data": {
                 "name": "SYSTEM_INFO",
                 "data": {
-                    "cpu": "AMD Ryzen 5 4600H with Radeon Graphics"
+                    "cpu": "AMD Ryzen 5 4600H with Radeon Graphics",
+                    "cpuCores": "6",
+                    "logicalCpuCores": "12",
+                    "memory": "15741MB",
+                    "gpu": "AMD Radeon Graphics",
+                    "maxRes": "1920x1080",
+                    "display": "1920x1051x24bpp@60Hz",
+                    "windowMode": "windowed",
+                    "os": "Windows 10",
+                    "lobby": "Chobby"
                 }
             }
         }
@@ -2431,7 +2440,17 @@
             "data": {
                 "name": "SYSTEM_INFO",
                 "data": {
-                    "cpu": "AMD Ryzen 7 7800X3D 8-Core"
+                    "cpu": "AMD Ryzen 7 7800X3D 8-Core",
+                    "cpuCores": "8",
+                    "logicalCpuCores": "16",
+                    "memory": "31831MB",
+                    "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+                    "gpuMemory": "12576MB",
+                    "maxRes": "2560x1440",
+                    "display": "2560x1440x24bpp@165Hz",
+                    "windowMode": "borderless",
+                    "os": "Windows 10",
+                    "lobby": "Chobby"
                 }
             }
         }
@@ -2514,7 +2533,17 @@
             "data": {
                 "name": "SYSTEM_INFO",
                 "data": {
-                    "cpu": "AMD Ryzen 9 7940HS w"
+                    "cpu": "AMD Ryzen 9 7940HS w",
+                    "cpuCores": "8",
+                    "logicalCpuCores": "16",
+                    "memory": "31963MB",
+                    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                    "gpuMemory": "8384MB",
+                    "maxRes": "3440x1440",
+                    "display": "3440x1440x24bpp@60Hz",
+                    "windowMode": "borderless",
+                    "os": "Windows 10",
+                    "lobby": "Chobby"
                 }
             }
         }

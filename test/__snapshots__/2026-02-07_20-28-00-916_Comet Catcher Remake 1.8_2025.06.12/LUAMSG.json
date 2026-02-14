@@ -66,7 +66,17 @@
             "data": {
                 "name": "SYSTEM_INFO",
                 "data": {
-                    "cpu": "11th Gen Intel i5-11400H @ 2.70GHz"
+                    "cpu": "11th Gen Intel i5-11400H @ 2.70GHz",
+                    "cpuCores": "6",
+                    "logicalCpuCores": "12",
+                    "memory": "15737MB",
+                    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+                    "gpuMemory": "4194MB",
+                    "maxRes": "1920x1080",
+                    "display": "1920x1080x24bpp@144Hz",
+                    "windowMode": "borderless",
+                    "os": "Linux",
+                    "lobby": "Chobby"
                 }
             }
         }
@@ -736,7 +746,17 @@
             "data": {
                 "name": "SYSTEM_INFO",
                 "data": {
-                    "cpu": "AMD Ryzen AI 9 HX 370 w"
+                    "cpu": "AMD Ryzen AI 9 HX 370 w",
+                    "cpuCores": "12",
+                    "logicalCpuCores": "24",
+                    "memory": "64633MB",
+                    "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+                    "gpuMemory": "8346MB",
+                    "maxRes": "3840x2400",
+                    "display": "3840x2400x24bpp@60Hz",
+                    "windowMode": "borderless",
+                    "os": "Windows 10",
+                    "lobby": "Chobby"
                 }
             }
         }
