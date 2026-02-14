@@ -77,7 +77,7 @@ export class PacketParser {
 
         /** @see https://github.com/beyond-all-reason/demo-parser/issues/28 **/
         if (coordSize === undefined) {
-            const remaining = bufferStream.readStream.readableLength;
+            const remaining = bufferStream.remaining;
             if (mapDrawAction === DemoModel.MapDrawAction.ERASE) {
                 // ERASE has fixed payload: x + z only
                 coordSize = remaining >= 8 ? 4 : 2;
