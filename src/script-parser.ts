@@ -1,3 +1,5 @@
+import { parse as parseTDF } from "recoil-tdf";
+
 import { DemoParserConfig } from "./demo-parser";
 import { DemoModel } from "./model/demo-model";
 
@@ -9,17 +11,13 @@ export class ScriptParser {
     }
 
     public parseScript(buffer: Buffer) : Omit<DemoModel.Info.Info, "meta"> {
-        const scriptTxt = `{${buffer.toString()}}`;
+        const scriptTxt = buffer.toString();
+        const rootObj = parseTDF(scriptTxt);
+        if (!rootObj.hasOwnProperty("game") || typeof rootObj.game === "string") {
+            throw Error("Invalid start script, missing game section");
+        }
 
-        // hacky regex that transforms script.txt into JSON
-        const objStr = scriptTxt
-            .replace(/([^=\w\]\[])(\[(.*?)\])/g, "$1\"$3\":")
-            .replace(/^(\w*)\=(.*?);/gm, "\"$1\": \"$2\",")
-            .replace(/\r|\n/gm, "")
-            .replace(/\",}/gm, "\"}")
-            .replace(/}"/gm, "},\"");
-
-        const obj = JSON.parse(objStr).game;
+        const obj = rootObj.game;
 
         const hostSettings: any = {};
         for (const [key, val] of Object.entries(obj)) {
@@ -30,12 +28,13 @@ export class ScriptParser {
 
         const { allyTeams, players, ais, spectators } = this.parsePlayers(obj);
 
+        // TODO: add validation of schema, not just assign and hope for the best.
         return {
             hostSettings: hostSettings || {},
-            gameSettings: obj.modoptions || {},
-            mapSettings: obj.mapoptions || {},
-            spadsSettings: obj.hostoptions || {},
-            restrictions: obj.restrict || {},
+            gameSettings: (obj.modoptions as any) || {},
+            mapSettings: (obj.mapoptions as any) || {},
+            spadsSettings: (obj.hostoptions as any) || {},
+            restrictions: (obj.restrict as any) || {},
             allyTeams,
             players,
             ais,
