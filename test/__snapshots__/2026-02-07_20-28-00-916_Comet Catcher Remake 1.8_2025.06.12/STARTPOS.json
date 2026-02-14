@@ -801,7 +801,7 @@
         "actualGameTime": 0,
         "sizeBytes": 16,
         "data": {
-            "playerNum": -1,
+            "playerNum": 255,
             "teamId": 2,
             "readyState": 1,
             "x": 0,

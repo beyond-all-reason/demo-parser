@@ -72,7 +72,7 @@ export class PacketParser {
 
     protected parseDrawMsg(bufferStream: BufferStream, coordSize?: PacketIntSize) : DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW> | DemoModel.Packet.GetPacketData<DemoModel.Packet.ID.MAPDRAW_OLD> {
         const size = bufferStream.readInt(1);
-        const playerNum = bufferStream.readInt(1);
+        const playerNum = bufferStream.readInt(1, true);
         const mapDrawAction = bufferStream.readInt(1) as DemoModel.MapDrawAction;
 
         /** @see https://github.com/beyond-all-reason/demo-parser/issues/28 **/
@@ -136,8 +136,8 @@ export class PacketParser {
             [DemoModel.Packet.ID.NEWFRAME]: (bufferStream) => {
             },
             [DemoModel.Packet.ID.QUIT]: (bufferStream) => {
-                const size = bufferStream.readInt(2);
-                const reason = bufferStream.readString(size);
+                const size = bufferStream.readInt(2, true);
+                const reason = bufferStream.readString(size - 3);
                 return { reason };
             },
             [DemoModel.Packet.ID.STARTPLAYING]: (bufferStream) => {
@@ -149,9 +149,9 @@ export class PacketParser {
                 return { playerNum };
             },
             [DemoModel.Packet.ID.PLAYERNAME]: (bufferStream) => {
-                const size = bufferStream.readInt(1);
-                const playerNum = bufferStream.readInt(1);
-                const playerName = bufferStream.readString(size);
+                const size = bufferStream.readInt(1, true);
+                const playerNum = bufferStream.readInt(1, true);
+                const playerName = bufferStream.readString(size - 3);
                 return { playerNum, playerName };
             },
             [DemoModel.Packet.ID.CHAT]: (bufferStream) => {
@@ -170,7 +170,7 @@ export class PacketParser {
                 return { gameId };
             },
             [DemoModel.Packet.ID.PATH_CHECKSUM]: (bufferStream) => {
-                const playerNum = bufferStream.readInt(1);
+                const playerNum = bufferStream.readInt(1, true);
                 const checksum = bufferStream.read(4).toString("hex");
                 return { playerNum, checksum };
             },
@@ -259,7 +259,7 @@ export class PacketParser {
             [DemoModel.Packet.ID.DC_UPDATE]: (bufferStream) => {
             },
             [DemoModel.Packet.ID.SHARE]: (bufferStream) => {
-                const playerNum = bufferStream.readInt(1);
+                const playerNum = bufferStream.readInt(1, true);
                 const shareTeam = bufferStream.readInt(1);
                 const shareUnits = bufferStream.readBool();
                 const shareMetal = bufferStream.readFloat();
@@ -267,14 +267,14 @@ export class PacketParser {
                 return { playerNum, shareTeam, shareUnits, shareMetal, shareEnergy };
             },
             [DemoModel.Packet.ID.SETSHARE]: (bufferStream) => {
-                const playerNum = bufferStream.readInt(1);
+                const playerNum = bufferStream.readInt(1, true);
                 const myTeam = bufferStream.readInt(1);
                 const metalShareFraction = bufferStream.readFloat();
                 const energyShareFraction = bufferStream.readFloat();
                 return { playerNum, teamId: myTeam, metalShareFraction, energyShareFraction };
             },
             [DemoModel.Packet.ID.PLAYERSTAT]: (bufferStream) => {
-                const playerNum = bufferStream.readInt(1);
+                const playerNum = bufferStream.readInt(1, true);
                 const numCommands = bufferStream.readInt();
                 const unitCommands = bufferStream.readInt();
                 const mousePixels = bufferStream.readInt();
@@ -283,8 +283,8 @@ export class PacketParser {
                 return { playerNum, numCommands, unitCommands, mousePixels, mouseClicks, keyPresses };
             },
             [DemoModel.Packet.ID.GAMEOVER]: (bufferStream) => {
-                const size = bufferStream.readInt(1);
-                const playerNum = bufferStream.readInt(1);
+                const size = bufferStream.readInt(1, true);
+                const playerNum = bufferStream.readInt(1, true);
                 const winningAllyTeams = bufferStream.readInts(bufferStream.remaining, 1, true);
                 return { playerNum, winningAllyTeams };
             },
@@ -303,11 +303,12 @@ export class PacketParser {
             [DemoModel.Packet.ID.SYSTEMMSG]: (bufferStream) => {
                 const messageSize = bufferStream.readInt(2, true);
                 const playerNum = bufferStream.readInt(1, true);
-                const message = bufferStream.readString(messageSize - 1);
+                //console.log(messageSize, bufferStream.remaining);
+                const message = bufferStream.readString(messageSize - 4);
                 return { playerNum, message };
             },
             [DemoModel.Packet.ID.STARTPOS]: (bufferStream) => {
-                const playerNum = bufferStream.readInt(1);
+                const playerNum = bufferStream.readInt(1, true);
                 const teamId = bufferStream.readInt(1);
                 const readyState = bufferStream.readInt(1) as DemoModel.ReadyState;
                 const x = bufferStream.readFloat();
@@ -338,7 +339,7 @@ export class PacketParser {
             },
             [DemoModel.Packet.ID.LOGMSG]: (bufferStream) => {
                 const size = bufferStream.readInt(2, true);
-                const playerNum = bufferStream.readInt(1);
+                const playerNum = bufferStream.readInt(1, true);
                 const logMsgLvl = bufferStream.readInt(1);
                 const data = bufferStream.readString();
                 return { playerNum, logMsgLvl, data };
@@ -383,9 +384,10 @@ export class PacketParser {
             [DemoModel.Packet.ID.TEAMSTAT]: (bufferStream) => {
             },
             [DemoModel.Packet.ID.CLIENTDATA]: (bufferStream) => {
-                const size = bufferStream.readInt(3);
-                const setupText = zlib.unzipSync(bufferStream.read(size)).toString().replace(/\0/g, "");
-                return { setupText };
+                const size = bufferStream.readInt(2, true);
+                const playerNum = bufferStream.readInt(1, true);
+                const setupText = zlib.unzipSync(bufferStream.read(size - 4)).toString().replace(/\0/g, "");
+                return { playerNum, setupText };
             },
             [DemoModel.Packet.ID.ATTEMPTCONNECT]: (bufferStream) => {
             },
