@@ -34,6 +34,28 @@ it.each(replayFiles)("%s skip-packets", async (name, demoPath) => {
     expectMatchesJsonSnapshot(demo, path.join(snapshotsDir, `${name}.skip-packets.json`));
 });
 
+it.each(replayFiles)("%s headers", async (name, demoPath) => {
+    const headersOnly = await DemoParser.getHeaders(demoPath);
+    expectMatchesJsonSnapshot(headersOnly, path.join(snapshotsDir, `${name}.headers.json`));
+});
+
+it.each(replayFiles)("%s getHeaders matches skipPackets", async (name, demoPath) => {
+    const parser = new DemoParser({ skipPackets: true });
+    const skipResult: any = await parser.parseDemo(demoPath);
+    const headersResult: any = await DemoParser.getHeaders(demoPath);
+
+    expect(headersResult.header).toEqual(skipResult.header);
+    expect(headersResult.script).toEqual(skipResult.script);
+
+    const { winningAllyTeamIds: _w, ...skipMeta } = skipResult.info.meta;
+    const { winningAllyTeamIds: _h, ...headersMeta } = headersResult.info.meta;
+    expect(headersMeta).toEqual(skipMeta);
+
+    const { meta: _sm, ...skipInfoRest } = skipResult.info;
+    const { meta: _hm, ...headersInfoRest } = headersResult.info;
+    expect(headersInfoRest).toEqual(skipInfoRest);
+});
+
 const packetNames = Object.keys(DemoModel.Packet.ID).filter(k => isNaN(Number(k)));
 
 describe.each(replayFiles)("%s packets", (name, demoPath) => {

@@ -161,6 +161,12 @@ export namespace DemoModel {
         }
     }
 
+    export type HeadersOnly = {
+        info: Omit<Info.Info, "meta"> & { meta: Omit<Info.Meta, "winningAllyTeamIds"> };
+        header: Header;
+        script: string;
+    }
+
     export type ChatMessage = {
         timeMs: number;
         playerId: number;
