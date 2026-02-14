@@ -9,10 +9,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 7754,
-            "z": 0,
-            "x2": 11168,
-            "z2": 0,
-            "fromLua": true
+            "z": 11168,
+            "x2": 7763,
+            "z2": 11163,
+            "fromLua": false
         }
     },
     {
@@ -25,7 +25,7 @@
             "playerNum": 1,
             "mapDrawAction": 1,
             "x": 7220,
-            "z": 0
+            "z": 3707
         }
     },
     {
@@ -38,7 +38,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11224,
-            "z": 0
+            "z": 1897
         }
     },
     {
@@ -51,7 +51,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11533,
-            "z": 0
+            "z": 1808
         }
     },
     {
@@ -64,7 +64,7 @@
             "playerNum": 13,
             "mapDrawAction": 1,
             "x": 2555,
-            "z": 0
+            "z": 7985
         }
     },
     {
@@ -77,7 +77,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11538,
-            "z": 0
+            "z": 1835
         }
     },
     {
@@ -90,7 +90,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9760,
-            "z": 0
+            "z": 4339
         }
     },
     {
@@ -103,7 +103,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9800,
-            "z": 0
+            "z": 4328
         }
     },
     {
@@ -129,7 +129,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9800,
-            "z": 0
+            "z": 4328
         }
     },
     {
@@ -142,7 +142,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11510,
-            "z": 0
+            "z": 1852
         }
     },
     {
@@ -155,7 +155,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11539,
-            "z": 0
+            "z": 1840
         }
     },
     {
@@ -168,7 +168,7 @@
             "playerNum": 15,
             "mapDrawAction": 1,
             "x": 6623,
-            "z": 0
+            "z": 6382
         }
     },
     {
@@ -181,7 +181,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9800,
-            "z": 0
+            "z": 4328
         }
     },
     {
@@ -194,9 +194,9 @@
             "playerNum": 2,
             "mapDrawAction": 0,
             "x": 6754,
-            "z": 0,
-            "label": "\u0016ezt the metal",
-            "fromLua": true
+            "z": 5662,
+            "label": "ezt the metal",
+            "fromLua": false
         }
     },
     {
@@ -222,7 +222,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11273,
-            "z": 0
+            "z": 1916
         }
     },
     {
@@ -235,7 +235,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11230,
-            "z": 0
+            "z": 1901
         }
     },
     {
@@ -248,7 +248,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4335
         }
     },
     {
@@ -261,7 +261,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11515,
-            "z": 0
+            "z": 1758
         }
     },
     {
@@ -274,7 +274,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9790,
-            "z": 0
+            "z": 4333
         }
     },
     {
@@ -287,9 +287,9 @@
             "playerNum": 12,
             "mapDrawAction": 0,
             "x": 6531,
-            "z": 0,
-            "label": "\u0018",
-            "fromLua": true
+            "z": 6300,
+            "label": "",
+            "fromLua": false
         }
     },
     {
@@ -302,7 +302,7 @@
             "playerNum": 6,
             "mapDrawAction": 1,
             "x": 11615,
-            "z": 0
+            "z": 4851
         }
     },
     {
@@ -315,7 +315,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9806,
-            "z": 0
+            "z": 4310
         }
     },
     {
@@ -328,7 +328,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9806,
-            "z": 0
+            "z": 4299
         }
     },
     {
@@ -341,7 +341,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9814,
-            "z": 0
+            "z": 4299
         }
     },
     {
@@ -354,7 +354,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9811,
-            "z": 0
+            "z": 4283
         }
     },
     {
@@ -367,9 +367,9 @@
             "playerNum": 2,
             "mapDrawAction": 0,
             "x": 7280,
-            "z": 0,
-            "label": "\u000emake scouts",
-            "fromLua": true
+            "z": 3758,
+            "label": "make scouts",
+            "fromLua": false
         }
     },
     {
@@ -382,7 +382,7 @@
             "playerNum": 11,
             "mapDrawAction": 1,
             "x": 4815,
-            "z": 0
+            "z": 11106
         }
     },
     {
@@ -395,7 +395,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -408,7 +408,7 @@
             "playerNum": 1,
             "mapDrawAction": 1,
             "x": 7436,
-            "z": 0
+            "z": 3816
         }
     },
     {
@@ -421,7 +421,7 @@
             "playerNum": 13,
             "mapDrawAction": 1,
             "x": 2482,
-            "z": 0
+            "z": 7994
         }
     },
     {
@@ -434,9 +434,9 @@
             "playerNum": 10,
             "mapDrawAction": 0,
             "x": 4269,
-            "z": 0,
-            "label": "'",
-            "fromLua": true
+            "z": 10070,
+            "label": "",
+            "fromLua": false
         }
     },
     {
@@ -449,9 +449,9 @@
             "playerNum": 12,
             "mapDrawAction": 0,
             "x": 6531,
-            "z": 0,
-            "label": "\u0018",
-            "fromLua": true
+            "z": 6300,
+            "label": "",
+            "fromLua": false
         }
     },
     {
@@ -464,10 +464,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 5337,
-            "z": 0,
-            "x2": 8691,
-            "z2": 0,
-            "fromLua": true
+            "z": 8691,
+            "x2": 5208,
+            "z2": 8590,
+            "fromLua": false
         }
     },
     {
@@ -480,9 +480,9 @@
             "playerNum": 2,
             "mapDrawAction": 0,
             "x": 7842,
-            "z": 0,
-            "label": "\nOP snipers show us what you do now",
-            "fromLua": true
+            "z": 2787,
+            "label": "OP snipers show us what you do now",
+            "fromLua": false
         }
     },
     {
@@ -495,7 +495,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -508,7 +508,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -521,10 +521,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 3459,
-            "z": 0,
-            "x2": 11321,
-            "z2": 0,
-            "fromLua": true
+            "z": 11321,
+            "x2": 4010,
+            "z2": 11412,
+            "fromLua": false
         }
     },
     {
@@ -537,9 +537,9 @@
             "playerNum": 11,
             "mapDrawAction": 0,
             "x": 1024,
-            "z": 0,
-            "label": "'can I get a t2 con",
-            "fromLua": true
+            "z": 10069,
+            "label": "can I get a t2 con",
+            "fromLua": false
         }
     },
     {
@@ -552,7 +552,7 @@
             "playerNum": 0,
             "mapDrawAction": 1,
             "x": 10289,
-            "z": 0
+            "z": 531
         }
     },
     {
@@ -565,7 +565,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9828,
-            "z": 0
+            "z": 4280
         }
     },
     {
@@ -578,7 +578,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -591,7 +591,7 @@
             "playerNum": 5,
             "mapDrawAction": 1,
             "x": 7763,
-            "z": 0
+            "z": 4892
         }
     },
     {
@@ -604,7 +604,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -617,7 +617,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -630,10 +630,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 5809,
-            "z": 0,
-            "x2": 8644,
-            "z2": 0,
-            "fromLua": true
+            "z": 8644,
+            "x2": 6975,
+            "z2": 8534,
+            "fromLua": false
         }
     },
     {
@@ -646,9 +646,9 @@
             "playerNum": 12,
             "mapDrawAction": 0,
             "x": 6071,
-            "z": 0,
-            "label": "\u001a",
-            "fromLua": true
+            "z": 6807,
+            "label": "",
+            "fromLua": false
         }
     },
     {
@@ -661,7 +661,7 @@
             "playerNum": 9,
             "mapDrawAction": 1,
             "x": 2039,
-            "z": 0
+            "z": 11820
         }
     },
     {
@@ -674,7 +674,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -687,7 +687,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -700,7 +700,7 @@
             "playerNum": 6,
             "mapDrawAction": 1,
             "x": 11448,
-            "z": 0
+            "z": 5077
         }
     },
     {
@@ -713,7 +713,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -726,9 +726,9 @@
             "playerNum": 12,
             "mapDrawAction": 0,
             "x": 6298,
-            "z": 0,
-            "label": "\u0018",
-            "fromLua": true
+            "z": 6196,
+            "label": "",
+            "fromLua": false
         }
     },
     {
@@ -741,9 +741,9 @@
             "playerNum": 12,
             "mapDrawAction": 0,
             "x": 6966,
-            "z": 0,
-            "label": "\u0016don't let him take this",
-            "fromLua": true
+            "z": 5827,
+            "label": "don't let him take this",
+            "fromLua": false
         }
     },
     {
@@ -756,9 +756,9 @@
             "playerNum": 9,
             "mapDrawAction": 0,
             "x": 4263,
-            "z": 0,
-            "label": "(",
-            "fromLua": true
+            "z": 10292,
+            "label": "",
+            "fromLua": false
         }
     },
     {
@@ -771,10 +771,10 @@
             "playerNum": 15,
             "mapDrawAction": 2,
             "x": 4255,
-            "z": 0,
-            "x2": 9787,
-            "z2": 0,
-            "fromLua": true
+            "z": 9787,
+            "x2": 4325,
+            "z2": 9771,
+            "fromLua": false
         }
     },
     {
@@ -800,10 +800,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 6140,
-            "z": 0,
-            "x2": 8997,
-            "z2": 0,
-            "fromLua": true
+            "z": 8997,
+            "x2": 5797,
+            "z2": 8900,
+            "fromLua": false
         }
     },
     {
@@ -816,10 +816,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 5208,
-            "z": 0,
-            "x2": 8590,
-            "z2": 0,
-            "fromLua": true
+            "z": 8590,
+            "x2": 5381,
+            "z2": 8530,
+            "fromLua": false
         }
     },
     {
@@ -832,7 +832,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -845,7 +845,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -858,10 +858,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 5567,
-            "z": 0,
-            "x2": 8363,
-            "z2": 0,
-            "fromLua": true
+            "z": 8363,
+            "x2": 5360,
+            "z2": 8425,
+            "fromLua": false
         }
     },
     {
@@ -887,7 +887,7 @@
             "playerNum": 11,
             "mapDrawAction": 1,
             "x": 4875,
-            "z": 0
+            "z": 11119
         }
     },
     {
@@ -900,10 +900,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 3433,
-            "z": 0,
-            "x2": 11308,
-            "z2": 0,
-            "fromLua": true
+            "z": 11308,
+            "x2": 3459,
+            "z2": 11321,
+            "fromLua": false
         }
     },
     {
@@ -916,7 +916,7 @@
             "playerNum": 9,
             "mapDrawAction": 1,
             "x": 2044,
-            "z": 0
+            "z": 11839
         }
     },
     {
@@ -929,7 +929,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11510,
-            "z": 0
+            "z": 1839
         }
     },
     {
@@ -942,10 +942,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 7662,
-            "z": 0,
-            "x2": 8412,
-            "z2": 0,
-            "fromLua": true
+            "z": 8412,
+            "x2": 8073,
+            "z2": 8366,
+            "fromLua": false
         }
     },
     {
@@ -958,7 +958,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -971,7 +971,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -984,7 +984,7 @@
             "playerNum": 2,
             "mapDrawAction": 1,
             "x": 9809,
-            "z": 0
+            "z": 4329
         }
     },
     {
@@ -997,10 +997,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 5318,
-            "z": 0,
-            "x2": 11510,
-            "z2": 0,
-            "fromLua": true
+            "z": 11510,
+            "x2": 6871,
+            "z2": 11253,
+            "fromLua": false
         }
     },
     {
@@ -1013,7 +1013,7 @@
             "playerNum": 1,
             "mapDrawAction": 1,
             "x": 7494,
-            "z": 0
+            "z": 3722
         }
     },
     {
@@ -1026,7 +1026,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11527,
-            "z": 0
+            "z": 1744
         }
     },
     {
@@ -1039,7 +1039,7 @@
             "playerNum": 11,
             "mapDrawAction": 1,
             "x": 4857,
-            "z": 0
+            "z": 11163
         }
     },
     {
@@ -1052,7 +1052,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11533,
-            "z": 0
+            "z": 1807
         }
     },
     {
@@ -1065,7 +1065,7 @@
             "playerNum": 0,
             "mapDrawAction": 1,
             "x": 10157,
-            "z": 0
+            "z": 552
         }
     },
     {
@@ -1078,7 +1078,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11512,
-            "z": 0
+            "z": 1831
         }
     },
     {
@@ -1091,7 +1091,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11281,
-            "z": 0
+            "z": 1915
         }
     },
     {
@@ -1104,9 +1104,9 @@
             "playerNum": 0,
             "mapDrawAction": 0,
             "x": 11201,
-            "z": 0,
-            "label": "\u0007ill buy a con please",
-            "fromLua": true
+            "z": 1894,
+            "label": "ill buy a con please",
+            "fromLua": false
         }
     },
     {
@@ -1119,7 +1119,7 @@
             "playerNum": 8,
             "mapDrawAction": 1,
             "x": 837,
-            "z": 0
+            "z": 10555
         }
     },
     {
@@ -1132,7 +1132,7 @@
             "playerNum": 11,
             "mapDrawAction": 1,
             "x": 4874,
-            "z": 0
+            "z": 11110
         }
     },
     {
@@ -1145,7 +1145,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11501,
-            "z": 0
+            "z": 1826
         }
     },
     {
@@ -1158,7 +1158,7 @@
             "playerNum": 11,
             "mapDrawAction": 1,
             "x": 4862,
-            "z": 0
+            "z": 11167
         }
     },
     {
@@ -1171,9 +1171,9 @@
             "playerNum": 12,
             "mapDrawAction": 0,
             "x": 6559,
-            "z": 0,
-            "label": "\u0018",
-            "fromLua": true
+            "z": 6321,
+            "label": "",
+            "fromLua": false
         }
     },
     {
@@ -1186,7 +1186,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11557,
-            "z": 0
+            "z": 1759
         }
     },
     {
@@ -1212,7 +1212,7 @@
             "playerNum": 10,
             "mapDrawAction": 1,
             "x": 688,
-            "z": 0
+            "z": 7448
         }
     },
     {
@@ -1225,7 +1225,7 @@
             "playerNum": 10,
             "mapDrawAction": 1,
             "x": 670,
-            "z": 0
+            "z": 7377
         }
     },
     {
@@ -1238,7 +1238,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11518,
-            "z": 0
+            "z": 1742
         }
     },
     {
@@ -1251,7 +1251,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11533,
-            "z": 0
+            "z": 1851
         }
     },
     {
@@ -1264,7 +1264,7 @@
             "playerNum": 3,
             "mapDrawAction": 1,
             "x": 11539,
-            "z": 0
+            "z": 1850
         }
     },
     {
@@ -1277,9 +1277,9 @@
             "playerNum": 2,
             "mapDrawAction": 0,
             "x": 6404,
-            "z": 0,
-            "label": "\u0014radar",
-            "fromLua": true
+            "z": 5213,
+            "label": "radar",
+            "fromLua": false
         }
     },
     {
@@ -1292,9 +1292,9 @@
             "playerNum": 11,
             "mapDrawAction": 0,
             "x": 11533,
-            "z": 0,
-            "label": "\u0016air can you scout this guy pls",
-            "fromLua": true
+            "z": 5733,
+            "label": "air can you scout this guy pls",
+            "fromLua": false
         }
     },
     {
@@ -1307,10 +1307,10 @@
             "playerNum": 15,
             "mapDrawAction": 2,
             "x": 4443,
-            "z": 0,
-            "x2": 9994,
-            "z2": 0,
-            "fromLua": true
+            "z": 9994,
+            "x2": 4411,
+            "z2": 9962,
+            "fromLua": false
         }
     },
     {
@@ -1323,7 +1323,7 @@
             "playerNum": 11,
             "mapDrawAction": 1,
             "x": 4769,
-            "z": 0
+            "z": 11127
         }
     },
     {
@@ -1336,10 +1336,10 @@
             "playerNum": 11,
             "mapDrawAction": 2,
             "x": 6319,
-            "z": 0,
-            "x2": 8292,
-            "z2": 0,
-            "fromLua": true
+            "z": 8292,
+            "x2": 5891,
+            "z2": 8322,
+            "fromLua": false
         }
     },
     {
@@ -1352,10 +1352,10 @@
             "playerNum": 15,
             "mapDrawAction": 2,
             "x": 4544,
-            "z": 0,
-            "x2": 9994,
-            "z2": 0,
-            "fromLua": true
+            "z": 9994,
+            "x2": 4505,
+            "z2": 9994,
+            "fromLua": false
         }
     },
     {
@@ -1368,10 +1368,10 @@
             "playerNum": 15,
             "mapDrawAction": 2,
             "x": 4560,
-            "z": 0,
-            "x2": 9986,
-            "z2": 0,
-            "fromLua": true
+            "z": 9986,
+            "x2": 4544,
+            "z2": 9994,
+            "fromLua": false
         }
     }
 ]
