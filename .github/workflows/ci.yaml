@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x, 20.x, 22.x, 24.x]
+        node: [18, 20, 22, 24]
     steps:
       - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js ${{ matrix.node }}
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ matrix.node }}
           cache: npm
       - run: npm ci
       - run: npm run build
@@ -23,3 +23,37 @@ jobs:
       - run: npm test
         env:
           CI: true
+      - run: npm pack
+        if: matrix.node == 24
+      - uses: actions/upload-artifact@v6
+        if: matrix.node == 24
+        with:
+          name: package
+          path: '*.tgz'
+
+  test-package:
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [14, 16, 18, 20, 22, 24]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: source
+      - uses: actions/download-artifact@v7
+        with:
+          name: package
+      - uses: actions/setup-node@v6
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm install *.tgz
+      - name: Test
+        run: |
+          node - << END
+          const sdp = require('sdfz-demo-parser');
+          const p = new sdp.DemoParser();
+          p.parseDemo("source/test/test_replays/2025-08-08_10-25-43-160_Supreme Isthmus v2_2025.04.08.sdfz")
+            .then(() => console.log("ok"))
+            .catch(e => { console.error(e); process.exit(1); });
+          END
