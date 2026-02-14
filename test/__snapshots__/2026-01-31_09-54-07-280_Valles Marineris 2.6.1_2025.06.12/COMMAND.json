@@ -1,0 +1,3203 @@
+[
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 904.1497192382812,
+        "actualGameTime": 873.0333995819092,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "ATTACK",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4500.99072265625,
+                    385.90374755859375,
+                    1610.2598876953125,
+                    321.6544189453125
+                ],
+                "data": {
+                    "x": 4500.99072265625,
+                    "y": 385.90374755859375,
+                    "z": 1610.2598876953125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 34.74965286254883,
+        "actualGameTime": 3.633333206176758,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    824,
+                    376.5478515625,
+                    472,
+                    1
+                ],
+                "data": {
+                    "x": 824,
+                    "y": 376.5478515625,
+                    "z": 472,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 768.883056640625,
+        "actualGameTime": 737.7667369842529,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armclaw",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1376,
+                    363.1982421875,
+                    3984,
+                    0
+                ],
+                "data": {
+                    "x": 1376,
+                    "y": 363.1982421875,
+                    "z": 3984,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1349.8497314453125,
+        "actualGameTime": 1318.7334117889404,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1615.621826171875,
+                    347.50628662109375,
+                    3809.251953125,
+                    1723.61865234375,
+                    0,
+                    3451.1572265625
+                ],
+                "data": {
+                    "x": 1615.621826171875,
+                    "y": 347.50628662109375,
+                    "z": 3809.251953125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 632.3829956054688,
+        "actualGameTime": 601.2666759490967,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2926.16259765625,
+                    309.62677001953125,
+                    2086.31103515625,
+                    2882.908447265625,
+                    258.837890625,
+                    2601.498291015625
+                ],
+                "data": {
+                    "x": 2926.16259765625,
+                    "y": 309.62677001953125,
+                    "z": 2086.31103515625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 622.94970703125,
+        "actualGameTime": 591.8333873748779,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    26966
+                ],
+                "data": {
+                    "unitId": 26966
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 36.84965133666992,
+        "actualGameTime": 5.733331680297852,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armmex",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    560,
+                    377.96142578125,
+                    192,
+                    1
+                ],
+                "data": {
+                    "x": 560,
+                    "y": 377.96142578125,
+                    "z": 192,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1397.81640625,
+        "actualGameTime": 1366.700086593628,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3711.33154296875,
+                    338.4590759277344,
+                    2993.00732421875,
+                    3478.07470703125,
+                    332.6796875,
+                    3975.4833984375
+                ],
+                "data": {
+                    "x": 3711.33154296875,
+                    "y": 338.4590759277344,
+                    "z": 2993.00732421875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 567.4163818359375,
+        "actualGameTime": 536.3000621795654,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2086.8173828125,
+                    491.59857177734375,
+                    5984.34716796875,
+                    2092.24951171875,
+                    490.2421875,
+                    6135.4072265625
+                ],
+                "data": {
+                    "x": 2086.8173828125,
+                    "y": 491.59857177734375,
+                    "z": 5984.34716796875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 48.94965362548828,
+        "actualGameTime": 17.83333396911621,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    488,
+                    376.728515625,
+                    520,
+                    1
+                ],
+                "data": {
+                    "x": 488,
+                    "y": 376.728515625,
+                    "z": 520,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 470.81634521484375,
+        "actualGameTime": 439.7000255584717,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armbull",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1354.383056640625,
+        "actualGameTime": 1323.266736984253,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4845.21826171875,
+                    318.94140625,
+                    3864.06396484375,
+                    589.1195068359375
+                ],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1184.1163330078125,
+        "actualGameTime": 1153.0000133514404,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5735.642578125,
+                    353.9815368652344,
+                    4470.84375,
+                    6767.3173828125,
+                    379.9560546875,
+                    5015.28564453125
+                ],
+                "data": {
+                    "x": 5735.642578125,
+                    "y": 353.9815368652344,
+                    "z": 4470.84375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 48.94965362548828,
+        "actualGameTime": 17.83333396911621,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armwin",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    488,
+                    377.51220703125,
+                    616,
+                    1
+                ],
+                "data": {
+                    "x": 488,
+                    "y": 377.51220703125,
+                    "z": 616,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1163.383056640625,
+        "actualGameTime": 1132.266736984253,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    920,
+                    376.6064453125,
+                    856,
+                    1
+                ],
+                "data": {
+                    "x": 920,
+                    "y": 376.6064453125,
+                    "z": 856,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 63.749656677246094,
+        "actualGameTime": 32.63333702087402,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armllt",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3200,
+                    413.017578125,
+                    304,
+                    1
+                ],
+                "data": {
+                    "x": 3200,
+                    "y": 413.017578125,
+                    "z": 304,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 744.9163818359375,
+        "actualGameTime": 713.8000621795654,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2746.685791015625,
+                    426.916748046875,
+                    349.364013671875,
+                    2958.194091796875,
+                    0,
+                    -35.048095703125
+                ],
+                "data": {
+                    "x": 2746.685791015625,
+                    "y": 426.916748046875,
+                    "z": 349.364013671875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 751.883056640625,
+        "actualGameTime": 720.7667369842529,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    272
+                ],
+                "data": {
+                    "unitId": 272
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 74.21632385253906,
+        "actualGameTime": 43.10000419616699,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armllt",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3792,
+                    417.01904296875,
+                    1392,
+                    1
+                ],
+                "data": {
+                    "x": 3792,
+                    "y": 417.01904296875,
+                    "z": 1392,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 433.2163391113281,
+        "actualGameTime": 402.10001945495605,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "ATTACK",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2583.4443359375,
+                    272.8871154785156,
+                    3537.381591796875,
+                    450.5010986328125
+                ],
+                "data": {
+                    "x": 2583.4443359375,
+                    "y": 272.8871154785156,
+                    "z": 3537.381591796875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1353.8497314453125,
+        "actualGameTime": 1322.7334117889404,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "STOP",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1163.383056640625,
+        "actualGameTime": 1132.266736984253,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    872,
+                    376.171875,
+                    760,
+                    1
+                ],
+                "data": {
+                    "x": 872,
+                    "y": 376.171875,
+                    "z": 760,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 554.8163452148438,
+        "actualGameTime": 523.7000255584717,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "ATTACK",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1938.0819091796875,
+                    379.0296936035156,
+                    5294.80859375,
+                    718.6337280273438
+                ],
+                "data": {
+                    "x": 1938.0819091796875,
+                    "y": 379.0296936035156,
+                    "z": 5294.80859375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 98.38298797607422,
+        "actualGameTime": 67.26666831970215,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armcv",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1189.9163818359375,
+        "actualGameTime": 1158.8000621795654,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3429.649169921875,
+                    442.6246337890625,
+                    5045.3359375,
+                    65.18060302734375
+                ],
+                "data": {
+                    "x": 3429.649169921875,
+                    "y": 442.6246337890625,
+                    "z": 5045.3359375,
+                    "radius": 65.18060302734375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 101.68299102783203,
+        "actualGameTime": 70.56667137145996,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armflash",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 101.78298950195312,
+        "actualGameTime": 70.66666984558105,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armflash",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1166.0496826171875,
+        "actualGameTime": 1134.9333629608154,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    1016,
+                    377.60009765625,
+                    744,
+                    1
+                ],
+                "data": {
+                    "x": 1016,
+                    "y": 377.60009765625,
+                    "z": 744,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 772.6497192382812,
+        "actualGameTime": 741.5333995819092,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armclaw",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2304,
+                    489.7216796875,
+                    5840,
+                    0
+                ],
+                "data": {
+                    "x": 2304,
+                    "y": 489.7216796875,
+                    "z": 5840,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 104.01631927490234,
+        "actualGameTime": 72.89999961853027,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armstump",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 105.38298797607422,
+        "actualGameTime": 74.26666831970215,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armstump",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 644.1497192382812,
+        "actualGameTime": 613.0333995819092,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    15949
+                ],
+                "data": {
+                    "unitId": 15949
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1163.383056640625,
+        "actualGameTime": 1132.266736984253,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    920,
+                    377.63916015625,
+                    664,
+                    1
+                ],
+                "data": {
+                    "x": 920,
+                    "y": 377.63916015625,
+                    "z": 664,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1163.383056640625,
+        "actualGameTime": 1132.266736984253,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    920,
+                    376.81396484375,
+                    760,
+                    1
+                ],
+                "data": {
+                    "x": 920,
+                    "y": 376.81396484375,
+                    "z": 760,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1101.44970703125,
+        "actualGameTime": 1070.333387374878,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armshltx",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1040,
+                    375.99365234375,
+                    624,
+                    1
+                ],
+                "data": {
+                    "x": 1040,
+                    "y": 375.99365234375,
+                    "z": 624,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1176.31640625,
+        "actualGameTime": 1145.200086593628,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "ATTACK",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    5637.18798828125,
+                    425.00164794921875,
+                    5026.162109375,
+                    428.44451904296875
+                ],
+                "data": {
+                    "x": 5637.18798828125,
+                    "y": 425.00164794921875,
+                    "z": 5026.162109375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 108.28298950195312,
+        "actualGameTime": 77.16666984558105,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armpincer",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 108.48298645019531,
+        "actualGameTime": 77.36666679382324,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armpincer",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 925.383056640625,
+        "actualGameTime": 894.2667369842529,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1578.246337890625,
+                    381.09814453125,
+                    2792.724609375,
+                    3008.3603515625
+                ],
+                "data": {
+                    "x": 1578.246337890625,
+                    "y": 381.09814453125,
+                    "z": 2792.724609375,
+                    "radius": 3008.3603515625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1166.0496826171875,
+        "actualGameTime": 1134.9333629608154,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    968,
+                    376.94091796875,
+                    888,
+                    1
+                ],
+                "data": {
+                    "x": 968,
+                    "y": 376.94091796875,
+                    "z": 888,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1403.8497314453125,
+        "actualGameTime": 1372.7334117889404,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "ATTACK",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3983.567626953125,
+                    300.52874755859375,
+                    3297.856201171875,
+                    168.24740600585938
+                ],
+                "data": {
+                    "x": 3983.567626953125,
+                    "y": 300.52874755859375,
+                    "z": 3297.856201171875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 652.1163330078125,
+        "actualGameTime": 621.0000133514404,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    19401
+                ],
+                "data": {
+                    "unitId": 19401
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 113.149658203125,
+        "actualGameTime": 82.03333854675293,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "REPEAT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1
+                ],
+                "data": {
+                    "mode": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 604.516357421875,
+        "actualGameTime": 573.4000377655029,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "ATTACK",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4381.7919921875,
+                    315.08544921875,
+                    2177.36962890625,
+                    563.5582885742188
+                ],
+                "data": {
+                    "x": 4381.7919921875,
+                    "y": 315.08544921875,
+                    "z": 2177.36962890625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 118.04965209960938,
+        "actualGameTime": 86.9333324432373,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "PATROL",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2928.4814453125,
+                    261.806640625,
+                    2535
+                ],
+                "data": {
+                    "x": 2928.4814453125,
+                    "y": 261.806640625,
+                    "z": 2535
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 118.94965362548828,
+        "actualGameTime": 87.83333396911621,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "PATROL",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3026.783203125,
+                    256.7099609375,
+                    3360.89794921875
+                ],
+                "data": {
+                    "x": 3026.783203125,
+                    "y": 256.7099609375,
+                    "z": 3360.89794921875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1034.782958984375,
+        "actualGameTime": 1003.6666393280029,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armacv",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 862.883056640625,
+        "actualGameTime": 831.7667369842529,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armveil",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2024,
+                    484.11376953125,
+                    2408,
+                    0
+                ],
+                "data": {
+                    "x": 2024,
+                    "y": 484.11376953125,
+                    "z": 2408,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 687.4830322265625,
+        "actualGameTime": 656.3667125701904,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armsolar",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    664,
+                    377.451171875,
+                    40,
+                    0
+                ],
+                "data": {
+                    "x": 664,
+                    "y": 377.451171875,
+                    "z": 40,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 128.68299865722656,
+        "actualGameTime": 97.56667900085449,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    29045
+                ],
+                "data": {
+                    "unitId": 29045
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1380.116455078125,
+        "actualGameTime": 1349.000135421753,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2814.5673828125,
+                    297.8998718261719,
+                    2177.37841796875,
+                    2485.294921875,
+                    284.8037109375,
+                    2762.576171875
+                ],
+                "data": {
+                    "x": 2814.5673828125,
+                    "y": 297.8998718261719,
+                    "z": 2177.37841796875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 565.7163696289062,
+        "actualGameTime": 534.6000499725342,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1717.397216796875,
+                    380.220703125,
+                    5172.6484375
+                ],
+                "data": {
+                    "x": 1717.397216796875,
+                    "y": 380.220703125,
+                    "z": 5172.6484375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 134.3496551513672,
+        "actualGameTime": 103.23333549499512,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armllt",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1920,
+                    347.900390625,
+                    1088,
+                    1
+                ],
+                "data": {
+                    "x": 1920,
+                    "y": 347.900390625,
+                    "z": 1088,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 814.883056640625,
+        "actualGameTime": 783.7667369842529,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3554.89453125,
+                    318.2200012207031,
+                    2186.5419921875,
+                    3514.2392578125,
+                    335.7548828125,
+                    2501.1318359375
+                ],
+                "data": {
+                    "x": 3554.89453125,
+                    "y": 318.2200012207031,
+                    "z": 2186.5419921875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 999.6497192382812,
+        "actualGameTime": 968.5333995819092,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3068.00244140625,
+                    256.48760986328125,
+                    3361.065673828125,
+                    2777.666259765625,
+                    390.119140625,
+                    4732.17138671875
+                ],
+                "data": {
+                    "x": 3068.00244140625,
+                    "y": 256.48760986328125,
+                    "z": 3361.065673828125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1224.0496826171875,
+        "actualGameTime": 1192.9333629608154,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4243.0166015625,
+                    289.7432556152344,
+                    2589.79931640625,
+                    4396.98291015625,
+                    313.240234375,
+                    3409.978515625
+                ],
+                "data": {
+                    "x": 4243.0166015625,
+                    "y": 289.7432556152344,
+                    "z": 2589.79931640625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 430.31634521484375,
+        "actualGameTime": 399.2000255584717,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2556.6728515625,
+                    270.8779296875,
+                    3219.81201171875
+                ],
+                "data": {
+                    "x": 2556.6728515625,
+                    "y": 270.8779296875,
+                    "z": 3219.81201171875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 468.6830139160156,
+        "actualGameTime": 437.56669425964355,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armmart",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1107.749755859375,
+        "actualGameTime": 1076.633436203003,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armjanus",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1082.9830322265625,
+        "actualGameTime": 1051.8667125701904,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "ATTACK",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4609.92822265625,
+                    329.32232666015625,
+                    1909.19091796875,
+                    617.5911254882812
+                ],
+                "data": {
+                    "x": 4609.92822265625,
+                    "y": 329.32232666015625,
+                    "z": 1909.19091796875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 175.6163330078125,
+        "actualGameTime": 144.50001335144043,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armbeamer",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1056,
+                    374.13330078125,
+                    3232,
+                    1
+                ],
+                "data": {
+                    "x": 1056,
+                    "y": 374.13330078125,
+                    "z": 3232,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 181.1163330078125,
+        "actualGameTime": 150.00001335144043,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armbeamer",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1296,
+                    376.27197265625,
+                    4064,
+                    1
+                ],
+                "data": {
+                    "x": 1296,
+                    "y": 376.27197265625,
+                    "z": 4064,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1050.649658203125,
+        "actualGameTime": 1019.5333385467529,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armrad",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2272,
+                    490.400390625,
+                    5776,
+                    0
+                ],
+                "data": {
+                    "x": 2272,
+                    "y": 490.400390625,
+                    "z": 5776,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 188.6163330078125,
+        "actualGameTime": 157.50001335144043,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armbeamer",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2064,
+                    339.55810546875,
+                    4112,
+                    1
+                ],
+                "data": {
+                    "x": 2064,
+                    "y": 339.55810546875,
+                    "z": 4112,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 466.6163330078125,
+        "actualGameTime": 435.50001335144043,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armmanni",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 940.0830688476562,
+        "actualGameTime": 908.9667491912842,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armrad",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2304,
+                    490.71044921875,
+                    5904,
+                    0
+                ],
+                "data": {
+                    "x": 2304,
+                    "y": 490.71044921875,
+                    "z": 5904,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 687.4830322265625,
+        "actualGameTime": 656.3667125701904,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armsolar",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    904,
+                    377.587890625,
+                    40,
+                    0
+                ],
+                "data": {
+                    "x": 904,
+                    "y": 377.587890625,
+                    "z": 40,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1318.516357421875,
+        "actualGameTime": 1287.400037765503,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    28954
+                ],
+                "data": {
+                    "unitId": 28954
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1018.9830322265625,
+        "actualGameTime": 987.8667125701904,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3632.510498046875,
+                    315.1510925292969,
+                    3525.19287109375,
+                    3427.4609375,
+                    489.005859375,
+                    6259.7470703125
+                ],
+                "data": {
+                    "x": 3632.510498046875,
+                    "y": 315.1510925292969,
+                    "z": 3525.19287109375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 219.24966430664062,
+        "actualGameTime": 188.13334465026855,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    920,
+                    377.0849609375,
+                    520,
+                    1
+                ],
+                "data": {
+                    "x": 920,
+                    "y": 377.0849609375,
+                    "z": 520,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1300.6497802734375,
+        "actualGameTime": 1269.5334606170654,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4888.62646484375,
+                    331.4169921875,
+                    4080.9248046875,
+                    5081.333984375,
+                    369.04248046875,
+                    4260.65478515625
+                ],
+                "data": {
+                    "x": 4888.62646484375,
+                    "y": 331.4169921875,
+                    "z": 4080.9248046875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 228.84967041015625,
+        "actualGameTime": 197.73335075378418,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armavp",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1112,
+                    377.6025390625,
+                    360,
+                    0
+                ],
+                "data": {
+                    "x": 1112,
+                    "y": 377.6025390625,
+                    "z": 360,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 917.016357421875,
+        "actualGameTime": 885.9000377655029,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    656.7613525390625,
+                    376.5400390625,
+                    833.5343627929688
+                ],
+                "data": {
+                    "x": 656.7613525390625,
+                    "y": 376.5400390625,
+                    "z": 833.5343627929688
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 263.34967041015625,
+        "actualGameTime": 232.23335075378418,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armrad",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2304,
+                    490.44921875,
+                    5728,
+                    0
+                ],
+                "data": {
+                    "x": 2304,
+                    "y": 490.44921875,
+                    "z": 5728,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 268.38299560546875,
+        "actualGameTime": 237.26667594909668,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    20354
+                ],
+                "data": {
+                    "unitId": 20354
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1258.2830810546875,
+        "actualGameTime": 1227.1667613983154,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2849.60498046875,
+                    254.45947265625,
+                    2711.263671875
+                ],
+                "data": {
+                    "x": 2849.60498046875,
+                    "y": 254.45947265625,
+                    "z": 2711.263671875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 460.34967041015625,
+        "actualGameTime": 429.2333507537842,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armacv",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1191.649658203125,
+        "actualGameTime": 1160.533338546753,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    26286
+                ],
+                "data": {
+                    "unitId": 26286
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 516.6829833984375,
+        "actualGameTime": 485.56666374206543,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3639.53759765625,
+                    419.4827880859375,
+                    1303.6055908203125
+                ],
+                "data": {
+                    "x": 3639.53759765625,
+                    "y": 419.4827880859375,
+                    "z": 1303.6055908203125
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 746.1497192382812,
+        "actualGameTime": 715.0333995819092,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2643.4453125,
+                    498.5,
+                    601.9068603515625
+                ],
+                "data": {
+                    "x": 2643.4453125,
+                    "y": 498.5,
+                    "z": 601.9068603515625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 621.4163818359375,
+        "actualGameTime": 590.3000621795654,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1209.68603515625,
+                    375.5555419921875,
+                    593.2180786132812
+                ],
+                "data": {
+                    "x": 1209.68603515625,
+                    "y": 375.5555419921875,
+                    "z": 593.2180786132812
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 397.84967041015625,
+        "actualGameTime": 366.7333507537842,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "RECLAIM",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1002.2069091796875,
+                    376.105224609375,
+                    2261.556884765625,
+                    216.75054931640625
+                ],
+                "data": {
+                    "x": 1002.2069091796875,
+                    "y": 376.105224609375,
+                    "z": 2261.556884765625,
+                    "radius": 216.75054931640625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 561.9830322265625,
+        "actualGameTime": 530.8667125701904,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "ATTACK",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1673.85888671875,
+                    385.362548828125,
+                    4696.8525390625,
+                    286.94146728515625
+                ],
+                "data": {
+                    "x": 1673.85888671875,
+                    "y": 385.362548828125,
+                    "z": 4696.8525390625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 469.6830139160156,
+        "actualGameTime": 438.56669425964355,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armbull",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 570.3496704101562,
+        "actualGameTime": 539.2333507537842,
+        "sizeBytes": 29,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2300.5078125,
+                    490.2978515625,
+                    4808.81103515625
+                ],
+                "data": {
+                    "x": 2300.5078125,
+                    "y": 490.2978515625,
+                    "z": 4808.81103515625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1163.383056640625,
+        "actualGameTime": 1132.266736984253,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    872,
+                    376.86279296875,
+                    712,
+                    1
+                ],
+                "data": {
+                    "x": 872,
+                    "y": 376.86279296875,
+                    "z": 712,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 318.2496643066406,
+        "actualGameTime": 287.13334465026855,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "MOVE",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    413.96533203125,
+                    374.8453369140625,
+                    1920.945068359375,
+                    412.25543212890625,
+                    0,
+                    1503.466552734375
+                ],
+                "data": {
+                    "x": 413.96533203125,
+                    "y": 374.8453369140625,
+                    "z": 1920.945068359375
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 465.1496887207031,
+        "actualGameTime": 434.03336906433105,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armmart",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 329.6496887207031,
+        "actualGameTime": 298.53336906433105,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armbeamer",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    1136,
+                    375.634765625,
+                    1872,
+                    0
+                ],
+                "data": {
+                    "x": 1136,
+                    "y": 375.634765625,
+                    "z": 1872,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 462.4496765136719,
+        "actualGameTime": 431.3333568572998,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armjam",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [],
+                "data": {}
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 341.6496887207031,
+        "actualGameTime": 310.53336906433105,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armbeamer",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    992,
+                    376.4453125,
+                    3280,
+                    0
+                ],
+                "data": {
+                    "x": 992,
+                    "y": 376.4453125,
+                    "z": 3280,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 522.0496826171875,
+        "actualGameTime": 490.93336296081543,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    2704.173828125,
+                    307.8749694824219,
+                    2002.8212890625,
+                    2592.13037109375,
+                    277.85546875,
+                    2383.6884765625
+                ],
+                "data": {
+                    "x": 2704.173828125,
+                    "y": 307.8749694824219,
+                    "z": 2002.8212890625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 524.3829956054688,
+        "actualGameTime": 493.2666759490967,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "ATTACK",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3112.9140625,
+                    277.3717956542969,
+                    2409.38916015625,
+                    418.2425231933594
+                ],
+                "data": {
+                    "x": 3112.9140625,
+                    "y": 277.3717956542969,
+                    "z": 2409.38916015625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1010.0830688476562,
+        "actualGameTime": 978.9667491912842,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    3063.607177734375,
+                    283.8658447265625,
+                    3841.33447265625,
+                    2902.447021484375,
+                    380.72265625,
+                    4509.0537109375
+                ],
+                "data": {
+                    "x": 3063.607177734375,
+                    "y": 283.8658447265625,
+                    "z": 3841.33447265625
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1163.383056640625,
+        "actualGameTime": 1132.266736984253,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    872,
+                    376.181640625,
+                    904,
+                    1
+                ],
+                "data": {
+                    "x": 872,
+                    "y": 376.181640625,
+                    "z": 904,
+                    "direction": 1
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 364.016357421875,
+        "actualGameTime": 332.90003776550293,
+        "sizeBytes": 21,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "GUARD",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": true,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    15883
+                ],
+                "data": {
+                    "unitId": 15883
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 687.4830322265625,
+        "actualGameTime": 656.3667125701904,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armsolar",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    824,
+                    378.6328125,
+                    40,
+                    0
+                ],
+                "data": {
+                    "x": 824,
+                    "y": 378.6328125,
+                    "z": 40,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 1063.31640625,
+        "actualGameTime": 1032.200086593628,
+        "sizeBytes": 41,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "FIGHT",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": false,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": false
+                },
+                "params": [
+                    4400.58349609375,
+                    365.0176696777344,
+                    3938.060546875,
+                    4238.0166015625,
+                    484.9833984375,
+                    6094.7548828125
+                ],
+                "data": {
+                    "x": 4400.58349609375,
+                    "y": 365.0176696777344,
+                    "z": 3938.060546875
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 371.1496887207031,
+        "actualGameTime": 340.03336906433105,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    872,
+                    377.4267578125,
+                    568,
+                    0
+                ],
+                "data": {
+                    "x": 872,
+                    "y": 377.4267578125,
+                    "z": 568,
+                    "direction": 0
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "COMMAND",
+        "fullGameTime": 371.1496887207031,
+        "actualGameTime": 340.03336906433105,
+        "sizeBytes": 33,
+        "data": {
+            "playerNum": 0,
+            "timeout": 2147483647,
+            "command": {
+                "cmdName": "BUILD",
+                "unitDefId": "armnanotc",
+                "options": {
+                    "META_KEY": false,
+                    "INTERNAL_ORDER": false,
+                    "RIGHT_MOUSE_KEY": false,
+                    "SHIFT_KEY": true,
+                    "CONTROL_KEY": false,
+                    "ALT_KEY": true
+                },
+                "params": [
+                    872,
+                    377.2314453125,
+                    520,
+                    0
+                ],
+                "data": {
+                    "x": 872,
+                    "y": 377.2314453125,
+                    "z": 520,
+                    "direction": 0
+                }
+            }
+        }
+    }
+]

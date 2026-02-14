@@ -1,0 +1,28 @@
+[
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 25.02750587463379,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 0,
+            "z": 0
+        }
+    },
+    {
+        "id": 32,
+        "name": "MAPDRAW",
+        "fullGameTime": 25.55760383605957,
+        "actualGameTime": 0,
+        "sizeBytes": 12,
+        "data": {
+            "playerNum": 0,
+            "mapDrawAction": 1,
+            "x": 784,
+            "z": 505
+        }
+    }
+]
