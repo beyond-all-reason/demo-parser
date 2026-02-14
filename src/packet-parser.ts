@@ -362,8 +362,8 @@ export class PacketParser {
                 return { playerNum, action, param };
             },
             [DemoModel.Packet.ID.GAMEDATA]: (bufferStream) => {
-                const size = bufferStream.readInt(2);
-                const compressedSize = bufferStream.readInt(2);
+                const size = bufferStream.readInt(2, true);
+                const compressedSize = bufferStream.readInt(2, true);
                 const setupText = zlib.unzipSync(bufferStream.read(compressedSize));
                 const script = setupText.toString().replace(/\\n/g, "\n");
                 const mapChecksum = bufferStream.read(64).toString("hex");
