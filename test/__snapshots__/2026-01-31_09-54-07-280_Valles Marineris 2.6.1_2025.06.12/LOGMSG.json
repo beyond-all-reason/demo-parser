@@ -1,0 +1,38 @@
+[
+    {
+        "id": 49,
+        "name": "LOGMSG",
+        "fullGameTime": 1.586825966835022,
+        "actualGameTime": 0,
+        "sizeBytes": 322,
+        "data": {
+            "playerNum": 0,
+            "logMsgLvl": 30,
+            "data": "[PreGame::GameDataReceived][map-checksums]\n\tserver=9a5e64e5e40393912c8dac60658c033fd13bfed74d95884d6542f19c43151b46c19027efd7cdd1a7eafe5853b744a8bf39d96add840006166f3171aa08d3038b\n\tclient=9a5e64e5e40393912c8dac60658c033fd13bfed74d95884d6542f19c43151b46c19027efd7cdd1a7eafe5853b744a8bf39d96add840006166f3171aa08d3038b"
+        }
+    },
+    {
+        "id": 49,
+        "name": "LOGMSG",
+        "fullGameTime": 1.586825966835022,
+        "actualGameTime": 0,
+        "sizeBytes": 322,
+        "data": {
+            "playerNum": 0,
+            "logMsgLvl": 30,
+            "data": "[PreGame::GameDataReceived][mod-checksums]\n\tserver=5dc4ff51e6df89e3f5b866e305eb7bf1dda86d5de216fe5d02c11188e86521d5ce8fc1f33148acc1b9966c012e1bb3403001b78b5c98949994b6533fb9b91475\n\tclient=5dc4ff51e6df89e3f5b866e305eb7bf1dda86d5de216fe5d02c11188e86521d5ce8fc1f33148acc1b9966c012e1bb3403001b78b5c98949994b6533fb9b91475"
+        }
+    },
+    {
+        "id": 49,
+        "name": "LOGMSG",
+        "fullGameTime": 14.805280685424805,
+        "actualGameTime": 0,
+        "sizeBytes": 83,
+        "data": {
+            "playerNum": 0,
+            "logMsgLvl": 30,
+            "data": "[Game::Load][lua{Rules,Gaia}={000001c703fd9820,000001c703fdd090}][locale=\"C\"]"
+        }
+    }
+]
