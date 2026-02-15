@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 37.74827575683594,
+        "actualGameTime": 0.03333282470703125,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 0
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 38.28160858154297,
+        "actualGameTime": 0.5666656494140625,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 16
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 38.81494140625,
+        "actualGameTime": 1.0999984741210938,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 32
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 39.34827423095703,
+        "actualGameTime": 1.633331298828125,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 48
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 39.88161087036133,
+        "actualGameTime": 2.166667938232422,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 64
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 40.41494369506836,
+        "actualGameTime": 2.700000762939453,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 80
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 40.94827651977539,
+        "actualGameTime": 3.2333335876464844,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 96
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 41.48160934448242,
+        "actualGameTime": 3.7666664123535156,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 112
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 42.01494216918945,
+        "actualGameTime": 4.299999237060547,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 128
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 42.548274993896484,
+        "actualGameTime": 4.833332061767578,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 144
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 43.081607818603516,
+        "actualGameTime": 5.366664886474609,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 160
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 43.61494445800781,
+        "actualGameTime": 5.900001525878906,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 176
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 44.148277282714844,
+        "actualGameTime": 6.4333343505859375,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 192
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 44.681610107421875,
+        "actualGameTime": 6.966667175292969,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 208
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 45.214942932128906,
+        "actualGameTime": 7.5,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 224
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 45.74827575683594,
+        "actualGameTime": 8.033332824707031,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 240
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 46.28160858154297,
+        "actualGameTime": 8.566665649414062,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 256
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 46.81494140625,
+        "actualGameTime": 9.099998474121094,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 272
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 47.34827423095703,
+        "actualGameTime": 9.633331298828125,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 288
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 47.88161087036133,
+        "actualGameTime": 10.166667938232422,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 304
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 48.41494369506836,
+        "actualGameTime": 10.700000762939453,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 320
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 48.94827651977539,
+        "actualGameTime": 11.233333587646484,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 336
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 49.48160934448242,
+        "actualGameTime": 11.766666412353516,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 352
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 50.01494216918945,
+        "actualGameTime": 12.299999237060547,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 368
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 50.54827880859375,
+        "actualGameTime": 12.833335876464844,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 384
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 51.08161163330078,
+        "actualGameTime": 13.366668701171875,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 400
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 51.61494445800781,
+        "actualGameTime": 13.900001525878906,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 416
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 52.148277282714844,
+        "actualGameTime": 14.433334350585938,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 432
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 52.681610107421875,
+        "actualGameTime": 14.966667175292969,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 448
+        }
+    },
+    {
+        "id": 1,
+        "name": "KEYFRAME",
+        "fullGameTime": 53.214942932128906,
+        "actualGameTime": 15.5,
+        "sizeBytes": 5,
+        "data": {
+            "frameNum": 464
+        }
+    }
+]

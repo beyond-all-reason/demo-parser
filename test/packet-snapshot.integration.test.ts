@@ -23,7 +23,7 @@ function expectMatchesJsonSnapshot(actual: unknown, snapshotPath: string) {
 }
 
 it.each(replayFiles)("%s default", async (name, demoPath) => {
-    const parser = new DemoParser();
+    const parser = new DemoParser({ excludePackets: [] });
     const demo = await parser.parseDemo(demoPath);
     expectMatchesJsonSnapshot(demo, path.join(snapshotsDir, `${name}.default.json`));
 });
@@ -40,7 +40,7 @@ describe.each(replayFiles)("%s packets", (name, demoPath) => {
     const packetsByType: Record<string, ReservoirSampler<DemoModel.Packet.AbstractPacket>> = {};
 
     beforeAll(async () => {
-        const parser = new DemoParser();
+        const parser = new DemoParser({ excludePackets: [] });
         parser.onPacket.add((packet) => {
             if (!packetsByType[packet.name]) {
                 packetsByType[packet.name] = new ReservoirSampler(100, 12345);

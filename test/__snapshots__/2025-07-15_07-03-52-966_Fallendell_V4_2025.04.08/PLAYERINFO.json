@@ -1,0 +1,206 @@
+[
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 19.20102882385254,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 19.816003799438477,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 21.795923233032227,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 23.775842666625977,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 25.763763427734375,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 27.743682861328125,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 29.723602294921875,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 31.703521728515625,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 33.683441162109375,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 35.663360595703125,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 37.643280029296875,
+        "actualGameTime": 0,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0,
+            "ping": 0
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 39.61494445800781,
+        "actualGameTime": 1.9000015258789062,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0.05367793142795563,
+            "ping": 300
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 41.61494445800781,
+        "actualGameTime": 3.9000015258789062,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0.049701787531375885,
+            "ping": 300
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 43.648277282714844,
+        "actualGameTime": 5.9333343505859375,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0.03876739740371704,
+            "ping": 333
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 45.648277282714844,
+        "actualGameTime": 7.9333343505859375,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0.03677932545542717,
+            "ping": 333
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 47.648277282714844,
+        "actualGameTime": 9.933334350585938,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0.031031031161546707,
+            "ping": 333
+        }
+    },
+    {
+        "id": 38,
+        "name": "PLAYERINFO",
+        "fullGameTime": 49.648277282714844,
+        "actualGameTime": 11.933334350585938,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "cpuUsage": 0.0417495034635067,
+            "ping": 300
+        }
+    }
+]

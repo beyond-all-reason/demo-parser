@@ -1,0 +1,1202 @@
+[
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 461.28302001953125,
+        "actualGameTime": 430.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 12900,
+            "checksum": "84c10cea"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1139.2830810546875,
+        "actualGameTime": 1108.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 33240,
+            "checksum": "5f2e7843"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1395.2830810546875,
+        "actualGameTime": 1364.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 40920,
+            "checksum": "8e57f339"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 667.2830200195312,
+        "actualGameTime": 636.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 19080,
+            "checksum": "259dd2e1"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 369.28302001953125,
+        "actualGameTime": 338.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 10140,
+            "checksum": "b1c664ff"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 367.28302001953125,
+        "actualGameTime": 336.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 10080,
+            "checksum": "ee1281e5"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 43.28298568725586,
+        "actualGameTime": 12.166666030883789,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 360,
+            "checksum": "3c281030"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 683.2830200195312,
+        "actualGameTime": 652.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 19560,
+            "checksum": "73d80cb0"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 773.3163452148438,
+        "actualGameTime": 742.2000255584717,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 22260,
+            "checksum": "dfc3a7dd"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1163.31640625,
+        "actualGameTime": 1132.200086593628,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 33960,
+            "checksum": "08f0c568"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 309.31634521484375,
+        "actualGameTime": 278.2000255584717,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 8340,
+            "checksum": "b59614a6"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 919.2830200195312,
+        "actualGameTime": 888.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 26640,
+            "checksum": "c005971d"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 607.2830200195312,
+        "actualGameTime": 576.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 17280,
+            "checksum": "c3cea15e"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 57.282989501953125,
+        "actualGameTime": 26.166669845581055,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 780,
+            "checksum": "e2bbacf7"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1355.31640625,
+        "actualGameTime": 1324.200086593628,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 39720,
+            "checksum": "ba0f6ea6"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 61.282989501953125,
+        "actualGameTime": 30.166669845581055,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 900,
+            "checksum": "20f4ce94"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 407.28302001953125,
+        "actualGameTime": 376.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 11280,
+            "checksum": "94c4ab8b"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 413.28302001953125,
+        "actualGameTime": 382.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 11460,
+            "checksum": "8acdfb80"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1075.2830810546875,
+        "actualGameTime": 1044.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 31320,
+            "checksum": "ad5121a8"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 251.2830047607422,
+        "actualGameTime": 220.16668510437012,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 6600,
+            "checksum": "523c044b"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1159.31640625,
+        "actualGameTime": 1128.200086593628,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 33840,
+            "checksum": "0069bcec"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1339.2830810546875,
+        "actualGameTime": 1308.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 39240,
+            "checksum": "66c3ea12"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 339.28302001953125,
+        "actualGameTime": 308.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 9240,
+            "checksum": "ea517805"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 987.2830200195312,
+        "actualGameTime": 956.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 28680,
+            "checksum": "b8b6a84e"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 611.2830200195312,
+        "actualGameTime": 580.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 17400,
+            "checksum": "bd5b115d"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 755.3163452148438,
+        "actualGameTime": 724.2000255584717,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 21720,
+            "checksum": "a5b0e84a"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1183.2830810546875,
+        "actualGameTime": 1152.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 34560,
+            "checksum": "f389b9ad"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1429.2830810546875,
+        "actualGameTime": 1398.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 41940,
+            "checksum": "2a8d5b55"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1041.31640625,
+        "actualGameTime": 1010.2000865936279,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 30300,
+            "checksum": "296e88f1"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1149.31640625,
+        "actualGameTime": 1118.200086593628,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 33540,
+            "checksum": "0c6374e4"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 91.28298950195312,
+        "actualGameTime": 60.166669845581055,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 1800,
+            "checksum": "d5b7e802"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 943.2830200195312,
+        "actualGameTime": 912.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 27360,
+            "checksum": "2084cec0"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 561.2830200195312,
+        "actualGameTime": 530.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 15900,
+            "checksum": "1b2baaa4"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1061.2830810546875,
+        "actualGameTime": 1030.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 30900,
+            "checksum": "06358995"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 845.2830200195312,
+        "actualGameTime": 814.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 24420,
+            "checksum": "408c685e"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 601.2830200195312,
+        "actualGameTime": 570.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 17100,
+            "checksum": "00e21874"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 925.2496948242188,
+        "actualGameTime": 894.1333751678467,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 26820,
+            "checksum": "902d3376"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 853.2830200195312,
+        "actualGameTime": 822.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 24660,
+            "checksum": "775e35a3"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 865.2830200195312,
+        "actualGameTime": 834.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 25020,
+            "checksum": "759c61a7"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 813.2830200195312,
+        "actualGameTime": 782.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 23460,
+            "checksum": "d909ada9"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1311.2830810546875,
+        "actualGameTime": 1280.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 38400,
+            "checksum": "11dabaab"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 999.2830200195312,
+        "actualGameTime": 968.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 29040,
+            "checksum": "cc1a56f5"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 115.28298950195312,
+        "actualGameTime": 84.16666984558105,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 2520,
+            "checksum": "4b5cb63c"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 965.2830200195312,
+        "actualGameTime": 934.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 28020,
+            "checksum": "83f1d101"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1099.2830810546875,
+        "actualGameTime": 1068.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 32040,
+            "checksum": "bb883df3"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 121.28298950195312,
+        "actualGameTime": 90.16666984558105,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 2700,
+            "checksum": "d0d0b4ca"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 803.3163452148438,
+        "actualGameTime": 772.2000255584717,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 23160,
+            "checksum": "9b773a55"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 447.28302001953125,
+        "actualGameTime": 416.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 12480,
+            "checksum": "1cb9f84b"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 393.28302001953125,
+        "actualGameTime": 362.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 10860,
+            "checksum": "09abea58"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 765.3163452148438,
+        "actualGameTime": 734.2000255584717,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 22020,
+            "checksum": "de3b4fe4"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 681.2830200195312,
+        "actualGameTime": 650.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 19500,
+            "checksum": "efc78648"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 345.28302001953125,
+        "actualGameTime": 314.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 9420,
+            "checksum": "d7d66183"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 135.28298950195312,
+        "actualGameTime": 104.16666984558105,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 3120,
+            "checksum": "2181e2c9"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1165.31640625,
+        "actualGameTime": 1134.200086593628,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 34020,
+            "checksum": "af8687e2"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 485.28302001953125,
+        "actualGameTime": 454.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 13620,
+            "checksum": "16cae7eb"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1279.31640625,
+        "actualGameTime": 1248.200086593628,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 37440,
+            "checksum": "aa79b9e5"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 249.2830047607422,
+        "actualGameTime": 218.16668510437012,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 6540,
+            "checksum": "cc7466a6"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 887.2830200195312,
+        "actualGameTime": 856.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 25680,
+            "checksum": "6d594d2e"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1197.31640625,
+        "actualGameTime": 1166.200086593628,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 34980,
+            "checksum": "9e4093d8"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 895.2830200195312,
+        "actualGameTime": 864.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 25920,
+            "checksum": "d3650359"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 151.3163299560547,
+        "actualGameTime": 120.20001029968262,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 3600,
+            "checksum": "d64ed5d6"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 743.2830200195312,
+        "actualGameTime": 712.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 21360,
+            "checksum": "0a9e0b14"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1405.2830810546875,
+        "actualGameTime": 1374.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 41220,
+            "checksum": "5654388c"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 713.2496948242188,
+        "actualGameTime": 682.1333751678467,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 20460,
+            "checksum": "bd5a283e"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 291.28302001953125,
+        "actualGameTime": 260.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 7800,
+            "checksum": "c21c618d"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1391.2830810546875,
+        "actualGameTime": 1360.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 40800,
+            "checksum": "1de674ac"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 399.28302001953125,
+        "actualGameTime": 368.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 11040,
+            "checksum": "4d6df635"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 655.2830200195312,
+        "actualGameTime": 624.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 18720,
+            "checksum": "835a7ccc"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1401.2830810546875,
+        "actualGameTime": 1370.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 41100,
+            "checksum": "31db933b"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 169.3163299560547,
+        "actualGameTime": 138.20001029968262,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 4140,
+            "checksum": "7bf58b4d"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 653.2830200195312,
+        "actualGameTime": 622.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 18660,
+            "checksum": "2459a279"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1083.31640625,
+        "actualGameTime": 1052.200086593628,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 31560,
+            "checksum": "06a2a98d"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1145.2830810546875,
+        "actualGameTime": 1114.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 33420,
+            "checksum": "97099237"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 177.2830047607422,
+        "actualGameTime": 146.16668510437012,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 4380,
+            "checksum": "e7b80404"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 179.2830047607422,
+        "actualGameTime": 148.16668510437012,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 4440,
+            "checksum": "cfff79f3"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 641.2830200195312,
+        "actualGameTime": 610.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 18300,
+            "checksum": "50cdd3a1"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 259.2829895019531,
+        "actualGameTime": 228.16666984558105,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 6840,
+            "checksum": "6e596d23"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1175.2830810546875,
+        "actualGameTime": 1144.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 34320,
+            "checksum": "fcda9875"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 317.2496643066406,
+        "actualGameTime": 286.13334465026855,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 8580,
+            "checksum": "375f5018"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 409.28302001953125,
+        "actualGameTime": 378.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 11340,
+            "checksum": "2342050a"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1423.2830810546875,
+        "actualGameTime": 1392.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 41760,
+            "checksum": "f036da2c"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 873.2830200195312,
+        "actualGameTime": 842.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 25260,
+            "checksum": "957a9502"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 341.28302001953125,
+        "actualGameTime": 310.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 9300,
+            "checksum": "aa8cd3df"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 741.2830200195312,
+        "actualGameTime": 710.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 21300,
+            "checksum": "3de4d6b6"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 951.2830200195312,
+        "actualGameTime": 920.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 27600,
+            "checksum": "1674dfff"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 851.2830200195312,
+        "actualGameTime": 820.1667003631592,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 24600,
+            "checksum": "08555341"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 203.2830047607422,
+        "actualGameTime": 172.16668510437012,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 5160,
+            "checksum": "85778d22"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 279.2829895019531,
+        "actualGameTime": 248.16666984558105,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 7440,
+            "checksum": "36148eb4"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 207.3163299560547,
+        "actualGameTime": 176.20001029968262,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 5280,
+            "checksum": "c85064ac"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 265.3163146972656,
+        "actualGameTime": 234.19999504089355,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 7020,
+            "checksum": "a129c543"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1421.2830810546875,
+        "actualGameTime": 1390.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 41700,
+            "checksum": "06fa9ec1"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1203.2830810546875,
+        "actualGameTime": 1172.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 35160,
+            "checksum": "7fab4fe3"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1373.31640625,
+        "actualGameTime": 1342.200086593628,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 40260,
+            "checksum": "2d51e0ce"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1023.31640625,
+        "actualGameTime": 992.2000865936279,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 29760,
+            "checksum": "76512fd7"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1323.2830810546875,
+        "actualGameTime": 1292.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 38760,
+            "checksum": "20c829cf"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1291.2830810546875,
+        "actualGameTime": 1260.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 37800,
+            "checksum": "d637e93a"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1093.2830810546875,
+        "actualGameTime": 1062.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 31860,
+            "checksum": "acc4e1f6"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 1285.2830810546875,
+        "actualGameTime": 1254.1667613983154,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 37620,
+            "checksum": "b31c37d8"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 227.3163299560547,
+        "actualGameTime": 196.20001029968262,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 5880,
+            "checksum": "54855949"
+        }
+    },
+    {
+        "id": 33,
+        "name": "SYNCRESPONSE",
+        "fullGameTime": 229.2830047607422,
+        "actualGameTime": 198.16668510437012,
+        "sizeBytes": 10,
+        "data": {
+            "playerNum": 0,
+            "frameNum": 5940,
+            "checksum": "60ad9a48"
+        }
+    }
+]
