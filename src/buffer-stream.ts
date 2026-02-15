@@ -100,6 +100,9 @@ export class BufferStream {
             this.offset = this.buffer.length;
             return result;
         }
+        if (size < 0 || this.offset + size > this.buffer.length) {
+            throw new RangeError(`The value of "size" is out of range. It must be >= 0 and <= ${this.buffer.length - this.offset}. Received ${size}`);
+        }
         const result = this.buffer.subarray(this.offset, this.offset + size);
         this.offset += size;
         return result;
