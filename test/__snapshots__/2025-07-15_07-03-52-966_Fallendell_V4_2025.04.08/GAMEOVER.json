@@ -1,0 +1,15 @@
+[
+    {
+        "id": 30,
+        "name": "GAMEOVER",
+        "fullGameTime": 48.714942932128906,
+        "actualGameTime": 11,
+        "sizeBytes": 4,
+        "data": {
+            "playerNum": 0,
+            "winningAllyTeams": [
+                0
+            ]
+        }
+    }
+]

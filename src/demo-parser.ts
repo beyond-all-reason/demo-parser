@@ -235,7 +235,8 @@ export class DemoParser {
         const bufferStream = new BufferStream(buffer);
 
         let winningAllyTeamIds: number[] = [];
-        if (bufferStream.remaining) {
+        // Not set them numTeams == 0: https://github.com/beyond-all-reason/RecoilEngine/blob/2ca37cc8224ab22bc8953572865b16298309cac5/rts/System/LoadSave/DemoRecorder.cpp#L276
+        if (this.header.numTeams !== 0) {
             winningAllyTeamIds = this.header.winningAllyTeamsSize === 0 ? [] : bufferStream.readInts(this.header.winningAllyTeamsSize, 1, true);
         }
 

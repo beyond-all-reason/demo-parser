@@ -1,0 +1,13 @@
+[
+    {
+        "id": 6,
+        "name": "PLAYERNAME",
+        "fullGameTime": 19.20102882385254,
+        "actualGameTime": 0,
+        "sizeBytes": 17,
+        "data": {
+            "playerNum": 0,
+            "playerName": "Tuxedoman1234"
+        }
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "id": 10,
+        "name": "PATH_CHECKSUM",
+        "fullGameTime": 19.20102882385254,
+        "actualGameTime": 0,
+        "sizeBytes": 6,
+        "data": {
+            "playerNum": 0,
+            "checksum": "009a0b80"
+        }
+    }
+]

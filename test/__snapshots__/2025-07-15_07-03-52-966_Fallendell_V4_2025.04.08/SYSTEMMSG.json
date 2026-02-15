@@ -1,0 +1,57 @@
+[
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.1269992589950562,
+        "actualGameTime": 0,
+        "sizeBytes": 42,
+        "data": {
+            "playerNum": 255,
+            "message": "Connection attempt from Tuxedoman1234"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.1269992589950562,
+        "actualGameTime": 0,
+        "sizeBytes": 54,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Version: 2025.04.08 [Windows 64-bit (native)]"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 1.1269992589950562,
+        "actualGameTime": 0,
+        "sizeBytes": 44,
+        "data": {
+            "playerNum": 255,
+            "message": " -> Connection established (given id 0)"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 51.24827575683594,
+        "actualGameTime": 13.533332824707031,
+        "sizeBytes": 53,
+        "data": {
+            "playerNum": 255,
+            "message": "Player Tuxedoman1234 left the game:  normal quit"
+        }
+    },
+    {
+        "id": 35,
+        "name": "SYSTEMMSG",
+        "fullGameTime": 53.681610107421875,
+        "actualGameTime": 15.966667175292969,
+        "sizeBytes": 47,
+        "data": {
+            "playerNum": 255,
+            "message": "No clients connected, shutting down server"
+        }
+    }
+]

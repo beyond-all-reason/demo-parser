@@ -1,0 +1,17 @@
+[
+    {
+        "id": 29,
+        "name": "PLAYERSTAT",
+        "fullGameTime": 48.714942932128906,
+        "actualGameTime": 11,
+        "sizeBytes": 22,
+        "data": {
+            "playerNum": 0,
+            "numCommands": 0,
+            "unitCommands": 0,
+            "mousePixels": 5415,
+            "mouseClicks": 7,
+            "keyPresses": 26
+        }
+    }
+]
