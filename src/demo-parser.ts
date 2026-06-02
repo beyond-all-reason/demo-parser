@@ -86,7 +86,7 @@ export class DemoParser {
         const fileName = path.parse(demoFilePath).name;
 
         if (this.config.verbose) {
-            console.log(`Processing demo: ${fileName}...`);
+            console.error(`Processing demo: ${fileName}...`);
         }
 
         const sdfz = await fs.readFile(demoFilePath);
@@ -130,7 +130,7 @@ export class DemoParser {
         const endTime = process.hrtime(startTime);
         const endTimeMs = (endTime[0]* 1000000000 + endTime[1]) / 1000000;
         if (this.config.verbose) {
-            console.log(`Demo ${fileName} processed in ${endTimeMs.toFixed(2)}ms`);
+            console.error(`Demo ${fileName} processed in ${endTimeMs.toFixed(2)}ms`);
         }
 
         if (this.chatlog) {

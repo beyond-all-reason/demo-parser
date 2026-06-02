@@ -21,7 +21,7 @@ export class CommandParser {
         const data = this.parseParams(typeId, params) as DemoModel.Command.Type.Data[typeof typeId];
 
         if (Array.isArray(data) && this.config.verbose) {
-            console.log(`No param handler found for command id: ${cmdId} (${cmdName})`);
+            console.error(`No param handler found for command id: ${cmdId} (${cmdName})`);
         }
 
         return { cmdName, unitId, unitDefId, options, params, data };

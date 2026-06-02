@@ -49,7 +49,7 @@ export class PacketParser {
         const packetData = packetHandler(bufferStream);
 
         if (packetData === undefined && this.config.verbose && packetId !== DemoModel.Packet.ID.NEWFRAME && packetId !== DemoModel.Packet.ID.LUAMSG ) {
-            console.log(`Packet handler not implemented for packet id: ${packetId} (${packetName})`);;
+            console.error(`Packet handler not implemented for packet id: ${packetId} (${packetName})`);
         }
 
         const packet: DemoModel.Packet.AbstractPacket = {

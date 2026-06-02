@@ -4,9 +4,13 @@
   "description": "Parser for Recoil/SpringRTS .sdfz demo files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "sdfz-demo-parser": "dist/cli.js"
+  },
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "tsc",
+    "cli": "ts-node -T src/cli.ts",
     "dev": "tsc --watch",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
@@ -31,7 +35,7 @@
   "devDependencies": {
     "@types/eslint": "^9.6.1",
     "@types/jest": "^26.0.20",
-    "@types/node": "^14",
+    "@types/node": "^22",
     "@types/node-gzip": "^1.1.2",
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
