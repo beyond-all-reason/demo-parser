@@ -4,7 +4,7 @@ import { defineConfig, globalIgnores } from "eslint/config";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
 import unusedImports from "eslint-plugin-unused-imports";
 
-export default defineConfig([globalIgnores(["**/dist", "**/working-files"]), {
+export default defineConfig([globalIgnores(["**/dist", "**/working-files", "**/build", "**/dist-bin", "**/nodes"]), {
     plugins: {
         "@typescript-eslint": typescriptEslint,
         "simple-import-sort": simpleImportSort,

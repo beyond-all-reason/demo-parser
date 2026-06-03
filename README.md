@@ -22,7 +22,9 @@ import { DemoParser } from "sdfz-demo-parser";
 
 ## CLI
 
-The package also ships a CLI (requires Node.js 24+) that parses a demo file and prints the result as JSON.
+The package also ships a CLI that parses a demo file and prints the result as JSON. You can use it from npm, or download a standalone executable that needs no Node.js installation.
+
+### From npm (requires Node.js 24+)
 
 Run it without installing:
 
@@ -37,7 +39,18 @@ npm i -g sdfz-demo-parser
 sdfz-demo-parser <demo.sdfz> > demo.json
 ```
 
-Examples:
+### Standalone executable (no Node.js required)
+
+Every release ships self-contained executables with Node.js bundled in, for Linux and Windows (x64 and arm64). Download the archive for your platform from the [latest GitHub release](../../releases/latest) — `.tar.gz` for Linux, `.zip` for Windows — and extract the `sdfz-demo-parser` binary:
+
+```
+tar -xzf sdfz-demo-parser-*-linux-x64.tar.gz
+./sdfz-demo-parser game.sdfz > demo.json
+```
+
+The binaries are unsigned, so Windows SmartScreen may warn on first run. They accept exactly the same options as the npm CLI.
+
+### Examples
 
 ```
 # Full parse, pretty JSON to stdout (the packet stream is included by default)
@@ -61,3 +74,5 @@ sdfz-demo-parser game.sdfz --exclude-packets "" --compact
 npm version --sign-git-tag patch|minor|major
 git push --follow-tags
 ```
+
+Pushing the version tag publishes the package to npm and builds the standalone executables, attaching them to the GitHub release for the tag.
