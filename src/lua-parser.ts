@@ -29,7 +29,7 @@ export class LuaParser {
         }
     }
 
-    public parseLuaData(buffer: Buffer) : LuaData | string | boolean {
+    public parseLuaData(buffer: Buffer) : LuaData | string {
         const str = buffer.toString();
 
         const handler = this.luaHandlers.find(handler => handler.validator(buffer, str, this.config));

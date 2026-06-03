@@ -354,7 +354,7 @@ export class PacketParser {
                 if (typeof data === "string" && (data === "exclude")) {
                     return;
                 }
-                return { playerNum, script, mode, data };
+                return { playerNum, script, mode, data, dataRaw: msg.toString("base64") };
             },
             [DemoModel.Packet.ID.TEAM]: (bufferStream) => {
                 const playerNum = bufferStream.readInt(1, true);

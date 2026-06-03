@@ -9,7 +9,8 @@
             "playerNum": 13,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 0 0 1 2 3 4 5 6 7"
+            "data": "DraftOrderPlayersOrder 0 0 1 2 3 4 5 6 7",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAwIDAgMSAyIDMgNCA1IDYgNw=="
         }
     },
     {
@@ -22,7 +23,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "vote_skip_turn"
+            "data": "vote_skip_turn",
+            "dataRaw": "dm90ZV9za2lwX3R1cm4="
         }
     },
     {
@@ -35,7 +37,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "m@pm@rkjY:0:0:11201:1894:Feathers:ill buy a con please"
+            "data": "m@pm@rkjY:0:0:11201:1894:Feathers:ill buy a con please",
+            "dataRaw": "bUBwbUBya2pZOjA6MDoxMTIwMToxODk0OkZlYXRoZXJzOmlsbCBidXkgYSBjb24gcGxlYXNl"
         }
     },
     {
@@ -48,7 +51,8 @@
             "playerNum": 9,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 1 8 9 10 11 12 13 14 15"
+            "data": "DraftOrderPlayersOrder 1 8 9 10 11 12 13 14 15",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAxIDggOSAxMCAxMSAxMiAxMyAxNCAxNQ=="
         }
     },
     {
@@ -61,7 +65,8 @@
             "playerNum": 10,
             "script": 100,
             "mode": 0,
-            "data": "�56"
+            "data": "�56",
+            "dataRaw": "iTU2"
         }
     },
     {
@@ -74,7 +79,8 @@
             "playerNum": 17,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 1 8 9 10 11 12 13 14 15"
+            "data": "DraftOrderPlayersOrder 1 8 9 10 11 12 13 14 15",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAxIDggOSAxMCAxMSAxMiAxMyAxNCAxNQ=="
         }
     },
     {
@@ -87,7 +93,8 @@
             "playerNum": 18,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -100,7 +107,8 @@
             "playerNum": 13,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 1 8 9 10 11 12 13 14 15"
+            "data": "DraftOrderPlayersOrder 1 8 9 10 11 12 13 14 15",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAxIDggOSAxMCAxMSAxMiAxMyAxNCAxNQ=="
         }
     },
     {
@@ -113,7 +121,8 @@
             "playerNum": 13,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 2"
+            "data": "DraftOrderPlayerTurn 1 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAy"
         }
     },
     {
@@ -126,7 +135,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 6"
+            "data": "DraftOrderPlayerTurn 1 6",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA2"
         }
     },
     {
@@ -139,7 +149,8 @@
             "playerNum": 6,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -152,7 +163,8 @@
             "playerNum": 3,
             "script": 100,
             "mode": 0,
-            "data": "�43"
+            "data": "�43",
+            "dataRaw": "iTQz"
         }
     },
     {
@@ -165,7 +177,8 @@
             "playerNum": 14,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -178,7 +191,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrder_Skill"
+            "data": "DraftOrder_Skill",
+            "dataRaw": "RHJhZnRPcmRlcl9Ta2lsbA=="
         }
     },
     {
@@ -191,7 +205,8 @@
             "playerNum": 17,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 6"
+            "data": "DraftOrderPlayerTurn 1 6",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA2"
         }
     },
     {
@@ -774,7 +789,8 @@
                     "xmasball2_5",
                     "xmasball2_6"
                 ]
-            }
+            },
+            "dataRaw": "dW5pdGRlZnM6eJxtmN+WpCgMxt9lr/diW6t7Zp5lz546qPhnStQFtLr66TdCvoC93Ez9gogJJOSb/vsPZY1Sjz/+jLABHEOrAJjTur0BHgzd4daZud/x7qBXppF/Z4VXjUAH0J+gDfNN+taiWtAygfzkxgk+49cqLGk9g9MWtC4gzHducr6z66L/N3Cf1YLF3IvBzwKyTQcWe8LNhrwbgZ7nNZrCtMKH8Kw6/npj1XMG+pG3v9lnHsSBtMpa9qjl77QTL4ezah9yGO2snkyrEWixG8TzMb/9lVtVbtS5ccuN99z4yI0fufEzN36JsWhxa3E7YrRrC5IA5BcbwMnX6VY2jxjRBcxigl1fTXa46/E786Z27Etn1QCSFAmYnUCw15lTRRvOBr2tOBvt/Mqnoz9bNU/NDvOlObRe2QcI2UnkQb4Hceh9s7IDfXKz19ZqvNPPqO1+UJ6978cZz0d8ZupWENZJr1Kej0DN29+badE1+MHB9Ctqrpcy7Ok0sZI8xbEmr+S2GAwf4bDNiucPVpt54mQddmV57VEZwJO/IcEhtvF4easW/uBvvEHgQQvc+a1RtL/3hf154I2HVQ/NPshNRjdEq4F+YSfmqR0xCn/mdFfNOy9jFHYuu9fo4hJ4CHkQHz5dJO2OBCRjBvE1ajiQ85zeElYJ+fTIMQCWlvM068i7YJL3JuXyopbVtzlX6dDiwHfbswcbb+CmNa+7TbSVvHB6a1smjmizK67GLXmzYR5fJJJ3Vn0x6HYW8hboNvXkY8DmpUy1qCwnTdGpBt45aYcu64dOGqJLnc4he5x0EIfQnPQNh9mtvMdROK3O2sZFTSZe0eKNHlGq1OjwWAr5JN5zlLGjIvnMcH/CoA14Ul9ic5r59J2UjVumDY/XGZlKbVVwm+D65uHWhtD9NIN2XJNpA/cGL/B8ryxHkXdoPyL/iA7BHb3aT2gI6NWUsBtnubf0dOET8CmP9ifJGFzFwTDJkMtpf6Ypcontz+w5VWBCI8hTD+pVFrhwbIfGriAfjn3mqnpiX5+4/l4rboUvHTxoYwzU0HRPZ/06u943u/pm19/s2zf7Pdj2Pip/p6HRL+c/2SCdwKIvA8/MmPXQL5m9efVvZh7TYwqx00AUnwE2hiBxAuAR11jAgwGa8+R4EifFgzhp5F+sESvypKgvA6V1k5Y8LfnVDPFWCdTi7aglA2H+RUteB6Alw+iLwSOCAytEAUlEAhLgObpmNJ4/ToqxfYy8TLN/fTHxKWALWywCsRKQzw2BYJujdorQIrZMRYlV5UadG7fceM+Nj9z4kRs/c+MXGzZKjoA43NY+MYYRhzh3xMTpASUIzGLIlWBmfsA0CL3T5w0Xe91p8ll1q6wcRVcgOfKLNoQdtSFZelHsspaUgjYMuG+cCdprDH5iKEpFol5SjgVioCAQA/Eu9MnXPjkLKXhiVEuBsOC0cD6wAjzJdADWDYEf7CCrvpMkKKi+gHiaKkwqdlCLT7Q/wXYDwdchHYVU+YArAFqRcFQ8Ns4ITqJEkKNl36hp4NFuufIywUjWhAkE/HmWjiftwwBa2KdH7FknrSC5fGZ9zLyKeGdUY0Bd1AuBsb0kDbsVaOUl3qoo+CJwdIbLBNKPsUpYJ7wBkUdRDwbgNDJy0qwHA4kn6VRNymSzO9LLPEVkonCVzusiE8X27C3VkuVPksYYUBMbFdjKO7CNlDnI87TOZqcozZmlnrbk8Ia5O9f89sLXJJOtmkAajYElZSDoyNPA4KpwuUYhSeCkwTlpbE7a2UnSjE75mEgGnazkAWgbDpNaiz8xnBb7TaJxFJqF8K5Ghp9EGYEZUUEy8XHgVnYjtocIxUT7esDx0a47Zkx60A059hDHorA86Tfy3T3QDN0irq1YmaVmwEVw0y0Ie5M2kVIRS8vYbvBdnu+lWPO2TaliJtw70JgBERNLzEAeTRYB+FUuZU//cQWhr/iUf0l0wjDJkFuORWcguTghOgNG0cloBHnqAU1B0Hrg/AAZ9ubQUGXHBOVzrC8OHrl2SGUc8e80RFGcnrDGS8NOnjbxzpc7W9TVm8zs9lgHbNJd3vVTTDAMxT97wdzIvz1+6TrSxKK9DrLG7Jrh7rZRW30x7j2tbbQP9dBN4aLodmNeUTf0Vmva6imcGcnZq7K7DkDZ0Wi8uxrlwqx19c36Sc4tX5k9RDHA1vnG3b/dD2XfiqNVcbQujt6Ko+/F0Y/i6I/i6M/i6K/vo1UxiqoYRVWMoipGURWjqIpRVMUoqmIUVTGKuhhFXYyiLkZRF6Ooi1HUxSjqYhR1MYq6GMWtGMWtGMWtGMWtGMWtGMWtGMWtGMWtGMXtWxRnH5+W3aQRahrxD+anTYW3bWt3z4oJQ6nXU3nroEdI3JylfKfaPsXU3a/PMGHZHzQl3NXAds0fRAG3NXR37c1Zw9TuVxKKuh116MKfRrlGzfPb/e1iVRervli3i/V+sT4yq7qsWV3WrC5rVpc1q8uaFa35z3/LNvIx"
         }
     },
     {
@@ -787,7 +803,8 @@
             "playerNum": 18,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 4"
+            "data": "DraftOrderPlayerTurn 1 4",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA0"
         }
     },
     {
@@ -800,7 +817,8 @@
             "playerNum": 9,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 0 0 1 2 3 4 5 6 7"
+            "data": "DraftOrderPlayersOrder 0 0 1 2 3 4 5 6 7",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAwIDAgMSAyIDMgNCA1IDYgNw=="
         }
     },
     {
@@ -813,7 +831,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 9"
+            "data": "DraftOrderPlayerTurn 0 9",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA5"
         }
     },
     {
@@ -826,7 +845,8 @@
             "playerNum": 9,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -839,7 +859,8 @@
             "playerNum": 5,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 6"
+            "data": "DraftOrderPlayerTurn 1 6",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA2"
         }
     },
     {
@@ -852,7 +873,8 @@
             "playerNum": 3,
             "script": 100,
             "mode": 0,
-            "data": "�45"
+            "data": "�45",
+            "dataRaw": "iTQ1"
         }
     },
     {
@@ -865,7 +887,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "i_have_joined_fair"
+            "data": "i_have_joined_fair",
+            "dataRaw": "aV9oYXZlX2pvaW5lZF9mYWly"
         }
     },
     {
@@ -878,7 +901,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "�53"
+            "data": "�53",
+            "dataRaw": "iTUz"
         }
     },
     {
@@ -891,7 +915,8 @@
             "playerNum": 14,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 1"
+            "data": "DraftOrderShowCountdown 1",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMQ=="
         }
     },
     {
@@ -904,7 +929,8 @@
             "playerNum": 8,
             "script": 100,
             "mode": 0,
-            "data": "�65"
+            "data": "�65",
+            "dataRaw": "iTY1"
         }
     },
     {
@@ -917,7 +943,8 @@
             "playerNum": 8,
             "script": 100,
             "mode": 0,
-            "data": "�24"
+            "data": "�24",
+            "dataRaw": "iTI0"
         }
     },
     {
@@ -930,7 +957,8 @@
             "playerNum": 8,
             "script": 100,
             "mode": 0,
-            "data": "lu@$p@d$:PFJpZ2h0ZW91c1JhY29vbj4gPFVuaXRGaW5pc2hlZDphcm1hbGFiPiA8MjY1Pg=="
+            "data": "lu@$p@d$:PFJpZ2h0ZW91c1JhY29vbj4gPFVuaXRGaW5pc2hlZDphcm1hbGFiPiA8MjY1Pg==",
+            "dataRaw": "bHVAJHBAZCQ6UEZKcFoyaDBaVzkxYzFKaFkyOXZiajRnUEZWdWFYUkdhVzVwYzJobFpEcGhjbTFoYkdGaVBpQThNalkxUGc9PQ=="
         }
     },
     {
@@ -943,7 +971,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "�31"
+            "data": "�31",
+            "dataRaw": "iTMx"
         }
     },
     {
@@ -956,7 +985,8 @@
             "playerNum": 7,
             "script": 100,
             "mode": 0,
-            "data": "vote_skip_turn"
+            "data": "vote_skip_turn",
+            "dataRaw": "dm90ZV9za2lwX3R1cm4="
         }
     },
     {
@@ -1539,7 +1569,8 @@
                     "xmasball2_5",
                     "xmasball2_6"
                 ]
-            }
+            },
+            "dataRaw": "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"
         }
     },
     {
@@ -1552,7 +1583,8 @@
             "playerNum": 10,
             "script": 100,
             "mode": 0,
-            "data": "lu@$p@d$:PFN2aW5wYWxzPiA8VW5pdEZpbmlzaGVkOmNvcmFzeT4gPDcxNT4="
+            "data": "lu@$p@d$:PFN2aW5wYWxzPiA8VW5pdEZpbmlzaGVkOmNvcmFzeT4gPDcxNT4=",
+            "dataRaw": "bHVAJHBAZCQ6UEZOMmFXNXdZV3h6UGlBOFZXNXBkRVpwYm1semFHVmtPbU52Y21GemVUNGdQRGN4TlQ0PQ=="
         }
     },
     {
@@ -1565,7 +1597,8 @@
             "playerNum": 12,
             "script": 100,
             "mode": 0,
-            "data": "m@pm@rkjY:22874:12:8157:2707:Eggnstein:ftw"
+            "data": "m@pm@rkjY:22874:12:8157:2707:Eggnstein:ftw",
+            "dataRaw": "bUBwbUBya2pZOjIyODc0OjEyOjgxNTc6MjcwNzpFZ2duc3RlaW46ZnR3"
         }
     },
     {
@@ -1578,7 +1611,8 @@
             "playerNum": 12,
             "script": 100,
             "mode": 0,
-            "data": "lu@$p@d$:PEVnZ25zdGVpbj4gPFVuaXRGaW5pc2hlZDphcm1hbGFiPiA8Njk5Pg=="
+            "data": "lu@$p@d$:PEVnZ25zdGVpbj4gPFVuaXRGaW5pc2hlZDphcm1hbGFiPiA8Njk5Pg==",
+            "dataRaw": "bHVAJHBAZCQ6UEVWbloyNXpkR1ZwYmo0Z1BGVnVhWFJHYVc1cGMyaGxaRHBoY20xaGJHRmlQaUE4TmprNVBnPT0="
         }
     },
     {
@@ -1591,7 +1625,8 @@
             "playerNum": 5,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 5"
+            "data": "DraftOrderPlayerTurn 0 5",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA1"
         }
     },
     {
@@ -1604,7 +1639,8 @@
             "playerNum": 17,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 6"
+            "data": "DraftOrderPlayerTurn 0 6",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA2"
         }
     },
     {
@@ -1617,7 +1653,8 @@
             "playerNum": 10,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 3"
+            "data": "DraftOrderPlayerTurn 1 3",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAz"
         }
     },
     {
@@ -1630,7 +1667,8 @@
             "playerNum": 9,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 5"
+            "data": "DraftOrderPlayerTurn 0 5",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA1"
         }
     },
     {
@@ -1643,7 +1681,8 @@
             "playerNum": 14,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 5"
+            "data": "DraftOrderPlayerTurn 0 5",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA1"
         }
     },
     {
@@ -1656,7 +1695,8 @@
             "playerNum": 1,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 4"
+            "data": "DraftOrderPlayerTurn 0 4",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA0"
         }
     },
     {
@@ -1669,7 +1709,8 @@
             "playerNum": 13,
             "script": 100,
             "mode": 0,
-            "data": "locking_in_place"
+            "data": "locking_in_place",
+            "dataRaw": "bG9ja2luZ19pbl9wbGFjZQ=="
         }
     },
     {
@@ -1682,7 +1723,8 @@
             "playerNum": 14,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 4"
+            "data": "DraftOrderPlayerTurn 1 4",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA0"
         }
     },
     {
@@ -1695,7 +1737,8 @@
             "playerNum": 1,
             "script": 100,
             "mode": 0,
-            "data": "i_have_joined_fair"
+            "data": "i_have_joined_fair",
+            "dataRaw": "aV9oYXZlX2pvaW5lZF9mYWly"
         }
     },
     {
@@ -1708,7 +1751,8 @@
             "playerNum": 10,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 7"
+            "data": "DraftOrderPlayerTurn 0 7",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA3"
         }
     },
     {
@@ -1721,7 +1765,8 @@
             "playerNum": 10,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 5"
+            "data": "DraftOrderPlayerTurn 1 5",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA1"
         }
     },
     {
@@ -1734,7 +1779,8 @@
             "playerNum": 9,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrder_Skill"
+            "data": "DraftOrder_Skill",
+            "dataRaw": "RHJhZnRPcmRlcl9Ta2lsbA=="
         }
     },
     {
@@ -1747,7 +1793,8 @@
             "playerNum": 12,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 3"
+            "data": "DraftOrderPlayerTurn 0 3",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAz"
         }
     },
     {
@@ -1760,7 +1807,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 1"
+            "data": "DraftOrderPlayerTurn 0 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAx"
         }
     },
     {
@@ -1773,7 +1821,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -1786,7 +1835,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 2"
+            "data": "DraftOrderPlayerTurn 1 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAy"
         }
     },
     {
@@ -1799,7 +1849,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "�27"
+            "data": "�27",
+            "dataRaw": "iTI3"
         }
     },
     {
@@ -1812,7 +1863,8 @@
             "playerNum": 11,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 0 0 1 2 3 4 5 6 7"
+            "data": "DraftOrderPlayersOrder 0 0 1 2 3 4 5 6 7",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAwIDAgMSAyIDMgNCA1IDYgNw=="
         }
     },
     {
@@ -1825,7 +1877,8 @@
             "playerNum": 18,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -1838,7 +1891,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 6"
+            "data": "DraftOrderPlayerTurn 1 6",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA2"
         }
     },
     {
@@ -1851,7 +1905,8 @@
             "playerNum": 18,
             "script": 100,
             "mode": 0,
-            "data": "lu@$p@d$:PFJvZ2VsaW9BRlVTPiA8VW5pdEZpbmlzaGVkOmNvcmFwPiA8MTM4Pg=="
+            "data": "lu@$p@d$:PFJvZ2VsaW9BRlVTPiA8VW5pdEZpbmlzaGVkOmNvcmFwPiA8MTM4Pg==",
+            "dataRaw": "bHVAJHBAZCQ6UEZKdloyVnNhVzlCUmxWVFBpQThWVzVwZEVacGJtbHphR1ZrT21OdmNtRndQaUE4TVRNNFBnPT0="
         }
     },
     {
@@ -1864,7 +1919,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "�35"
+            "data": "�35",
+            "dataRaw": "iTM1"
         }
     },
     {
@@ -1877,7 +1933,8 @@
             "playerNum": 11,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -1890,7 +1947,8 @@
             "playerNum": 13,
             "script": 100,
             "mode": 0,
-            "data": "�44"
+            "data": "�44",
+            "dataRaw": "iTQ0"
         }
     },
     {
@@ -1903,7 +1961,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 7"
+            "data": "DraftOrderPlayerTurn 1 7",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA3"
         }
     },
     {
@@ -1916,7 +1975,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 6"
+            "data": "DraftOrderPlayerTurn 0 6",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA2"
         }
     },
     {
@@ -2499,7 +2559,8 @@
                     "xmasball2_5",
                     "xmasball2_6"
                 ]
-            }
+            },
+            "dataRaw": "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"
         }
     },
     {
@@ -2512,7 +2573,8 @@
             "playerNum": 15,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 1"
+            "data": "DraftOrderShowCountdown 1",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMQ=="
         }
     },
     {
@@ -2525,7 +2587,8 @@
             "playerNum": 9,
             "script": 100,
             "mode": 0,
-            "data": "unlocking_in_place"
+            "data": "unlocking_in_place",
+            "dataRaw": "dW5sb2NraW5nX2luX3BsYWNl"
         }
     },
     {
@@ -2599,7 +2662,8 @@
                         "value": 763.300049
                     }
                 }
-            }
+            },
+            "dataRaw": "oTE1OjEwNDIxMKExMDo0OTE5MKE3OjkwMDCiMTM6NTM4MTcwojE1OjQwNzI4MKIxMTozODMwMDCjMTM6Mi45ODk3MzYwOKMxNToyLjMzOTEyMDM5ozE2OjAuNjk3MzU2N6QwpTExOjIyMDI2NjMuNaYyOjU3OTA4LjE2OKc5Ojc2My4zMDAwNDk="
         }
     },
     {
@@ -2627,7 +2691,8 @@
                     "os": "Windows 10",
                     "lobby": "Chobby"
                 }
-            }
+            },
+            "dataRaw": "JHkkallDUFU6ICAgSW50ZWwgRTMtMTIzMCBWMiBAIDMuMzBHSHoKQ1BVIGNvcmVzOiAgNCAvIDgKUkFNOiAgMTYzNDJNQgpHUFU6ICBOVklESUEgR2VGb3JjZSBHVFggOTcwCkdQVSBWUkFNOiAgNDE5NE1CCkRpc3BsYXkgbWF4OiAxOTIweDEwODAKMTkyMHgxMDgweDI0YnBwQDYwSHogYm9yZGVybGVzcwpPUzogIFdpbmRvd3MgMTAKTG9iYnk6ICBDaG9iYnk="
         }
     },
     {
@@ -2640,7 +2705,8 @@
             "playerNum": 5,
             "script": 100,
             "mode": 0,
-            "data": "locking_in_place"
+            "data": "locking_in_place",
+            "dataRaw": "bG9ja2luZ19pbl9wbGFjZQ=="
         }
     },
     {
@@ -2653,7 +2719,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "�45"
+            "data": "�45",
+            "dataRaw": "iTQ1"
         }
     },
     {
@@ -2666,7 +2733,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 1"
+            "data": "DraftOrderShowCountdown 1",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMQ=="
         }
     },
     {
@@ -2679,7 +2747,8 @@
             "playerNum": 14,
             "script": 100,
             "mode": 0,
-            "data": "lu@$p@d$:PFdpdHRtYW5uPiA8VW5pdEZpbmlzaGVkOmNvcmxhYj4gPDc0Pg=="
+            "data": "lu@$p@d$:PFdpdHRtYW5uPiA8VW5pdEZpbmlzaGVkOmNvcmxhYj4gPDc0Pg==",
+            "dataRaw": "bHVAJHBAZCQ6UEZkcGRIUnRZVzV1UGlBOFZXNXBkRVpwYm1semFHVmtPbU52Y214aFlqNGdQRGMwUGc9PQ=="
         }
     },
     {
@@ -2692,7 +2761,8 @@
             "playerNum": 13,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrder_Skill"
+            "data": "DraftOrder_Skill",
+            "dataRaw": "RHJhZnRPcmRlcl9Ta2lsbA=="
         }
     },
     {
@@ -2705,7 +2775,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 1"
+            "data": "DraftOrderPlayerTurn 1 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAx"
         }
     },
     {
@@ -2718,7 +2789,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "�62"
+            "data": "�62",
+            "dataRaw": "iTYy"
         }
     },
     {
@@ -2731,7 +2803,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "vote_skip_turn"
+            "data": "vote_skip_turn",
+            "dataRaw": "dm90ZV9za2lwX3R1cm4="
         }
     },
     {
@@ -2744,7 +2817,8 @@
             "playerNum": 17,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 8"
+            "data": "DraftOrderPlayerTurn 0 8",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA4"
         }
     },
     {
@@ -2757,7 +2831,8 @@
             "playerNum": 12,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -2770,7 +2845,8 @@
             "playerNum": 1,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderAllyTeamJoined 1"
+            "data": "DraftOrderAllyTeamJoined 1",
+            "dataRaw": "RHJhZnRPcmRlckFsbHlUZWFtSm9pbmVkIDE="
         }
     },
     {
@@ -2783,7 +2859,8 @@
             "playerNum": 8,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -2796,7 +2873,8 @@
             "playerNum": 14,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 6"
+            "data": "DraftOrderPlayerTurn 1 6",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA2"
         }
     },
     {
@@ -2809,7 +2887,8 @@
             "playerNum": 5,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 1"
+            "data": "DraftOrderShowCountdown 1",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMQ=="
         }
     },
     {
@@ -2822,7 +2901,8 @@
             "playerNum": 7,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -2835,7 +2915,8 @@
             "playerNum": 10,
             "script": 100,
             "mode": 0,
-            "data": "�67"
+            "data": "�67",
+            "dataRaw": "iTY3"
         }
     },
     {
@@ -2848,7 +2929,8 @@
             "playerNum": 15,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 6"
+            "data": "DraftOrderPlayerTurn 0 6",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA2"
         }
     },
     {
@@ -2861,7 +2943,8 @@
             "playerNum": 7,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 1"
+            "data": "DraftOrderShowCountdown 1",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMQ=="
         }
     },
     {
@@ -2874,7 +2957,8 @@
             "playerNum": 15,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 1"
+            "data": "DraftOrderPlayerTurn 1 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAx"
         }
     },
     {
@@ -2887,7 +2971,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "�71"
+            "data": "�71",
+            "dataRaw": "iTcx"
         }
     },
     {
@@ -2900,7 +2985,8 @@
             "playerNum": 8,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 5"
+            "data": "DraftOrderPlayerTurn 0 5",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCA1"
         }
     },
     {
@@ -2913,7 +2999,8 @@
             "playerNum": 8,
             "script": 100,
             "mode": 0,
-            "data": "�69"
+            "data": "�69",
+            "dataRaw": "iTY5"
         }
     },
     {
@@ -2926,7 +3013,8 @@
             "playerNum": 3,
             "script": 100,
             "mode": 0,
-            "data": "�42"
+            "data": "�42",
+            "dataRaw": "iTQy"
         }
     },
     {
@@ -2939,7 +3027,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "�59"
+            "data": "�59",
+            "dataRaw": "iTU5"
         }
     },
     {
@@ -3522,7 +3611,8 @@
                     "xmasball2_5",
                     "xmasball2_6"
                 ]
-            }
+            },
+            "dataRaw": "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"
         }
     },
     {
@@ -3535,7 +3625,8 @@
             "playerNum": 10,
             "script": 100,
             "mode": 0,
-            "data": "�68"
+            "data": "�68",
+            "dataRaw": "iTY4"
         }
     },
     {
@@ -3548,7 +3639,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 7"
+            "data": "DraftOrderPlayerTurn 1 7",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA3"
         }
     },
     {
@@ -3561,7 +3653,8 @@
             "playerNum": 18,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 2"
+            "data": "DraftOrderPlayerTurn 1 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAy"
         }
     },
     {
@@ -3574,7 +3667,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "�67"
+            "data": "�67",
+            "dataRaw": "iTY3"
         }
     },
     {
@@ -3693,7 +3787,8 @@
                         "r": 127
                     }
                 ]
-            }
+            },
+            "dataRaw": "QXV0b0NvbG9yc1t7InRlYW1JRCI6MCwiYiI6MjQzLCJnIjo2MiwiciI6MTF9LHsidGVhbUlEIjoxLCJiIjo4LCJnIjoyMzMsInIiOjEyfSx7InRlYW1JRCI6MiwiYiI6MjI5LCJnIjoyNDUsInIiOjB9LHsidGVhbUlEIjozLCJiIjoyNDIsImciOjY1LCJyIjoxMDV9LHsidGVhbUlEIjo0LCJiIjoxNDgsImciOjI1NSwiciI6MTQzfSx7InRlYW1JRCI6NSwiYiI6NDcsImciOjExMiwiciI6Mjd9LHsidGVhbUlEIjo2LCJiIjoyNTUsImciOjE5NCwiciI6MTI0fSx7InRlYW1JRCI6NywiYiI6MjU1LCJnIjoxNDgsInIiOjE2Mn0seyJ0ZWFtSUQiOjgsImIiOjUsImciOjE2LCJyIjoyNTV9LHsidGVhbUlEIjo5LCJiIjowLCJnIjoyMTAsInIiOjI1NX0seyJ0ZWFtSUQiOjEwLCJiIjo3LCJnIjo5NywiciI6MjU1fSx7InRlYW1JRCI6MTEsImIiOjEzNywiZyI6OCwiciI6MjQ4fSx7InRlYW1JRCI6MTIsImIiOjE2NCwiZyI6MjM4LCJyIjoyNTJ9LHsidGVhbUlEIjoxMywiYiI6NDAsImciOjQwLCJyIjoxMzh9LHsidGVhbUlEIjoxNCwiYiI6MTc5LCJnIjoxNDQsInIiOjI0MX0seyJ0ZWFtSUQiOjE1LCJiIjo0NywiZyI6MTM5LCJyIjoyMDB9LHsidGVhbUlEIjoxNiwiYiI6MTI3LCJnIjoxMjcsInIiOjEyN31d"
         }
     },
     {
@@ -3706,7 +3801,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 9"
+            "data": "DraftOrderPlayerTurn 1 9",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA5"
         }
     },
     {
@@ -3719,7 +3815,8 @@
             "playerNum": 5,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 5"
+            "data": "DraftOrderPlayerTurn 1 5",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA1"
         }
     },
     {
@@ -3732,7 +3829,8 @@
             "playerNum": 10,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 9"
+            "data": "DraftOrderPlayerTurn 1 9",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSA5"
         }
     },
     {
@@ -3745,7 +3843,8 @@
             "playerNum": 7,
             "script": 100,
             "mode": 0,
-            "data": "send_me_the_info_again"
+            "data": "send_me_the_info_again",
+            "dataRaw": "c2VuZF9tZV90aGVfaW5mb19hZ2Fpbg=="
         }
     },
     {
@@ -3758,7 +3857,8 @@
             "playerNum": 8,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     }
 ]

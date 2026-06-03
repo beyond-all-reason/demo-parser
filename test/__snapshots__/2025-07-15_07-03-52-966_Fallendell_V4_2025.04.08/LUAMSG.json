@@ -25,7 +25,8 @@
                         "r": 127
                     }
                 ]
-            }
+            },
+            "dataRaw": "QXV0b0NvbG9yc1t7InRlYW1JRCI6MCwiYiI6MjQzLCJnIjo2MiwiciI6MTF9LHsidGVhbUlEIjoxLCJiIjoxMjcsImciOjEyNywiciI6MTI3fV0="
         }
     },
     {
@@ -38,7 +39,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrder_Random"
+            "data": "DraftOrder_Random",
+            "dataRaw": "RHJhZnRPcmRlcl9SYW5kb20="
         }
     },
     {
@@ -66,7 +68,8 @@
                     "os": "Windows 10",
                     "lobby": "Chobby"
                 }
-            }
+            },
+            "dataRaw": "JHkkSGhDUFU6ICAgMTF0aCBHZW4gSW50ZWwgaTctMTEzNzBIIEAgMy4zMEdIegpDUFUgY29yZXM6ICA0IC8gOApSQU06ICAxNjEyOU1CCkdQVTogIE5WSURJQSBHZUZvcmNlIFJUWCAzMDUwIFRpIExhcHRvcCBHUFUKR1BVIFZSQU06ICA0MTk0TUIKRGlzcGxheSBtYXg6IDE2MDB4OTAwCjE2MDB4OTAweDI0YnBwQDE0NEh6IGJvcmRlcmxlc3MKT1M6ICBXaW5kb3dzIDEwCkxvYmJ5OiAgQ2hvYmJ5"
         }
     },
     {
@@ -649,7 +652,8 @@
                     "xmasball2_5",
                     "xmasball2_6"
                 ]
-            }
+            },
+            "dataRaw": "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"
         }
     },
     {
@@ -662,7 +666,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "joined_game"
+            "data": "joined_game",
+            "dataRaw": "am9pbmVkX2dhbWU="
         }
     },
     {
@@ -675,7 +680,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "send_me_the_info_again"
+            "data": "send_me_the_info_again",
+            "dataRaw": "c2VuZF9tZV90aGVfaW5mb19hZ2Fpbg=="
         }
     },
     {
@@ -688,7 +694,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "i_have_joined_fair"
+            "data": "i_have_joined_fair",
+            "dataRaw": "aV9oYXZlX2pvaW5lZF9mYWly"
         }
     },
     {
@@ -701,7 +708,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderAllyTeamJoined 0"
+            "data": "DraftOrderAllyTeamJoined 0",
+            "dataRaw": "RHJhZnRPcmRlckFsbHlUZWFtSm9pbmVkIDA="
         }
     },
     {
@@ -714,7 +722,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 0 0"
+            "data": "DraftOrderPlayersOrder 0 0",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAwIDA="
         }
     },
     {
@@ -727,7 +736,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 1"
+            "data": "DraftOrderPlayerTurn 0 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAx"
         }
     },
     {
@@ -740,7 +750,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "skip_my_turn"
+            "data": "skip_my_turn",
+            "dataRaw": "c2tpcF9teV90dXJu"
         }
     },
     {
@@ -753,7 +764,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 2"
+            "data": "DraftOrderPlayerTurn 0 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAy"
         }
     },
     {
@@ -766,7 +778,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "vote_skip_turn"
+            "data": "vote_skip_turn",
+            "dataRaw": "dm90ZV9za2lwX3R1cm4="
         }
     },
     {
@@ -779,7 +792,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "ready_to_start_game"
+            "data": "ready_to_start_game",
+            "dataRaw": "cmVhZHlfdG9fc3RhcnRfZ2FtZQ=="
         }
     },
     {
@@ -792,7 +806,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "locking_in_place"
+            "data": "locking_in_place",
+            "dataRaw": "bG9ja2luZ19pbl9wbGFjZQ=="
         }
     },
     {
@@ -866,7 +881,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTA6MKEwOjChMDowojA6MKIwOjCiMDowozA6MKMwOjCjMDowpDClMToxMDg3LjWmMDowpzA6MA=="
         }
     }
 ]

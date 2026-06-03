@@ -25,7 +25,8 @@
                     "wordSize": "64 bit",
                     "lobby": "Chobby"
                 }
-            }
+            },
+            "dataRaw": "JHkkWHNDUFU6ICAgSW50ZWwgaTctNzcwMEsgQCA0LjIwR0h6CkNQVSBjb3JlczogIDAwOjAwOjAwLjAxOTU4N10gICAgICBQaHlzaWNhbCBDUFUgQ29yZXM6IDQgLyAwMDowMDowMC4wMTk1OTFdICAgICAgIExvZ2ljYWwgQ1BVIENvcmVzOiA4ClJBTTogIDE1OTUwTUIKR1BVOiAgVW5rbm93bgpHUFUgVlJBTTogIDgzODhNQgpEaXNwbGF5IG1heDogMTkyMHgxMDgwCjE5MjB4MTA4MHgwYnBwQDBIeiAgZnVsbHNjcmVlbgpPUzogIExpbnV4CkVuZ2luZTogIDY0IGJpdApMb2JieTogIENob2JieQ=="
         }
     },
     {
@@ -53,7 +54,8 @@
                     "os": "Windows 10",
                     "wordSize": "64 bit"
                 }
-            }
+            },
+            "dataRaw": "JHkkWHNDUFU6ICAgQU1EIFJ5emVuIDcgMzgwMFggOC1Db3JlICAgICAgIApDUFUgY29yZXM6ICAwMDowMDowMC4wMDMwMDNdICAgICAgUGh5c2ljYWwgQ1BVIENvcmVzOiAxNiAvIDAwOjAwOjAwLjAwMzAwM10gICAgICAgTG9naWNhbCBDUFUgQ29yZXM6IDE2ClJBTTogIDE2MzM0TUIKR1BVOiAgR2VGb3JjZSBHVFggOTcwCkdQVSBWUkFNOiAgNDE5NE1CCkRpc3BsYXkgbWF4OiAxOTIweDEwODAKMTkyMHgxMDgweDI0YnBwQDI0MEh6IGJvcmRlcmxlc3MKT1M6ICBXaW5kb3dzIDEwCkVuZ2luZTogIDY0IGJpdA=="
         }
     },
     {
@@ -66,7 +68,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -79,7 +82,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -107,7 +111,8 @@
                     "os": "Windows 10",
                     "wordSize": "64 bit"
                 }
-            }
+            },
+            "dataRaw": "JHkkWHNDUFU6ICAgSW50ZWwgaTctOTcwMEsgQCAzLjYwR0h6CkNQVSBjb3JlczogIDAwOjAwOjAwLjAwMjk5Nl0gICAgICBQaHlzaWNhbCBDUFUgQ29yZXM6IDggLyAwMDowMDowMC4wMDI5OTZdICAgICAgIExvZ2ljYWwgQ1BVIENvcmVzOiA4ClJBTTogIDMyNjk1TUIKR1BVOiAgR2VGb3JjZSBSVFggMjA4MCBTVVBFUgpHUFUgVlJBTTogIDgzODhNQgpEaXNwbGF5IG1heDogMTkyMHgxMDgwCjE5MjB4MTA4MHgyNGJwcEAyNDBIeiBib3JkZXJsZXNzCk9TOiAgV2luZG93cyAxMApFbmdpbmU6ICA2NCBiaXQ="
         }
     },
     {
@@ -135,7 +140,8 @@
                     "os": "Windows 10",
                     "wordSize": "64 bit"
                 }
-            }
+            },
+            "dataRaw": "JHkkWHNDUFU6ICAgSW50ZWwgaTctODc1MEggQCAyLjIwR0h6CkNQVSBjb3JlczogIDAwOjAwOjAwLjAwMzk4OV0gICAgICBQaHlzaWNhbCBDUFUgQ29yZXM6IDYgLyAwMDowMDowMC4wMDM5ODldICAgICAgIExvZ2ljYWwgQ1BVIENvcmVzOiAxMgpSQU06ICAxNjE5N01CCkdQVTogIEdlRm9yY2UgR1RYIDEwNzAKR1BVIFZSQU06ICA4Mzg4TUIKRGlzcGxheSBtYXg6IDE5MjB4MTA4MAoxOTIweDEwODB4MjRicHBAMTIwSHogYm9yZGVybGVzcwpPUzogIFdpbmRvd3MgMTAKRW5naW5lOiAgNjQgYml0"
         }
     },
     {
@@ -164,7 +170,8 @@
                     "wordSize": "64 bit",
                     "lobby": "Chobby"
                 }
-            }
+            },
+            "dataRaw": "JHkkWHNDUFU6ICAgSW50ZWwgaTctNzcwMEhRIEAgMi44MEdIegpDUFUgY29yZXM6ICAwMDowMDowMC4wNDAyMDNdICAgICAgUGh5c2ljYWwgQ1BVIENvcmVzOiA0IC8gMDA6MDA6MDAuMDQwMjAzXSAgICAgICBMb2dpY2FsIENQVSBDb3JlczogOApSQU06ICAyNDUzNE1CCkdQVTogIEdlRm9yY2UgR1RYIDEwODAgd2l0aCBNYXgtUSBEZXNpZ24KR1BVIFZSQU06ICA4Mzg4TUIKRGlzcGxheSBtYXg6IDE5MjB4MTA4MAoxOTIweDEwMDB4MjRicHBANjBIeiAgd2luZG93ZWQKT1M6ICBXaW5kb3dzIDEwCkVuZ2luZTogIDY0IGJpdApMb2JieTogIENob2JieQ=="
         }
     },
     {
@@ -193,7 +200,8 @@
                     "wordSize": "64 bit",
                     "lobby": "Chobby"
                 }
-            }
+            },
+            "dataRaw": "JHkkWHNDUFU6ICAgSW50ZWwgaTctNDc3MEsgQCAzLjUwR0h6CkNQVSBjb3JlczogIDAwOjAwOjAwLjE0MTg3Ml0gICAgICBQaHlzaWNhbCBDUFUgQ29yZXM6IDQgLyAwMDowMDowMC4xNDE4NzJdICAgICAgIExvZ2ljYWwgQ1BVIENvcmVzOiA4ClJBTTogIDE2MzIyTUIKR1BVOiAgR2VGb3JjZSBHVFggMTA2MCA2R0IKR1BVIFZSQU06ICA2MjkxTUIKRGlzcGxheSBtYXg6IDE5MjB4MTA4MAoxOTIweDEwMTd4MjRicHBANjBIeiBib3JkZXJsZXNzCk9TOiAgV2luZG93cyAxMApFbmdpbmU6ICA2NCBiaXQKTG9iYnk6ICBDaG9iYnk="
         }
     },
     {
@@ -222,7 +230,8 @@
                     "wordSize": "64 bit",
                     "lobby": "Chobby"
                 }
-            }
+            },
+            "dataRaw": "JHkkWHNDUFU6ICAgSW50ZWwgaTctOTc1MEggQCAyLjYwR0h6CkNQVSBjb3JlczogIDAwOjAwOjAwLjAxMjk2NV0gICAgICBQaHlzaWNhbCBDUFUgQ29yZXM6IDYgLyAwMDowMDowMC4wMTI5NjVdICAgICAgIExvZ2ljYWwgQ1BVIENvcmVzOiAxMgpSQU06ICAzMjYxMU1CCkdQVTogIEdlRm9yY2UgUlRYIDIwNjAKR1BVIFZSQU06ICA2MjkxTUIKRGlzcGxheSBtYXg6IDE5MjB4MTA4MAoxOTIweDEwNTd4MjRicHBAMTIwSHogYm9yZGVybGVzcwpPUzogIFdpbmRvd3MgMTAKRW5naW5lOiAgNjQgYml0CkxvYmJ5OiAgQ2hvYmJ5"
         }
     },
     {
@@ -235,7 +244,8 @@
             "playerNum": 3,
             "script": 100,
             "mode": 0,
-            "data": "�542"
+            "data": "�542",
+            "dataRaw": "ijU0Mg=="
         }
     },
     {
@@ -309,7 +319,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -322,7 +333,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�542"
+            "data": "�542",
+            "dataRaw": "ijU0Mg=="
         }
     },
     {
@@ -335,7 +347,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -348,7 +361,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�542"
+            "data": "�542",
+            "dataRaw": "ijU0Mg=="
         }
     },
     {
@@ -361,7 +375,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -374,7 +389,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�70"
+            "data": "�70",
+            "dataRaw": "iTcw"
         }
     },
     {
@@ -448,7 +464,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -461,7 +478,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -474,7 +492,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�67"
+            "data": "�67",
+            "dataRaw": "iTY3"
         }
     },
     {
@@ -487,7 +506,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -500,7 +520,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�64"
+            "data": "�64",
+            "dataRaw": "iTY0"
         }
     },
     {
@@ -513,7 +534,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�60"
+            "data": "�60",
+            "dataRaw": "iTYw"
         }
     },
     {
@@ -587,7 +609,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -600,7 +623,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�53"
+            "data": "�53",
+            "dataRaw": "iTUz"
         }
     },
     {
@@ -613,7 +637,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�48"
+            "data": "�48",
+            "dataRaw": "iTQ4"
         }
     },
     {
@@ -626,7 +651,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�44"
+            "data": "�44",
+            "dataRaw": "iTQ0"
         }
     },
     {
@@ -639,7 +665,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�39"
+            "data": "�39",
+            "dataRaw": "iTM5"
         }
     },
     {
@@ -652,7 +679,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�35"
+            "data": "�35",
+            "dataRaw": "iTM1"
         }
     },
     {
@@ -665,7 +693,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�31"
+            "data": "�31",
+            "dataRaw": "iTMx"
         }
     },
     {
@@ -678,7 +707,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�28"
+            "data": "�28",
+            "dataRaw": "iTI4"
         }
     },
     {
@@ -691,7 +721,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�26"
+            "data": "�26",
+            "dataRaw": "iTI2"
         }
     },
     {
@@ -704,7 +735,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�25"
+            "data": "�25",
+            "dataRaw": "iTI1"
         }
     },
     {
@@ -717,7 +749,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�23"
+            "data": "�23",
+            "dataRaw": "iTIz"
         }
     },
     {
@@ -730,7 +763,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -743,7 +777,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -756,7 +791,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�19"
+            "data": "�19",
+            "dataRaw": "iTE5"
         }
     },
     {
@@ -769,7 +805,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�17"
+            "data": "�17",
+            "dataRaw": "iTE3"
         }
     },
     {
@@ -782,7 +819,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�16"
+            "data": "�16",
+            "dataRaw": "iTE2"
         }
     },
     {
@@ -795,7 +833,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�14"
+            "data": "�14",
+            "dataRaw": "iTE0"
         }
     },
     {
@@ -808,7 +847,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�13"
+            "data": "�13",
+            "dataRaw": "iTEz"
         }
     },
     {
@@ -821,7 +861,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�41"
+            "data": "�41",
+            "dataRaw": "iTQx"
         }
     },
     {
@@ -834,7 +875,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -847,7 +889,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -860,7 +903,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -873,7 +917,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -886,7 +931,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -899,7 +945,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -973,7 +1020,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -986,7 +1034,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -999,7 +1048,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -1012,7 +1062,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -1025,7 +1076,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -1038,7 +1090,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -1112,7 +1165,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -1125,7 +1179,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -1138,7 +1193,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -1151,7 +1207,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -1164,7 +1221,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -1177,7 +1235,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�12"
+            "data": "�12",
+            "dataRaw": "iTEy"
         }
     },
     {
@@ -1190,7 +1249,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -1203,7 +1263,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�73"
+            "data": "�73",
+            "dataRaw": "iTcz"
         }
     },
     {
@@ -1216,7 +1277,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�72"
+            "data": "�72",
+            "dataRaw": "iTcy"
         }
     },
     {
@@ -1229,7 +1291,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�72"
+            "data": "�72",
+            "dataRaw": "iTcy"
         }
     },
     {
@@ -1242,7 +1305,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�72"
+            "data": "�72",
+            "dataRaw": "iTcy"
         }
     },
     {
@@ -1255,7 +1319,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�71"
+            "data": "�71",
+            "dataRaw": "iTcx"
         }
     },
     {
@@ -1268,7 +1333,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�70"
+            "data": "�70",
+            "dataRaw": "iTcw"
         }
     },
     {
@@ -1281,7 +1347,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�69"
+            "data": "�69",
+            "dataRaw": "iTY5"
         }
     },
     {
@@ -1294,7 +1361,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�47"
+            "data": "�47",
+            "dataRaw": "iTQ3"
         }
     },
     {
@@ -1368,7 +1436,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -1381,7 +1450,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�66"
+            "data": "�66",
+            "dataRaw": "iTY2"
         }
     },
     {
@@ -1394,7 +1464,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�64"
+            "data": "�64",
+            "dataRaw": "iTY0"
         }
     },
     {
@@ -1407,7 +1478,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�64"
+            "data": "�64",
+            "dataRaw": "iTY0"
         }
     },
     {
@@ -1420,7 +1492,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�63"
+            "data": "�63",
+            "dataRaw": "iTYz"
         }
     },
     {
@@ -1433,7 +1506,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�62"
+            "data": "�62",
+            "dataRaw": "iTYy"
         }
     },
     {
@@ -1446,7 +1520,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�61"
+            "data": "�61",
+            "dataRaw": "iTYx"
         }
     },
     {
@@ -1459,7 +1534,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�60"
+            "data": "�60",
+            "dataRaw": "iTYw"
         }
     },
     {
@@ -1472,7 +1548,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -1485,7 +1562,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�59"
+            "data": "�59",
+            "dataRaw": "iTU5"
         }
     },
     {
@@ -1498,7 +1576,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�32"
+            "data": "�32",
+            "dataRaw": "iTMy"
         }
     },
     {
@@ -1572,7 +1651,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -1585,7 +1665,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�56"
+            "data": "�56",
+            "dataRaw": "iTU2"
         }
     },
     {
@@ -1598,7 +1679,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -1672,7 +1754,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -1685,7 +1768,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�54"
+            "data": "�54",
+            "dataRaw": "iTU0"
         }
     },
     {
@@ -1698,7 +1782,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�54"
+            "data": "�54",
+            "dataRaw": "iTU0"
         }
     },
     {
@@ -1711,7 +1796,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�53"
+            "data": "�53",
+            "dataRaw": "iTUz"
         }
     },
     {
@@ -1724,7 +1810,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�52"
+            "data": "�52",
+            "dataRaw": "iTUy"
         }
     },
     {
@@ -1798,7 +1885,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -1811,7 +1899,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�51"
+            "data": "�51",
+            "dataRaw": "iTUx"
         }
     },
     {
@@ -1824,7 +1913,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -1837,7 +1927,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�50"
+            "data": "�50",
+            "dataRaw": "iTUw"
         }
     },
     {
@@ -1850,7 +1941,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�50"
+            "data": "�50",
+            "dataRaw": "iTUw"
         }
     },
     {
@@ -1863,7 +1955,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�88"
+            "data": "�88",
+            "dataRaw": "iTg4"
         }
     },
     {
@@ -1876,7 +1969,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "�49"
+            "data": "�49",
+            "dataRaw": "iTQ5"
         }
     },
     {
@@ -1950,7 +2044,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -1963,7 +2058,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�13"
+            "data": "�13",
+            "dataRaw": "iTEz"
         }
     },
     {
@@ -2037,7 +2133,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTI6Mjk2MjChNDo1NzUwoTA6MKIzOjY0NzU2MaI1OjY0MDM0MaIxOjU0OTEyNqM2OjAuNDIxNDQ3NKMzOjAuMzA3ODA3MzOjMTowLjE4MTI4ODQ4pDClNToyMzEyMjcxLjc1pjY6NTE0NzkuNTQ2OacwOjA="
         }
     },
     {
@@ -2050,7 +2147,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�17"
+            "data": "�17",
+            "dataRaw": "iTE3"
         }
     },
     {
@@ -2063,7 +2161,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�24"
+            "data": "�24",
+            "dataRaw": "iTI0"
         }
     },
     {
@@ -2076,7 +2175,8 @@
             "playerNum": 6,
             "script": 100,
             "mode": 0,
-            "data": "�28"
+            "data": "�28",
+            "dataRaw": "iTI4"
         }
     }
 ]

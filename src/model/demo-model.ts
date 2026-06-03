@@ -418,6 +418,10 @@ export namespace DemoModel {
                 script: number;
                 mode: number;
                 data: any;
+                // base64 of the original, unmodified payload bytes. `data` may be a
+                // lossy UTF-8 decode (when no Lua handler matched), so dataRaw is the
+                // lossless source of truth.
+                dataRaw: string;
             }
             [ID.TEAM]: {
                 playerNum: number;

@@ -43,7 +43,8 @@
                         "r": 127
                     }
                 ]
-            }
+            },
+            "dataRaw": "QXV0b0NvbG9yc1t7InRlYW1JRCI6MCwiYiI6MjQzLCJnIjo2MiwiciI6MTF9LHsidGVhbUlEIjoxLCJiIjo4LCJnIjoyMzMsInIiOjEyfSx7InRlYW1JRCI6MiwiYiI6NSwiZyI6MTYsInIiOjI1NX0seyJ0ZWFtSUQiOjMsImIiOjAsImciOjIxMCwiciI6MjU1fSx7InRlYW1JRCI6NCwiYiI6MTI3LCJnIjoxMjcsInIiOjEyN31d"
         }
     },
     {
@@ -90,7 +91,8 @@
                         "r": 127
                     }
                 ]
-            }
+            },
+            "dataRaw": "QXV0b0NvbG9yc1t7InRlYW1JRCI6MCwiYiI6MjQzLCJnIjo2MiwiciI6MTF9LHsidGVhbUlEIjoxLCJiIjo4LCJnIjoyMzMsInIiOjEyfSx7InRlYW1JRCI6MiwiYiI6NSwiZyI6MTYsInIiOjI1NX0seyJ0ZWFtSUQiOjMsImIiOjAsImciOjIxMCwiciI6MjU1fSx7InRlYW1JRCI6NCwiYiI6MTI3LCJnIjoxMjcsInIiOjEyN31d"
         }
     },
     {
@@ -164,7 +166,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTM6MzQ3MzWhMDowoTA6MKIzOjM0NDI5MKIxOjE5NzI1MKI0OjE0ODI0MKMzOjAuNTk0OTI5NDajMTowLjEyMzExOTEyozA6MKQzpTM6NzI0OTQ1LjYyNaYxOjI4NzEyLjg5ODSnMDow"
         }
     },
     {
@@ -177,7 +180,8 @@
             "playerNum": 4,
             "script": 100,
             "mode": 0,
-            "data": "lu@$p@d$:PHNjYW5uZXI-IDxVbml0RmluaXNoZWQ6Y29ydnA-IDw2OD4="
+            "data": "lu@$p@d$:PHNjYW5uZXI-IDxVbml0RmluaXNoZWQ6Y29ydnA-IDw2OD4=",
+            "dataRaw": "bHVAJHBAZCQ6UEhOallXNXVaWEktSUR4VmJtbDBSbWx1YVhOb1pXUTZZMjl5ZG5BLUlEdzJPRDQ9"
         }
     },
     {
@@ -205,7 +209,8 @@
                     "os": "Windows 10",
                     "lobby": "Chobby"
                 }
-            }
+            },
+            "dataRaw": "JHkkZTBDUFU6ICAgQU1EIFJ5emVuIDcgNzgwMFgzRCA4LUNvcmUgICAgICAKQ1BVIGNvcmVzOiAgOCAvIDE2ClJBTTogIDY0NjI0TUIKR1BVOiAgTlZJRElBIEdlRm9yY2UgUlRYIDQwNzAKR1BVIFZSQU06ICAxMjU3Nk1CCkRpc3BsYXkgbWF4OiAyNTYweDE0NDAKMjU2MHgxNDQweDI0YnBwQDE0NEh6IGJvcmRlcmxlc3MKT1M6ICBXaW5kb3dzIDEwCkxvYmJ5OiAgQ2hvYmJ5"
         }
     },
     {
@@ -233,7 +238,8 @@
                     "os": "Windows 10",
                     "lobby": "Chobby"
                 }
-            }
+            },
+            "dataRaw": "JHkkZTBDUFU6ICAgQU1EIFJ5emVuIDcgNzgwMFgzRCA4LUNvcmUgICAgICAKQ1BVIGNvcmVzOiAgOCAvIDE2ClJBTTogIDMxODQ5TUIKR1BVOiAgTlZJRElBIEdlRm9yY2UgUlRYIDUwNzAKR1BVIFZSQU06ICAxMjUyME1CCkRpc3BsYXkgbWF4OiAyNTYweDE0NDAKMjU2MHgxNDQweDI0YnBwQDE4MEh6IGJvcmRlcmxlc3MKT1M6ICBXaW5kb3dzIDEwCkxvYmJ5OiAgQ2hvYmJ5"
         }
     },
     {
@@ -831,7 +837,8 @@
                     "xmasball2_5",
                     "xmasball2_6"
                 ]
-            }
+            },
+            "dataRaw": "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"
         }
     },
     {
@@ -1429,7 +1436,8 @@
                     "xmasball2_5",
                     "xmasball2_6"
                 ]
-            }
+            },
+            "dataRaw": "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"
         }
     },
     {
@@ -1476,7 +1484,8 @@
                         "r": 127
                     }
                 ]
-            }
+            },
+            "dataRaw": "QXV0b0NvbG9yc1t7InRlYW1JRCI6MCwiYiI6MjQzLCJnIjo2MiwiciI6MTF9LHsidGVhbUlEIjoxLCJiIjo4LCJnIjoyMzMsInIiOjEyfSx7InRlYW1JRCI6MiwiYiI6NSwiZyI6MTYsInIiOjI1NX0seyJ0ZWFtSUQiOjMsImIiOjAsImciOjIxMCwiciI6MjU1fSx7InRlYW1JRCI6NCwiYiI6MTI3LCJnIjoxMjcsInIiOjEyN31d"
         }
     },
     {
@@ -1489,7 +1498,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrder_Random"
+            "data": "DraftOrder_Random",
+            "dataRaw": "RHJhZnRPcmRlcl9SYW5kb20="
         }
     },
     {
@@ -1563,7 +1573,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTM6MzQ3MzWhMDowoTA6MKIzOjM0NDI5MKIxOjE5NzI1MKI0OjE0ODI0MKMzOjAuNTk0OTI5NDajMTowLjEyMzExOTEyozA6MKQzpTM6NzI0OTQ1LjYyNaYxOjI4NzEyLjg5ODSnMDow"
         }
     },
     {
@@ -1610,7 +1621,8 @@
                         "r": 127
                     }
                 ]
-            }
+            },
+            "dataRaw": "QXV0b0NvbG9yc1t7InRlYW1JRCI6MCwiYiI6MjQzLCJnIjo2MiwiciI6MTF9LHsidGVhbUlEIjoxLCJiIjo4LCJnIjoyMzMsInIiOjEyfSx7InRlYW1JRCI6MiwiYiI6NSwiZyI6MTYsInIiOjI1NX0seyJ0ZWFtSUQiOjMsImIiOjAsImciOjIxMCwiciI6MjU1fSx7InRlYW1JRCI6NCwiYiI6MTI3LCJnIjoxMjcsInIiOjEyN31d"
         }
     },
     {
@@ -1623,7 +1635,8 @@
             "playerNum": 1,
             "script": 100,
             "mode": 0,
-            "data": "lu@$p@d$:PEt1YnViZHViPiA8VW5pdEZpbmlzaGVkOmFybWxhYj4gPDY2Pg=="
+            "data": "lu@$p@d$:PEt1YnViZHViPiA8VW5pdEZpbmlzaGVkOmFybWxhYj4gPDY2Pg==",
+            "dataRaw": "bHVAJHBAZCQ6UEV0MVluVmlaSFZpUGlBOFZXNXBkRVpwYm1semFHVmtPbUZ5Yld4aFlqNGdQRFkyUGc9PQ=="
         }
     },
     {
@@ -1636,7 +1649,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "send_me_the_info_again"
+            "data": "send_me_the_info_again",
+            "dataRaw": "c2VuZF9tZV90aGVfaW5mb19hZ2Fpbg=="
         }
     },
     {
@@ -1710,7 +1724,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTM6MzQ3MzWhMDowoTA6MKIzOjM0NDI5MKIxOjE5NzI1MKI0OjE0ODI0MKMzOjAuNTk0OTI5NDajMTowLjEyMzExOTEyozA6MKQzpTM6NzI0OTQ1LjYyNaYxOjI4NzEyLjg5ODSnMDow"
         }
     },
     {
@@ -1723,7 +1738,8 @@
             "playerNum": 1,
             "script": 100,
             "mode": 0,
-            "data": "send_me_the_info_again"
+            "data": "send_me_the_info_again",
+            "dataRaw": "c2VuZF9tZV90aGVfaW5mb19hZ2Fpbg=="
         }
     },
     {
@@ -1736,7 +1752,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrder_Random"
+            "data": "DraftOrder_Random",
+            "dataRaw": "RHJhZnRPcmRlcl9SYW5kb20="
         }
     },
     {
@@ -1749,7 +1766,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 2"
+            "data": "DraftOrderPlayerTurn 1 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAy"
         }
     },
     {
@@ -1762,7 +1780,8 @@
             "playerNum": 1,
             "script": 100,
             "mode": 0,
-            "data": "i_have_joined_fair"
+            "data": "i_have_joined_fair",
+            "dataRaw": "aV9oYXZlX2pvaW5lZF9mYWly"
         }
     },
     {
@@ -1775,7 +1794,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "lu@$p@d$:PFRpbV8-IDxVbml0RmluaXNoZWQ6YXJtdnA-IDw2ND4="
+            "data": "lu@$p@d$:PFRpbV8-IDxVbml0RmluaXNoZWQ6YXJtdnA-IDw2ND4=",
+            "dataRaw": "bHVAJHBAZCQ6UEZScGJWOC1JRHhWYm1sMFJtbHVhWE5vWldRNllYSnRkbkEtSUR3Mk5END0="
         }
     },
     {
@@ -2373,7 +2393,8 @@
                     "xmasball2_5",
                     "xmasball2_6"
                 ]
-            }
+            },
+            "dataRaw": "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"
         }
     },
     {
@@ -2971,7 +2992,8 @@
                     "xmasball2_5",
                     "xmasball2_6"
                 ]
-            }
+            },
+            "dataRaw": "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"
         }
     },
     {
@@ -2984,7 +3006,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "joined_game"
+            "data": "joined_game",
+            "dataRaw": "am9pbmVkX2dhbWU="
         }
     },
     {
@@ -2997,7 +3020,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "send_me_the_info_again"
+            "data": "send_me_the_info_again",
+            "dataRaw": "c2VuZF9tZV90aGVfaW5mb19hZ2Fpbg=="
         }
     },
     {
@@ -3010,7 +3034,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "i_have_joined_fair"
+            "data": "i_have_joined_fair",
+            "dataRaw": "aV9oYXZlX2pvaW5lZF9mYWly"
         }
     },
     {
@@ -3023,7 +3048,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderAllyTeamJoined 0"
+            "data": "DraftOrderAllyTeamJoined 0",
+            "dataRaw": "RHJhZnRPcmRlckFsbHlUZWFtSm9pbmVkIDA="
         }
     },
     {
@@ -3036,7 +3062,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 0 1 0"
+            "data": "DraftOrderPlayersOrder 0 1 0",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAwIDEgMA=="
         }
     },
     {
@@ -3049,7 +3076,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 1"
+            "data": "DraftOrderPlayerTurn 0 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAx"
         }
     },
     {
@@ -3062,7 +3090,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -3075,7 +3104,8 @@
             "playerNum": 3,
             "script": 100,
             "mode": 0,
-            "data": "joined_game"
+            "data": "joined_game",
+            "dataRaw": "am9pbmVkX2dhbWU="
         }
     },
     {
@@ -3088,7 +3118,8 @@
             "playerNum": 3,
             "script": 100,
             "mode": 0,
-            "data": "send_me_the_info_again"
+            "data": "send_me_the_info_again",
+            "dataRaw": "c2VuZF9tZV90aGVfaW5mb19hZ2Fpbg=="
         }
     },
     {
@@ -3101,7 +3132,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderAllyTeamJoined 0"
+            "data": "DraftOrderAllyTeamJoined 0",
+            "dataRaw": "RHJhZnRPcmRlckFsbHlUZWFtSm9pbmVkIDA="
         }
     },
     {
@@ -3114,7 +3146,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 0 1 0"
+            "data": "DraftOrderPlayersOrder 0 1 0",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAwIDEgMA=="
         }
     },
     {
@@ -3127,7 +3160,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "lu@$p@d$:PFJpYWNodVhHYW1lcj4gPFVuaXRGaW5pc2hlZDpjb3J2cD4gPDY4Pg=="
+            "data": "lu@$p@d$:PFJpYWNodVhHYW1lcj4gPFVuaXRGaW5pc2hlZDpjb3J2cD4gPDY4Pg==",
+            "dataRaw": "bHVAJHBAZCQ6UEZKcFlXTm9kVmhIWVcxbGNqNGdQRlZ1YVhSR2FXNXBjMmhsWkRwamIzSjJjRDRnUERZNFBnPT0="
         }
     },
     {
@@ -3140,7 +3174,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "m@pm@rke0:9668:0:2064:504:RiachuXGamer:care"
+            "data": "m@pm@rke0:9668:0:2064:504:RiachuXGamer:care",
+            "dataRaw": "bUBwbUBya2UwOjk2Njg6MDoyMDY0OjUwNDpSaWFjaHVYR2FtZXI6Y2FyZQ=="
         }
     },
     {
@@ -3153,7 +3188,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderAllyTeamJoined 0"
+            "data": "DraftOrderAllyTeamJoined 0",
+            "dataRaw": "RHJhZnRPcmRlckFsbHlUZWFtSm9pbmVkIDA="
         }
     },
     {
@@ -3166,7 +3202,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 0 1 0"
+            "data": "DraftOrderPlayersOrder 0 1 0",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAwIDEgMA=="
         }
     },
     {
@@ -3179,7 +3216,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 1"
+            "data": "DraftOrderPlayerTurn 0 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAx"
         }
     },
     {
@@ -3192,7 +3230,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -3205,7 +3244,8 @@
             "playerNum": 1,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderAllyTeamJoined 0"
+            "data": "DraftOrderAllyTeamJoined 0",
+            "dataRaw": "RHJhZnRPcmRlckFsbHlUZWFtSm9pbmVkIDA="
         }
     },
     {
@@ -3218,7 +3258,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 1 3 2"
+            "data": "DraftOrderPlayersOrder 1 3 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAxIDMgMg=="
         }
     },
     {
@@ -3231,7 +3272,8 @@
             "playerNum": 1,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 1"
+            "data": "DraftOrderPlayerTurn 0 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAx"
         }
     },
     {
@@ -3244,7 +3286,8 @@
             "playerNum": 1,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     },
     {
@@ -3257,7 +3300,8 @@
             "playerNum": 3,
             "script": 100,
             "mode": 0,
-            "data": "i_have_joined_fair"
+            "data": "i_have_joined_fair",
+            "dataRaw": "aV9oYXZlX2pvaW5lZF9mYWly"
         }
     },
     {
@@ -3270,7 +3314,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderAllyTeamJoined 1"
+            "data": "DraftOrderAllyTeamJoined 1",
+            "dataRaw": "RHJhZnRPcmRlckFsbHlUZWFtSm9pbmVkIDE="
         }
     },
     {
@@ -3283,7 +3328,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 1 3 2"
+            "data": "DraftOrderPlayersOrder 1 3 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAxIDMgMg=="
         }
     },
     {
@@ -3296,7 +3342,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 1"
+            "data": "DraftOrderPlayerTurn 1 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAx"
         }
     },
     {
@@ -3309,7 +3356,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 1"
+            "data": "DraftOrderShowCountdown 1",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMQ=="
         }
     },
     {
@@ -3322,7 +3370,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderAllyTeamJoined 1"
+            "data": "DraftOrderAllyTeamJoined 1",
+            "dataRaw": "RHJhZnRPcmRlckFsbHlUZWFtSm9pbmVkIDE="
         }
     },
     {
@@ -3335,7 +3384,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 1 3 2"
+            "data": "DraftOrderPlayersOrder 1 3 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAxIDMgMg=="
         }
     },
     {
@@ -3348,7 +3398,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 1"
+            "data": "DraftOrderPlayerTurn 1 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAx"
         }
     },
     {
@@ -3361,7 +3412,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 1"
+            "data": "DraftOrderShowCountdown 1",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMQ=="
         }
     },
     {
@@ -3374,7 +3426,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderAllyTeamJoined 1"
+            "data": "DraftOrderAllyTeamJoined 1",
+            "dataRaw": "RHJhZnRPcmRlckFsbHlUZWFtSm9pbmVkIDE="
         }
     },
     {
@@ -3387,7 +3440,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 1 3 2"
+            "data": "DraftOrderPlayersOrder 1 3 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAxIDMgMg=="
         }
     },
     {
@@ -3400,7 +3454,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 1"
+            "data": "DraftOrderPlayerTurn 1 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAx"
         }
     },
     {
@@ -3413,7 +3468,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 1"
+            "data": "DraftOrderShowCountdown 1",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMQ=="
         }
     },
     {
@@ -3426,7 +3482,8 @@
             "playerNum": 3,
             "script": 100,
             "mode": 0,
-            "data": "lu@$p@d$:PEd1cnRoYW5nPiA8VW5pdEZpbmlzaGVkOmNvcmxhYj4gPDUzPg=="
+            "data": "lu@$p@d$:PEd1cnRoYW5nPiA8VW5pdEZpbmlzaGVkOmNvcmxhYj4gPDUzPg==",
+            "dataRaw": "bHVAJHBAZCQ6UEVkMWNuUm9ZVzVuUGlBOFZXNXBkRVpwYm1semFHVmtPbU52Y214aFlqNGdQRFV6UGc9PQ=="
         }
     },
     {
@@ -3439,7 +3496,8 @@
             "playerNum": 1,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 1 3 2"
+            "data": "DraftOrderPlayersOrder 1 3 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAxIDMgMg=="
         }
     },
     {
@@ -3452,7 +3510,8 @@
             "playerNum": 1,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 1"
+            "data": "DraftOrderPlayerTurn 1 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAx"
         }
     },
     {
@@ -3465,7 +3524,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "m@pm@rke0:291:0:5818:1401:RiachuXGamer:you got bots, these are yours"
+            "data": "m@pm@rke0:291:0:5818:1401:RiachuXGamer:you got bots, these are yours",
+            "dataRaw": "bUBwbUBya2UwOjI5MTowOjU4MTg6MTQwMTpSaWFjaHVYR2FtZXI6eW91IGdvdCBib3RzLCB0aGVzZSBhcmUgeW91cnM="
         }
     },
     {
@@ -3478,7 +3538,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 2"
+            "data": "DraftOrderPlayerTurn 1 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAy"
         }
     },
     {
@@ -3491,7 +3552,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 3"
+            "data": "DraftOrderPlayerTurn 1 3",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAz"
         }
     },
     {
@@ -3504,7 +3566,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 2"
+            "data": "DraftOrderPlayerTurn 1 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAy"
         }
     },
     {
@@ -3517,7 +3580,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 2"
+            "data": "DraftOrderPlayerTurn 1 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAy"
         }
     },
     {
@@ -3530,7 +3594,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 3"
+            "data": "DraftOrderPlayerTurn 1 3",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAz"
         }
     },
     {
@@ -3543,7 +3608,8 @@
             "playerNum": 1,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 2"
+            "data": "DraftOrderPlayerTurn 1 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAy"
         }
     },
     {
@@ -3556,7 +3622,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 3"
+            "data": "DraftOrderPlayerTurn 1 3",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAz"
         }
     },
     {
@@ -3569,7 +3636,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 1"
+            "data": "DraftOrderPlayerTurn 1 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAx"
         }
     },
     {
@@ -3585,7 +3653,8 @@
             "data": {
                 "name": "FACTION_PICKER",
                 "data": "Cortex"
-            }
+            },
+            "dataRaw": "Y2hhbmdlU3RhcnRVbml0Mjk2"
         }
     },
     {
@@ -3598,7 +3667,8 @@
             "playerNum": 1,
             "script": 100,
             "mode": 0,
-            "data": "skip_my_turn"
+            "data": "skip_my_turn",
+            "dataRaw": "c2tpcF9teV90dXJu"
         }
     },
     {
@@ -3611,7 +3681,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 2"
+            "data": "DraftOrderPlayerTurn 0 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAy"
         }
     },
     {
@@ -3624,7 +3695,8 @@
             "playerNum": 2,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 2"
+            "data": "DraftOrderPlayerTurn 0 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAy"
         }
     },
     {
@@ -3637,7 +3709,8 @@
             "playerNum": 1,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 2"
+            "data": "DraftOrderPlayerTurn 0 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAy"
         }
     },
     {
@@ -3650,7 +3723,8 @@
             "playerNum": 0,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 2"
+            "data": "DraftOrderPlayerTurn 0 2",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAy"
         }
     },
     {
@@ -3666,7 +3740,8 @@
             "data": {
                 "name": "FACTION_PICKER",
                 "data": "Armada"
-            }
+            },
+            "dataRaw": "Y2hhbmdlU3RhcnRVbml0NDk="
         }
     },
     {
@@ -3679,7 +3754,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "skip_my_turn"
+            "data": "skip_my_turn",
+            "dataRaw": "c2tpcF9teV90dXJu"
         }
     },
     {
@@ -3692,7 +3768,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "m@pm@rke0:6748:0:4001:3966:RiachuXGamer:-__"
+            "data": "m@pm@rke0:6748:0:4001:3966:RiachuXGamer:-__",
+            "dataRaw": "bUBwbUBya2UwOjY3NDg6MDo0MDAxOjM5NjY6UmlhY2h1WEdhbWVyOi1fXw=="
         }
     },
     {
@@ -3705,7 +3782,8 @@
             "playerNum": 3,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 3"
+            "data": "DraftOrderPlayerTurn 0 3",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAz"
         }
     },
     {
@@ -3718,7 +3796,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderAllyTeamJoined 1"
+            "data": "DraftOrderAllyTeamJoined 1",
+            "dataRaw": "RHJhZnRPcmRlckFsbHlUZWFtSm9pbmVkIDE="
         }
     },
     {
@@ -3731,7 +3810,8 @@
             "playerNum": 1,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 3"
+            "data": "DraftOrderPlayerTurn 0 3",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAz"
         }
     },
     {
@@ -3744,7 +3824,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "vote_skip_turn"
+            "data": "vote_skip_turn",
+            "dataRaw": "dm90ZV9za2lwX3R1cm4="
         }
     },
     {
@@ -3757,7 +3838,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 1 3"
+            "data": "DraftOrderPlayerTurn 1 3",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMSAz"
         }
     },
     {
@@ -3770,7 +3852,8 @@
             "playerNum": 1,
             "script": 100,
             "mode": 0,
-            "data": "vote_skip_turn"
+            "data": "vote_skip_turn",
+            "dataRaw": "dm90ZV9za2lwX3R1cm4="
         }
     },
     {
@@ -3783,7 +3866,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "vote_skip_turn"
+            "data": "vote_skip_turn",
+            "dataRaw": "dm90ZV9za2lwX3R1cm4="
         }
     },
     {
@@ -3796,7 +3880,8 @@
             "playerNum": 3,
             "script": 100,
             "mode": 0,
-            "data": "ready_to_start_game"
+            "data": "ready_to_start_game",
+            "dataRaw": "cmVhZHlfdG9fc3RhcnRfZ2FtZQ=="
         }
     },
     {
@@ -3809,7 +3894,8 @@
             "playerNum": 3,
             "script": 100,
             "mode": 0,
-            "data": "locking_in_place"
+            "data": "locking_in_place",
+            "dataRaw": "bG9ja2luZ19pbl9wbGFjZQ=="
         }
     },
     {
@@ -3822,7 +3908,8 @@
             "playerNum": 1,
             "script": 100,
             "mode": 0,
-            "data": "ready_to_start_game"
+            "data": "ready_to_start_game",
+            "dataRaw": "cmVhZHlfdG9fc3RhcnRfZ2FtZQ=="
         }
     },
     {
@@ -3835,7 +3922,8 @@
             "playerNum": 1,
             "script": 100,
             "mode": 0,
-            "data": "locking_in_place"
+            "data": "locking_in_place",
+            "dataRaw": "bG9ja2luZ19pbl9wbGFjZQ=="
         }
     },
     {
@@ -3882,7 +3970,8 @@
                         "r": 127
                     }
                 ]
-            }
+            },
+            "dataRaw": "QXV0b0NvbG9yc1t7InRlYW1JRCI6MCwiYiI6MjQzLCJnIjo2MiwiciI6MTF9LHsidGVhbUlEIjoxLCJiIjo4LCJnIjoyMzMsInIiOjEyfSx7InRlYW1JRCI6MiwiYiI6NSwiZyI6MTYsInIiOjI1NX0seyJ0ZWFtSUQiOjMsImIiOjAsImciOjIxMCwiciI6MjU1fSx7InRlYW1JRCI6NCwiYiI6MTI3LCJnIjoxMjcsInIiOjEyN31d"
         }
     },
     {
@@ -3956,7 +4045,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTM6MzQ3MzWhMDowoTA6MKIzOjM0NDI5MKIxOjE5NzI1MKI0OjE0ODI0MKMzOjAuNTk0OTI5NDajMTowLjEyMzExOTEyozA6MKQzpTM6NzI0OTQ1LjYyNaYxOjI4NzEyLjg5ODSnMDow"
         }
     },
     {
@@ -3984,7 +4074,8 @@
                     "os": "Windows 10",
                     "lobby": "Chobby"
                 }
-            }
+            },
+            "dataRaw": "JHkkZTBDUFU6ICAgQU1EIFJ5emVuIDkgNzkwMFggMTItQ29yZSAgICAgIApDUFUgY29yZXM6ICAxMiAvIDI0ClJBTTogIDMxODk5TUIKR1BVOiAgTlZJRElBIEdlRm9yY2UgR1RYIDEwODAgVGkKR1BVIFZSQU06ICAxMTUzNE1CCkRpc3BsYXkgbWF4OiAxOTIweDEwODAKMTkyMHgxMDgweDI0YnBwQDYwSHogKGZ1bGxzY3JlZW46OmV4Y2x1c2l2ZSkKT1M6ICBXaW5kb3dzIDEwCkxvYmJ5OiAgQ2hvYmJ5"
         }
     },
     {
@@ -3997,7 +4088,8 @@
             "playerNum": 0,
             "script": 100,
             "mode": 0,
-            "data": "ready_to_start_game"
+            "data": "ready_to_start_game",
+            "dataRaw": "cmVhZHlfdG9fc3RhcnRfZ2FtZQ=="
         }
     },
     {
@@ -4010,7 +4102,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 3"
+            "data": "DraftOrderPlayerTurn 0 3",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAz"
         }
     },
     {
@@ -4023,7 +4116,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "ready_to_start_game"
+            "data": "ready_to_start_game",
+            "dataRaw": "cmVhZHlfdG9fc3RhcnRfZ2FtZQ=="
         }
     },
     {
@@ -4036,7 +4130,8 @@
             "playerNum": 2,
             "script": 100,
             "mode": 0,
-            "data": "locking_in_place"
+            "data": "locking_in_place",
+            "dataRaw": "bG9ja2luZ19pbl9wbGFjZQ=="
         }
     },
     {
@@ -4634,7 +4729,8 @@
                     "xmasball2_5",
                     "xmasball2_6"
                 ]
-            }
+            },
+            "dataRaw": "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"
         }
     },
     {
@@ -4708,7 +4804,8 @@
                         "value": 0
                     }
                 }
-            }
+            },
+            "dataRaw": "oTM6MzQ3MzWhMDowoTA6MKIzOjM0NDI5MKIxOjE5NzI1MKI0OjE0ODI0MKMzOjAuNTk0OTI5NDajMTowLjEyMzExOTEyozA6MKQzpTM6NzI0OTQ1LjYyNaYxOjI4NzEyLjg5ODSnMDow"
         }
     },
     {
@@ -4721,7 +4818,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayersOrder 0 1 0"
+            "data": "DraftOrderPlayersOrder 0 1 0",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllcnNPcmRlciAwIDEgMA=="
         }
     },
     {
@@ -4734,7 +4832,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderPlayerTurn 0 1"
+            "data": "DraftOrderPlayerTurn 0 1",
+            "dataRaw": "RHJhZnRPcmRlclBsYXllclR1cm4gMCAx"
         }
     },
     {
@@ -4747,7 +4846,8 @@
             "playerNum": 4,
             "script": 2000,
             "mode": 0,
-            "data": "DraftOrderShowCountdown 0"
+            "data": "DraftOrderShowCountdown 0",
+            "dataRaw": "RHJhZnRPcmRlclNob3dDb3VudGRvd24gMA=="
         }
     }
 ]
