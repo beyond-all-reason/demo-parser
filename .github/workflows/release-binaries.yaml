@@ -1,0 +1,33 @@
+name: Release Binaries
+on:
+  push:
+    tags:
+      - v*
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '26'
+          cache: npm
+      - run: npm ci
+      - run: scripts/build-sea.sh
+      - name: Smoke-test the native binary
+        run: |
+          expected="$(node -p 'require("./package.json").version')"
+          tar -xzf "dist-bin/sdfz-demo-parser-$expected-linux-x64.tar.gz" -C /tmp
+          bin=/tmp/sdfz-demo-parser
+          got="$("$bin" --version)"
+          if [[ "$got" != "$expected" ]]; then
+            echo "error: binary reported version '$got', expected '$expected'" >&2
+            exit 1
+          fi
+          "$bin" "test/test_replays/2025-08-08_10-25-43-160_Supreme Isthmus v2_2025.04.08.sdfz" --header-only > /dev/null
+          echo "Smoke test passed (version $got, parsed a demo)"
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist-bin/*

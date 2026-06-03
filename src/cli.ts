@@ -84,7 +84,14 @@ function toPlayerId(token: string): number {
     return id;
 }
 
+// Replaced with the literal package version by esbuild (--define) when building the
+// single executable, where there is no package.json on disk next to the binary.
+declare const __SEA_VERSION__: string | undefined;
+
 function getVersion(): string {
+    if (typeof __SEA_VERSION__ === "string") {
+        return __SEA_VERSION__;
+    }
     const pkg = JSON.parse(readFileSync(path.join(__dirname, "..", "package.json"), "utf8")) as { version: string };
     return pkg.version;
 }
