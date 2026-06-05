@@ -80,7 +80,7 @@ export class DemoParser {
         this.config = Object.assign({}, defaultConfig, config);
     }
 
-    public async parseDemo(demoFilePath: string) : Promise<DemoModel.Demo> {
+    public async parseDemo(demoFilePath: string): Promise<DemoModel.Demo> {
         const startTime = process.hrtime();
 
         const fileName = path.parse(demoFilePath).name;
@@ -95,6 +95,8 @@ export class DemoParser {
         this.bufferStream = new BufferStream(sdf);
 
         this.header = this.parseHeader();
+
+
 
         const script = this.bufferStream.read(this.header.scriptSize);
 
@@ -128,7 +130,7 @@ export class DemoParser {
         this.info = this.generateInfo({ script, gameDuration, winningAllyTeamIds, startPositions, factions, colors });
 
         const endTime = process.hrtime(startTime);
-        const endTimeMs = (endTime[0]* 1000000000 + endTime[1]) / 1000000;
+        const endTimeMs = (endTime[0] * 1000000000 + endTime[1]) / 1000000;
         if (this.config.verbose) {
             console.error(`Demo ${fileName} processed in ${endTimeMs.toFixed(2)}ms`);
         }
@@ -159,26 +161,46 @@ export class DemoParser {
         };
     }
 
-    protected parseHeader() : DemoModel.Header {
+    protected parseHeader(): DemoModel.Header {
+        const headerStart = this.bufferStream.offset;
+
+        const magic = this.bufferStream.readString(16);
+        if (!magic.startsWith("spring demofile")) {
+            throw Error(`Invalid demo file magic: "${magic}"`);
+        }
+
+        const version = this.bufferStream.readInt();
+        const headerSize = this.bufferStream.readInt();
+        const versionString = this.bufferStream.readString(256, true);
+        const gameId = this.bufferStream.read(16).toString("hex");
+        const startTime = new Date(Number(this.bufferStream.readBigInt()) * 1000);
+        const scriptSize = this.bufferStream.readInt();
+        const demoStreamSize = this.bufferStream.readInt();
+        const gameTime = this.bufferStream.readInt();
+        const wallclockTime = this.bufferStream.readInt();
+        const numPlayers = this.bufferStream.readInt();
+        const playerStatSize = this.bufferStream.readInt();
+        const playerStatElemSize = this.bufferStream.readInt();
+        const numTeams = this.bufferStream.readInt();
+        const teamStatSize = this.bufferStream.readInt();
+        const teamStatElemSize = this.bufferStream.readInt();
+        const teamStatPeriod = this.bufferStream.readInt();
+        const winningAllyTeamsSize = this.bufferStream.readInt();
+
+        const networkVersion = headerSize >= 354
+            ? this.bufferStream.readInt(2, true)
+            : undefined;
+
+        const bytesRead = this.bufferStream.offset - headerStart;
+        if (bytesRead < headerSize) {
+            this.bufferStream.read(headerSize - bytesRead);
+        }
+
         return {
-            magic: this.bufferStream.readString(16),
-            version: this.bufferStream.readInt(),
-            headerSize: this.bufferStream.readInt(),
-            versionString: this.bufferStream.readString(256, true),
-            gameId: this.bufferStream.read(16).toString("hex"),
-            startTime: new Date(Number(this.bufferStream.readBigInt()) * 1000),
-            scriptSize: this.bufferStream.readInt(),
-            demoStreamSize: this.bufferStream.readInt(),
-            gameTime: this.bufferStream.readInt(),
-            wallclockTime: this.bufferStream.readInt(),
-            numPlayers: this.bufferStream.readInt(),
-            playerStatSize: this.bufferStream.readInt(),
-            playerStatElemSize: this.bufferStream.readInt(),
-            numTeams: this.bufferStream.readInt(),
-            teamStatSize: this.bufferStream.readInt(),
-            teamStatElemSize: this.bufferStream.readInt(),
-            teamStatPeriod: this.bufferStream.readInt(),
-            winningAllyTeamsSize: this.bufferStream.readInt(),
+            magic, version, headerSize, versionString, gameId, startTime,
+            scriptSize, demoStreamSize, gameTime, wallclockTime, numPlayers,
+            playerStatSize, playerStatElemSize, numTeams, teamStatSize,
+            teamStatElemSize, teamStatPeriod, winningAllyTeamsSize, networkVersion,
         };
     }
 
@@ -231,7 +253,7 @@ export class DemoParser {
         return { startPositions, factions, colors };
     }
 
-    protected parseStatistics(buffer: Buffer) : DemoModel.Statistics.Statistics {
+    protected parseStatistics(buffer: Buffer): DemoModel.Statistics.Statistics {
         const bufferStream = new BufferStream(buffer);
 
         let winningAllyTeamIds: number[] = [];
@@ -251,7 +273,7 @@ export class DemoParser {
     protected parsePlayerStatistics(buffer: Buffer) {
         const bufferStream = new BufferStream(buffer);
         const players: DemoModel.Statistics.Player[] = [];
-        for (let i=0; i<this.header.numPlayers; i++) {
+        for (let i = 0; i < this.header.numPlayers; i++) {
             players.push({
                 playerId: i,
                 numCommands: bufferStream.readInt(),
@@ -270,14 +292,14 @@ export class DemoParser {
         const teamStats: Record<number, DemoModel.Statistics.Team[]> = {};
 
         const numOfStatsForTeams: number[] = [];
-        for (let i=0; i<this.header.numTeams; i++) {
+        for (let i = 0; i < this.header.numTeams; i++) {
             numOfStatsForTeams.push(bufferStream.readInt());
             teamStats[i] = [];
         }
 
         let teamId = 0;
         for (const numOfStats of numOfStatsForTeams) {
-            for (let i=0; i<numOfStats; i++) {
+            for (let i = 0; i < numOfStats; i++) {
                 teamStats[teamId].push({
                     frame: bufferStream.readInt(),
                     metalUsed: bufferStream.readFloat(),
@@ -307,7 +329,7 @@ export class DemoParser {
         return teamStats;
     }
 
-    protected parseChatPacket(packet: DemoModel.Packet.Packet<DemoModel.Packet.ID.CHAT>) : DemoModel.ChatMessage {
+    protected parseChatPacket(packet: DemoModel.Packet.Packet<DemoModel.Packet.ID.CHAT>): DemoModel.ChatMessage {
         const data = packet.data!;
         const chatType = data.toId === 252 ? "ally" : data.toId === 253 ? "spec" : data.toId === 254 ? "global" : "self";
         return {
@@ -319,7 +341,7 @@ export class DemoParser {
         };
     }
 
-    protected generateInfo(setupInfo: DemoModel.Info.SetupInfo) : DemoModel.Info.Info {
+    protected generateInfo(setupInfo: DemoModel.Info.SetupInfo): DemoModel.Info.Info {
         const scriptInfo = new ScriptParser(this.config).parseScript(setupInfo.script);
 
         const meta: DemoModel.Info.Meta = {
@@ -365,6 +387,6 @@ export class DemoParser {
         //     }
         // }
 
-        return { meta, ... scriptInfo };
+        return { meta, ...scriptInfo };
     }
 }
