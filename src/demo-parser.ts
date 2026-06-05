@@ -80,7 +80,7 @@ export class DemoParser {
         this.config = Object.assign({}, defaultConfig, config);
     }
 
-    public async parseDemo(demoFilePath: string) : Promise<DemoModel.Demo> {
+    public async parseDemo(demoFilePath: string): Promise<DemoModel.Demo> {
         const startTime = process.hrtime();
 
         const fileName = path.parse(demoFilePath).name;
@@ -128,7 +128,7 @@ export class DemoParser {
         this.info = this.generateInfo({ script, gameDuration, winningAllyTeamIds, startPositions, factions, colors });
 
         const endTime = process.hrtime(startTime);
-        const endTimeMs = (endTime[0]* 1000000000 + endTime[1]) / 1000000;
+        const endTimeMs = (endTime[0] * 1000000000 + endTime[1]) / 1000000;
         if (this.config.verbose) {
             console.error(`Demo ${fileName} processed in ${endTimeMs.toFixed(2)}ms`);
         }
@@ -159,7 +159,7 @@ export class DemoParser {
         };
     }
 
-    protected parseHeader() : DemoModel.Header {
+    protected parseHeader(): DemoModel.Header {
         return {
             magic: this.bufferStream.readString(16),
             version: this.bufferStream.readInt(),
@@ -231,7 +231,7 @@ export class DemoParser {
         return { startPositions, factions, colors };
     }
 
-    protected parseStatistics(buffer: Buffer) : DemoModel.Statistics.Statistics {
+    protected parseStatistics(buffer: Buffer): DemoModel.Statistics.Statistics {
         const bufferStream = new BufferStream(buffer);
 
         let winningAllyTeamIds: number[] = [];
@@ -251,7 +251,8 @@ export class DemoParser {
     protected parsePlayerStatistics(buffer: Buffer) {
         const bufferStream = new BufferStream(buffer);
         const players: DemoModel.Statistics.Player[] = [];
-        for (let i=0; i<this.header.numPlayers; i++) {
+        for (let i = 0; i < this.header.numPlayers; i++) {
+            const startOffset = bufferStream.offset;
             players.push({
                 playerId: i,
                 numCommands: bufferStream.readInt(),
@@ -260,6 +261,10 @@ export class DemoParser {
                 mouseClicks: bufferStream.readInt(),
                 keyPresses: bufferStream.readInt(),
             });
+            const extra = this.header.playerStatElemSize - (bufferStream.offset - startOffset);
+            if (extra > 0) {
+                bufferStream.read(extra);
+            }
         }
         return players;
     }
@@ -270,14 +275,15 @@ export class DemoParser {
         const teamStats: Record<number, DemoModel.Statistics.Team[]> = {};
 
         const numOfStatsForTeams: number[] = [];
-        for (let i=0; i<this.header.numTeams; i++) {
+        for (let i = 0; i < this.header.numTeams; i++) {
             numOfStatsForTeams.push(bufferStream.readInt());
             teamStats[i] = [];
         }
 
         let teamId = 0;
         for (const numOfStats of numOfStatsForTeams) {
-            for (let i=0; i<numOfStats; i++) {
+            for (let i = 0; i < numOfStats; i++) {
+                const startOffset = bufferStream.offset;
                 teamStats[teamId].push({
                     frame: bufferStream.readInt(),
                     metalUsed: bufferStream.readFloat(),
@@ -300,6 +306,10 @@ export class DemoParser {
                     unitsOutCaptured: bufferStream.readInt(),
                     unitsKilled: bufferStream.readInt(),
                 });
+                const extra = this.header.teamStatElemSize - (bufferStream.offset - startOffset);
+                if (extra > 0) {
+                    bufferStream.read(extra);
+                }
             }
             teamId++;
         }
@@ -307,7 +317,7 @@ export class DemoParser {
         return teamStats;
     }
 
-    protected parseChatPacket(packet: DemoModel.Packet.Packet<DemoModel.Packet.ID.CHAT>) : DemoModel.ChatMessage {
+    protected parseChatPacket(packet: DemoModel.Packet.Packet<DemoModel.Packet.ID.CHAT>): DemoModel.ChatMessage {
         const data = packet.data!;
         const chatType = data.toId === 252 ? "ally" : data.toId === 253 ? "spec" : data.toId === 254 ? "global" : "self";
         return {
@@ -319,7 +329,7 @@ export class DemoParser {
         };
     }
 
-    protected generateInfo(setupInfo: DemoModel.Info.SetupInfo) : DemoModel.Info.Info {
+    protected generateInfo(setupInfo: DemoModel.Info.SetupInfo): DemoModel.Info.Info {
         const scriptInfo = new ScriptParser(this.config).parseScript(setupInfo.script);
 
         const meta: DemoModel.Info.Meta = {
@@ -365,6 +375,6 @@ export class DemoParser {
         //     }
         // }
 
-        return { meta, ... scriptInfo };
+        return { meta, ...scriptInfo };
     }
 }
