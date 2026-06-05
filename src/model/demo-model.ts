@@ -118,7 +118,8 @@ export namespace DemoModel {
         teamStatSize: number,
         teamStatElemSize: number,
         teamStatPeriod: number,
-        winningAllyTeamsSize: number
+        winningAllyTeamsSize: number,
+        networkVersion?: number,
     }
 
     export namespace Statistics {
