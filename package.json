@@ -40,7 +40,7 @@
     "@types/node-gzip": "^1.1.2",
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
-    "esbuild": "^0.25.0",
+    "esbuild": "^0.28.1",
     "eslint": "^9.32.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.1.4",
