@@ -274,6 +274,7 @@ export class DemoParser {
         const bufferStream = new BufferStream(buffer);
         const players: DemoModel.Statistics.Player[] = [];
         for (let i = 0; i < this.header.numPlayers; i++) {
+            const startOffset = bufferStream.offset;
             players.push({
                 playerId: i,
                 numCommands: bufferStream.readInt(),
@@ -282,6 +283,10 @@ export class DemoParser {
                 mouseClicks: bufferStream.readInt(),
                 keyPresses: bufferStream.readInt(),
             });
+            const extra = this.header.playerStatElemSize - (bufferStream.offset - startOffset);
+            if (extra > 0) {
+                bufferStream.read(extra);
+            }
         }
         return players;
     }
@@ -300,6 +305,7 @@ export class DemoParser {
         let teamId = 0;
         for (const numOfStats of numOfStatsForTeams) {
             for (let i = 0; i < numOfStats; i++) {
+                const startOffset = bufferStream.offset;
                 teamStats[teamId].push({
                     frame: bufferStream.readInt(),
                     metalUsed: bufferStream.readFloat(),
@@ -322,6 +328,10 @@ export class DemoParser {
                     unitsOutCaptured: bufferStream.readInt(),
                     unitsKilled: bufferStream.readInt(),
                 });
+                const extra = this.header.teamStatElemSize - (bufferStream.offset - startOffset);
+                if (extra > 0) {
+                    bufferStream.read(extra);
+                }
             }
             teamId++;
         }
