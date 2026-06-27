@@ -96,8 +96,6 @@ export class DemoParser {
 
         this.header = this.parseHeader();
 
-
-
         const script = this.bufferStream.read(this.header.scriptSize);
 
         let gameDuration: number = this.header.wallclockTime;
@@ -164,10 +162,16 @@ export class DemoParser {
     protected parseHeader(): DemoModel.Header {
         const headerStart = this.bufferStream.offset;
 
-        const magic = this.bufferStream.readString(16);
-        if (!magic.startsWith("spring demofile")) {
-            throw Error(`Invalid demo file magic: "${magic}"`);
+        const expectedMagic = Buffer.from("spring demofile\0");
+        const magicBuffer = this.bufferStream.read(expectedMagic.length);
+
+        if (!magicBuffer.equals(expectedMagic)) {
+            throw Error(`Invalid demo file magic: hex=${magicBuffer.toString("hex")}, ` +
+                `utf8=${JSON.stringify(magicBuffer.toString("utf8"))}`,
+            );
         }
+
+        const magic = magicBuffer.toString("utf8").replace(/\0$/, "");
 
         const version = this.bufferStream.readInt();
         const headerSize = this.bufferStream.readInt();
@@ -187,13 +191,20 @@ export class DemoParser {
         const teamStatPeriod = this.bufferStream.readInt();
         const winningAllyTeamsSize = this.bufferStream.readInt();
 
-        const networkVersion = headerSize >= 354
-            ? this.bufferStream.readInt(2, true)
-            : undefined;
-
         const bytesRead = this.bufferStream.offset - headerStart;
-        if (bytesRead < headerSize) {
-            this.bufferStream.read(headerSize - bytesRead);
+        const remainingHeaderBytes = headerSize - bytesRead;
+
+        if (remainingHeaderBytes < 0) {
+            throw new Error(`Invalid demo header size: declared ${headerSize}, read ${bytesRead}`);
+        }
+
+        // Added by RecoilEngine PR #2714(https://github.com/beyond-all-reason/RecoilEngine/pull/2714). Unmerged at the time of writing
+        const networkVersion = remainingHeaderBytes >= 2 ? this.bufferStream.readInt(2, true) : undefined;
+
+        const unreadHeaderBytes = headerSize - (this.bufferStream.offset - headerStart);
+
+        if (unreadHeaderBytes > 0) {
+            this.bufferStream.read(unreadHeaderBytes);
         }
 
         return {
