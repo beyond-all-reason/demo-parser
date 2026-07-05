@@ -160,25 +160,58 @@ export class DemoParser {
     }
 
     protected parseHeader(): DemoModel.Header {
+        const headerStart = this.bufferStream.offset;
+
+        const expectedMagic = Buffer.from("spring demofile\0");
+        const magicBuffer = this.bufferStream.read(expectedMagic.length);
+
+        if (!magicBuffer.equals(expectedMagic)) {
+            throw Error(`Invalid demo file magic: hex=${magicBuffer.toString("hex")}, ` +
+                `utf8=${JSON.stringify(magicBuffer.toString("utf8"))}`,
+            );
+        }
+
+        const magic = magicBuffer.toString("utf8").replace(/\0$/, "");
+
+        const version = this.bufferStream.readInt();
+        const headerSize = this.bufferStream.readInt();
+        const versionString = this.bufferStream.readString(256, true);
+        const gameId = this.bufferStream.read(16).toString("hex");
+        const startTime = new Date(Number(this.bufferStream.readBigInt()) * 1000);
+        const scriptSize = this.bufferStream.readInt();
+        const demoStreamSize = this.bufferStream.readInt();
+        const gameTime = this.bufferStream.readInt();
+        const wallclockTime = this.bufferStream.readInt();
+        const numPlayers = this.bufferStream.readInt();
+        const playerStatSize = this.bufferStream.readInt();
+        const playerStatElemSize = this.bufferStream.readInt();
+        const numTeams = this.bufferStream.readInt();
+        const teamStatSize = this.bufferStream.readInt();
+        const teamStatElemSize = this.bufferStream.readInt();
+        const teamStatPeriod = this.bufferStream.readInt();
+        const winningAllyTeamsSize = this.bufferStream.readInt();
+
+        const bytesRead = this.bufferStream.offset - headerStart;
+        const remainingHeaderBytes = headerSize - bytesRead;
+
+        if (remainingHeaderBytes < 0) {
+            throw new Error(`Invalid demo header size: declared ${headerSize}, read ${bytesRead}`);
+        }
+
+        // Added by RecoilEngine PR #2714(https://github.com/beyond-all-reason/RecoilEngine/pull/2714). Unmerged at the time of writing
+        const networkVersion = remainingHeaderBytes >= 2 ? this.bufferStream.readInt(2, true) : undefined;
+
+        const unreadHeaderBytes = headerSize - (this.bufferStream.offset - headerStart);
+
+        if (unreadHeaderBytes > 0) {
+            this.bufferStream.read(unreadHeaderBytes);
+        }
+
         return {
-            magic: this.bufferStream.readString(16),
-            version: this.bufferStream.readInt(),
-            headerSize: this.bufferStream.readInt(),
-            versionString: this.bufferStream.readString(256, true),
-            gameId: this.bufferStream.read(16).toString("hex"),
-            startTime: new Date(Number(this.bufferStream.readBigInt()) * 1000),
-            scriptSize: this.bufferStream.readInt(),
-            demoStreamSize: this.bufferStream.readInt(),
-            gameTime: this.bufferStream.readInt(),
-            wallclockTime: this.bufferStream.readInt(),
-            numPlayers: this.bufferStream.readInt(),
-            playerStatSize: this.bufferStream.readInt(),
-            playerStatElemSize: this.bufferStream.readInt(),
-            numTeams: this.bufferStream.readInt(),
-            teamStatSize: this.bufferStream.readInt(),
-            teamStatElemSize: this.bufferStream.readInt(),
-            teamStatPeriod: this.bufferStream.readInt(),
-            winningAllyTeamsSize: this.bufferStream.readInt(),
+            magic, version, headerSize, versionString, gameId, startTime,
+            scriptSize, demoStreamSize, gameTime, wallclockTime, numPlayers,
+            playerStatSize, playerStatElemSize, numTeams, teamStatSize,
+            teamStatElemSize, teamStatPeriod, winningAllyTeamsSize, networkVersion,
         };
     }
 
